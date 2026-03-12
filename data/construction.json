@@ -1,0 +1,200 @@
+[
+  {
+    "title": "Veolia Water Main Replacement- Webster Avenue",
+    "url": "https://www.newrochelleny.gov/1798",
+    "description": "NOTE: The work is being done by Veolia replacing the water main on Webster Avenue into the downtown. Veolia is a private water company licensed by the PSE, and the work was approved in their capital program. The City of New Rochelle's approval is limited to the street opening permit. They are required to restore the streets per the City's regulations. Road plates will be removed and affected areas paved following county inspection and the transfer of customer service lines from the old main to the new main. This process will take approximately one month to complete in the areas currently plated and requiring service transfers. The entirety of the work will be completed in 24-30 months.\nMarch 2024: Veolia Project Update\nAs Veolia continues its main replacement along Webster Avenue, customers will experience a temporary service interruption on the day the company connects their water service line to the new main. Customers will be notified by phone, email or text in advance of the servic",
+    "addresses": [
+      "Main On Webster Avenue",
+      "Replacement Along Webster Avenue",
+      "Webster Avenue",
+      "Million Webster Avenue",
+      "Main Along Webster Avenue"
+    ],
+    "coords": {
+      "lat": 40.905578,
+      "lng": -73.7888396
+    },
+    "source": "roadway_alerts"
+  },
+  {
+    "title": "North Avenue Bridge Replacement Project",
+    "url": "https://www.newrochelleny.gov/923",
+    "description": "TRAVEL ADVISORY: Stage 2 - Southbound traffic on North Avenue will be detoured at Lockwood Ave starting January 7, 2025\nNEXT STAGE OF THE NORTH AVENUE BRIDGE REPLACEMENT PROJECT IN NEW ROCHELLE WILL REQUIRE A MODIFIED TRAFFIC PATTERN BEGINNING TUESDAY, JAN. 7\nSouthbound Traffic Will Be Detoured at Lockwood Avenue to Safely Facilitate Construction as Part of Stage 2\nNorthbound Traffic Will Use a Single Lane on the Newly Completed Section of the North Avenue Bridge\nThe remainder of the Bridge Will Be Removed and Replaced as Part of a $31.8 Million Staged Construction Project\nExtended Closures of the Bridge Will Occur to Accommodate Demolition and Steel Installation\nLEARN MORE HERE!\nJune 17, 2024 - Steel Installation Set to Begin on North Avenue Bridge in New Rochelle\nThe New York State Thruway Authority today announced the continued progress of the North Avenue Bridge replacement project with steel installation over the New England Thruway (I-95) in New Rochelle in Westchester County is ",
+    "addresses": [
+      "Single Lane",
+      "Begin On North Avenue",
+      "North Avenue",
+      "Old North Avenue",
+      "Closest To Burling Lane"
+    ],
+    "coords": {
+      "lat": 40.9221237,
+      "lng": -73.7880513
+    },
+    "source": "roadway_alerts"
+  },
+  {
+    "title": "Sanitary Sewer Project- Pelham Road",
+    "url": "https://www.newrochelleny.gov/1782",
+    "description": null,
+    "addresses": [
+      "Pelham Road"
+    ],
+    "coords": {
+      "lat": 40.8949569,
+      "lng": -73.7830036
+    },
+    "source": "roadway_alerts"
+  },
+  {
+    "title": "Sanitary Sewer- Huguenot and Main Streets",
+    "url": "https://www.newrochelleny.gov/1683",
+    "description": null,
+    "addresses": [],
+    "coords": null,
+    "source": "roadway_alerts"
+  },
+  {
+    "project_id": "24-008",
+    "title": "24-008 STORMWATER IMPROVEMENTS: GAIL DRIVE, ROCKWOOD PLACE, HILLSIDE CRESCENT, OAKDALE AVENUE",
+    "url": "https://www.newrochelleny.gov/1831/Flood-Mitigation-Projects",
+    "description": null,
+    "addresses": [
+      "Gail Drive",
+      "Rockwood Place",
+      "Hillside Crescent",
+      "Oakdale Avenue"
+    ],
+    "coords": {
+      "lat": 40.8971409,
+      "lng": -73.7744604
+    },
+    "source": "flood_mitigation"
+  },
+  {
+    "project_id": "24-009",
+    "title": "24-009 HARMON DRIVE AND STORER AVENUE",
+    "url": "https://www.newrochelleny.gov/1831/Flood-Mitigation-Projects",
+    "description": null,
+    "addresses": [
+      "Harmon Drive",
+      "Storer Avenue"
+    ],
+    "coords": {
+      "lat": 40.9161868,
+      "lng": -73.8004814
+    },
+    "source": "flood_mitigation"
+  },
+  {
+    "project_id": "23-018",
+    "title": "23-018 PRINCE STREET- REMINGTON STREET- SICKLES AVENUE- GUION PLACE- LINCOLN AVENUE- BROOK STREET",
+    "url": "https://www.newrochelleny.gov/1831/Flood-Mitigation-Projects",
+    "description": null,
+    "addresses": [
+      "Prince Street",
+      "Remington Street",
+      "Sickles Avenue",
+      "Guion Place",
+      "Lincoln Avenue"
+    ],
+    "coords": {
+      "lat": 40.9163445,
+      "lng": -73.7904729
+    },
+    "source": "flood_mitigation"
+  },
+  {
+    "project_id": "24-007",
+    "title": "24-007 SHELDRAKE RIVER CROSSINGS CULVERT REPLACEMENTS: Harlan Drive, Stratton Road, Kewanee Road, Pinebrook Boulevard, Tulip Lane",
+    "url": "https://www.newrochelleny.gov/1831/Flood-Mitigation-Projects",
+    "description": null,
+    "addresses": [
+      "Harlan Drive",
+      "Stratton Road",
+      "Kewanee Road",
+      "Pinebrook Boulevard",
+      "Tulip Lane"
+    ],
+    "coords": {
+      "lat": 40.9738812,
+      "lng": -73.7767146
+    },
+    "source": "flood_mitigation"
+  },
+  {
+    "project_id": "24-010",
+    "title": "24-010 WHITEWOOD AVENUE AND PELHAM ROAD",
+    "url": "https://www.newrochelleny.gov/1831/Flood-Mitigation-Projects",
+    "description": null,
+    "addresses": [
+      "Whitewood Avenue",
+      "Pelham Road"
+    ],
+    "coords": {
+      "lat": 40.8920983,
+      "lng": -73.7877834
+    },
+    "source": "flood_mitigation"
+  },
+  {
+    "project_id": "24-011",
+    "title": "24-011 STORMWATER IMPROVEMENTS: QUAKER RIDGE ROAD",
+    "url": "https://www.newrochelleny.gov/1831/Flood-Mitigation-Projects",
+    "description": null,
+    "addresses": [
+      "Quaker Ridge Road"
+    ],
+    "coords": {
+      "lat": 40.9568977,
+      "lng": -73.7761117
+    },
+    "source": "flood_mitigation"
+  },
+  {
+    "project_id": "24-012",
+    "title": "24-012 ASHLAND PLACE-EAST PLACE CHATSWORTH PLACE-CRESTVIEW STREET",
+    "url": "https://www.newrochelleny.gov/1831/Flood-Mitigation-Projects",
+    "description": null,
+    "addresses": [
+      "Ashland Place",
+      "East Place Chatsworth Place",
+      "Crestview Street"
+    ],
+    "coords": null,
+    "source": "flood_mitigation"
+  },
+  {
+    "project_id": "24-014",
+    "title": "24-014 STREAM AND CULVERT MAINTENANCE CLEANING 2024 (UPPER HUTCHINSON)",
+    "url": "https://www.newrochelleny.gov/1831/Flood-Mitigation-Projects",
+    "description": null,
+    "addresses": [],
+    "coords": null,
+    "source": "flood_mitigation"
+  },
+  {
+    "project_id": "23-027",
+    "title": "23-027 STEPHENSON BROOK RESILIENCY",
+    "url": "https://www.newrochelleny.gov/1831/Flood-Mitigation-Projects",
+    "description": null,
+    "addresses": [],
+    "coords": null,
+    "source": "flood_mitigation"
+  },
+  {
+    "project_id": "24-025",
+    "title": "24-025 PALMER AVENUE AND SPENCER DRIVE",
+    "url": "https://www.newrochelleny.gov/1831/Flood-Mitigation-Projects",
+    "description": null,
+    "addresses": [
+      "Palmer Avenue",
+      "Spencer Drive"
+    ],
+    "coords": {
+      "lat": 40.9208574,
+      "lng": -73.7731388
+    },
+    "source": "flood_mitigation"
+  }
+]

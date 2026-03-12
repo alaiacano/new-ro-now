@@ -1,0 +1,16 @@
+# Python
+scraper/.venv/
+scraper/__pycache__/
+scraper/src/**/__pycache__/
+scraper/**/*.pyc
+*.egg-info/
+
+# Node
+web/node_modules/
+web/dist/
+
+# Data copied into public (generated; real source is data/)
+web/public/data/
+
+# OS
+.DS_Store

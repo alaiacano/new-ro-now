@@ -8,6 +8,7 @@ Usage (from repo root):
     uv run --project scraper scrape library
     uv run --project scraper scrape bids
     uv run --project scraper scrape news
+    uv run --project scraper scrape paving
 """
 import json
 from datetime import datetime, timezone
@@ -22,6 +23,7 @@ from .sources import construction as construction_mod
 from .sources import library as library_mod
 from .sources import bids as bids_mod
 from .sources import news as news_mod
+from .sources import paving as paving_mod
 
 app = typer.Typer(
     name="scrape",
@@ -52,6 +54,7 @@ def cmd_all():
     """Scrape all sources."""
     cmd_meetings()
     cmd_construction()
+    cmd_paving()
     cmd_library()
     cmd_bids()
     cmd_news()
@@ -96,6 +99,16 @@ def cmd_bids():
     path = _write("bids.json", data)
     _update_meta(["bids"])
     console.print(f"[green]✓[/green] {len(data)} bids → {path}")
+
+
+@app.command(name="paving")
+def cmd_paving():
+    """Scrape annual paving schedule from city PDFs."""
+    console.rule("[bold blue]Paving Schedule")
+    data = paving_mod.scrape()
+    path = _write("paving.json", data)
+    _update_meta(["paving"])
+    console.print(f"[green]✓[/green] {len(data)} entries → {path}")
 
 
 @app.command(name="news")

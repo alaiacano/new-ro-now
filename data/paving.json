@@ -1,0 +1,614 @@
+[
+  {
+    "row": 1,
+    "street": "Allard Ave",
+    "to": "Main St",
+    "from": "John St",
+    "list": "citywide",
+    "year": 2025,
+    "coords": {
+      "lat": 40.9018135,
+      "lng": -73.7900209
+    },
+    "note": null
+  },
+  {
+    "row": 2,
+    "street": "Baraud Rd N",
+    "to": "Severn St",
+    "from": "Wilmot Rd",
+    "list": "citywide",
+    "year": 2025,
+    "coords": {
+      "lat": 40.9837789,
+      "lng": -73.7837935
+    },
+    "note": null
+  },
+  {
+    "row": 3,
+    "street": "Barnard Rd",
+    "to": "Beechmont Dr",
+    "from": "Rockledge Pl",
+    "list": "citywide",
+    "year": 2025,
+    "coords": {
+      "lat": 40.9308315,
+      "lng": -73.7774573
+    },
+    "note": "*"
+  },
+  {
+    "row": 4,
+    "street": "Beech Rd",
+    "to": "Forest Ave",
+    "from": "Springdale Rd",
+    "list": "citywide",
+    "year": 2025,
+    "coords": {
+      "lat": 40.9398572,
+      "lng": -73.7692526
+    },
+    "note": null
+  },
+  {
+    "row": 5,
+    "street": "Beechtree Dr",
+    "to": "Edgemont Rd",
+    "from": "Cul-De-Sac",
+    "list": "citywide",
+    "year": 2025,
+    "coords": {
+      "lat": 40.9443482,
+      "lng": -73.771209
+    },
+    "note": null
+  },
+  {
+    "row": 6,
+    "street": "Braemar Ave",
+    "to": "North Ave",
+    "from": "Calton Rd",
+    "list": "citywide",
+    "year": 2025,
+    "coords": null,
+    "note": null
+  },
+  {
+    "row": 7,
+    "street": "Brewster Terrace",
+    "to": "Dead End",
+    "from": "Dead End",
+    "list": "citywide",
+    "year": 2025,
+    "coords": {
+      "lat": 40.9363061,
+      "lng": -73.7945608
+    },
+    "note": "*"
+  },
+  {
+    "row": 8,
+    "street": "Broadfield Rd",
+    "to": "Rolling Way",
+    "from": "Quaker Ridge Rd",
+    "list": "citywide",
+    "year": 2025,
+    "coords": {
+      "lat": 40.9561951,
+      "lng": -73.7880147
+    },
+    "note": null
+  },
+  {
+    "row": 9,
+    "street": "Colonial Pl",
+    "to": "Webster Ave",
+    "from": "Lockwood Ave",
+    "list": "citywide",
+    "year": 2025,
+    "coords": {
+      "lat": 40.912855,
+      "lng": -73.7954889
+    },
+    "note": null
+  },
+  {
+    "row": 10,
+    "street": "Daisy Farms Rd",
+    "to": "Grand Blvd",
+    "from": "Wilmot Rd",
+    "list": "citywide",
+    "year": 2025,
+    "coords": {
+      "lat": 40.9738153,
+      "lng": -73.7807532
+    },
+    "note": null
+  },
+  {
+    "row": 11,
+    "street": "Dorchester Rd",
+    "to": "South Morris Ln",
+    "from": "Malvern Ln",
+    "list": "citywide",
+    "year": 2025,
+    "coords": {
+      "lat": 40.9855709,
+      "lng": -73.7821167
+    },
+    "note": null
+  },
+  {
+    "row": 12,
+    "street": "Eck Pl",
+    "to": "Melrose Dr",
+    "from": "Aviemore Dr",
+    "list": "citywide",
+    "year": 2025,
+    "coords": {
+      "lat": 40.9334519,
+      "lng": -73.7745604
+    },
+    "note": null
+  },
+  {
+    "row": 13,
+    "street": "Edgemont Rd",
+    "to": "Beechtree Dr",
+    "from": "Knollwood Dr",
+    "list": "citywide",
+    "year": 2025,
+    "coords": {
+      "lat": 40.9450319,
+      "lng": -73.7697347
+    },
+    "note": null
+  },
+  {
+    "row": 14,
+    "street": "Evergreen Ave",
+    "to": "Sun Haven Dr",
+    "from": "Wilson Rd",
+    "list": "citywide",
+    "year": 2025,
+    "coords": {
+      "lat": 40.922017,
+      "lng": -73.7694098
+    },
+    "note": null
+  },
+  {
+    "row": 15,
+    "street": "Glenfruin Ave",
+    "to": "Braemar Ave",
+    "from": "Calton Rd",
+    "list": "citywide",
+    "year": 2025,
+    "coords": {
+      "lat": 40.9330729,
+      "lng": -73.7919037
+    },
+    "note": null
+  },
+  {
+    "row": 16,
+    "street": "Glenorchy Pl",
+    "to": "Webster Ave",
+    "from": "Calton Rd",
+    "list": "citywide",
+    "year": 2025,
+    "coords": null,
+    "note": null
+  },
+  {
+    "row": 17,
+    "street": "Harding Dr",
+    "to": "Dead End",
+    "from": "Evergreen Ave",
+    "list": "citywide",
+    "year": 2025,
+    "coords": {
+      "lat": 40.9225356,
+      "lng": -73.7682418
+    },
+    "note": null
+  },
+  {
+    "row": 18,
+    "street": "Harlan Dr",
+    "to": "Sheldrake",
+    "from": "Daisy Farms",
+    "list": "citywide",
+    "year": 2025,
+    "coords": {
+      "lat": 40.9738812,
+      "lng": -73.7767146
+    },
+    "note": null
+  },
+  {
+    "row": 19,
+    "street": "Highwood Ave",
+    "to": "Forest Ave",
+    "from": "Knollwood Dr",
+    "list": "citywide",
+    "year": 2025,
+    "coords": {
+      "lat": 40.9426716,
+      "lng": -73.769547
+    },
+    "note": null
+  },
+  {
+    "row": 20,
+    "street": "Kewanee Rd",
+    "to": "Stratton Rd",
+    "from": "Dead End",
+    "list": "citywide",
+    "year": 2025,
+    "coords": {
+      "lat": 40.9697846,
+      "lng": -73.7787243
+    },
+    "note": null
+  },
+  {
+    "row": 21,
+    "street": "Knollwood Dr",
+    "to": "Beechtree Dr",
+    "from": "Edgemont Rd",
+    "list": "citywide",
+    "year": 2025,
+    "coords": {
+      "lat": 40.9434185,
+      "lng": -73.7700931
+    },
+    "note": null
+  },
+  {
+    "row": 22,
+    "street": "Lafayette Ave",
+    "to": "5th St",
+    "from": "2nd St",
+    "list": "citywide",
+    "year": 2025,
+    "coords": {
+      "lat": 40.9080344,
+      "lng": -73.7948448
+    },
+    "note": null
+  },
+  {
+    "row": 23,
+    "street": "Lomond Pl",
+    "to": "Perth Ave",
+    "from": "Brewster Terr",
+    "list": "citywide",
+    "year": 2025,
+    "coords": {
+      "lat": 40.9362262,
+      "lng": -73.7952346
+    },
+    "note": "*"
+  },
+  {
+    "row": 24,
+    "street": "Meadow Ln",
+    "to": "West Castle Pl",
+    "from": "Elm St",
+    "list": "citywide",
+    "year": 2025,
+    "coords": {
+      "lat": 40.8992922,
+      "lng": -73.7830876
+    },
+    "note": "*"
+  },
+  {
+    "row": 25,
+    "street": "Melrose Dr",
+    "to": "Eck Pl",
+    "from": "Beechmont Dr",
+    "list": "citywide",
+    "year": 2025,
+    "coords": {
+      "lat": 40.9350407,
+      "lng": -73.7756028
+    },
+    "note": null
+  },
+  {
+    "row": 26,
+    "street": "Mount Joy Pl",
+    "to": "Mayflower Ave",
+    "from": "Coligni Ave",
+    "list": "citywide",
+    "year": 2025,
+    "coords": {
+      "lat": 40.9254971,
+      "lng": -73.7911477
+    },
+    "note": null
+  },
+  {
+    "row": 27,
+    "street": "Parcot Ave",
+    "to": "Webster Ave",
+    "from": "Clove Rd",
+    "list": "citywide",
+    "year": 2025,
+    "coords": {
+      "lat": 40.9283039,
+      "lng": -73.7936895
+    },
+    "note": null
+  },
+  {
+    "row": 28,
+    "street": "Plaza Circle",
+    "to": "End to End",
+    "from": "End to End",
+    "list": "citywide",
+    "year": 2025,
+    "coords": {
+      "lat": 40.9197788,
+      "lng": -73.7675572
+    },
+    "note": null
+  },
+  {
+    "row": 29,
+    "street": "Poplar Rd",
+    "to": "Forest Ave",
+    "from": "New Rochelle Border",
+    "list": "citywide",
+    "year": 2025,
+    "coords": {
+      "lat": 40.9406756,
+      "lng": -73.7688489
+    },
+    "note": null
+  },
+  {
+    "row": 30,
+    "street": "Rolling Way",
+    "to": "Broadfield Rd",
+    "from": "Belleau Ave",
+    "list": "citywide",
+    "year": 2025,
+    "coords": {
+      "lat": 40.954468,
+      "lng": -73.7864226
+    },
+    "note": null
+  },
+  {
+    "row": 31,
+    "street": "Second St",
+    "to": "Beechwood Ave",
+    "from": "Washington Ave",
+    "list": "citywide",
+    "year": 2025,
+    "coords": null,
+    "note": null
+  },
+  {
+    "row": 32,
+    "street": "Stanton Circle",
+    "to": "Stratton Rd (WEST)",
+    "from": "Stratton Rd (EAST)",
+    "list": "citywide",
+    "year": 2025,
+    "coords": {
+      "lat": 40.9696375,
+      "lng": -73.7850597
+    },
+    "note": null
+  },
+  {
+    "row": 33,
+    "street": "Stratton Rd",
+    "to": "Wilmot Rd",
+    "from": "Stanton Circle",
+    "list": "citywide",
+    "year": 2025,
+    "coords": {
+      "lat": 40.9659259,
+      "lng": -73.7907069
+    },
+    "note": "*"
+  },
+  {
+    "row": 34,
+    "street": "Sun Haven Dr",
+    "to": "Plaza Circle",
+    "from": "Main St",
+    "list": "citywide",
+    "year": 2025,
+    "coords": {
+      "lat": 40.923988,
+      "lng": -73.7701323
+    },
+    "note": null
+  },
+  {
+    "row": 35,
+    "street": "Tintern Ln",
+    "to": "Tewksbury Rd",
+    "from": "Thornbury Rd",
+    "list": "citywide",
+    "year": 2025,
+    "coords": {
+      "lat": 40.9838403,
+      "lng": -73.7850806
+    },
+    "note": null
+  },
+  {
+    "row": 36,
+    "street": "West Castle Pl",
+    "to": "Meadow Ln",
+    "from": "Liberty Ave",
+    "list": "citywide",
+    "year": 2025,
+    "coords": {
+      "lat": 40.9000685,
+      "lng": -73.7828468
+    },
+    "note": "*"
+  },
+  {
+    "row": 37,
+    "street": "Westwood Ave",
+    "to": "Eastchester Rd",
+    "from": "Dead End",
+    "list": "citywide",
+    "year": 2025,
+    "coords": {
+      "lat": 40.9268797,
+      "lng": -73.8012165
+    },
+    "note": null
+  },
+  {
+    "row": 1,
+    "street": "Huguenot St",
+    "to": "Pintard Ave",
+    "from": "Centre Ave",
+    "list": "downtown",
+    "year": 2025,
+    "coords": {
+      "lat": 40.9140935,
+      "lng": -73.7740347
+    },
+    "note": null
+  },
+  {
+    "row": 2,
+    "street": "Huguenot St",
+    "to": "Centre Ave",
+    "from": "Division St (South)",
+    "list": "downtown",
+    "year": 2025,
+    "coords": {
+      "lat": 40.9140935,
+      "lng": -73.7740347
+    },
+    "note": null
+  },
+  {
+    "row": 3,
+    "street": "Huguenot St",
+    "to": "Division St South",
+    "from": "Memorial Highway",
+    "list": "downtown",
+    "year": 2025,
+    "coords": {
+      "lat": 40.9140935,
+      "lng": -73.7740347
+    },
+    "note": null
+  },
+  {
+    "row": 4,
+    "street": "Huguenot St",
+    "to": "Memorial Highway",
+    "from": "North Ave",
+    "list": "downtown",
+    "year": 2025,
+    "coords": {
+      "lat": 40.9140935,
+      "lng": -73.7740347
+    },
+    "note": null
+  },
+  {
+    "row": 5,
+    "street": "Huguenot St",
+    "to": "North Ave",
+    "from": "LeCount Pl",
+    "list": "downtown",
+    "year": 2025,
+    "coords": {
+      "lat": 40.9140935,
+      "lng": -73.7740347
+    },
+    "note": null
+  },
+  {
+    "row": 6,
+    "street": "Huguenot St",
+    "to": "LeCount Pl",
+    "from": "Harrison St",
+    "list": "downtown",
+    "year": 2025,
+    "coords": {
+      "lat": 40.9140935,
+      "lng": -73.7740347
+    },
+    "note": null
+  },
+  {
+    "row": 7,
+    "street": "Huguenot St",
+    "to": "Harrison St",
+    "from": "Cedar St",
+    "list": "downtown",
+    "year": 2025,
+    "coords": {
+      "lat": 40.9140935,
+      "lng": -73.7740347
+    },
+    "note": null
+  },
+  {
+    "row": 8,
+    "street": "Huguenot St",
+    "to": "Cedar St",
+    "from": "Echo Ave",
+    "list": "downtown",
+    "year": 2025,
+    "coords": {
+      "lat": 40.9140935,
+      "lng": -73.7740347
+    },
+    "note": null
+  },
+  {
+    "row": 9,
+    "street": "LeCount Pl",
+    "to": "Huguenot St",
+    "from": "Anderson Plaza",
+    "list": "downtown",
+    "year": 2025,
+    "coords": null,
+    "note": null
+  },
+  {
+    "row": 10,
+    "street": "North Ave",
+    "to": "Huguenot St",
+    "from": "Anderson Plaza",
+    "list": "downtown",
+    "year": 2025,
+    "coords": {
+      "lat": 40.9160045,
+      "lng": -73.785036
+    },
+    "note": null
+  },
+  {
+    "row": 11,
+    "street": "Lawton St",
+    "to": "Huguenot St",
+    "from": "Main St",
+    "list": "downtown",
+    "year": 2025,
+    "coords": {
+      "lat": 40.9099137,
+      "lng": -73.7821549
+    },
+    "note": null
+  }
+]

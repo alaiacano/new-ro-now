@@ -145,5 +145,223 @@
   "spencer drive, new rochelle, ny": {
     "lat": 40.9246004,
     "lng": -73.7667947
-  }
+  },
+  "beechtree dr edgemont rd cul-de-sac, new rochelle, ny": null,
+  "poplar rd forest ave new rochelle border, new rochelle, ny": null,
+  "dorchester rd south morris ln malvern ln, new rochelle, ny": null,
+  "eck pl melrose dr aviemore dr, new rochelle, ny": null,
+  "harding dr dead end evergreen ave, new rochelle, ny": null,
+  "huguenot st pintard ave centre ave, new rochelle, ny": null,
+  "huguenot st division st south memorial highway, new rochelle, ny": null,
+  "highwood ave forest ave knollwood dr, new rochelle, ny": null,
+  "huguenot st lecount pl harrison st, new rochelle, ny": null,
+  "braemar ave north ave calton rd, new rochelle, ny": null,
+  "kewanee rd stratton rd dead end, new rochelle, ny": null,
+  "melrose dr eck pl beechmont dr, new rochelle, ny": null,
+  "brewster terrace*dead end dead end, new rochelle, ny": null,
+  "beech rd forest ave springdale rd, new rochelle, ny": null,
+  "mount joy pl mayflower ave coligni ave, new rochelle, ny": null,
+  "allard ave main st john st, new rochelle, ny": null,
+  "huguenot st centre ave division st (south), new rochelle, ny": null,
+  "daisy farms rd grand blvd wilmot rd, new rochelle, ny": null,
+  "tintern ln tewksbury rd thornbury rd, new rochelle, ny": null,
+  "west castle pl* meadow ln liberty ave, new rochelle, ny": null,
+  "barnard rd* beechmont dr rockledge pl, new rochelle, ny": null,
+  "parcot ave webster ave clove rd, new rochelle, ny": null,
+  "second st beechwood ave washington ave, new rochelle, ny": null,
+  "north ave huguenot st anderson plaza, new rochelle, ny": null,
+  "stanton circle stratton rd (west)stratton rd (east), new rochelle, ny": null,
+  "colonial pl webster ave lockwood ave, new rochelle, ny": null,
+  "stratton rd* wilmot rd stanton circle, new rochelle, ny": null,
+  "meadow ln* west castle pl elm st, new rochelle, ny": null,
+  "lecount pl huguenot st anderson plaza, new rochelle, ny": null,
+  "lafayette ave 5th st 2nd st, new rochelle, ny": null,
+  "new rochelle paving list - citywide, new rochelle, ny": null,
+  "huguenot st north ave lecount pl, new rochelle, ny": null,
+  "huguenot st harrison st cedar st, new rochelle, ny": null,
+  "baraud rd n severn st wilmot rd, new rochelle, ny": null,
+  "glenorchy pl webster ave calton rd, new rochelle, ny": null,
+  "rolling way broadfield rd belleau ave, new rochelle, ny": null,
+  "knollwood dr beechtree dr edgemont rd, new rochelle, ny": null,
+  "plaza circle end to end end to end, new rochelle, ny": null,
+  "broadfield rd rolling way quaker ridge rd, new rochelle, ny": null,
+  "sun haven dr plaza circle main st, new rochelle, ny": null,
+  "huguenot st cedar st echo ave, new rochelle, ny": null,
+  "edgemont rd beechtree dr knollwood dr, new rochelle, ny": null,
+  "huguenot st memorial highway north ave, new rochelle, ny": null,
+  "lomond pl* perth ave brewster terr, new rochelle, ny": null,
+  "glenfruin ave braemar ave calton rd, new rochelle, ny": null,
+  "westwood ave eastchester rd dead end, new rochelle, ny": null,
+  "new rochelle paving list - downtown, new rochelle, ny": null,
+  "harlan dr sheldrake daisy farms, new rochelle, ny": null,
+  "lawton st huguenot st main st, new rochelle, ny": null,
+  "evergreen ave sun haven dr wilson rd, new rochelle, ny": null,
+  "allard ave, new rochelle, ny": {
+    "lat": 40.9018135,
+    "lng": -73.7900209
+  },
+  "plaza circle, new rochelle, ny": {
+    "lat": 40.9197788,
+    "lng": -73.7675572
+  },
+  "second st, new rochelle, ny": null,
+  "meadow ln, new rochelle, ny": {
+    "lat": 40.8992922,
+    "lng": -73.7830876
+  },
+  "brewster terrace, new rochelle, ny": {
+    "lat": 40.9363061,
+    "lng": -73.7945608
+  },
+  "new rochelle pav, new rochelle, ny": null,
+  "lecount pl                   hugue, new rochelle, ny": null,
+  "north ave                    hugue, new rochelle, ny": null,
+  "beechtree dr, new rochelle, ny": {
+    "lat": 40.9443482,
+    "lng": -73.771209
+  },
+  "new rochelle": {
+    "lat": 40.9115386,
+    "lng": -73.7826363
+  },
+  "mount joy pl, new rochelle, ny": {
+    "lat": 40.9254971,
+    "lng": -73.7911477
+  },
+  "huguenot st                 pintar, new rochelle, ny": null,
+  "barnard rd, new rochelle, ny": {
+    "lat": 40.9308315,
+    "lng": -73.7774573
+  },
+  "huguenot st                  centr, new rochelle, ny": null,
+  "beech rd, new rochelle, ny": {
+    "lat": 40.9398572,
+    "lng": -73.7692526
+  },
+  "poplar rd, new rochelle, ny": {
+    "lat": 40.9406756,
+    "lng": -73.7688489
+  },
+  "broadfield rd, new rochelle, ny": {
+    "lat": 40.9561951,
+    "lng": -73.7880147
+  },
+  "edgemont rd, new rochelle, ny": {
+    "lat": 40.9450319,
+    "lng": -73.7697347
+  },
+  "dorchester rd, new rochelle, ny": {
+    "lat": 40.9855709,
+    "lng": -73.7821167
+  },
+  "westwood ave, new rochelle, ny": {
+    "lat": 40.9268797,
+    "lng": -73.8012165
+  },
+  "huguenot st                  north, new rochelle, ny": null,
+  "huguenot st                  cedar, new rochelle, ny": null,
+  "rolling way, new rochelle, ny": {
+    "lat": 40.954468,
+    "lng": -73.7864226
+  },
+  "braemar ave, new rochelle, ny": null,
+  "evergreen ave, new rochelle, ny": {
+    "lat": 40.922017,
+    "lng": -73.7694098
+  },
+  "huguenot st                  lecou, new rochelle, ny": null,
+  "harlan dr, new rochelle, ny": {
+    "lat": 40.9738812,
+    "lng": -73.7767146
+  },
+  "glenfruin ave, new rochelle, ny": {
+    "lat": 40.9330729,
+    "lng": -73.7919037
+  },
+  "huguenot st                  memor, new rochelle, ny": null,
+  "lomond pl, new rochelle, ny": {
+    "lat": 40.9362262,
+    "lng": -73.7952346
+  },
+  "sun haven dr, new rochelle, ny": {
+    "lat": 40.923988,
+    "lng": -73.7701323
+  },
+  "daisy farms rd, new rochelle, ny": {
+    "lat": 40.9738153,
+    "lng": -73.7807532
+  },
+  "lawton st                    hugue, new rochelle, ny": null,
+  "harding dr, new rochelle, ny": {
+    "lat": 40.9225356,
+    "lng": -73.7682418
+  },
+  "knollwood dr, new rochelle, ny": {
+    "lat": 40.9434185,
+    "lng": -73.7700931
+  },
+  "parcot ave, new rochelle, ny": {
+    "lat": 40.9283039,
+    "lng": -73.7936895
+  },
+  "tintern ln, new rochelle, ny": {
+    "lat": 40.9838403,
+    "lng": -73.7850806
+  },
+  "stratton rd, new rochelle, ny": {
+    "lat": 40.9659259,
+    "lng": -73.7907069
+  },
+  "west castle pl, new rochelle, ny": {
+    "lat": 40.9000685,
+    "lng": -73.7828468
+  },
+  "colonial pl, new rochelle, ny": {
+    "lat": 40.912855,
+    "lng": -73.7954889
+  },
+  "stanton circle, new rochelle, ny": {
+    "lat": 40.9696375,
+    "lng": -73.7850597
+  },
+  "lafayette ave, new rochelle, ny": {
+    "lat": 40.9080344,
+    "lng": -73.7948448
+  },
+  "huguenot st                  harri, new rochelle, ny": null,
+  "melrose dr, new rochelle, ny": {
+    "lat": 40.9350407,
+    "lng": -73.7756028
+  },
+  "eck pl, new rochelle, ny": {
+    "lat": 40.9334519,
+    "lng": -73.7745604
+  },
+  "huguenot st                  divis, new rochelle, ny": null,
+  "kewanee rd, new rochelle, ny": {
+    "lat": 40.9697846,
+    "lng": -73.7787243
+  },
+  "highwood ave, new rochelle, ny": {
+    "lat": 40.9426716,
+    "lng": -73.769547
+  },
+  "baraud rd n, new rochelle, ny": {
+    "lat": 40.9837789,
+    "lng": -73.7837935
+  },
+  "glenorchy pl, new rochelle, ny": null,
+  "lawton st, new rochelle, ny": {
+    "lat": 40.9099137,
+    "lng": -73.7821549
+  },
+  "north ave, new rochelle, ny": {
+    "lat": 40.9160045,
+    "lng": -73.785036
+  },
+  "huguenot st, new rochelle, ny": {
+    "lat": 40.9140935,
+    "lng": -73.7740347
+  },
+  "lecount pl, new rochelle, ny": null
 }

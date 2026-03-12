@@ -12,6 +12,7 @@ export function useData() {
   const [data, setData] = useState({
     meetings: [],
     construction: [],
+    paving: [],
     bids: [],
     news: [],
     public_hearings: [],
@@ -24,13 +25,14 @@ export function useData() {
     Promise.all([
       fetchJSON('meetings.json'),
       fetchJSON('construction.json'),
+      fetchJSON('paving.json').catch(() => []),
       fetchJSON('bids.json'),
       fetchJSON('news.json'),
       fetchJSON('public_hearings.json'),
       fetchJSON('meta.json').catch(() => ({})),
     ])
-      .then(([meetings, construction, bids, news, public_hearings, meta]) => {
-        setData({ meetings, construction, bids, news, public_hearings, meta })
+      .then(([meetings, construction, paving, bids, news, public_hearings, meta]) => {
+        setData({ meetings, construction, paving, bids, news, public_hearings, meta })
         setLoading(false)
       })
       .catch(err => {

@@ -4,15 +4,17 @@ import { useData } from './useData'
 import MapView from './components/MapView'
 import MeetingsView from './components/MeetingsView'
 import ConstructionView from './components/ConstructionView'
+import PavingView from './components/PavingView'
 import BidsView from './components/BidsView'
 import NewsView from './components/NewsView'
 
 const TABS = [
-  { id: 'map', label: '🗺 Map' },
+  { id: 'map',          label: '🗺 Map' },
   { id: 'construction', label: '🚧 Projects' },
-  { id: 'meetings', label: '📅 Meetings' },
-  { id: 'bids', label: '📋 Bids' },
-  { id: 'news', label: '📰 News' },
+  { id: 'paving',       label: '🛣 Paving' },
+  { id: 'meetings',     label: '📅 Meetings' },
+  { id: 'bids',         label: '📋 Bids' },
+  { id: 'news',         label: '📰 News' },
 ]
 
 function formatLastUpdated(meta) {
@@ -72,8 +74,9 @@ export default function App() {
       </nav>
 
       <div className="content">
-        {tab === 'map' && <MapView construction={data.construction} />}
+        {tab === 'map' && <MapView construction={data.construction} paving={data.paving} />}
         {tab === 'construction' && <ConstructionView construction={data.construction} />}
+        {tab === 'paving' && <PavingView paving={data.paving} />}
         {tab === 'meetings' && <MeetingsView meetings={data.meetings} />}
         {tab === 'bids' && <BidsView bids={data.bids} />}
         {tab === 'news' && <NewsView news={data.news} hearings={data.public_hearings} />}

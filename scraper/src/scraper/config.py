@@ -8,8 +8,12 @@ DATA_DIR.mkdir(exist_ok=True)
 
 GEOCACHE_FILE = DATA_DIR / "geocache.json"
 META_FILE = DATA_DIR / "meta.json"
+DB_FILE = DATA_DIR / "documents.db"
+DOC_CACHE_DIR = DATA_DIR / "doc_cache"
+DOC_CACHE_DIR.mkdir(exist_ok=True)
 
 BASE_URL = "https://www.newrochelleny.gov"
+DOCENTER_URL = f"{BASE_URL}/DocumentCenter/"
 
 # iCal category IDs for board/government meetings
 MEETING_CALENDARS = {

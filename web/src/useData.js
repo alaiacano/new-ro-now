@@ -16,6 +16,7 @@ export function useData() {
     bids: [],
     news: [],
     public_hearings: [],
+    doc_map: [],
     meta: {},
   })
   const [loading, setLoading] = useState(true)
@@ -30,9 +31,31 @@ export function useData() {
       fetchJSON('news.json'),
       fetchJSON('public_hearings.json'),
       fetchJSON('meta.json').catch(() => ({})),
+      // DocumentCenter doc exports — optional, fall back to empty if not yet generated
+      fetchJSON('doc_map.json').catch(() => []),
+      fetchJSON('doc_meetings.json').catch(() => []),
+      fetchJSON('doc_news.json').catch(() => []),
+      fetchJSON('doc_bids.json').catch(() => []),
     ])
-      .then(([meetings, construction, paving, bids, news, public_hearings, meta]) => {
-        setData({ meetings, construction, paving, bids, news, public_hearings, meta })
+      .then(([meetings, construction, paving, bids, news, public_hearings, meta,
+              docMap, docMeetings, docNews, docBids]) => {
+
+        // Merge doc meetings (skip any without a start date), sorted chronologically
+        const allMeetings = [
+          ...meetings,
+          ...docMeetings.filter(m => m.start),
+        ].sort((a, b) => new Date(a.start) - new Date(b.start))
+
+        // Merge doc news, sorted newest-first
+        const allNews = [...news, ...docNews].sort((a, b) =>
+          new Date(b.published || 0) - new Date(a.published || 0)
+        )
+
+        // Merge doc bids (appended after scraped bids)
+        const allBids = [...bids, ...docBids]
+
+        setData({ meetings: allMeetings, construction, paving, bids: allBids,
+                  news: allNews, public_hearings, doc_map: docMap, meta })
         setLoading(false)
       })
       .catch(err => {

@@ -58,6 +58,34 @@ nav button.active {
   border-bottom-color: var(--brand);
 }
 
+.date-filter {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.4rem 1rem;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+
+.date-filter button {
+  padding: 0.15rem 0.6rem;
+  border-radius: 20px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text-muted);
+  font-size: 0.78rem;
+  transition: all 0.15s;
+}
+
+.date-filter button.selected {
+  background: var(--brand);
+  border-color: var(--brand);
+  color: #fff;
+}
+
 .content {
   flex: 1;
   overflow: auto;
@@ -180,7 +208,7 @@ nav button.active {
 /* ── Map tab ── */
 .map-layout {
   display: flex;
-  height: calc(100vh - 56px - 44px); /* minus header + nav */
+  height: calc(100vh - 56px - 44px - 33px); /* minus header + nav + date filter */
 }
 
 .map-pane {

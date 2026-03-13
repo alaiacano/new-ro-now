@@ -9,10 +9,15 @@ Usage (from repo root):
     uv run --project scraper scrape bids
     uv run --project scraper scrape news
     uv run --project scraper scrape paving
+    uv run --project scraper scrape discover
+    uv run --project scraper scrape download [--limit N] [--folder-id F] [--retry-errors]
+    uv run --project scraper scrape analyze [--limit N] [--folder-id F] [--reanalyze] [--api-url URL] [--model NAME] [--concurrency N]
+    uv run --project scraper scrape export-docs
 """
 import json
 from datetime import datetime, timezone
 from pathlib import Path
+from typing import Optional
 
 import typer
 from rich.console import Console
@@ -24,6 +29,9 @@ from .sources import library as library_mod
 from .sources import bids as bids_mod
 from .sources import news as news_mod
 from .sources import paving as paving_mod
+from .sources import docenter as docenter_mod
+from .sources import analyze as analyze_mod
+from .sources import export_docs as export_docs_mod
 
 app = typer.Typer(
     name="scrape",
@@ -121,3 +129,76 @@ def cmd_news():
     _update_meta(["news", "public_hearings"])
     console.print(f"[green]✓[/green] {len(data['news'])} news items → {news_path}")
     console.print(f"[green]✓[/green] {len(data['public_hearings'])} hearings → {hearings_path}")
+
+
+@app.command(name="discover")
+def cmd_discover():
+    """
+    Walk the DocumentCenter folder tree (via Playwright) and record all
+    document metadata in data/documents.db. Safe to re-run — only adds new records.
+
+    Requires Playwright Chromium: run `playwright install chromium` after uv sync.
+    """
+    console.rule("[bold blue]DocumentCenter Discovery")
+    docenter_mod.discover()
+
+
+@app.command(name="download")
+def cmd_download(
+    limit: Optional[int] = typer.Option(None, "--limit", "-n", help="Max number of files to download"),
+    folder_id: Optional[int] = typer.Option(None, "--folder-id", "-f", help="Only download docs in this folder subtree"),
+    retry_errors: bool = typer.Option(False, "--retry-errors", help="Retry previously failed downloads"),
+):
+    """
+    Download all discovered documents to data/doc_cache/. Extracts text from
+    PDFs and DOCX files. Safe to re-run — skips already-downloaded files.
+
+    Run `scrape discover` first to populate the document list.
+    """
+    console.rule("[bold blue]DocumentCenter Download")
+    docenter_mod.download(limit=limit, folder_id=folder_id, retry_errors=retry_errors)
+
+
+@app.command(name="analyze")
+def cmd_analyze(
+    limit: Optional[int] = typer.Option(None, "--limit", "-n", help="Max docs to analyze"),
+    folder_id: Optional[int] = typer.Option(None, "--folder-id", "-f", help="Only analyze docs in this folder subtree"),
+    reanalyze: bool = typer.Option(False, "--reanalyze", help="Re-analyze already-analyzed docs"),
+    api_url: str = typer.Option("http://localhost:8000/v1", "--api-url", help="OpenAI-compatible API base URL"),
+    model: str = typer.Option("Qwen/Qwen2.5-32B-Instruct", "--model", help="Model name as registered in vLLM"),
+    concurrency: int = typer.Option(8, "--concurrency", "-c", help="Parallel requests to LLM"),
+):
+    """
+    Classify and extract structured data from downloaded documents using a local LLM.
+
+    Start vLLM first:
+        vllm serve Qwen/Qwen2.5-32B-Instruct --quantization awq --max-model-len 8192
+
+    Results feed into the existing UI tabs via `scrape export-docs`.
+    """
+    console.rule("[bold blue]DocumentCenter Analysis")
+    analyze_mod.analyze(
+        api_url=api_url,
+        model=model,
+        limit=limit,
+        folder_id=folder_id,
+        reanalyze=reanalyze,
+        concurrency=concurrency,
+    )
+
+
+@app.command(name="export-docs")
+def cmd_export_docs():
+    """
+    Export analyzed DocumentCenter documents to JSON files for the web frontend.
+
+    Reads doc_analysis from data/documents.db and writes:
+      doc_map.json       — geo-tagged docs → Map tab
+      doc_meetings.json  — meeting minutes/agendas → Meetings tab
+      doc_news.json      — hearings/press releases → News tab
+      doc_bids.json      — bids/RFPs → Bids tab
+      doc_explorer.json  — all relevant docs (full metadata)
+    """
+    console.rule("[bold blue]Export DocumentCenter Docs")
+    counts = export_docs_mod.export()
+    _update_meta(["doc_analysis"])

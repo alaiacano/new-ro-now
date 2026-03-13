@@ -27,17 +27,23 @@ const ALL_CALENDARS = [
   'IDA', 'Housing', 'Finance', 'Youth Bureau', 'Parks and Recreation',
 ]
 
-export default function MeetingsView({ meetings }) {
+export default function MeetingsView({ meetings, fromYear }) {
   const [calFilter, setCalFilter] = useState('All')
 
+  const dated = useMemo(() => {
+    if (!fromYear) return meetings
+    const cutoff = new Date(`${fromYear}-01-01`)
+    return meetings.filter(m => m.start && new Date(m.start) >= cutoff)
+  }, [meetings, fromYear])
+
   const calendars = useMemo(() => {
-    const seen = new Set(meetings.map(m => m.calendar))
+    const seen = new Set(dated.map(m => m.calendar))
     return ['All', ...Array.from(seen).sort()]
-  }, [meetings])
+  }, [dated])
 
   const filtered = calFilter === 'All'
-    ? meetings
-    : meetings.filter(m => m.calendar === calFilter)
+    ? dated
+    : dated.filter(m => m.calendar === calFilter)
 
   const groups = groupByMonth(filtered)
 
@@ -71,10 +77,22 @@ export default function MeetingsView({ meetings }) {
             <div key={i} className="card">
               <div className="card-meta">
                 <span className="tag">{ev.calendar}</span>
-                <span>{formatDate(ev.start)} · {formatTime(ev.start)}</span>
+                {ev.source === 'document_center'
+                  ? <>
+                      {ev.classification && <span className="tag">{ev.classification}</span>}
+                      {ev.folder && <span style={{ opacity: 0.7 }}>📁 {ev.folder}</span>}
+                      <span style={{ opacity: 0.55 }}>📄 Document</span>
+                    </>
+                  : <span>{formatDate(ev.start)} · {formatTime(ev.start)}</span>
+                }
                 {ev.location && <span>📍 {ev.location}</span>}
               </div>
               <div className="card-title">{ev.title}</div>
+              {ev.source === 'document_center' && (
+                <div style={{ fontSize: '0.8rem', color: ev.relevant_date ? 'var(--text-muted)' : '#b91c1c', marginTop: '0.25rem' }}>
+                  Extracted date: {ev.relevant_date ? formatDate(ev.relevant_date) : '⚠ none'}
+                </div>
+              )}
               {ev.description && (
                 <div className="card-body">
                   <p>{ev.description.substring(0, 200)}</p>
@@ -82,7 +100,7 @@ export default function MeetingsView({ meetings }) {
               )}
               {ev.url && (
                 <a className="view-link" href={ev.url} target="_blank" rel="noreferrer">
-                  Agenda & details ↗
+                  {ev.source === 'document_center' ? 'View document ↗' : 'Agenda & details ↗'}
                 </a>
               )}
             </div>

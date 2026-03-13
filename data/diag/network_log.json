@@ -1,0 +1,346 @@
+[
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/",
+    "post_data": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "https://www.newrochelleny.gov/ImageRepository/Document?documentID=21498",
+    "post_data": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "https://www.newrochelleny.gov/ImageRepository/Document?documentID=21520",
+    "post_data": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "https://www.newrochelleny.gov/ImageRepository/Document?documentID=21516",
+    "post_data": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "https://www.newrochelleny.gov/ImageRepository/Document?documentID=21519",
+    "post_data": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "https://www.newrochelleny.gov/ImageRepository/Document?documentID=21518",
+    "post_data": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "https://www.newrochelleny.gov/ImageRepository/Document?documentID=21514",
+    "post_data": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "https://www.newrochelleny.gov/Areas/DocumentCenter/Assets/Images/DocumentCenterModuleIconLarge.png",
+    "post_data": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "https://www.newrochelleny.gov/Areas/DocumentCenter/Assets/Styles/docCenterPane.react.css",
+    "post_data": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "https://www.newrochelleny.gov/Areas/DocumentCenter/Assets/Scripts/docCenterFrontendAndRelatedBidAndJobsApp.react.js",
+    "post_data": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "https://www.newrochelleny.gov/ImageRepository/Document?documentId=21507",
+    "post_data": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "https://www.newrochelleny.gov/ImageRepository/Document?documentID=21521",
+    "post_data": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "https://www.newrochelleny.gov/ImageRepository/Document?documentID=21523",
+    "post_data": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "https://www.newrochelleny.gov/ImageRepository/Document?documentID=21522",
+    "post_data": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "https://www.newrochelleny.gov/ImageRepository/Document?documentID=21524",
+    "post_data": null
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "https://www.newrochelleny.gov/DocumentCenter/",
+    "content_type": "text/html; charset=utf-8",
+    "body_preview": "\r\n\r\n\r\n\r\n\r\n\r\n<!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n\r\n\t<meta http-equiv=\"Content-type\" content=\"text/html; charset=UTF-8\" />\r\n<!-- Google Tag Manager for GA4 -->\r\n\t\t\t\t<script>(function(w,d,s,l,i){w.GAMeasurementID='G-Q74ZBQ1XTL';w[l]=w[l]||[];w[l].push({'gtm.start':\r\n\t\t\t\tnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\r\n\t\t\t\tj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\r\n\t\t\t\t'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\r\n\t\t\t\t})(window,document,'script','cpDataLayerGA4','GTM-K73C5PS');</script>\r\n\t\t\t\t<!-- End Google Tag Manager for GA4 -->\r\n\t\t\t\t<script type='text/javascript'>\r\n\t\t\t\t\tvar enableTelemetry = 'false'\r\n\t\t\t\t\tvar aiConfig = {\r\n\t\t\t\t\tinstrumentationKey: '1cde048e-3185-4906-aa46-c92a7312b60f'\t\t\t\t\t\t\r\n\t\t\t\t\t}\r\n\t\t\t\t\tvar appInsights = window.appInsights || function (a) { function b(a) { c[a] = function () { var b = arguments; c.queue.push(function () { c[a].apply(c, b) }) } } var c = { config: a }, d = document, e = window; setTimeout(function () { var b = d.createElement('script'); b.src = a.url || 'https://js.monitor.azure.com/scripts/a/ai.0.js', d.getElementsByTagName('script')[0].parentNode.appendChild(b) }); try { c.cookie = d.cookie } catch (a) { } c.queue = []; for (var f = ['Event', 'Exception', 'Metric', 'PageView', 'Trace', 'Dependency']; f.length;)b('track' + f.pop()); if (b('setAuthenticatedUserContext'), b('clearAuthenticatedUserContext'), b('startTrackEvent'), b('stopTrackEvent'), b('startTrackPage'), b('stopTrackPage'), b('flush'), !a.disableExceptionTracking) { f = 'onerror', b('_' + f); var g = e[f]; e[f] = function (a, b, d, e, h) { var i = g && g(a, b, d, e, h); return !0 !== i && c['_' + f](a, b, d, e, h), i } } return c }(aiConfig);\r\n\t\t\t\t\twindow.appInsights = appInsights, appInsights.queue && 0 === appInsights.queue.length;\r\n\t\t\t\t\t// Add telemetry initializer\r\n\t\t\t\t\tappInsights.queue.push(function() {\r\n\t\t\t\t\t\tappInsights.context.addTelemetryInitializer(function(en... [truncated]"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "https://www.newrochelleny.gov/ImageRepository/Document?documentID=21498",
+    "content_type": "image/png",
+    "body_preview": null
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "https://www.newrochelleny.gov/ImageRepository/Document?documentID=21520",
+    "content_type": "image/svg+xml",
+    "body_preview": null
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "https://www.newrochelleny.gov/ImageRepository/Document?documentID=21516",
+    "content_type": "image/svg+xml",
+    "body_preview": null
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "https://www.newrochelleny.gov/ImageRepository/Document?documentID=21519",
+    "content_type": "image/svg+xml",
+    "body_preview": null
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "https://www.newrochelleny.gov/ImageRepository/Document?documentID=21518",
+    "content_type": "image/svg+xml",
+    "body_preview": null
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "https://www.newrochelleny.gov/ImageRepository/Document?documentId=21507",
+    "content_type": "image/svg+xml",
+    "body_preview": null
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "https://www.newrochelleny.gov/ImageRepository/Document?documentID=21522",
+    "content_type": "image/svg+xml",
+    "body_preview": null
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "https://www.newrochelleny.gov/ImageRepository/Document?documentID=21523",
+    "content_type": "image/svg+xml",
+    "body_preview": null
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "https://www.newrochelleny.gov/ImageRepository/Document?documentID=21514",
+    "content_type": "image/svg+xml",
+    "body_preview": null
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "https://www.newrochelleny.gov/ImageRepository/Document?documentID=21521",
+    "content_type": "image/svg+xml",
+    "body_preview": null
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "https://www.newrochelleny.gov/Areas/DocumentCenter/Assets/Styles/docCenterPane.react.css",
+    "content_type": "text/css",
+    "body_preview": ".ant-tree-treenode.drop-target.drag-over .ant-tree-node-content-wrapper{background-color:#1890ff;opacity:.8}#document-center{height:100%;overflow:hidden}\n"
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "https://www.newrochelleny.gov/ImageRepository/Document?documentID=21524",
+    "content_type": "image/svg+xml",
+    "body_preview": null
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "https://www.newrochelleny.gov/Areas/DocumentCenter/Assets/Images/DocumentCenterModuleIconLarge.png",
+    "content_type": "image/png",
+    "body_preview": null
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "https://www.newrochelleny.gov/Areas/DocumentCenter/Assets/Scripts/docCenterFrontendAndRelatedBidAndJobsApp.react.js",
+    "content_type": "application/javascript",
+    "body_preview": null
+  },
+  {
+    "type": "request",
+    "method": "POST",
+    "url": "https://www.newrochelleny.gov/admin/DocumentCenter/Home/_AjaxLoadingReact?type=0",
+    "post_data": "{\n  \"value\": \"1\",\n  \"expandTree\": false,\n  \"loadSource\": 7,\n  \"selectedFolder\": 1\n}"
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "https://www.newrochelleny.gov/ImageRepository/Document?documentID=21527",
+    "post_data": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "https://www.newrochelleny.gov/ImageRepository/Document?documentID=21529",
+    "post_data": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "https://www.newrochelleny.gov/ImageRepository/Document?documentID=21534",
+    "post_data": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "https://www.newrochelleny.gov/ImageRepository/Document?documentID=21537",
+    "post_data": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "https://www.newrochelleny.gov/ImageRepository/Document?documentID=21531",
+    "post_data": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "https://www.newrochelleny.gov/ImageRepository/Document?documentID=21536",
+    "post_data": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "https://www.newrochelleny.gov/ImageRepository/Document?documentID=21502",
+    "post_data": null
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "https://www.newrochelleny.gov/ImageRepository/Document?documentID=21534",
+    "content_type": "image/svg+xml",
+    "body_preview": null
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "https://www.newrochelleny.gov/ImageRepository/Document?documentID=21531",
+    "content_type": "image/svg+xml",
+    "body_preview": null
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "https://www.newrochelleny.gov/ImageRepository/Document?documentID=21529",
+    "content_type": "image/svg+xml",
+    "body_preview": null
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "https://www.newrochelleny.gov/ImageRepository/Document?documentID=21537",
+    "content_type": "image/svg+xml",
+    "body_preview": null
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "https://www.newrochelleny.gov/ImageRepository/Document?documentID=21527",
+    "content_type": "image/svg+xml",
+    "body_preview": null
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "https://www.newrochelleny.gov/ImageRepository/Document?documentID=21502",
+    "content_type": "image/svg+xml",
+    "body_preview": null
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "https://www.newrochelleny.gov/ImageRepository/Document?documentID=21536",
+    "content_type": "image/svg+xml",
+    "body_preview": null
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "https://www.newrochelleny.gov/admin/DocumentCenter/Home/_AjaxLoadingReact?type=0",
+    "content_type": "application/json; charset=utf-8",
+    "body_preview": "{\"Data\":[{\"Text\":\"2024 IDA/CLD\",\"Value\":\"473\",\"LoadOnDemand\":false,\"ParentID\":\"1\",\"Children\":null},{\"Text\":\"325th Anniversary\",\"Value\":\"108\",\"LoadOnDemand\":false,\"ParentID\":\"1\",\"Children\":null},{\"Text\":\"ARPA \",\"Value\":\"433\",\"LoadOnDemand\":false,\"ParentID\":\"1\",\"Children\":null},{\"Text\":\"Assessor\",\"Value\":\"43\",\"LoadOnDemand\":true,\"ParentID\":\"1\",\"Children\":null},{\"Text\":\"Bureau of Buildings\",\"Value\":\"22\",\"LoadOnDemand\":true,\"ParentID\":\"1\",\"Children\":null},{\"Text\":\"Business Ambassador\",\"Value\":\"130\",\"LoadOnDemand\":false,\"ParentID\":\"1\",\"Children\":null},{\"Text\":\"City Clerk\",\"Value\":\"8\",\"LoadOnDemand\":true,\"ParentID\":\"1\",\"Children\":null},{\"Text\":\"City Council\",\"Value\":\"550\",\"LoadOnDemand\":true,\"ParentID\":\"1\",\"Children\":null},{\"Text\":\"City Manager\",\"Value\":\"9\",\"LoadOnDemand\":true,\"ParentID\":\"1\",\"Children\":null},{\"Text\":\"Coronavirus\",\"Value\":\"333\",\"LoadOnDemand\":false,\"ParentID\":\"1\",\"Children\":null},{\"Text\":\"Development\",\"Value\":\"11\",\"LoadOnDemand\":true,\"ParentID\":\"1\",\"Children\":null},{\"Text\":\"Events\",\"Value\":\"273\",\"LoadOnDemand\":false,\"ParentID\":\"1\",\"Children\":null},{\"Text\":\"Events \",\"Value\":\"505\",\"LoadOnDemand\":false,\"ParentID\":\"1\",\"Children\":null},{\"Text\":\"Facebook - Do Not Delete\",\"Value\":\"53\",\"LoadOnDemand\":false,\"ParentID\":\"1\",\"Children\":null},{\"Text\":\"Finance\",\"Value\":\"3\",\"LoadOnDemand\":false,\"ParentID\":\"1\",\"Children\":null},{\"Text\":\"Fire\",\"Value\":\"12\",\"LoadOnDemand\":true,\"ParentID\":\"1\",\"Children\":null},{\"Text\":\"Government\",\"Value\":\"21\",\"LoadOnDemand\":false,\"ParentID\":\"1\",\"Children\":null},{\"Text\":\"History\",\"Value\":\"26\",\"LoadOnDemand\":false,\"ParentID\":\"1\",\"Children\":null},{\"Text\":\"Human Resources\",\"Value\":\"4\",\"LoadOnDemand\":true,\"ParentID\":\"1\",\"Children\":null},{\"Text\":\"Marina\",\"Value\":\"24\",\"LoadOnDemand\":true,\"ParentID\":\"1\",\"Children\":null},{\"Text\":\"Mayor\",\"Value\":\"126\",\"LoadOnDemand\":true,\"ParentID\":\"1\",\"Children\":null},{\"Text\":\"my brothers keeper\",\"Value\":\"134\",\"LoadOnDemand\":false,\"ParentID\":\"1\",\"Children\":null},{\"Text\":\"NRCA\",\"Value\":\"266\",\"LoadOnDemand\":false,\"Paren... [truncated]"
+  },
+  {
+    "type": "request",
+    "method": "POST",
+    "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-P6WEFRFVQ5&gtm=45je63b1v869646113za200zd869646113&_p=1773364974710&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1488777863.1773364975&ul=en-us&sr=1280x720&uaa=arm&uab=64&uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6&uamb=0&uam=&uap=macOS&uapv=26.2.0&uaw=0&are=1&frm=0&pscdl=noapi&_s=1&tag_exp=103116026~103200004~115616985~115938465~115938468~116024733~117484252&sid=1773364975&sct=1&seg=0&dl=https%3A%2F%2Fwww.newrochelleny.gov%2FDocumentCenter%2F&dt=Document%20Center%20%E2%80%A2%20New%20Rochelle%2C%20NY%20%E2%80%A2%20CivicEngage&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=2381",
+    "post_data": null
+  },
+  {
+    "type": "response",
+    "status": 204,
+    "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-P6WEFRFVQ5&gtm=45je63b1v869646113za200zd869646113&_p=1773364974710&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1488777863.1773364975&ul=en-us&sr=1280x720&uaa=arm&uab=64&uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6&uamb=0&uam=&uap=macOS&uapv=26.2.0&uaw=0&are=1&frm=0&pscdl=noapi&_s=1&tag_exp=103116026~103200004~115616985~115938465~115938468~116024733~117484252&sid=1773364975&sct=1&seg=0&dl=https%3A%2F%2Fwww.newrochelleny.gov%2FDocumentCenter%2F&dt=Document%20Center%20%E2%80%A2%20New%20Rochelle%2C%20NY%20%E2%80%A2%20CivicEngage&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=2381",
+    "content_type": "text/plain",
+    "body_preview": null
+  },
+  {
+    "type": "request",
+    "method": "POST",
+    "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-Q74ZBQ1XTL&gtm=45je63b1h1v892497468z8867875367za20gzb867875367zd867875367&_p=1773364973419&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1488777863.1773364975&ul=en-us&sr=1280x720&uaa=arm&uab=64&uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6&uamb=0&uam=&uap=macOS&uapv=26.2.0&uaw=0&are=1&frm=0&pscdl=noapi&_s=1&tag_exp=103116026~103200004~115616986~115938465~115938469~116024733~117484252&sid=1773364975&sct=1&seg=0&dl=https%3A%2F%2Fwww.newrochelleny.gov%2FDocumentCenter%2F&dt=Document%20Center%20%E2%80%A2%20New%20Rochelle%2C%20NY%20%E2%80%A2%20CivicEngage&en=page_view&_fv=1&_ss=1&tfd=3265",
+    "post_data": null
+  },
+  {
+    "type": "response",
+    "status": 204,
+    "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-Q74ZBQ1XTL&gtm=45je63b1h1v892497468z8867875367za20gzb867875367zd867875367&_p=1773364973419&gcd=13l3l3l3l1l1&npa=0&dma=0&cid=1488777863.1773364975&ul=en-us&sr=1280x720&uaa=arm&uab=64&uafvl=Not%253AA-Brand%3B99.0.0.0%7CHeadlessChrome%3B145.0.7632.6%7CChromium%3B145.0.7632.6&uamb=0&uam=&uap=macOS&uapv=26.2.0&uaw=0&are=1&frm=0&pscdl=noapi&_s=1&tag_exp=103116026~103200004~115616986~115938465~115938469~116024733~117484252&sid=1773364975&sct=1&seg=0&dl=https%3A%2F%2Fwww.newrochelleny.gov%2FDocumentCenter%2F&dt=Document%20Center%20%E2%80%A2%20New%20Rochelle%2C%20NY%20%E2%80%A2%20CivicEngage&en=page_view&_fv=1&_ss=1&tfd=3265",
+    "content_type": "text/plain",
+    "body_preview": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "https://www.newrochelleny.gov/ImageRepository/Document?documentID=21499",
+    "post_data": null
+  },
+  {
+    "type": "request",
+    "method": "GET",
+    "url": "https://tracking.monsido.com/?a=wYvw-BiB2Fk-FW5wHJ0Mgg&b=https%3A%2F%2Fwww.newrochelleny.gov%2FDocumentCenter%2F&c=67C1773364976396&d=1280x720&f=69D1773364976396&h=2",
+    "post_data": null
+  },
+  {
+    "type": "response",
+    "status": 200,
+    "url": "https://www.newrochelleny.gov/ImageRepository/Document?documentID=21499",
+    "content_type": "image/jpeg",
+    "body_preview": null
+  }
+]

@@ -1,5 +1,6 @@
 import { useState, useMemo } from 'react'
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
+import { MapContainer, TileLayer, Marker, Tooltip } from 'react-leaflet'
+import MarkerClusterGroup from 'react-leaflet-cluster'
 import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 
@@ -19,8 +20,19 @@ const COLORS = {
 // Distinct colors per paving year (cycles if more than palette length)
 const PAVING_COLORS = ['#16a34a', '#0d9488', '#7c3aed', '#db2777', '#ea580c']
 
+// Colors for document classifications — cycles if more classes than entries
+const DOC_CLASS_COLORS = [
+  '#9333ea', '#0891b2', '#b45309', '#be185d',
+  '#15803d', '#1d4ed8', '#c2410c', '#6d28d9',
+  '#0f766e', '#b91c1c', '#1e40af', '#92400e',
+]
+
 function pavingColor(yearIndex) {
   return PAVING_COLORS[yearIndex % PAVING_COLORS.length]
+}
+
+function docClassColor(index) {
+  return DOC_CLASS_COLORS[index % DOC_CLASS_COLORS.length]
 }
 
 function coloredIcon(color, size = 14) {
@@ -43,7 +55,7 @@ const CONSTRUCTION_LAYERS = [
   { id: 'flood_mitigation', label: '💧 Flood/Storm' },
 ]
 
-export default function MapView({ construction, paving }) {
+export default function MapView({ construction, paving, docMap = [], fromYear }) {
   const [selected, setSelected] = useState(null)
   const [hiddenLayers, setHiddenLayers] = useState(new Set())
 
@@ -67,7 +79,6 @@ export default function MapView({ construction, paving }) {
       if (!map[yr]) map[yr] = new Map()
       if (!map[yr].has(p.street)) map[yr].set(p.street, p)
     })
-    // Convert Maps to arrays, sorted by year descending
     return Object.entries(map)
       .sort(([a], [b]) => String(b).localeCompare(String(a)))
       .map(([year, streetMap], idx) => ({
@@ -77,6 +88,35 @@ export default function MapView({ construction, paving }) {
         layerId: `paving_${year}`,
       }))
   }, [paving])
+
+  // Filter doc_map by year, then group by classification
+  const docByClassification = useMemo(() => {
+    const cutoff = fromYear ? new Date(`${fromYear}-01-01`) : null
+    const filtered = cutoff
+      ? docMap.filter(d => {
+          if (!d.relevant_date) return false
+          const dt = new Date(d.relevant_date)
+          return !isNaN(dt) && dt >= cutoff
+        })
+      : docMap
+
+    const groups = {}
+    filtered.forEach(doc => {
+      const cls = doc.classification || 'other'
+      if (!groups[cls]) groups[cls] = []
+      groups[cls].push(doc)
+    })
+
+    return Object.entries(groups)
+      .sort(([, a], [, b]) => b.length - a.length)
+      .map(([cls, docs], idx) => ({
+        cls,
+        docs,
+        color: docClassColor(idx),
+        layerId: `doc_${cls}`,
+        label: cls.replace(/_/g, ' '),
+      }))
+  }, [docMap, fromYear])
 
   const center = [40.9115, -73.7824]
 
@@ -89,17 +129,17 @@ export default function MapView({ construction, paving }) {
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           />
 
+          <MarkerClusterGroup chunkedLoading>
           {!hiddenLayers.has('roadway_alerts') && mappedConstruction
             .filter(p => p.source === 'roadway_alerts')
             .map((proj, i) => (
               <Marker key={`road-${i}`} position={[proj.coords.lat, proj.coords.lng]}
                 icon={coloredIcon(COLORS.roadway_alerts)}
                 eventHandlers={{ click: () => setSelected({ ...proj, _type: 'construction' }) }}>
-                <Popup>
+                <Tooltip direction="top" offset={[0, -6]}>
                   <strong>{proj.title}</strong><br />
                   <span style={{ fontSize: '0.8em', color: '#555' }}>Roadway Alert</span>
-                  {proj.url && <><br /><a href={proj.url} target="_blank" rel="noreferrer" style={{ fontSize: '0.8em' }}>More info ↗</a></>}
-                </Popup>
+                </Tooltip>
               </Marker>
             ))}
 
@@ -109,77 +149,108 @@ export default function MapView({ construction, paving }) {
               <Marker key={`flood-${i}`} position={[proj.coords.lat, proj.coords.lng]}
                 icon={coloredIcon(COLORS.flood_mitigation)}
                 eventHandlers={{ click: () => setSelected({ ...proj, _type: 'construction' }) }}>
-                <Popup>
+                <Tooltip direction="top" offset={[0, -6]}>
                   <strong>{proj.title}</strong><br />
                   <span style={{ fontSize: '0.8em', color: '#555' }}>Flood/Stormwater</span>
-                  {proj.url && <><br /><a href={proj.url} target="_blank" rel="noreferrer" style={{ fontSize: '0.8em' }}>More info ↗</a></>}
-                </Popup>
+                </Tooltip>
               </Marker>
             ))}
+
+          {docByClassification.map(({ cls, docs, color, layerId }) =>
+            !hiddenLayers.has(layerId) && docs.map((doc, i) => (
+              <Marker key={`doc-${cls}-${i}`} position={[doc.coords.lat, doc.coords.lng]}
+                icon={coloredIcon(color, 12)}
+                eventHandlers={{ click: () => setSelected({ ...doc, _type: 'document' }) }}>
+                <Tooltip direction="top" offset={[0, -6]}>
+                  <strong>{doc.title}</strong><br />
+                  <span style={{ fontSize: '0.8em', color: '#555' }}>{doc.classification}</span>
+                  {doc.relevant_date && <><br /><span style={{ fontSize: '0.8em', color: '#888' }}>{doc.relevant_date}</span></>}
+                </Tooltip>
+              </Marker>
+            ))
+          )}
 
           {pavingByYear.map(({ year, entries, color, layerId }) =>
             !hiddenLayers.has(layerId) && entries.map((entry, i) => (
               <Marker key={`pave-${year}-${i}`} position={[entry.coords.lat, entry.coords.lng]}
                 icon={coloredIcon(color, 12)}
                 eventHandlers={{ click: () => setSelected({ ...entry, _type: 'paving' }) }}>
-                <Popup>
+                <Tooltip direction="top" offset={[0, -6]}>
                   <strong>{entry.street}</strong><br />
                   <span style={{ fontSize: '0.8em', color: '#555' }}>
                     {year} Paving · {entry.list}
-                    {entry.to && entry.from && <><br />{entry.to} → {entry.from}</>}
+                    {entry.to && entry.from && <> · {entry.to} → {entry.from}</>}
                   </span>
-                </Popup>
+                </Tooltip>
               </Marker>
             ))
           )}
+          </MarkerClusterGroup>
         </MapContainer>
       </div>
 
       <div className="map-sidebar">
         {/* Layer toggles */}
         <div style={{ marginBottom: '1rem' }}>
+          <div style={{ display: 'flex', gap: '0.5rem', marginBottom: '0.6rem' }}>
+            <button onClick={() => setHiddenLayers(new Set())}
+              style={{ flex: 1, fontSize: '0.75rem', padding: '0.2rem 0', border: '1px solid var(--border)',
+                       borderRadius: 4, background: 'var(--surface)', cursor: 'pointer', color: 'var(--text-muted)' }}>
+              Show all
+            </button>
+            <button onClick={() => setHiddenLayers(new Set([
+              ...CONSTRUCTION_LAYERS.map(l => l.id),
+              ...docByClassification.map(d => d.layerId),
+              ...pavingByYear.map(p => p.layerId),
+            ]))}
+              style={{ flex: 1, fontSize: '0.75rem', padding: '0.2rem 0', border: '1px solid var(--border)',
+                       borderRadius: 4, background: 'var(--surface)', cursor: 'pointer', color: 'var(--text-muted)' }}>
+              Hide all
+            </button>
+          </div>
+
           {CONSTRUCTION_LAYERS.map(layer => (
-            <label key={layer.id} style={{
-              display: 'flex', alignItems: 'center', gap: '0.5rem',
-              fontSize: '0.82rem', cursor: 'pointer', marginBottom: '0.35rem',
-              opacity: hiddenLayers.has(layer.id) ? 0.45 : 1,
-            }}>
-              <span style={{
-                width: 12, height: 12, borderRadius: '50%',
-                background: COLORS[layer.id], display: 'inline-block', flexShrink: 0,
-              }} />
-              <input type="checkbox" checked={!hiddenLayers.has(layer.id)}
-                onChange={() => toggleLayer(layer.id)}
-                style={{ display: 'none' }} />
-              {layer.label}
-              <span style={{ marginLeft: 'auto', color: 'var(--text-muted)' }}>
-                {mappedConstruction.filter(p => p.source === layer.id).length}
-              </span>
-            </label>
+            <LayerToggle key={layer.id}
+              layerId={layer.id}
+              label={layer.label}
+              color={COLORS[layer.id]}
+              count={mappedConstruction.filter(p => p.source === layer.id).length}
+              hidden={hiddenLayers.has(layer.id)}
+              onToggle={toggleLayer}
+            />
+          ))}
+
+          {docByClassification.length > 0 && (
+            <div style={{ marginTop: '0.5rem', marginBottom: '0.25rem', fontSize: '0.72rem',
+                          fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em',
+                          color: 'var(--text-muted)' }}>
+              Documents
+            </div>
+          )}
+          {docByClassification.map(({ cls, docs, color, layerId, label }) => (
+            <LayerToggle key={layerId}
+              layerId={layerId}
+              label={`📄 ${label}`}
+              color={color}
+              count={docs.length}
+              hidden={hiddenLayers.has(layerId)}
+              onToggle={toggleLayer}
+            />
           ))}
 
           {pavingByYear.map(({ year, entries, color, layerId }) => (
-            <label key={layerId} style={{
-              display: 'flex', alignItems: 'center', gap: '0.5rem',
-              fontSize: '0.82rem', cursor: 'pointer', marginBottom: '0.35rem',
-              opacity: hiddenLayers.has(layerId) ? 0.45 : 1,
-            }}>
-              <span style={{
-                width: 12, height: 12, borderRadius: '50%',
-                background: color, display: 'inline-block', flexShrink: 0,
-              }} />
-              <input type="checkbox" checked={!hiddenLayers.has(layerId)}
-                onChange={() => toggleLayer(layerId)}
-                style={{ display: 'none' }} />
-              🛣 Paving {year}
-              <span style={{ marginLeft: 'auto', color: 'var(--text-muted)' }}>
-                {entries.length}
-              </span>
-            </label>
+            <LayerToggle key={layerId}
+              layerId={layerId}
+              label={`🛣 Paving ${year}`}
+              color={color}
+              count={entries.length}
+              hidden={hiddenLayers.has(layerId)}
+              onToggle={toggleLayer}
+            />
           ))}
         </div>
 
-        {/* Active project details when selected */}
+        {/* Active item detail panel */}
         {selected && (
           <div style={{ marginBottom: '1rem', padding: '0.75rem', background: 'var(--brand-light)', borderRadius: 8 }}>
             <div style={{ fontSize: '0.88rem', fontWeight: 600, marginBottom: '0.25rem' }}>
@@ -190,9 +261,14 @@ export default function MapView({ construction, paving }) {
                 {selected.to} → {selected.from}
               </div>
             )}
-            {selected._type === 'construction' && selected.url && (
+            {selected._type === 'document' && selected.description && (
+              <div style={{ fontSize: '0.78rem', color: 'var(--text-muted)', marginBottom: '0.25rem' }}>
+                {selected.description.substring(0, 120)}…
+              </div>
+            )}
+            {(selected._type === 'construction' || selected._type === 'document') && selected.url && (
               <a href={selected.url} target="_blank" rel="noreferrer" style={{ fontSize: '0.78rem' }}>
-                Details ↗
+                {selected._type === 'document' ? 'View document ↗' : 'Details ↗'}
               </a>
             )}
             <button onClick={() => setSelected(null)} style={{
@@ -229,5 +305,23 @@ export default function MapView({ construction, paving }) {
         )}
       </div>
     </div>
+  )
+}
+
+function LayerToggle({ layerId, label, color, count, hidden, onToggle }) {
+  return (
+    <label style={{
+      display: 'flex', alignItems: 'center', gap: '0.5rem',
+      fontSize: '0.82rem', cursor: 'pointer', marginBottom: '0.35rem',
+      opacity: hidden ? 0.45 : 1,
+    }}>
+      <span style={{
+        width: 12, height: 12, borderRadius: '50%',
+        background: color, display: 'inline-block', flexShrink: 0,
+      }} />
+      <input type="checkbox" checked={!hidden} onChange={() => onToggle(layerId)} style={{ display: 'none' }} />
+      {label}
+      <span style={{ marginLeft: 'auto', color: 'var(--text-muted)' }}>{count}</span>
+    </label>
   )
 }

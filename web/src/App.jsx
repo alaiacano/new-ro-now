@@ -28,8 +28,11 @@ function formatLastUpdated(meta) {
   } catch { return null }
 }
 
+const YEAR_OPTS = [2026, 2025, 2024, 2023, 2022, null]  // null = All
+
 export default function App() {
   const [tab, setTab] = useState('map')
+  const [fromYear, setFromYear] = useState(2025)
   const { data, loading, error } = useData()
 
   if (loading) {
@@ -73,13 +76,28 @@ export default function App() {
         ))}
       </nav>
 
+      {['map', 'meetings', 'bids', 'news'].includes(tab) && (
+        <div className="date-filter">
+          <span>Show from:</span>
+          {YEAR_OPTS.map(y => (
+            <button
+              key={y ?? 'all'}
+              className={fromYear === y ? 'selected' : ''}
+              onClick={() => setFromYear(y)}
+            >
+              {y ? `${y}+` : 'All'}
+            </button>
+          ))}
+        </div>
+      )}
+
       <div className="content">
-        {tab === 'map' && <MapView construction={data.construction} paving={data.paving} />}
+        {tab === 'map' && <MapView construction={data.construction} paving={data.paving} docMap={data.doc_map} fromYear={fromYear} />}
         {tab === 'construction' && <ConstructionView construction={data.construction} />}
         {tab === 'paving' && <PavingView paving={data.paving} />}
-        {tab === 'meetings' && <MeetingsView meetings={data.meetings} />}
-        {tab === 'bids' && <BidsView bids={data.bids} />}
-        {tab === 'news' && <NewsView news={data.news} hearings={data.public_hearings} />}
+        {tab === 'meetings' && <MeetingsView meetings={data.meetings} fromYear={fromYear} />}
+        {tab === 'bids' && <BidsView bids={data.bids} fromYear={fromYear} />}
+        {tab === 'news' && <NewsView news={data.news} hearings={data.public_hearings} fromYear={fromYear} />}
       </div>
     </div>
   )

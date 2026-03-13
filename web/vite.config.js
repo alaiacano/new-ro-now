@@ -25,7 +25,6 @@ function copyDataPlugin() {
 
 export default defineConfig({
   plugins: [react(), copyDataPlugin()],
-  // GitHub Pages serves from a subdirectory — set base to '/' for custom domain
-  // or '/repo-name/' if hosting at username.github.io/repo-name
-  base: './',
+  // GitHub Pages subdirectory base — must match the repo name exactly
+  base: '/new-ro-now/',
 })

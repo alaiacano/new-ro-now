@@ -89,16 +89,20 @@ export default function MapView({ construction, paving, docMap = [], fromYear })
       }))
   }, [paving])
 
-  // Filter doc_map by year, then group by classification
+  const MAP_EXCLUDED_CLASSIFICATIONS = new Set([
+    'press_release', 'agenda', 'public_hearing', 'specification',
+  ])
+
+  // Filter doc_map by year and excluded classifications, then group by classification
   const docByClassification = useMemo(() => {
     const cutoff = fromYear ? new Date(`${fromYear}-01-01`) : null
-    const filtered = cutoff
-      ? docMap.filter(d => {
-          if (!d.relevant_date) return false
-          const dt = new Date(d.relevant_date)
-          return !isNaN(dt) && dt >= cutoff
-        })
-      : docMap
+    const filtered = docMap.filter(d => {
+      if (MAP_EXCLUDED_CLASSIFICATIONS.has(d.classification)) return false
+      if (!cutoff) return true
+      if (!d.relevant_date) return false
+      const dt = new Date(d.relevant_date)
+      return !isNaN(dt) && dt >= cutoff
+    })
 
     const groups = {}
     filtered.forEach(doc => {

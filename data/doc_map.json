@@ -1,5 +1,159 @@
 [
   {
+    "id": 22288,
+    "title": "2026 Camp Trips",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/22288/2026-Camp-Trips",
+    "description": "This document provides details about optional camp trips for children in New Rochelle during the summer of 2026, including dates, locations, activities, and fees. Parents can use this information to register their children for the trips.",
+    "location": "New Rochelle, NY",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "other",
+    "project_name": null,
+    "dollar_amount": null,
+    "relevant_date": "2026-07-10",
+    "tags": [
+      "camp",
+      "recreation",
+      "summer"
+    ],
+    "folder": "Parks & Recreation",
+    "source": "document_center"
+  },
+  {
+    "id": 20355,
+    "title": "Camp Brochure ENG ",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/20355/Camp-Brochure-ENG-",
+    "description": "This document provides details about the 2026 summer camps offered by New Rochelle Parks and Recreation, including registration deadlines, fees, and program specifics. It is useful for residents interested in enrolling their children in summer camp activities.",
+    "location": "New Rochelle, NY",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "other",
+    "project_name": null,
+    "dollar_amount": "$700",
+    "relevant_date": "2026-07-06",
+    "tags": [
+      "summer camps",
+      "recreation",
+      "registration"
+    ],
+    "folder": "Parks & Recreation",
+    "source": "document_center"
+  },
+  {
+    "id": 20356,
+    "title": "Camp Brochure SPA",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/20356/Camp-Brochure-SPA",
+    "description": "This document provides information on summer camp programs for children in New Rochelle, including financial assistance and transportation options. It details important deadlines and contact information for interested families.",
+    "location": "New Rochelle, NY",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "press_release",
+    "project_name": null,
+    "dollar_amount": null,
+    "relevant_date": "2026-07-06",
+    "tags": [
+      "summer_camp",
+      "financial_assistance",
+      "transportation"
+    ],
+    "folder": "Parks & Recreation",
+    "source": "document_center"
+  },
+  {
+    "id": 16567,
+    "title": "WACG Application",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/16567/WACG-Application",
+    "description": "This document is an application and rules form for the Ward Acres Community Garden (WACG). It outlines the requirements and responsibilities for becoming a member, including fees, plot assignments, and community service hours.",
+    "location": "300 Broadfield Road, New Rochelle, New York 10804",
+    "coords": {
+      "lat": 40.9567674,
+      "lng": -73.7817848
+    },
+    "classification": "other",
+    "project_name": "Ward Acres Community Garden",
+    "dollar_amount": "$60.00",
+    "relevant_date": "2026-04-10",
+    "tags": [
+      "community_garden",
+      "application",
+      "rules"
+    ],
+    "folder": "Parks & Recreation",
+    "source": "document_center"
+  },
+  {
+    "id": 22349,
+    "title": "February 2026 The City Managers Update",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/22349/February-2026-The-City-Managers-Update",
+    "description": "This report provides updates on various city initiatives including the Thrive Non-Profit Grant Program, Participatory Budgeting, and the Police Career Pathways Program. It also includes upcoming events and statistical updates from the Police Department.",
+    "location": "New Rochelle, NY",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "report",
+    "project_name": "Thrive Non-Profit Grant Program",
+    "dollar_amount": "$100,000",
+    "relevant_date": "2026-02-01",
+    "tags": [
+      "city initiatives",
+      "events",
+      "budget"
+    ],
+    "folder": "City Manager",
+    "source": "document_center"
+  },
+  {
+    "id": 19989,
+    "title": "Ice Skating 2026 Info- Eng",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/19989/Ice-Skating-2026-Info--Eng",
+    "description": "This document provides details about the 2026 Ice Skating Program offered by New Rochelle Parks and Recreation, including dates, times, fees, and registration information.",
+    "location": "Hommocks Park Rink \u2013 Mamaroneck, NY",
+    "coords": {
+      "lat": 40.9334231,
+      "lng": -73.7454708
+    },
+    "classification": "other",
+    "project_name": "2026 Ice Skating Program",
+    "dollar_amount": "$210.00",
+    "relevant_date": "2026-01-16",
+    "tags": [
+      "ice skating",
+      "recreation",
+      "registration"
+    ],
+    "folder": "Parks & Recreation",
+    "source": "document_center"
+  },
+  {
+    "id": 22179,
+    "title": "Participatory Budgeting Presentation FINAL - 20260113",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/22179/Participatory-Budgeting-Presentation-FINAL---20260113",
+    "description": "This document outlines the plan for a Participatory Budgeting pilot program in New Rochelle, which will allow residents to propose and vote on how $200,000 of the city's capital budget is spent. It includes details on the timeline, process, and goals for the program.",
+    "location": "New Rochelle",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "report",
+    "project_name": "Participatory Budgeting Pilot Program",
+    "dollar_amount": "$200,000",
+    "relevant_date": "2026-01-13",
+    "tags": [
+      "budgeting",
+      "resident participation",
+      "capital budget"
+    ],
+    "folder": "City Manager",
+    "source": "document_center"
+  },
+  {
     "id": 696,
     "title": "Current Property Tax Rates",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/696/Current-Property-Tax-Rates",
@@ -19,6 +173,50 @@
       "property"
     ],
     "folder": "Tax",
+    "source": "document_center"
+  },
+  {
+    "id": 22018,
+    "title": "2026 Collection Schedule",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/22018/2026-Collection-Schedule",
+    "description": "This document provides the 2026 collection schedule for New Rochelle, detailing the days when waste and recycling will be collected each month. It helps residents plan their waste management activities accordingly.",
+    "location": "New Rochelle",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "other",
+    "project_name": null,
+    "dollar_amount": null,
+    "relevant_date": "2026",
+    "tags": [
+      "waste collection",
+      "recycling",
+      "schedule"
+    ],
+    "folder": "Public Works",
+    "source": "document_center"
+  },
+  {
+    "id": 22014,
+    "title": "2026 DPW Guide and Calendar",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/22014/2026-DPW-Information-Guide-and-Collection-Schedule",
+    "description": "This document provides a guide and calendar for the Department of Public Works (DPW) services in New Rochelle for 2026, including information on refuse collection, metal and e-waste pickup, and special handling items.",
+    "location": "New Rochelle, NY",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "other",
+    "project_name": null,
+    "dollar_amount": null,
+    "relevant_date": "2026",
+    "tags": [
+      "public works",
+      "refuse collection",
+      "calendar"
+    ],
+    "folder": "DocumentCenter",
     "source": "document_center"
   },
   {
@@ -44,6 +242,380 @@
     "source": "document_center"
   },
   {
+    "id": 21049,
+    "title": "CITYMANAGERSPRESENTATION _QUALITY OF LIFE INITIATIVE",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/21049/CITYMANAGERSPRESENTATION-_QUALITY-OF-LIFE-INITIATIVE",
+    "description": "This report details ongoing and future initiatives aimed at improving the quality of life in New Rochelle, including street light upgrades, pet waste management, and the introduction of school zone speed cameras.",
+    "location": "New Rochelle, NY",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "report",
+    "project_name": "Quality of Life Initiative",
+    "dollar_amount": null,
+    "relevant_date": "2025-07-01",
+    "tags": [
+      "quality_of_life",
+      "public_safety",
+      "infrastructure"
+    ],
+    "folder": "City Clerk",
+    "source": "document_center"
+  },
+  {
+    "id": 20793,
+    "title": "05142025 UPDATE 2025 Work Plan- District 1-2",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/20793/05142025-UPDATE-2025-Work-Plan--District-1-2",
+    "description": "This document outlines the strategic priorities and operational steps for the City of New Rochelle in 2025, focusing on five key areas: Public Safety and Emergency Preparedness, Resilient Infrastructure, Environmental Sustainability and Stewardship, Economic Development, and Community Building. It provides updates on ongoing initiatives and achievements.",
+    "location": "New Rochelle",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "report",
+    "project_name": null,
+    "dollar_amount": null,
+    "relevant_date": "2025-05-01",
+    "tags": [
+      "work_plan",
+      "strategic_priorities",
+      "public_safety"
+    ],
+    "folder": "City Council",
+    "source": "document_center"
+  },
+  {
+    "id": 20791,
+    "title": "04222025 UPDATE 2025 Work Plan- District 4",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/20791/04222025-UPDATE-2025-Work-Plan--District-4",
+    "description": "This document outlines the strategic priorities and operational steps for the City of New Rochelle in 2025, focusing on enhancing the quality of life through five key areas: public safety, resilient infrastructure, environmental sustainability, economic development, and community building.",
+    "location": "New Rochelle",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "report",
+    "project_name": null,
+    "dollar_amount": null,
+    "relevant_date": "2025-04-01",
+    "tags": [
+      "work_plan",
+      "priorities",
+      "quality_of_life"
+    ],
+    "folder": "City Council",
+    "source": "document_center"
+  },
+  {
+    "id": 20792,
+    "title": "04292025 UPDATE 2025 Work Plan- District 3",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/20792/04292025-UPDATE-2025-Work-Plan--District-3",
+    "description": "This document outlines the strategic priorities and operational steps for the City of New Rochelle in 2025, focusing on enhancing the quality of life through five key areas: public safety, resilient infrastructure, environmental sustainability, economic development, and community building.",
+    "location": "New Rochelle",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "report",
+    "project_name": null,
+    "dollar_amount": null,
+    "relevant_date": "2025-04-01",
+    "tags": [
+      "work_plan",
+      "priorities",
+      "quality_of_life"
+    ],
+    "folder": "City Council",
+    "source": "document_center"
+  },
+  {
+    "id": 20681,
+    "title": "2025 Stormwater Program Update April 2025",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/20681/2025-Stormwater-Program-Update-April-2025",
+    "description": "This document provides an update on the 2025 Stormwater Program, detailing new initiatives and changes that affect stormwater management in New Rochelle. Residents can learn about upcoming projects and how they might impact their neighborhoods.",
+    "location": "New Rochelle",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "report",
+    "project_name": "2025 Stormwater Program",
+    "dollar_amount": null,
+    "relevant_date": "2025-04-01",
+    "tags": [
+      "stormwater",
+      "environmental",
+      "public_works"
+    ],
+    "folder": "Public Works",
+    "source": "document_center"
+  },
+  {
+    "id": 20794,
+    "title": "032720251633 UPDATE 2025 Work Plan- Districts 5-6",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/20794/032720251633-UPDATE-2025-Work-Plan--Districts-5-6",
+    "description": "This document outlines the strategic priorities and operational steps for the City of New Rochelle in 2025, focusing on enhancing the quality of life through five key areas: public safety, resilient infrastructure, environmental sustainability, economic development, and community building.",
+    "location": "New Rochelle",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "report",
+    "project_name": null,
+    "dollar_amount": null,
+    "relevant_date": "2025-03-01",
+    "tags": [
+      "work_plan",
+      "priorities",
+      "quality_of_life"
+    ],
+    "folder": "City Council",
+    "source": "document_center"
+  },
+  {
+    "id": 19988,
+    "title": "Ice Skating 2025 Info - Spanish",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/19988/Ice-Skating-2025-Info---Spanish",
+    "description": "This document provides information about the 2025 Ice Skating Program offered by New Rochelle Parks and Recreation. It includes details on dates, times, costs, and eligibility criteria.",
+    "location": "Hommocks Park Rink \u2013 Mamaroneck, NY",
+    "coords": {
+      "lat": 40.9334231,
+      "lng": -73.7454708
+    },
+    "classification": "other",
+    "project_name": "Ice Skating 2025 Info",
+    "dollar_amount": "$210.00",
+    "relevant_date": "2025-01-17",
+    "tags": [
+      "ice_skating",
+      "parks_and_recreation",
+      "program_info"
+    ],
+    "folder": "Parks & Recreation",
+    "source": "document_center"
+  },
+  {
+    "id": 21000,
+    "title": "2025 Street Fair Rules and Regulations",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/21000/2025-Street-Fair-Rules-and-Regulations",
+    "description": "This document outlines the rules and regulations for exhibitors participating in the 2025 New Rochelle Street Fair. It covers insurance requirements, compliance with local laws, and restrictions on certain activities.",
+    "location": "New Rochelle, NY",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "other",
+    "project_name": "New Rochelle Street Fair",
+    "dollar_amount": null,
+    "relevant_date": "2025",
+    "tags": [
+      "street fair",
+      "rules",
+      "regulations"
+    ],
+    "folder": "Events",
+    "source": "document_center"
+  },
+  {
+    "id": 20013,
+    "title": "CNR_2025_DPW Collection Schedule",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/20013/CNR_2025_DPW-Collection-Schedule",
+    "description": "This document provides the collection schedule for garbage, trash, recycling, and other waste management services for the year 2025 in New Rochelle. It helps residents know when to put out their waste for collection.",
+    "location": "New Rochelle",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "report",
+    "project_name": null,
+    "dollar_amount": null,
+    "relevant_date": "2025",
+    "tags": [
+      "waste_management",
+      "collection_schedule",
+      "public_works"
+    ],
+    "folder": "Public Works",
+    "source": "document_center"
+  },
+  {
+    "id": 20416,
+    "title": "Champions of Change Awards Honorees",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/20416/Champions-of-Change-Awards-Honorees",
+    "description": "This document lists the honorees for the Champions of Change Awards, highlighting their achievements and contributions to the community. It provides insight into the accomplishments of young residents in New Rochelle.",
+    "location": "New Rochelle",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "press_release",
+    "project_name": null,
+    "dollar_amount": null,
+    "relevant_date": "2025",
+    "tags": [
+      "awards",
+      "youth",
+      "achievements"
+    ],
+    "folder": "Youth Bureau",
+    "source": "document_center"
+  },
+  {
+    "id": 19962,
+    "title": "WINTER EVENTS 2024 CALENDAR",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/19962/WINTER-EVENTS-2024-CALENDAR",
+    "description": "This document provides a calendar of winter events in New Rochelle for December 2024, including holiday markets and Santa's park tours. It is useful for residents planning to attend these community events.",
+    "location": "New Rochelle, NY",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "other",
+    "project_name": null,
+    "dollar_amount": null,
+    "relevant_date": "2024-12-01",
+    "tags": [
+      "events",
+      "calendar",
+      "community"
+    ],
+    "folder": "Public Information",
+    "source": "document_center"
+  },
+  {
+    "id": 19734,
+    "title": "FALL EVENTS 2024 CALENDAR (2)",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/19734/FALL-EVENTS-2024-CALENDAR-2",
+    "description": "This document provides a calendar of fall events in New Rochelle for 2024, including concerts, a D\u00eda de Muertos performance, and a turkey run. It is useful for residents who want to participate in community activities.",
+    "location": "New Rochelle",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "other",
+    "project_name": null,
+    "dollar_amount": null,
+    "relevant_date": "2024-11-09",
+    "tags": [
+      "calendar",
+      "events",
+      "community"
+    ],
+    "folder": "Public Information",
+    "source": "document_center"
+  },
+  {
+    "id": 19595,
+    "title": "5726 - Addendum 1",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/19595/5726---Addendum-1",
+    "description": "This addendum provides clarifications and modifications to the bid documents for the Normandy Lane Roadway Improvements project, including details on rock removal and utility relocation.",
+    "location": "Normandy Lane",
+    "coords": {
+      "lat": 40.9357127,
+      "lng": -73.7698525
+    },
+    "classification": "bid",
+    "project_name": "Normandy Lane Roadway Improvements",
+    "dollar_amount": null,
+    "relevant_date": "2024-10-23",
+    "tags": [
+      "roadwork",
+      "contract",
+      "clarification"
+    ],
+    "folder": "NRCA",
+    "source": "document_center"
+  },
+  {
+    "id": 19569,
+    "title": "FYEP Application 2024.",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/19569/FYEP-Application-2024",
+    "description": "This document is an application for the FYEP (Full-Year Employment Program) for youth aged 14-24 in New Rochelle. It outlines the requirements for submitting an application, including necessary documentation and proof of income.",
+    "location": "515 North Ave, New Rochelle, NY 10801",
+    "coords": {
+      "lat": 40.9201463,
+      "lng": -73.7857973
+    },
+    "classification": "other",
+    "project_name": "FYEP Application 2024",
+    "dollar_amount": null,
+    "relevant_date": "2024-10-22",
+    "tags": [
+      "youth",
+      "employment",
+      "application"
+    ],
+    "folder": "Youth Bureau",
+    "source": "document_center"
+  },
+  {
+    "id": 19378,
+    "title": "PAGES-2024-ArtsFest-Brochure",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/19378/PAGES-2024-ArtsFest-Brochure",
+    "description": "This document is a brochure for ArtsFest 2024, a four-day festival in New Rochelle featuring various arts events including music, dance, art exhibits, and children's activities. It provides details on the schedule, locations, and organizers of the festival.",
+    "location": "New Rochelle",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "press_release",
+    "project_name": "ArtsFest 2024",
+    "dollar_amount": null,
+    "relevant_date": "2024-10-17",
+    "tags": [
+      "ArtsFest",
+      "events",
+      "cultural"
+    ],
+    "folder": "Events",
+    "source": "document_center"
+  },
+  {
+    "id": 19466,
+    "title": "SUMMER EVENTS 2024 CALENDAR",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/19466/SUMMER-EVENTS-2024-CALENDAR",
+    "description": "This document provides a calendar of summer events in New Rochelle, including free concerts, yoga sessions, swimming opportunities, and various community activities. It is useful for residents looking to participate in local summer events.",
+    "location": "New Rochelle, NY",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "press_release",
+    "project_name": null,
+    "dollar_amount": null,
+    "relevant_date": "2024-07-01",
+    "tags": [
+      "summer_events",
+      "community_activities",
+      "calendar"
+    ],
+    "folder": "Public Information",
+    "source": "document_center"
+  },
+  {
+    "id": 19042,
+    "title": "2024 FLOOD MITIGATION MEETINGS - District 1",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/19042/2024-FLOOD-MITIGATION-MEETINGS---District-1",
+    "description": "This document outlines the agenda for the 2024 Flood Mitigation Meetings in District 1, covering topics such as program history, methodology, current initiatives, stormwater mitigation resources, and community input.",
+    "location": "District 1, New Rochelle",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "agenda",
+    "project_name": "2024 FLOOD MITIGATION MEETINGS - District 1",
+    "dollar_amount": null,
+    "relevant_date": "2024-06-06",
+    "tags": [
+      "flood mitigation",
+      "public works",
+      "community meeting"
+    ],
+    "folder": "Public Works",
+    "source": "document_center"
+  },
+  {
     "id": 10737,
     "title": "Quaker Ridge Road Improvements (3)",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/10737/Quaker-Ridge-Road-Improvements-3",
@@ -63,6 +635,138 @@
       "public_hearing"
     ],
     "folder": "Development",
+    "source": "document_center"
+  },
+  {
+    "id": 21133,
+    "title": "2024 Annual Report",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/21133/2024-Annual-Report",
+    "description": "This document is the 2024 Annual Report of the New Rochelle Police Department, detailing accomplishments such as awards received, recruitment initiatives, grants secured, deployment of new equipment, and community engagement activities.",
+    "location": "New Rochelle",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "report",
+    "project_name": null,
+    "dollar_amount": "$960,000",
+    "relevant_date": "2024",
+    "tags": [
+      "police",
+      "annual_report",
+      "accomplishments"
+    ],
+    "folder": "Police",
+    "source": "document_center"
+  },
+  {
+    "id": 18146,
+    "title": "2024 City Manager Workplan",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/18146/2024-City-Manager-Workplan",
+    "description": "This document outlines the City Manager's work plan for 2024, detailing initiatives such as investments in youth programs, tax amnesty, and improvements in technology security systems. It provides insights into the city's priorities and planned actions for the coming year.",
+    "location": "New Rochelle, NY",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "report",
+    "project_name": "2024 City Manager Workplan",
+    "dollar_amount": "$6.7M",
+    "relevant_date": "2024",
+    "tags": [
+      "city manager",
+      "workplan",
+      "initiatives"
+    ],
+    "folder": "City Manager",
+    "source": "document_center"
+  },
+  {
+    "id": 17799,
+    "title": "2024 Collection Information Guide",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/17799/2024-Collection-Information-Guide",
+    "description": "This document provides detailed information on refuse collection, special handling requirements for certain items, prohibited materials, and contact information for various services within the Department of Public Works. It helps residents understand how to properly dispose of waste and hazardous materials.",
+    "location": "City of New Rochelle",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "report",
+    "project_name": null,
+    "dollar_amount": null,
+    "relevant_date": "2024",
+    "tags": [
+      "refuse_collection",
+      "public_works",
+      "recycling"
+    ],
+    "folder": "Public Works",
+    "source": "document_center"
+  },
+  {
+    "id": 17800,
+    "title": "2024 Collection Schedule",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/17800/2024-Collection-Schedule",
+    "description": "This document outlines the 2024 collection schedule for Public Works, likely detailing when and where road maintenance and waste collection will occur.",
+    "location": "New Rochelle",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "paving_schedule",
+    "project_name": null,
+    "dollar_amount": null,
+    "relevant_date": "2024",
+    "tags": [
+      "collection",
+      "schedule",
+      "public_works"
+    ],
+    "folder": "Public Works",
+    "source": "document_center"
+  },
+  {
+    "id": 20024,
+    "title": "2024 DPW Information Guide and Calendar",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/20024/2024-DPW-Information-Guide-and-Calendar",
+    "description": "This guide provides information on the services offered by the Department of Public Works, including refuse collection, street maintenance, and sewer management. It also includes important contact numbers and guidelines for proper waste disposal.",
+    "location": "City of New Rochelle",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "other",
+    "project_name": null,
+    "dollar_amount": null,
+    "relevant_date": "2024",
+    "tags": [
+      "public works",
+      "waste management",
+      "contact info"
+    ],
+    "folder": "Public Works",
+    "source": "document_center"
+  },
+  {
+    "id": 18256,
+    "title": "2024 camp trips info",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/18256/2024-camp-trips-info",
+    "description": "Information about 2024 camp trips organized by the Parks & Recreation department. This document likely includes details about available camps, schedules, and registration information.",
+    "location": "New Rochelle",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "other",
+    "project_name": null,
+    "dollar_amount": null,
+    "relevant_date": "2024",
+    "tags": [
+      "parks",
+      "recreation",
+      "camp"
+    ],
+    "folder": "Parks & Recreation",
     "source": "document_center"
   },
   {
@@ -88,6 +792,72 @@
     "source": "document_center"
   },
   {
+    "id": 17552,
+    "title": "CGR Final Report",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/17552/CGR-Final-Report",
+    "description": "This report discusses the potential creation of a Civilian Complaint Review Board (CCRB) in New Rochelle to improve police-community relations following recent incidents and state mandates. It includes analysis of past complaints and stakeholder opinions.",
+    "location": "New Rochelle, New York",
+    "coords": {
+      "lat": 40.9114273,
+      "lng": -73.7842096
+    },
+    "classification": "report",
+    "project_name": "Civilian Complaint Review Board",
+    "dollar_amount": null,
+    "relevant_date": "2023-10-01",
+    "tags": [
+      "police oversight",
+      "civilian review",
+      "public trust"
+    ],
+    "folder": "Policing Review Committee",
+    "source": "document_center"
+  },
+  {
+    "id": 17201,
+    "title": "NOC Form_SDGEIS w hearing_7_11_23_w map (1)",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/17201/NOC-Form_SDGEIS-w-hearing_7_11_23_w-map-1",
+    "description": "This document announces the completion of a Draft Environmental Impact Statement (DEIS) for the proposed Lincoln Neighborhood District Downtown Overlay Zone (DO-8) and the 'LINC' Project. It includes details about a public hearing scheduled for September 12, 2023.",
+    "location": "New Rochelle, NY",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "environmental_review",
+    "project_name": "Lincoln Neighborhood District Downtown Overlay Zone (DO-8) and the 'LINC' Project",
+    "dollar_amount": null,
+    "relevant_date": "2023-09-12",
+    "tags": [
+      "environmental_review",
+      "public_hearing",
+      "overlay_zone"
+    ],
+    "folder": "Development",
+    "source": "document_center"
+  },
+  {
+    "id": 16875,
+    "title": "Street Fair Sponsorship Packages and App 2023",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/16875/Street-Fair-Sponsorship-Packages-and-App-2023",
+    "description": "This document outlines sponsorship packages for the 10th Annual New Rochelle Street Fair on September 10, 2023. It details various sponsorship levels and benefits, which can help residents understand the event's funding and corporate involvement.",
+    "location": "New Rochelle, NY",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "press_release",
+    "project_name": "10th Annual New Rochelle Street Fair",
+    "dollar_amount": "$10,000",
+    "relevant_date": "2023-09-10",
+    "tags": [
+      "event",
+      "sponsorship",
+      "street fair"
+    ],
+    "folder": "Events",
+    "source": "document_center"
+  },
+  {
     "id": 14511,
     "title": "Montefiore New Rochelle September Vaccine Schedule",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/14511/Montefiore-New-Rochelle-September-Vaccine-Schedule",
@@ -107,6 +877,1238 @@
       "public_health"
     ],
     "folder": "Public Information",
+    "source": "document_center"
+  },
+  {
+    "id": 16870,
+    "title": "PRESENTATION - Development Highlights 4-11-23 ",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/16870/PRESENTATION---Development-Highlights-4-11-23-",
+    "description": "This report provides an update on various development initiatives in New Rochelle, including housing units, affordable housing, and community engagement projects. It highlights progress on approved projects, completed units, and community feedback.",
+    "location": "New Rochelle",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "report",
+    "project_name": "Downtown Development, LINC Project",
+    "dollar_amount": null,
+    "relevant_date": "2023-04-11",
+    "tags": [
+      "development",
+      "affordable_housing",
+      "community_engagement"
+    ],
+    "folder": "Development",
+    "source": "document_center"
+  },
+  {
+    "id": 16838,
+    "title": "Call for Poets to Create Poem on the History of the Enslaved in New Rochelle 03.10.23",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/16838/Call-for-Poets-to-Create-Poem-on-the-History-of-the-Enslaved-in-New-Rochelle-031023",
+    "description": "This document is a Request for Proposal (RFP) inviting poets to create a commemorative poem honoring the enslaved population of New Rochelle. The poem will be used in a permanent art piece near One Clinton Park.",
+    "location": "One Clinton Park, New Rochelle, NY",
+    "coords": {
+      "lat": 40.9078607,
+      "lng": -73.7817538
+    },
+    "classification": "press_release",
+    "project_name": "Poem on the History of the Enslaved in New Rochelle",
+    "dollar_amount": "$750",
+    "relevant_date": "2023-03-10",
+    "tags": [
+      "history",
+      "art",
+      "community"
+    ],
+    "folder": "Public Information",
+    "source": "document_center"
+  },
+  {
+    "id": 16808,
+    "title": "DRAFT 2022 MS4 Report_Through 23 03 09",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/16808/DRAFT-2022-MS4-Report_Through-23-03-09",
+    "description": "This document is a draft report on the Municipal Separate Storm Sewer System (MS4) through March 9, 2023. It provides details on stormwater management efforts which can affect local water quality and flooding risks.",
+    "location": "New Rochelle",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "environmental_review",
+    "project_name": null,
+    "dollar_amount": null,
+    "relevant_date": "2023-03-09",
+    "tags": [
+      "stormwater",
+      "environment",
+      "public_works"
+    ],
+    "folder": "Public Works",
+    "source": "document_center"
+  },
+  {
+    "id": 16419,
+    "title": "5550 - Tree Planting Beechmont Lake",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/16419/5550---Tree-Planting-Beechmont-Lake",
+    "description": "This document is a request for bids to plant trees around Beechmont Lake in New Rochelle. It outlines the requirements and procedures for submitting a bid.",
+    "location": "Beechmont Lake",
+    "coords": {
+      "lat": 40.9325732,
+      "lng": -73.7787103
+    },
+    "classification": "bid",
+    "project_name": "Tree Planting Beechmont Lake",
+    "dollar_amount": null,
+    "relevant_date": "2023-01-10",
+    "tags": [
+      "tree planting",
+      "bidding",
+      "procurement"
+    ],
+    "folder": "Purchasing",
+    "source": "document_center"
+  },
+  {
+    "id": 18644,
+    "title": "2023 Annual Report Final",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/18644/2023-Annual-Report-Final",
+    "description": "This document is the 2023 Annual Report of the New Rochelle Police Department, detailing key accomplishments such as achieving accreditation, training dispatchers, reopening a sub-precinct, and enhancing transparency through civilian complaint data.",
+    "location": "City of New Rochelle",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "report",
+    "project_name": null,
+    "dollar_amount": null,
+    "relevant_date": "2023",
+    "tags": [
+      "police",
+      "annual_report",
+      "accomplishments"
+    ],
+    "folder": "Police",
+    "source": "document_center"
+  },
+  {
+    "id": 16364,
+    "title": "Revised 2023 DPW calendar",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/16364/Revised-2023-DPW-calendar",
+    "description": "This document provides the 2023 collection days for garbage, trash, recycling, and other services in New Rochelle. It helps residents know when to put out their waste and recyclables.",
+    "location": "New Rochelle",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "report",
+    "project_name": null,
+    "dollar_amount": null,
+    "relevant_date": "2023",
+    "tags": [
+      "collection",
+      "garbage",
+      "recycling"
+    ],
+    "folder": "Public Works",
+    "source": "document_center"
+  },
+  {
+    "id": 15987,
+    "title": "RFP-DV-5514 Holiday Market",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15987/RFP-DV-5514-Holiday-Market",
+    "description": "This document is a Request for Proposal (RFP) for the Holiday Market Infrastructure & Decorations at the New Rochelle Transit Center. It outlines the requirements for contractors to set up and decorate the market for the specified period.",
+    "location": "New Rochelle Transit Center, New Rochelle, NY",
+    "coords": {
+      "lat": 40.9123328,
+      "lng": -73.7837966
+    },
+    "classification": "bid",
+    "project_name": "Holiday Market Infrastructure & Decorations",
+    "dollar_amount": null,
+    "relevant_date": "2022-12-02",
+    "tags": [
+      "holiday market",
+      "rfp",
+      "infrastructure"
+    ],
+    "folder": "Purchasing",
+    "source": "document_center"
+  },
+  {
+    "id": 16370,
+    "title": "Job Posting - SCHOOL CROSSING GUARDS DEC. 2022",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/16370/Job-Posting---SCHOOL-CROSSING-GUARDS-DEC-2022",
+    "description": "This document is a job posting for School Crossing Guards positions in December 2022. It is relevant to residents who may be interested in applying for the position or who want to know more about the hiring process for school safety roles.",
+    "location": "New Rochelle",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "other",
+    "project_name": null,
+    "dollar_amount": null,
+    "relevant_date": "2022-12-01",
+    "tags": [
+      "employment",
+      "school safety",
+      "human resources"
+    ],
+    "folder": "Human Resources",
+    "source": "document_center"
+  },
+  {
+    "id": 16202,
+    "title": "5534 - DPW Trailers",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/16202/5534---DPW-Trailers",
+    "description": "This document is a Request for Proposal (RFP) for a long-term lease of a prefabricated modular office space for the City's Sanitation Departments at 85 Beechwood Ave in New Rochelle. It outlines the requirements and due dates for proposals.",
+    "location": "85 Beechwood Ave, New Rochelle, NY 10801",
+    "coords": {
+      "lat": 40.9066441,
+      "lng": -73.7921485
+    },
+    "classification": "bid",
+    "project_name": "DPW Trailers",
+    "dollar_amount": null,
+    "relevant_date": "2022-11-09",
+    "tags": [
+      "modular office",
+      "lease",
+      "sanitation"
+    ],
+    "folder": "Purchasing",
+    "source": "document_center"
+  },
+  {
+    "id": 16207,
+    "title": "5534 - DPW Trailers",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/16207/5534---DPW-Trailers",
+    "description": "This document is a Request for Proposal (RFP) for a long-term lease of a prefabricated modular office space for the City's Sanitation Departments at 85 Beechwood Ave in New Rochelle. It outlines the requirements and due dates for proposals.",
+    "location": "85 Beechwood Ave, New Rochelle, NY 10801",
+    "coords": {
+      "lat": 40.9066441,
+      "lng": -73.7921485
+    },
+    "classification": "bid",
+    "project_name": "DPW Trailers",
+    "dollar_amount": null,
+    "relevant_date": "2022-11-09",
+    "tags": [
+      "modular office",
+      "lease",
+      "sanitation"
+    ],
+    "folder": "Purchasing",
+    "source": "document_center"
+  },
+  {
+    "id": 16211,
+    "title": "5534 - DPW Trailers",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/16211/5534---DPW-Trailers",
+    "description": "This document is a Request for Proposal (RFP) for a long-term lease of a prefabricated modular office space for the City's Sanitation Departments at 85 Beechwood Ave in New Rochelle. It outlines the requirements and due dates for proposals.",
+    "location": "85 Beechwood Ave, New Rochelle, NY 10801",
+    "coords": {
+      "lat": 40.9066441,
+      "lng": -73.7921485
+    },
+    "classification": "bid",
+    "project_name": "Long Term Lease for Office Trailer",
+    "dollar_amount": null,
+    "relevant_date": "2022-11-09",
+    "tags": [
+      "modular office",
+      "lease",
+      "sanitation"
+    ],
+    "folder": "Purchasing",
+    "source": "document_center"
+  },
+  {
+    "id": 16524,
+    "title": "20221107_Ward Acres Park_Appendix",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/16524/20221107_Ward-Acres-Park_Appendix",
+    "description": "This document contains meeting minutes and various reports related to the Ward Acres Park project, including stakeholder meetings, surveys, and presentations to the City Council. It provides updates on the progress of the park's master plan and community input.",
+    "location": "Ward Acres Park",
+    "coords": {
+      "lat": 40.9585769,
+      "lng": -73.7816711
+    },
+    "classification": "meeting_minutes",
+    "project_name": "Ward Acres Park Master Plan Update",
+    "dollar_amount": null,
+    "relevant_date": "2022-11-07",
+    "tags": [
+      "park",
+      "stakeholder_meeting",
+      "master_plan"
+    ],
+    "folder": "Parks & Recreation",
+    "source": "document_center"
+  },
+  {
+    "id": 16186,
+    "title": "5519 Waterproofing Repairs - City Hall Building",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/16186/5519-Waterproofing-Repairs---City-Hall-Building",
+    "description": "This document is a request for bids for waterproofing repairs at City Hall. It outlines the process for submitting bids and specifies the deadline.",
+    "location": "City Hall, 515 North Ave., New Rochelle, NY 10801",
+    "coords": {
+      "lat": 40.9201463,
+      "lng": -73.7857973
+    },
+    "classification": "bid",
+    "project_name": "5519 Waterproofing Repairs - City Hall Building",
+    "dollar_amount": null,
+    "relevant_date": "2022-11-02",
+    "tags": [
+      "waterproofing",
+      "repair",
+      "bid"
+    ],
+    "folder": "Purchasing",
+    "source": "document_center"
+  },
+  {
+    "id": 16161,
+    "title": "RFB-NR-5533 Fence Anderson Plaza",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/16161/RFB-NR-5533-Fence-Anderson-Plaza",
+    "description": "This document is a request for bids to fabricate and install a fence and rail at Anderson Plaza in New Rochelle. It outlines the process for submitting bids and specifies the deadline.",
+    "location": "Anderson Plaza, New Rochelle, NY",
+    "coords": {
+      "lat": 40.9107794,
+      "lng": -73.7809398
+    },
+    "classification": "bid",
+    "project_name": "Anderson Plaza Fence and Rail",
+    "dollar_amount": null,
+    "relevant_date": "2022-10-26",
+    "tags": [
+      "fence",
+      "bid",
+      "construction"
+    ],
+    "folder": "Purchasing",
+    "source": "document_center"
+  },
+  {
+    "id": 16187,
+    "title": "5519 -  Prevailing Wage 2022011780",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/16187/5519----Prevailing-Wage-2022011780",
+    "description": "This document outlines the prevailing wage rates for a waterproofing project at the New Rochelle City Hall Building. It specifies the requirements for contractors bidding on the project to ensure fair wages are paid.",
+    "location": "515 North Avenue, New Rochelle, NY 10801",
+    "coords": {
+      "lat": 40.9201463,
+      "lng": -73.7857973
+    },
+    "classification": "bid",
+    "project_name": "Waterproofing of New Rochelle City Hall Building",
+    "dollar_amount": null,
+    "relevant_date": "2022-10-18",
+    "tags": [
+      "waterproofing",
+      "prevailing_wage",
+      "contract"
+    ],
+    "folder": "Purchasing",
+    "source": "document_center"
+  },
+  {
+    "id": 16155,
+    "title": "5520 - Pinebrook Park Crossing -KC",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/16155/5520---Pinebrook-Park-Crossing--KC",
+    "description": "This document contains contract documents for the Pinebrook Park Crossing project, detailing the bidding process and requirements for contractors. It is important for residents interested in local construction projects and the bidding process.",
+    "location": "Pinebrook Park",
+    "coords": {
+      "lat": 40.9497541,
+      "lng": -73.7763769
+    },
+    "classification": "bid",
+    "project_name": "Pinebrook Park Crossing",
+    "dollar_amount": null,
+    "relevant_date": "2022-10-17",
+    "tags": [
+      "construction",
+      "contract",
+      "bidding"
+    ],
+    "folder": "Purchasing",
+    "source": "document_center"
+  },
+  {
+    "id": 16153,
+    "title": "RFP-DPW-5532 Marina Parking Structure Project",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/16153/RFP-DPW-5532-Marina-Parking-Structure-Project",
+    "description": "This document is a Request for Proposals (RFP) for professional architectural and engineering services to design and develop bid documents for the replacement of the existing Marina Parking Structure with a new precast concrete structure at 22 Pelham Road in New Rochelle.",
+    "location": "22 Pelham Road, New Rochelle, NY",
+    "coords": {
+      "lat": 40.8922107,
+      "lng": -73.7861302
+    },
+    "classification": "bid",
+    "project_name": "Marina Parking Structure Project",
+    "dollar_amount": null,
+    "relevant_date": "2022-10-14",
+    "tags": [
+      "parking",
+      "construction",
+      "bid"
+    ],
+    "folder": "Purchasing",
+    "source": "document_center"
+  },
+  {
+    "id": 16054,
+    "title": "5518 Amendment 1",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/16054/5518-Amendment-1",
+    "description": "This document is a request for bids to supply and install a fence at 224 East Main Street in New Rochelle. It outlines the process and requirements for submitting a bid.",
+    "location": "224 East Main Street, New Rochelle, NY 10801",
+    "coords": {
+      "lat": 40.9178999,
+      "lng": -73.7681879
+    },
+    "classification": "bid",
+    "project_name": null,
+    "dollar_amount": null,
+    "relevant_date": "2022-10-12",
+    "tags": [
+      "fence",
+      "bid",
+      "procurement"
+    ],
+    "folder": "Purchasing",
+    "source": "document_center"
+  },
+  {
+    "id": 16056,
+    "title": "5518 Amendment 2",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/16056/5518-Amendment-2",
+    "description": "This document is a bid request for the supply and installation of a fence at 224 East Main Street in New Rochelle. It outlines the process and requirements for submitting a bid.",
+    "location": "224 East Main Street, New Rochelle, NY",
+    "coords": {
+      "lat": 40.9134975,
+      "lng": -73.7740787
+    },
+    "classification": "bid",
+    "project_name": "Supply & Install Fence",
+    "dollar_amount": null,
+    "relevant_date": "2022-10-12",
+    "tags": [
+      "fence",
+      "bid",
+      "construction"
+    ],
+    "folder": "Purchasing",
+    "source": "document_center"
+  },
+  {
+    "id": 16068,
+    "title": "5518 Amendment 3",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/16068/5518-Amendment-3",
+    "description": "This document is a bid request for the supply and installation of a fence at 224 East Main Street in New Rochelle. It outlines the process and requirements for submitting a bid.",
+    "location": "224 East Main Street, New Rochelle, NY 10801",
+    "coords": {
+      "lat": 40.9178999,
+      "lng": -73.7681879
+    },
+    "classification": "bid",
+    "project_name": "Supply & Install Fence",
+    "dollar_amount": null,
+    "relevant_date": "2022-10-12",
+    "tags": [
+      "fence",
+      "bid",
+      "construction"
+    ],
+    "folder": "Purchasing",
+    "source": "document_center"
+  },
+  {
+    "id": 16081,
+    "title": "5518 Amendment 4",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/16081/5518-Amendment-4",
+    "description": "This document is an amendment to a bid for the supply and installation of a fence at 224 East Main Street in New Rochelle. It includes details on how to submit a bid and specifies the deadline.",
+    "location": "224 East Main Street, New Rochelle, NY",
+    "coords": {
+      "lat": 40.9134975,
+      "lng": -73.7740787
+    },
+    "classification": "bid",
+    "project_name": "Supply & Install Fence",
+    "dollar_amount": null,
+    "relevant_date": "2022-09-29",
+    "tags": [
+      "fence",
+      "bid",
+      "amendment"
+    ],
+    "folder": "Purchasing",
+    "source": "document_center"
+  },
+  {
+    "id": 16007,
+    "title": "5516 - Tree Planting Beechmont Lake",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/16007/5516---Tree-Planting-Beechmont-Lake",
+    "description": "This document is a request for bids to plant trees around Beechmont Lake in New Rochelle. It provides instructions for prospective bidders and specifies the deadline for submitting bids.",
+    "location": "Beechmont Lake",
+    "coords": {
+      "lat": 40.9325732,
+      "lng": -73.7787103
+    },
+    "classification": "bid",
+    "project_name": "Tree Planting Beechmont Lake",
+    "dollar_amount": null,
+    "relevant_date": "2022-09-21",
+    "tags": [
+      "tree planting",
+      "bidding",
+      "environment"
+    ],
+    "folder": "Purchasing",
+    "source": "document_center"
+  },
+  {
+    "id": 16034,
+    "title": "5509 CVA RFP QA (9.20 draft)",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/16034/5509-CVA-RFP-QA-920-draft",
+    "description": "This document provides answers to pre-proposal questions for a Request for Proposal (RFP) for a Climate Vulnerability Assessment consulting service in New Rochelle. It includes details about the project scope, budget considerations, and previous related reports.",
+    "location": "City of New Rochelle",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "bid",
+    "project_name": "Climate Vulnerability Assessment Consulting Services",
+    "dollar_amount": "$80,000",
+    "relevant_date": "2022-09-20",
+    "tags": [
+      "climate",
+      "consulting",
+      "RFP"
+    ],
+    "folder": "Purchasing",
+    "source": "document_center"
+  },
+  {
+    "id": 15625,
+    "title": "Sponsorship Packages",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15625/Sponsorship-Packages",
+    "description": "This document outlines sponsorship packages for the 9th Annual New Rochelle Street Fair, which took place on September 18, 2022. It details various sponsorship levels and benefits, including recognition, logo placement, and complimentary booth spaces.",
+    "location": "New Rochelle, NY",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "press_release",
+    "project_name": "9th Annual New Rochelle Street Fair",
+    "dollar_amount": "$5,000",
+    "relevant_date": "2022-09-18",
+    "tags": [
+      "event",
+      "sponsorship",
+      "streetfair"
+    ],
+    "folder": "Events",
+    "source": "document_center"
+  },
+  {
+    "id": 16013,
+    "title": "5507-Response to Bidders Questions",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/16013/5507-Response-to-Bidders-Questions",
+    "description": "This document provides responses to bidder's questions regarding the Sanitary Sewer Enhancements Phase 1G project in New Rochelle. It includes details such as required permits, work hours, and contract duration.",
+    "location": "City of New Rochelle, New York",
+    "coords": {
+      "lat": 40.9200269,
+      "lng": -73.7861994
+    },
+    "classification": "bid",
+    "project_name": "Sanitary Sewer Enhancements Phase 1G",
+    "dollar_amount": null,
+    "relevant_date": "2022-09-16",
+    "tags": [
+      "sewer",
+      "construction",
+      "bid"
+    ],
+    "folder": "Purchasing",
+    "source": "document_center"
+  },
+  {
+    "id": 16101,
+    "title": "5508 Transit Center Redesign RFP - Addendum 1",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/16101/5508-Transit-Center-Redesign-RFP---Addendum-1",
+    "description": "This document is an addendum to the Request for Proposal (RFP) for architecture and design services to redesign the New Rochelle Train Station/Transit Center. It is aimed at making the station more attractive and convenient for the growing number of commuters.",
+    "location": "515 North Avenue, New Rochelle, NY 10801",
+    "coords": {
+      "lat": 40.9201463,
+      "lng": -73.7857973
+    },
+    "classification": "bid",
+    "project_name": "5500 Transit Center Redesign",
+    "dollar_amount": null,
+    "relevant_date": "2022-09-09",
+    "tags": [
+      "transit",
+      "design",
+      "architecture"
+    ],
+    "folder": "Purchasing",
+    "source": "document_center"
+  },
+  {
+    "id": 15980,
+    "title": "RFP-NR-5508 Transit Center Redesign ",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15980/RFP-NR-5508-Transit-Center-Redesign-",
+    "description": "This document is a Request for Proposal (RFP) for architecture and design services to redesign the New Rochelle Train Station/Transit Center. It aims to improve the facility for daily commuters and visitors ahead of the launch of Penn Station Access in 2027.",
+    "location": "515 North Avenue, New Rochelle, NY 10801",
+    "coords": {
+      "lat": 40.9201463,
+      "lng": -73.7857973
+    },
+    "classification": "bid",
+    "project_name": "Train Station/Transit Center Redesign",
+    "dollar_amount": null,
+    "relevant_date": "2022-09-09",
+    "tags": [
+      "transit",
+      "architecture",
+      "design"
+    ],
+    "folder": "Purchasing",
+    "source": "document_center"
+  },
+  {
+    "id": 15981,
+    "title": "RFP-NR-5508 Transit Center Redesign - Final",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15981/RFP-NR-5508-Transit-Center-Redesign---Final",
+    "description": "This document is a Request for Proposal (RFP) for architecture and design services to redesign the New Rochelle Train Station/Transit Center. It aims to improve the facility for daily commuters and visitors ahead of the launch of Penn Station Access in 2027.",
+    "location": "515 North Avenue, New Rochelle, NY 10801",
+    "coords": {
+      "lat": 40.9201463,
+      "lng": -73.7857973
+    },
+    "classification": "bid",
+    "project_name": "Train Station/Transit Center Redesign",
+    "dollar_amount": null,
+    "relevant_date": "2022-09-09",
+    "tags": [
+      "transit",
+      "architecture",
+      "design"
+    ],
+    "folder": "Purchasing",
+    "source": "document_center"
+  },
+  {
+    "id": 15943,
+    "title": "RFB-NR-5506 Supply and Install Fence Anderson Plaza",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15943/RFB-NR-5506-Supply-and-Install-Fence-Anderson-Plaza",
+    "description": "This document is a request for bids to supply and install a fence at Anderson Plaza in New Rochelle. It outlines the requirements and process for submitting a bid.",
+    "location": "Anderson Plaza",
+    "coords": {
+      "lat": 40.9107794,
+      "lng": -73.7809398
+    },
+    "classification": "bid",
+    "project_name": "Supply and Install Fence Anderson Plaza",
+    "dollar_amount": null,
+    "relevant_date": "2022-08-26",
+    "tags": [
+      "fence",
+      "bid",
+      "construction"
+    ],
+    "folder": "Purchasing",
+    "source": "document_center"
+  },
+  {
+    "id": 15957,
+    "title": "5507 - Sanitary Sewer 1F",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15957/5507---Sanitary-Sewer-1F",
+    "description": "This document outlines technical specifications for a sanitary sewer enhancement project in New Rochelle, detailing requirements for bidders including insurance, compliance with labor laws, and specific construction conditions.",
+    "location": "City of New Rochelle, New York",
+    "coords": {
+      "lat": 40.9200269,
+      "lng": -73.7861994
+    },
+    "classification": "bid",
+    "project_name": "SANITARY SEWER ENHANCEMENTS PHASE 1F",
+    "dollar_amount": null,
+    "relevant_date": "2022-08-24",
+    "tags": [
+      "sanitary_sewer",
+      "construction",
+      "bid_specifications"
+    ],
+    "folder": "Purchasing",
+    "source": "document_center"
+  },
+  {
+    "id": 15786,
+    "title": "Copy of NNO Save the date 618",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15786/Copy-of-NNO-Save-the-date-618",
+    "description": "This document announces the National Night Out event organized by the New Rochelle Police Department on August 2, 2022, from 5 PM to 8 PM. It provides details on how to sponsor or participate in the event.",
+    "location": "475 North Ave, New Rochelle, NY 10801",
+    "coords": {
+      "lat": 40.918721,
+      "lng": -73.7863554
+    },
+    "classification": "press_release",
+    "project_name": null,
+    "dollar_amount": null,
+    "relevant_date": "2022-08-02",
+    "tags": [
+      "event",
+      "police",
+      "community"
+    ],
+    "folder": "Police",
+    "source": "document_center"
+  },
+  {
+    "id": 15958,
+    "title": "5507 -Drawings",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15958/5507--Drawings",
+    "description": "This document contains drawings related to a sanitary sewer capacity evaluation project on Cedar Street. It provides detailed measurements and coordinates that are useful for understanding the scope of the project.",
+    "location": "Cedar Street, New Rochelle",
+    "coords": {
+      "lat": 40.9167026,
+      "lng": -73.7807923
+    },
+    "classification": "permit",
+    "project_name": "Sanitary Sewer Capacity Evaluation",
+    "dollar_amount": null,
+    "relevant_date": "2022-07-25",
+    "tags": [
+      "sanitary_sewer",
+      "capacity_evaluation",
+      "drawings"
+    ],
+    "folder": "Purchasing",
+    "source": "document_center"
+  },
+  {
+    "id": 15831,
+    "title": "Agenda - Tuesday, July 19, 2022- Drainage Presentation",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15831/Agenda---Tuesday-July-19-2022--Drainage-Presentation",
+    "description": "This document is an agenda for a meeting on July 19, 2022, focusing on a drainage presentation. It outlines tasks and due dates for a citywide drainage study, which could affect local water management and infrastructure.",
+    "location": "New Rochelle, NY",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "agenda",
+    "project_name": "Citywide Drainage Study",
+    "dollar_amount": null,
+    "relevant_date": "2022-07-19",
+    "tags": [
+      "drainage",
+      "meeting_agenda",
+      "public_works"
+    ],
+    "folder": "Public Works",
+    "source": "document_center"
+  },
+  {
+    "id": 15982,
+    "title": "PRC # 2022006503",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15982/PRC--2022006503",
+    "description": "This document provides the prevailing wage rates and supplements for the painting project of numerous offices in New Rochelle City Hall. It ensures that workers are paid the appropriate wages during the project.",
+    "location": "City Hall, New Rochelle, NY 10801",
+    "coords": {
+      "lat": 40.9201463,
+      "lng": -73.7857973
+    },
+    "classification": "bid",
+    "project_name": "Painting of numerous offices in New Rochelle City Hall",
+    "dollar_amount": null,
+    "relevant_date": "2022-07-01",
+    "tags": [
+      "prevailing_wage",
+      "painting_project",
+      "public_work"
+    ],
+    "folder": "Purchasing",
+    "source": "document_center"
+  },
+  {
+    "id": 15984,
+    "title": "PRC # 2022006503",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15984/PRC--2022006503",
+    "description": "This document provides the prevailing wage rates and supplements for the painting project of numerous offices in New Rochelle City Hall. It ensures that workers are paid the appropriate wages during the project.",
+    "location": "City Hall, New Rochelle, NY 10801",
+    "coords": {
+      "lat": 40.9201463,
+      "lng": -73.7857973
+    },
+    "classification": "bid",
+    "project_name": "Painting of numerous offices in New Rochelle City Hall",
+    "dollar_amount": null,
+    "relevant_date": "2022-07-01",
+    "tags": [
+      "prevailing_wage",
+      "painting_project",
+      "public_work"
+    ],
+    "folder": "Purchasing",
+    "source": "document_center"
+  },
+  {
+    "id": 15988,
+    "title": "PRC 2022010453",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15988/PRC-2022010453",
+    "description": "This document provides the prevailing wage schedule for a public work project in New Rochelle, specifically for an exterior, cold weather Holiday Market. It ensures that workers receive fair wages and benefits.",
+    "location": "City of New Rochelle",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "bid",
+    "project_name": "Holiday Market Infrastructure Project",
+    "dollar_amount": null,
+    "relevant_date": "2022-07-01",
+    "tags": [
+      "prevailing_wage",
+      "public_work",
+      "holiday_market"
+    ],
+    "folder": "Purchasing",
+    "source": "document_center"
+  },
+  {
+    "id": 15732,
+    "title": "RFP-NR-5485 Addendum No 1",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15732/RFP-NR-5485-Addendum-No-1",
+    "description": "This addendum updates the pre-bid site visit details for the City Hall Painting project. It specifies the date and time of the meeting and the location at City Hall.",
+    "location": "515 North Ave., New Rochelle, NY 10801",
+    "coords": {
+      "lat": 40.9201463,
+      "lng": -73.7857973
+    },
+    "classification": "bid",
+    "project_name": "City Hall Painting",
+    "dollar_amount": null,
+    "relevant_date": "2022-06-16",
+    "tags": [
+      "painting",
+      "pre-bid",
+      "site visit"
+    ],
+    "folder": "Purchasing",
+    "source": "document_center"
+  },
+  {
+    "id": 15725,
+    "title": "RFB-NR-5479 Addendum No. 1",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15725/RFB-NR-5479-Addendum-No-1",
+    "description": "This addendum provides answers to questions regarding the Rock Slope Stabilization project at Pelham Road in New Rochelle. It details the project's scope, construction requirements, and timeline, which is important for contractors and residents interested in the project.",
+    "location": "Pelham Road",
+    "coords": {
+      "lat": 40.889576,
+      "lng": -73.7883798
+    },
+    "classification": "bid",
+    "project_name": "Rock Slope Stabilization at Pelham Road",
+    "dollar_amount": null,
+    "relevant_date": "2022-06-13",
+    "tags": [
+      "construction",
+      "contract",
+      "stabilization"
+    ],
+    "folder": "Purchasing",
+    "source": "document_center"
+  },
+  {
+    "id": 15734,
+    "title": "Juneteenth-Program-2022-Updated-8_5x11-Trifold",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15734/Juneteenth-Program-2022-Updated-8_5x11-Trifold",
+    "description": "This document outlines the Juneteenth celebration events held in New Rochelle from June 4 to June 24, 2022, including exhibits, workshops, and concerts. It provides details on various cultural activities and historical retrospectives.",
+    "location": "New Rochelle, NY",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "press_release",
+    "project_name": "Juneteenth Celebration 2022",
+    "dollar_amount": null,
+    "relevant_date": "2022-06-04",
+    "tags": [
+      "cultural_events",
+      "historical_exhibits",
+      "community_activities"
+    ],
+    "folder": "Parks & Recreation",
+    "source": "document_center"
+  },
+  {
+    "id": 15528,
+    "title": "RFB-NR-5448 (DPW Project No. 21-024) Addendum No. 1",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15528/RFB-NR-5448-DPW-Project-No-21-024-Addendum-No-1",
+    "description": "This document is an addendum to a bid for the City Hall Restroom Improvements project. It specifies details such as the total project completion time, site logistics, and abatement scope of work.",
+    "location": "City Hall, New Rochelle, NY",
+    "coords": {
+      "lat": 40.9201463,
+      "lng": -73.7857973
+    },
+    "classification": "bid",
+    "project_name": "City Hall Restroom Improvements",
+    "dollar_amount": null,
+    "relevant_date": "2022-05-06",
+    "tags": [
+      "construction",
+      "bid",
+      "restroom"
+    ],
+    "folder": "Purchasing",
+    "source": "document_center"
+  },
+  {
+    "id": 15513,
+    "title": "RFB-NR-5463 Addendum No. 1",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15513/RFB-NR-5463-Addendum-No-1",
+    "description": "This addendum provides additional details for the 2022 Tree Pruning project in New Rochelle. It includes important information for bidders regarding the prevailing wage rates and holidays.",
+    "location": "City of New Rochelle",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "bid",
+    "project_name": "2022 Tree Pruning",
+    "dollar_amount": null,
+    "relevant_date": "2022-05-03",
+    "tags": [
+      "tree pruning",
+      "prevailing wages",
+      "holidays"
+    ],
+    "folder": "Purchasing",
+    "source": "document_center"
+  },
+  {
+    "id": 15484,
+    "title": "RFP-NR-5447 QUESTIONS -ANSWERS",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15484/RFP-NR-5447-QUESTIONS--ANSWERS",
+    "description": "This document provides answers to questions regarding an RFP for consulting services to establish a civilian complaint review board (CCRB) in New Rochelle. It outlines the background, scope of work, and community outreach efforts related to the CCRB.",
+    "location": "City of New Rochelle",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "bid",
+    "project_name": "Consulting Services CCRB",
+    "dollar_amount": null,
+    "relevant_date": "2022-04-25",
+    "tags": [
+      "ccrb",
+      "consulting",
+      "rfp"
+    ],
+    "folder": "Purchasing",
+    "source": "document_center"
+  },
+  {
+    "id": 15485,
+    "title": "RFP-NR-5447 QUESTIONS AND ANSWERS",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15485/RFP-NR-5447-QUESTIONS-AND-ANSWERS",
+    "description": "This document provides answers to questions about an RFP for consulting services related to the creation of a civilian complaint review board (CCRB) in New Rochelle. It outlines the scope of work, community outreach efforts, and the expected outcomes.",
+    "location": "City of New Rochelle",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "bid",
+    "project_name": "Consulting Services CCRB",
+    "dollar_amount": null,
+    "relevant_date": "2022-04-25",
+    "tags": [
+      "ccrb",
+      "consulting",
+      "rfp"
+    ],
+    "folder": "Purchasing",
+    "source": "document_center"
+  },
+  {
+    "id": 15272,
+    "title": "City of New Rochelle - Phase 1G - Final Bid Specifications",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15272/City-of-New-Rochelle---Phase-1G---Final-Bid-Specifications",
+    "description": "This document contains the final bid specifications for the Sanitary Sewer Enhancements Phase 1G project in New Rochelle, detailing technical requirements and deadlines for contractors.",
+    "location": "City of New Rochelle, New York",
+    "coords": {
+      "lat": 40.9200269,
+      "lng": -73.7861994
+    },
+    "classification": "bid",
+    "project_name": "Sanitary Sewer Enhancements Phase 1G",
+    "dollar_amount": null,
+    "relevant_date": "2022-03-30",
+    "tags": [
+      "sanitary_sewer",
+      "bid_specifications",
+      "construction"
+    ],
+    "folder": "Purchasing",
+    "source": "document_center"
+  },
+  {
+    "id": 15274,
+    "title": "SPEC 5442 SEWER ENHANCEMENTS PHASE 1G BID DOC",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15274/SPEC-5442-SEWER-ENHANCEMENTS-PHASE-1G-BID-DOC",
+    "description": "This document is a technical specification for a bid on sanitary sewer enhancements in New Rochelle, NY. It outlines the requirements and specifications for the project, including testing procedures and protection measures.",
+    "location": "New Rochelle, NY",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "bid",
+    "project_name": "SANITARY SEWER ENHANCEMENTS PHASE 1 G",
+    "dollar_amount": null,
+    "relevant_date": "2022-03-30",
+    "tags": [
+      "sewer",
+      "enhancements",
+      "bid"
+    ],
+    "folder": "Purchasing",
+    "source": "document_center"
+  },
+  {
+    "id": 15351,
+    "title": "Response to Bidders Questions",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15351/Response-to-Bidders-Questions",
+    "description": "This document provides responses to bidder's questions regarding the Sanitary Sewer Enhancements Phase 1 project in New Rochelle. It includes details on how delays caused by utility companies will be handled and clarifies the responsibilities of the contractor.",
+    "location": "City of New Rochelle, New York",
+    "coords": {
+      "lat": 40.9200269,
+      "lng": -73.7861994
+    },
+    "classification": "bid",
+    "project_name": "Sanitary Sewer Enhancements Phase 1",
+    "dollar_amount": null,
+    "relevant_date": "2022-03-25",
+    "tags": [
+      "sanitary_sewer",
+      "bid_response",
+      "construction"
+    ],
+    "folder": "Purchasing",
+    "source": "document_center"
+  },
+  {
+    "id": 15291,
+    "title": "20220315_Ward Acres Public Meeting Presentation_LowRes 2",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15291/20220315_Ward-Acres-Public-Meeting-Presentation_LowRes-2",
+    "description": "This document is the agenda for a public meeting held on March 15, 2022, regarding the Ward Acres Park Master Plan update. It outlines the design team, advisory committee, and the purpose of the meeting, which includes discussing the park's future improvements.",
+    "location": "Ward Acres Park",
+    "coords": {
+      "lat": 40.9585769,
+      "lng": -73.7816711
+    },
+    "classification": "agenda",
+    "project_name": "Ward Acres Park Master Plan Update",
+    "dollar_amount": null,
+    "relevant_date": "2022-03-15",
+    "tags": [
+      "public_meeting",
+      "park_plan",
+      "master_plan"
+    ],
+    "folder": "Parks & Recreation",
+    "source": "document_center"
+  },
+  {
+    "id": 15270,
+    "title": "21-020 Addendum 1_Final",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15270/21-020-Addendum-1_Final",
+    "description": "This addendum updates the technical specifications and construction drawings for the City Hall Employee Entrance Improvements project, including changes to bidder's proposals and construction plans.",
+    "location": "City Hall, New Rochelle, NY",
+    "coords": {
+      "lat": 40.9201463,
+      "lng": -73.7857973
+    },
+    "classification": "bid",
+    "project_name": "City Hall Employee Entrance Improvements",
+    "dollar_amount": null,
+    "relevant_date": "2022-03-15",
+    "tags": [
+      "construction",
+      "bid",
+      "addendum"
+    ],
+    "folder": "Purchasing",
+    "source": "document_center"
+  },
+  {
+    "id": 15153,
+    "title": "RFB-NR-5432 Fort Slocum",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15153/RFB-NR-5432-Fort-Slocum",
+    "description": "This document is a request for bids to repair the dock at Fort Slocum. It outlines the process for submitting bids and specifies the deadline.",
+    "location": "Fort Slocum",
+    "coords": {
+      "lat": 40.8924931,
+      "lng": -73.7825369
+    },
+    "classification": "bid",
+    "project_name": "Repair of Fort Slocum Dock",
+    "dollar_amount": null,
+    "relevant_date": "2022-03-02",
+    "tags": [
+      "repair",
+      "dock",
+      "bid"
+    ],
+    "folder": "Purchasing",
+    "source": "document_center"
+  },
+  {
+    "id": 15171,
+    "title": "RFB-NR-5431 Supply and Install Bleachers",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15171/RFB-NR-5431-Supply-and-Install-Bleachers",
+    "description": "This document is a request for bids to supply and install bleachers for the City of New Rochelle. It outlines the process and requirements for submitting a bid.",
+    "location": "New Rochelle, NY",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "bid",
+    "project_name": "Supply and Install Bleachers",
+    "dollar_amount": null,
+    "relevant_date": "2022-02-24",
+    "tags": [
+      "bleachers",
+      "supply",
+      "install"
+    ],
+    "folder": "Purchasing",
+    "source": "document_center"
+  },
+  {
+    "id": 15154,
+    "title": "5432 PREVAILING WAGE",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15154/5432-PREVAILING-WAGE",
+    "description": "This document provides the prevailing wage rates and supplements for a public work project to repair damage to the Fort Slocum Dock in New Rochelle. It is essential for contractors bidding on the project to ensure compliance with wage requirements.",
+    "location": "95 Fort Slocum Road, New Rochelle, NY 10801",
+    "coords": {
+      "lat": 40.8921995,
+      "lng": -73.7825201
+    },
+    "classification": "bid",
+    "project_name": "Fort Slocum Dock Repair",
+    "dollar_amount": null,
+    "relevant_date": "2022-02-16",
+    "tags": [
+      "prevailing_wage",
+      "public_work",
+      "contractor"
+    ],
+    "folder": "Purchasing",
+    "source": "document_center"
+  },
+  {
+    "id": 15156,
+    "title": "5432 PREVAILING WAGE",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15156/5432-PREVAILING-WAGE",
+    "description": "This document provides the prevailing wage rates and supplements for a public work project to repair damage to the Fort Slocum Dock in New Rochelle. It is essential for contractors bidding on the project to ensure compliance with wage requirements.",
+    "location": "95 Fort Slocum Road, New Rochelle, NY 10801",
+    "coords": {
+      "lat": 40.8921995,
+      "lng": -73.7825201
+    },
+    "classification": "bid",
+    "project_name": "Fort Slocum Dock Repair",
+    "dollar_amount": null,
+    "relevant_date": "2022-02-16",
+    "tags": [
+      "prevailing_wage",
+      "public_work",
+      "contractor"
+    ],
+    "folder": "Purchasing",
+    "source": "document_center"
+  },
+  {
+    "id": 15123,
+    "title": "5423 Addenda_2",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15123/5423-Addenda_2",
+    "description": "This addendum provides clarifications and revisions to the bidding process for the 1923 Building Renovations project in Flowers Park. It is important for residents interested in the renovation project and those involved in the bidding process.",
+    "location": "Flowers Park",
+    "coords": {
+      "lat": 40.9305224,
+      "lng": -73.7716738
+    },
+    "classification": "bid",
+    "project_name": "1923 Building Renovations",
+    "dollar_amount": null,
+    "relevant_date": "2022-02-11",
+    "tags": [
+      "renovation",
+      "bidding",
+      "addendum"
+    ],
+    "folder": "Purchasing",
+    "source": "document_center"
+  },
+  {
+    "id": 15122,
+    "title": "5423 Substitution Request",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15122/5423-Substitution-Request",
+    "description": "This document is a substitution request for metal lockers in the 1923 Building Renovation project. It details the proposed substitution of Tufftec Lockers by Scranton Products, which has been approved.",
+    "location": "New Rochelle, NY",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "bid",
+    "project_name": "1923 Building Renovation",
+    "dollar_amount": null,
+    "relevant_date": "2022-02-03",
+    "tags": [
+      "substitution_request",
+      "building_renovation",
+      "lockers"
+    ],
+    "folder": "Purchasing",
+    "source": "document_center"
+  },
+  {
+    "id": 15180,
+    "title": "21-020 Employee Entrance Improvements_Project Drawings",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15180/21-020-Employee-Entrance-Improvements_Project-Drawings",
+    "description": "This document contains project drawings for improvements to the City Hall employee entrance located at 515 North Avenue, New Rochelle, NY. It includes detailed plans and drawings that outline the proposed changes.",
+    "location": "515 North Avenue, New Rochelle, NY 10801",
+    "coords": {
+      "lat": 40.9201463,
+      "lng": -73.7857973
+    },
+    "classification": "construction",
+    "project_name": "City Hall Employee Entrance Improvements",
+    "dollar_amount": null,
+    "relevant_date": "2022-02-01",
+    "tags": [
+      "city_hall",
+      "improvements",
+      "drawings"
+    ],
+    "folder": "Purchasing",
+    "source": "document_center"
+  },
+  {
+    "id": 17036,
+    "title": "Final 2022 Annual Report Binder",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/17036/Final-2022-Annual-Report-Binder",
+    "description": "This document is the 2022 Annual Report for the New Rochelle Police Department, providing statistics on crime rates, arrests, personnel demographics, and comparisons with similar municipalities.",
+    "location": "New Rochelle",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "report",
+    "project_name": null,
+    "dollar_amount": null,
+    "relevant_date": "2022",
+    "tags": [
+      "police",
+      "annual_report",
+      "crime_statistics"
+    ],
+    "folder": "Police",
     "source": "document_center"
   },
   {
@@ -239,6 +2241,50 @@
       "utilities"
     ],
     "folder": "Purchasing",
+    "source": "document_center"
+  },
+  {
+    "id": 15761,
+    "title": "Stephenson Blvd",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15761/Stephenson-Blvd",
+    "description": "This document is a property map for Stephenson Blvd, detailing zoning, parcels, building footprints, and paved roads. It provides valuable information for residents interested in local land use and development.",
+    "location": "Stephenson Blvd, New Rochelle, NY",
+    "coords": {
+      "lat": 40.9161706,
+      "lng": -73.7729905
+    },
+    "classification": "permit",
+    "project_name": null,
+    "dollar_amount": null,
+    "relevant_date": "2021-10-28",
+    "tags": [
+      "land_use",
+      "zoning",
+      "property_map"
+    ],
+    "folder": "Public Works",
+    "source": "document_center"
+  },
+  {
+    "id": 15763,
+    "title": "Stephenson Blvd-P",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15763/Stephenson-Blvd-P",
+    "description": "This document is a property map for Stephenson Blvd in New Rochelle, showing zoning, parcels, building footprints, and paved roads. It provides detailed spatial information useful for residents interested in local land use and planning.",
+    "location": "Stephenson Blvd, New Rochelle, NY",
+    "coords": {
+      "lat": 40.9161706,
+      "lng": -73.7729905
+    },
+    "classification": "property_map",
+    "project_name": null,
+    "dollar_amount": null,
+    "relevant_date": "2021-10-28",
+    "tags": [
+      "property_map",
+      "zoning",
+      "land_use"
+    ],
+    "folder": "Public Works",
     "source": "document_center"
   },
   {
@@ -968,6 +3014,28 @@
     "source": "document_center"
   },
   {
+    "id": 16157,
+    "title": "Exhibit C - Submittals",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/16157/Exhibit-C---Submittals",
+    "description": "This document specifies the requirements for aluminum fencing and gates, including material specifications, performance standards, and installation procedures. It is important for residents interested in understanding the quality and durability of new fencing projects.",
+    "location": "Anderson Plaza, New Rochelle, NY",
+    "coords": {
+      "lat": 40.9107794,
+      "lng": -73.7809398
+    },
+    "classification": "specification",
+    "project_name": "Anderson Plaza",
+    "dollar_amount": null,
+    "relevant_date": "2021-03-01",
+    "tags": [
+      "fencing",
+      "construction",
+      "specifications"
+    ],
+    "folder": "Purchasing",
+    "source": "document_center"
+  },
+  {
     "id": 13571,
     "title": "FINAL_POLICEREFORM_MARCH",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/13571/FINAL_POLICEREFORM_MARCH",
@@ -1117,6 +3185,28 @@
       "contract",
       "plumbing",
       "construction"
+    ],
+    "folder": "Purchasing",
+    "source": "document_center"
+  },
+  {
+    "id": 15121,
+    "title": "5423 Q and A",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15121/5423-Q-and-A",
+    "description": "This document provides clarifications and answers to questions regarding the 1923 Building Renovation project, including details on asbestos removal, demolition, and roof work. It is important for contractors and residents interested in the renovation process.",
+    "location": "515 North Avenue, New Rochelle, NY 10801",
+    "coords": {
+      "lat": 40.9201463,
+      "lng": -73.7857973
+    },
+    "classification": "bid",
+    "project_name": "1923 Building Renovation",
+    "dollar_amount": null,
+    "relevant_date": "2021-02-11",
+    "tags": [
+      "renovation",
+      "asbestos",
+      "demolition"
     ],
     "folder": "Purchasing",
     "source": "document_center"
@@ -1386,6 +3476,28 @@
     "source": "document_center"
   },
   {
+    "id": 15364,
+    "title": "2021 MS4 Report_DRAFT",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15364/2021-MS4-Report_DRAFT",
+    "description": "This is a draft of the 2021 Municipal Separate Storm Sewer System (MS4) report by the Public Works department. It likely details stormwater management efforts and compliance measures which can inform residents about local environmental initiatives.",
+    "location": "New Rochelle",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "report",
+    "project_name": null,
+    "dollar_amount": null,
+    "relevant_date": "2021",
+    "tags": [
+      "stormwater",
+      "environmental",
+      "public_works"
+    ],
+    "folder": "Public Works",
+    "source": "document_center"
+  },
+  {
     "id": 13250,
     "title": "2021 North End Collection Schedule",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/13250/2021-North-End-Collection-Schedule",
@@ -1426,6 +3538,28 @@
       "recycling",
       "collection",
       "schedule"
+    ],
+    "folder": "Public Works",
+    "source": "document_center"
+  },
+  {
+    "id": 15880,
+    "title": "Hazard Mitigation Plan New Rochelle 2021",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15880/Hazard-Mitigation-Plan-New-Rochelle-2021",
+    "description": "This document is a hazard mitigation plan for New Rochelle, detailing strategies to reduce risks from natural disasters and emergencies. It is useful for residents who want to understand how the city plans to protect them from potential hazards.",
+    "location": "New Rochelle",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "report",
+    "project_name": null,
+    "dollar_amount": null,
+    "relevant_date": "2021",
+    "tags": [
+      "hazard_mitigation",
+      "emergency_planning",
+      "public_safety"
     ],
     "folder": "Public Works",
     "source": "document_center"
@@ -1472,6 +3606,28 @@
       "employment"
     ],
     "folder": "Human Resources",
+    "source": "document_center"
+  },
+  {
+    "id": 15716,
+    "title": "NRPD Annual Report 2021",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15716/NRPD-Annual-Report-2021",
+    "description": "The NRPD Annual Report 2021 provides an overview of the New Rochelle Police Department's activities and achievements throughout the year, including compliance with police reform initiatives, implementation of body-worn cameras, and restructuring efforts.",
+    "location": "City of New Rochelle",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "report",
+    "project_name": null,
+    "dollar_amount": null,
+    "relevant_date": "2021",
+    "tags": [
+      "police",
+      "annual_report",
+      "reform"
+    ],
+    "folder": "Police",
     "source": "document_center"
   },
   {
@@ -2064,6 +4220,28 @@
       "construction",
       "precast",
       "bid"
+    ],
+    "folder": "Purchasing",
+    "source": "document_center"
+  },
+  {
+    "id": 16386,
+    "title": "5535 - Construction Planset (1)",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/16386/5535---Construction-Planset-1",
+    "description": "This document contains construction plans for a project in New Rochelle, detailing specifications and requirements for the work to be done under the contract. It is important for residents who want to know about upcoming construction activities in their area.",
+    "location": "City of New Rochelle, Westchester County",
+    "coords": {
+      "lat": 40.9200269,
+      "lng": -73.7861994
+    },
+    "classification": "construction",
+    "project_name": "8759.00",
+    "dollar_amount": null,
+    "relevant_date": "2020-10-14",
+    "tags": [
+      "construction",
+      "plans",
+      "contract"
     ],
     "folder": "Purchasing",
     "source": "document_center"
@@ -2748,6 +4926,28 @@
       "budget"
     ],
     "folder": "Finance",
+    "source": "document_center"
+  },
+  {
+    "id": 15048,
+    "title": "Annual report 2020",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15048/Annual-report-2020",
+    "description": "This report details the achievements and initiatives of the New Rochelle Police Department in 2020, including responses to the COVID-19 pandemic and crime reduction efforts.",
+    "location": "City of New Rochelle",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "report",
+    "project_name": null,
+    "dollar_amount": null,
+    "relevant_date": "2020",
+    "tags": [
+      "police",
+      "annual_report",
+      "crime_reduction"
+    ],
+    "folder": "Police",
     "source": "document_center"
   },
   {
@@ -6405,6 +8605,28 @@
     "source": "document_center"
   },
   {
+    "id": 15849,
+    "title": "01_Front End REBID Specification_Full Set",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15849/01_Front-End-REBID-Specification_Full-Set",
+    "description": "This document is an invitation to bidders for a re-bid specification project by the Department of Public Works in New Rochelle. It outlines the procedures and requirements for submitting a bid, including insurance, compliance with labor laws, and prevailing wage rates.",
+    "location": "515 North Avenue, New Rochelle, NY 10801",
+    "coords": {
+      "lat": 40.9201463,
+      "lng": -73.7857973
+    },
+    "classification": "bid",
+    "project_name": "Front End REBID Specification",
+    "dollar_amount": null,
+    "relevant_date": null,
+    "tags": [
+      "rebidding",
+      "public_works",
+      "construction"
+    ],
+    "folder": "Purchasing",
+    "source": "document_center"
+  },
+  {
     "id": 12640,
     "title": "105 Fifth Avenue",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/12640/105-Fifth-Avenue",
@@ -6757,6 +8979,50 @@
     "source": "document_center"
   },
   {
+    "id": 15181,
+    "title": "21-020 Employee Entrance Improvements_Project Manual",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15181/21-020-Employee-Entrance-Improvements_Project-Manual",
+    "description": "This document is a contract document for the 'Employee Entrance Improvements' project by the Department of Public Works. It outlines the bidding process and requirements for contractors interested in participating.",
+    "location": "515 North Avenue, New Rochelle, NY 10801",
+    "coords": {
+      "lat": 40.9201463,
+      "lng": -73.7857973
+    },
+    "classification": "bid",
+    "project_name": "Employee Entrance Improvements",
+    "dollar_amount": null,
+    "relevant_date": null,
+    "tags": [
+      "contract",
+      "bidding",
+      "public_works"
+    ],
+    "folder": "Purchasing",
+    "source": "document_center"
+  },
+  {
+    "id": 14984,
+    "title": "21-032 Drawings  Pedestrian Bridge Replacement",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/14984/21-032-Drawings--Pedestrian-Bridge-Replacement",
+    "description": "This document contains drawings for the replacement of a pedestrian bridge on Puritan Drive in New Rochelle. It includes details such as existing grade, sidewalk materials, and curb ramp specifications, which are important for understanding the scope of the construction project.",
+    "location": "Puritan Drive, New Rochelle",
+    "coords": {
+      "lat": 40.9767369,
+      "lng": -73.7832931
+    },
+    "classification": "construction",
+    "project_name": "Pedestrian Bridge Replacement",
+    "dollar_amount": null,
+    "relevant_date": null,
+    "tags": [
+      "construction",
+      "pedestrian",
+      "bridge"
+    ],
+    "folder": "Purchasing",
+    "source": "document_center"
+  },
+  {
     "id": 12641,
     "title": "212 Hamilton Avenue",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/12641/212-Hamilton-Avenue",
@@ -6818,6 +9084,50 @@
       "concrete",
       "pavement",
       "specifications"
+    ],
+    "folder": "Purchasing",
+    "source": "document_center"
+  },
+  {
+    "id": 16041,
+    "title": "5515 Complete Streets ",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/16041/5515-Complete-Streets-",
+    "description": "This document is a Request for Proposal (RFP) for consulting services to update the city-wide complete streets analysis and to conduct a study for Pinebrook Boulevard. The goal is to enhance safety and accessibility for all users, including pedestrians, cyclists, and motorists.",
+    "location": "Pinebrook Boulevard, New Rochelle, NY",
+    "coords": {
+      "lat": 40.9535398,
+      "lng": -73.7770797
+    },
+    "classification": "bid",
+    "project_name": "City-Wide Complete Streets Update/Pinebrook Boulevard Complete Streets",
+    "dollar_amount": null,
+    "relevant_date": null,
+    "tags": [
+      "complete_streets",
+      "consulting_services",
+      "road_design"
+    ],
+    "folder": "Purchasing",
+    "source": "document_center"
+  },
+  {
+    "id": 16117,
+    "title": "5515 Complete Streets - Revised 10.05.22",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/16117/5515-Complete-Streets---Revised-100522",
+    "description": "This document is a Request for Proposal (RFP) for consulting services to update the city-wide complete streets analysis and to conduct a study for Pinebrook Boulevard. The goal is to enhance safety and accessibility for all road users.",
+    "location": "Pinebrook Boulevard, New Rochelle, NY",
+    "coords": {
+      "lat": 40.9535398,
+      "lng": -73.7770797
+    },
+    "classification": "bid",
+    "project_name": "City-Wide Complete Streets Update/Pinebrook Boulevard Complete Streets",
+    "dollar_amount": null,
+    "relevant_date": null,
+    "tags": [
+      "complete_streets",
+      "consulting_services",
+      "road_safety"
     ],
     "folder": "Purchasing",
     "source": "document_center"
@@ -7043,6 +9353,28 @@
     "source": "document_center"
   },
   {
+    "id": 16425,
+    "title": "CNR_2023_Complete_8Pg 010523_Fix",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/16425/CNR_2023_Complete_8Pg-010523_Fix",
+    "description": "This document provides comprehensive information and schedules for various services managed by the Department of Public Works, including refuse collection, street maintenance, and prohibited items for disposal. It helps residents understand how to properly dispose of household items and stay informed about city services.",
+    "location": "City of New Rochelle",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "report",
+    "project_name": null,
+    "dollar_amount": null,
+    "relevant_date": null,
+    "tags": [
+      "public works",
+      "refuse collection",
+      "disposal"
+    ],
+    "folder": "Public Works",
+    "source": "document_center"
+  },
+  {
     "id": 6786,
     "title": "CNR_DPW_2017_FINAL",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/6786/CNR_DPW_2017_FINAL",
@@ -7106,6 +9438,50 @@
       "overlay_districts"
     ],
     "folder": "Development",
+    "source": "document_center"
+  },
+  {
+    "id": 15503,
+    "title": "CPPB Profiles 2022",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15503/CPPB-Profiles-2022",
+    "description": "This document provides profiles of members of the Community-Police Partnership Board (CPPB) in New Rochelle, detailing their backgrounds and roles in promoting community-police relations and justice initiatives.",
+    "location": "New Rochelle",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "report",
+    "project_name": null,
+    "dollar_amount": null,
+    "relevant_date": null,
+    "tags": [
+      "police",
+      "community",
+      "board"
+    ],
+    "folder": "Policing Review Committee",
+    "source": "document_center"
+  },
+  {
+    "id": 17152,
+    "title": "CPPB Profiles_2023",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/17152/CPPB-Profiles_2023",
+    "description": "This document provides profiles of members of the Community-Police Partnership Board (CPPB) in New Rochelle, detailing their backgrounds and roles in promoting community policing and justice initiatives.",
+    "location": "New Rochelle",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "report",
+    "project_name": null,
+    "dollar_amount": null,
+    "relevant_date": null,
+    "tags": [
+      "police",
+      "community",
+      "board"
+    ],
+    "folder": "Policing Review Committee",
     "source": "document_center"
   },
   {
@@ -7258,6 +9634,28 @@
       "garbage collection",
       "yard waste",
       "schedule"
+    ],
+    "folder": "Public Works",
+    "source": "document_center"
+  },
+  {
+    "id": 20559,
+    "title": "DRAFT City of New Rochelle SWMPAR 2025",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/20559/DRAFT-City-of-New-Rochelle-SWMPAR-2025",
+    "description": "This draft report details the progress of the City of New Rochelle's stormwater management program, including updates on system mapping and compliance with regulatory requirements. It provides insight into the city's efforts to manage stormwater and prevent pollution.",
+    "location": "New Rochelle, NY",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "report",
+    "project_name": "SWMPAR 2025",
+    "dollar_amount": null,
+    "relevant_date": null,
+    "tags": [
+      "stormwater",
+      "management",
+      "report"
     ],
     "folder": "Public Works",
     "source": "document_center"
@@ -7417,6 +9815,29 @@
     "source": "document_center"
   },
   {
+    "id": 16159,
+    "title": "Exhibit D - Submittals",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/16159/Exhibit-D---Submittals",
+    "description": "This document outlines specifications for exterior stainless-steel hand railings and screen fences for a construction project in New Rochelle. It details the materials, installation standards, and references to industry standards, which are important for contractors bidding on the project.",
+    "location": "Anderson Plaza",
+    "coords": {
+      "lat": 40.9107794,
+      "lng": -73.7809398
+    },
+    "classification": "specification",
+    "project_name": "Anderson Plaza",
+    "dollar_amount": null,
+    "relevant_date": null,
+    "tags": [
+      "construction",
+      "specifications",
+      "stainless-steel",
+      "hand-railings"
+    ],
+    "folder": "Purchasing",
+    "source": "document_center"
+  },
+  {
     "id": 6442,
     "title": "FACT SHEET",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/6442/FACT-SHEET",
@@ -7461,6 +9882,28 @@
     "source": "document_center"
   },
   {
+    "id": 16092,
+    "title": "Fall Events Calendar 2022 (Letter)",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/16092/Fall-Events-Calendar-2022-Letter",
+    "description": "This document provides a calendar of fall events in New Rochelle, including arts festivals, parades, and community activities. It is useful for residents who want to participate in local events and activities.",
+    "location": "New Rochelle",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "other",
+    "project_name": null,
+    "dollar_amount": null,
+    "relevant_date": null,
+    "tags": [
+      "events",
+      "calendar",
+      "community"
+    ],
+    "folder": "Events",
+    "source": "document_center"
+  },
+  {
     "id": 8561,
     "title": "Featured Business Program 20171010",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/8561/Featured-Business-Program-20171010",
@@ -7484,6 +9927,28 @@
     "source": "document_center"
   },
   {
+    "id": 15019,
+    "title": "Fields Fee Schedule",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15019/Fields-Fee-Schedule",
+    "description": "This document outlines the fee schedule for various fields managed by the Parks & Recreation department. It is useful for residents who wish to use these facilities and need to know the associated costs.",
+    "location": "New Rochelle, NY",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "report",
+    "project_name": null,
+    "dollar_amount": null,
+    "relevant_date": null,
+    "tags": [
+      "fees",
+      "parks",
+      "recreation"
+    ],
+    "folder": "Parks & Recreation",
+    "source": "document_center"
+  },
+  {
     "id": 2972,
     "title": "Fish Cleaning and Disposal Rules",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/2972/Fish-Cleaning-and-Disposal-Rules",
@@ -7503,6 +9968,72 @@
       "disposal"
     ],
     "folder": "Marina",
+    "source": "document_center"
+  },
+  {
+    "id": 17415,
+    "title": "Flood Mitigation Overview",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/17415/Flood-Mitigation-Overview",
+    "description": "This document provides an overview of flood mitigation efforts in New Rochelle, detailing measures taken to reduce flood risks and protect residents.",
+    "location": "New Rochelle",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "report",
+    "project_name": null,
+    "dollar_amount": null,
+    "relevant_date": null,
+    "tags": [
+      "flood",
+      "mitigation",
+      "public_works"
+    ],
+    "folder": "Public Works",
+    "source": "document_center"
+  },
+  {
+    "id": 16568,
+    "title": "Grow Lincoln Community Garden App",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/16568/Grow-Lincoln-Community-Garden-App",
+    "description": "This document outlines the guidelines and agreement for the grow! LINCOLN PARK COMMUNITY GARDEN, including registration details, policies, and fees for leasing raised beds. It provides important information for those interested in participating in the community garden.",
+    "location": "Lincoln Avenue, New Rochelle, New York 10801",
+    "coords": {
+      "lat": 40.9177279,
+      "lng": -73.7867067
+    },
+    "classification": "other",
+    "project_name": "grow! LINCOLN PARK COMMUNITY GARDEN",
+    "dollar_amount": "$35",
+    "relevant_date": null,
+    "tags": [
+      "community_garden",
+      "parks_and_recreation",
+      "guidelines"
+    ],
+    "folder": "Parks & Recreation",
+    "source": "document_center"
+  },
+  {
+    "id": 19695,
+    "title": "Helpsy Clothing Recycling in New Rochelle",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/19695/Helpsy-Clothing-Recycling-in-New-Rochelle",
+    "description": "New Rochelle has partnered with Helpsy to offer free home pickup clothing recycling services to residents. This initiative aims to reduce the amount of clothing ending up in landfills and incinerators.",
+    "location": "New Rochelle",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "press_release",
+    "project_name": "Helpsy Clothing Recycling",
+    "dollar_amount": null,
+    "relevant_date": null,
+    "tags": [
+      "recycling",
+      "clothing",
+      "environment"
+    ],
+    "folder": "Public Works",
     "source": "document_center"
   },
   {
@@ -8518,6 +11049,28 @@
     "source": "document_center"
   },
   {
+    "id": 15741,
+    "title": "New Rochelle Spanish Flyer WO Date",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15741/New-Rochelle-Spanish-Flyer-WO-Date",
+    "description": "This flyer promotes a smoke alarm installation campaign called 'Activa tu Alarma' in New Rochelle. It encourages residents to request free smoke alarms for their homes.",
+    "location": "New Rochelle, New York",
+    "coords": {
+      "lat": 40.9114273,
+      "lng": -73.7842096
+    },
+    "classification": "press_release",
+    "project_name": "Activa tu Alarma",
+    "dollar_amount": null,
+    "relevant_date": null,
+    "tags": [
+      "smoke_alarms",
+      "fire_safety",
+      "community"
+    ],
+    "folder": "Fire",
+    "source": "document_center"
+  },
+  {
     "id": 198,
     "title": "New Rochelle Street Section Map",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/198/New-Rochelle-Street-Section-Map",
@@ -8537,6 +11090,28 @@
       "public_works"
     ],
     "folder": "Public Works",
+    "source": "document_center"
+  },
+  {
+    "id": 16732,
+    "title": "New Rochelle Youth Council",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/16732/New-Rochelle-Youth-Council",
+    "description": "This document provides an overview of the New Rochelle Youth Council, including its history, activities, and signature events. It is useful for residents interested in community service and youth-related initiatives.",
+    "location": "New Rochelle, NY",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "other",
+    "project_name": null,
+    "dollar_amount": null,
+    "relevant_date": null,
+    "tags": [
+      "youth",
+      "community",
+      "service"
+    ],
+    "folder": "Youth Bureau",
     "source": "document_center"
   },
   {
@@ -8585,6 +11160,28 @@
     "source": "document_center"
   },
   {
+    "id": 15411,
+    "title": "PERT - Manual (5)",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15411/PERT---Manual-5",
+    "description": "This document is a manual for the Professional Employment Readiness Techniques (PERT) program run by the New Rochelle Youth Bureau. It outlines the bureau's mission to prevent juvenile delinquency and offers guidance on communication skills and appearance for young people.",
+    "location": "515 North Avenue - New Rochelle, NY",
+    "coords": {
+      "lat": 40.9201463,
+      "lng": -73.7857973
+    },
+    "classification": "report",
+    "project_name": "PERT Program",
+    "dollar_amount": "$15,000.00",
+    "relevant_date": null,
+    "tags": [
+      "youth_program",
+      "employment_skills",
+      "community_services"
+    ],
+    "folder": "Youth Bureau",
+    "source": "document_center"
+  },
+  {
     "id": 4201,
     "title": "Parks Maps",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/4201/Parks-Maps",
@@ -8602,6 +11199,28 @@
       "parks",
       "recreation",
       "facilities"
+    ],
+    "folder": "Parks & Recreation",
+    "source": "document_center"
+  },
+  {
+    "id": 17056,
+    "title": "Paws Place Rules and Regs",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/17056/Paws-Place-Rules-and-Regs",
+    "description": "This document outlines the rules and regulations for using the Paws Place Dog Park at Ward Acres, including requirements for dog passes, owner responsibilities, and restrictions on dog behavior and access.",
+    "location": "Ward Acres, New Rochelle",
+    "coords": {
+      "lat": 40.9585769,
+      "lng": -73.7816711
+    },
+    "classification": "other",
+    "project_name": null,
+    "dollar_amount": null,
+    "relevant_date": null,
+    "tags": [
+      "dog_park",
+      "rules",
+      "regulations"
     ],
     "folder": "Parks & Recreation",
     "source": "document_center"
@@ -8626,6 +11245,28 @@
       "supermarkets"
     ],
     "folder": "Public Works",
+    "source": "document_center"
+  },
+  {
+    "id": 15035,
+    "title": "ProjLife",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15035/ProjLife",
+    "description": "Project Lifesaver is a program designed to help individuals with Autism, Dementia, and other developmental disabilities who may wander off and get lost. It uses wristband transmitters to track them.",
+    "location": "New Rochelle",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "press_release",
+    "project_name": "Project Lifesaver",
+    "dollar_amount": "$300",
+    "relevant_date": null,
+    "tags": [
+      "project_lifesaver",
+      "autism",
+      "dementia"
+    ],
+    "folder": "Police",
     "source": "document_center"
   },
   {
@@ -8783,6 +11424,248 @@
     "source": "document_center"
   },
   {
+    "id": 15509,
+    "title": "RFB-NR-5463",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15509/RFB-NR-5463",
+    "description": "This document is a request for a bid (RFB-NR-5463) from the Department of Finance for tree-related services including raising, deadwooding, and reducing trees near houses and driveways.",
+    "location": "15 Lovell Rd, New Rochelle, NY",
+    "coords": {
+      "lat": 40.949193,
+      "lng": -73.7954252
+    },
+    "classification": "bid",
+    "project_name": null,
+    "dollar_amount": null,
+    "relevant_date": null,
+    "tags": [
+      "trees",
+      "maintenance",
+      "contract"
+    ],
+    "folder": "Purchasing",
+    "source": "document_center"
+  },
+  {
+    "id": 15613,
+    "title": "RFB-NR-5469",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15613/RFB-NR-5469",
+    "description": "This document is a request for a bid (RFB-NR-5469) from the Department of Finance in New Rochelle, NY. It includes a table for calculating toll costs for various trips, which is likely part of a larger procurement process.",
+    "location": "515 North Avenue, New Rochelle, NY 10801",
+    "coords": {
+      "lat": 40.9201463,
+      "lng": -73.7857973
+    },
+    "classification": "bid",
+    "project_name": null,
+    "dollar_amount": null,
+    "relevant_date": null,
+    "tags": [
+      "procurement",
+      "toll",
+      "finance"
+    ],
+    "folder": "Purchasing",
+    "source": "document_center"
+  },
+  {
+    "id": 15614,
+    "title": "RFB-NR-5469",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15614/RFB-NR-5469",
+    "description": "This document is a request for a bid (RFB-NR-5469) from the Department of Finance in New Rochelle, NY. It includes a table for calculating toll costs for various trips, which is likely part of a larger procurement process.",
+    "location": "515 North Avenue, New Rochelle, NY 10801",
+    "coords": {
+      "lat": 40.9201463,
+      "lng": -73.7857973
+    },
+    "classification": "bid",
+    "project_name": null,
+    "dollar_amount": null,
+    "relevant_date": null,
+    "tags": [
+      "procurement",
+      "toll",
+      "finance"
+    ],
+    "folder": "Purchasing",
+    "source": "document_center"
+  },
+  {
+    "id": 15714,
+    "title": "RFB-NR-5484",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15714/RFB-NR-5484",
+    "description": "This document is a request for a bid (RFB) for toll costs associated with vehicles traveling to various locations. It provides a template for vendors to fill in specific toll costs and mileage details.",
+    "location": "22 Pelham Road",
+    "coords": {
+      "lat": 40.8922107,
+      "lng": -73.7861302
+    },
+    "classification": "bid",
+    "project_name": null,
+    "dollar_amount": null,
+    "relevant_date": null,
+    "tags": [
+      "toll",
+      "vehicles",
+      "bid"
+    ],
+    "folder": "Purchasing",
+    "source": "document_center"
+  },
+  {
+    "id": 15809,
+    "title": "RFB-NR-5497 Removal City Owned Trees Boles and Stumps",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15809/RFB-NR-5497-Removal-City-Owned-Trees-Boles-and-Stumps",
+    "description": "This document is a request for bids to remove city-owned trees, boles, and stumps in New Rochelle. It is relevant for residents interested in city maintenance and landscaping projects.",
+    "location": "New Rochelle",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "bid",
+    "project_name": "Removal of City-Owned Trees Boles and Stumps",
+    "dollar_amount": null,
+    "relevant_date": null,
+    "tags": [
+      "trees",
+      "stumps",
+      "removal"
+    ],
+    "folder": "Purchasing",
+    "source": "document_center"
+  },
+  {
+    "id": 16049,
+    "title": "RFB-NR-5518 Supply and Install Fence 224 Main Street",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/16049/RFB-NR-5518-Supply-and-Install-Fence-224-Main-Street",
+    "description": "This document is a request for bid to supply and install a fence at 224 Main Street in New Rochelle. It is relevant for contractors and residents interested in local construction projects.",
+    "location": "224 Main Street",
+    "coords": {
+      "lat": 40.9016897,
+      "lng": -73.7922486
+    },
+    "classification": "bid",
+    "project_name": "Supply and Install Fence 224 Main Street",
+    "dollar_amount": null,
+    "relevant_date": null,
+    "tags": [
+      "construction",
+      "fence",
+      "bid"
+    ],
+    "folder": "Purchasing",
+    "source": "document_center"
+  },
+  {
+    "id": 16428,
+    "title": "RFB-NR-5546 Sprinkler Replacement",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/16428/RFB-NR-5546-Sprinkler-Replacement",
+    "description": "This document is an invitation to bid for the replacement of sprinklers in New Rochelle. It includes details on the requirements and specifications for the installation, which is important for residents interested in local infrastructure improvements.",
+    "location": "New Rochelle, NY",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "bid",
+    "project_name": "Sprinkler Replacement",
+    "dollar_amount": null,
+    "relevant_date": null,
+    "tags": [
+      "sprinkler",
+      "replacement",
+      "bid"
+    ],
+    "folder": "Purchasing",
+    "source": "document_center"
+  },
+  {
+    "id": 15055,
+    "title": "RFP-NR-5428",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15055/RFP-NR-5428",
+    "description": "This document is an RFP (Request for Proposal) from the City of New Rochelle's Department of Finance, seeking proposals for unspecified services or projects. It includes rate sheets and a watershed map, indicating a need for professional services related to the city's infrastructure or management.",
+    "location": "City of New Rochelle",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "bid",
+    "project_name": null,
+    "dollar_amount": null,
+    "relevant_date": null,
+    "tags": [
+      "RFP",
+      "services",
+      "infrastructure"
+    ],
+    "folder": "Purchasing",
+    "source": "document_center"
+  },
+  {
+    "id": 15709,
+    "title": "RFP-NR-5481",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15709/RFP-NR-5481",
+    "description": "This document is an RFP for the use and occupancy of dock spaces at Neptune Park in New Rochelle, NY. It details the requirements and conditions for leasing dock spaces for large fishing/excursion vessels.",
+    "location": "Neptune Park, New Rochelle, NY",
+    "coords": {
+      "lat": 40.8907229,
+      "lng": -73.7824967
+    },
+    "classification": "bid",
+    "project_name": "Use and Occupancy of Dock Spaces",
+    "dollar_amount": null,
+    "relevant_date": null,
+    "tags": [
+      "dock",
+      "leasing",
+      "RFP"
+    ],
+    "folder": "Purchasing",
+    "source": "document_center"
+  },
+  {
+    "id": 15742,
+    "title": "STA English W Dates_NewRochelle (002)",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15742/STA-English-W-Dates_NewRochelle-002",
+    "description": "This document is a press release about a campaign to install free smoke alarms in homes across New Rochelle to reduce the risk of death from home fires. Residents can request an installation to protect their families.",
+    "location": "New Rochelle, New York",
+    "coords": {
+      "lat": 40.9114273,
+      "lng": -73.7842096
+    },
+    "classification": "press_release",
+    "project_name": "Sound the Alarm",
+    "dollar_amount": null,
+    "relevant_date": null,
+    "tags": [
+      "fire_safety",
+      "smoke_alarms",
+      "community"
+    ],
+    "folder": "Fire",
+    "source": "document_center"
+  },
+  {
+    "id": 22119,
+    "title": "Snow Emergency Routes",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/22119/Snow-Emergency-Routes",
+    "description": "This document lists the designated snow emergency routes in New Rochelle. It is important for residents to know these routes to avoid parking restrictions during snow emergencies.",
+    "location": "New Rochelle",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "permit",
+    "project_name": null,
+    "dollar_amount": null,
+    "relevant_date": null,
+    "tags": [
+      "snow",
+      "emergency",
+      "routes"
+    ],
+    "folder": "Public Information",
+    "source": "document_center"
+  },
+  {
     "id": 11742,
     "title": "Spec 5298 Q and A",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/11742/Spec-5298-Q-and-A",
@@ -8827,6 +11710,51 @@
     "source": "document_center"
   },
   {
+    "id": 15337,
+    "title": "Spec 5440 - Blackbox Theater - FINAL",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15337/Spec-5440---Blackbox-Theater---FINAL",
+    "description": "This document is a request for proposal (RFP) for the Black Box Theater and Art Education Center project in New Rochelle. It outlines the specifications and requirements for vendors interested in providing services or materials for the project.",
+    "location": "New Rochelle, NY",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "bid",
+    "project_name": "Black Box Theater and Art Education Center",
+    "dollar_amount": null,
+    "relevant_date": null,
+    "tags": [
+      "theater",
+      "art",
+      "education",
+      "construction"
+    ],
+    "folder": "Purchasing",
+    "source": "document_center"
+  },
+  {
+    "id": 15338,
+    "title": "Spec 5440 - Blackbox Theater - FINAL FINAL",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15338/Spec-5440---Blackbox-Theater---FINAL-FINAL",
+    "description": "This document is a final specification for the Blackbox Theater project, detailing the required equipment and components for the theater's electrical systems. It is relevant to residents interested in the progress and details of local construction projects.",
+    "location": "515 North Avenue, New Rochelle, NY 10801",
+    "coords": {
+      "lat": 40.9201463,
+      "lng": -73.7857973
+    },
+    "classification": "bid",
+    "project_name": "Blackbox Theater",
+    "dollar_amount": null,
+    "relevant_date": null,
+    "tags": [
+      "construction",
+      "theater",
+      "specification"
+    ],
+    "folder": "Purchasing",
+    "source": "document_center"
+  },
+  {
     "id": 7727,
     "title": "Spring2017Events",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/7727/Spring2017Events",
@@ -8846,6 +11774,72 @@
       "calendar"
     ],
     "folder": "Public Information",
+    "source": "document_center"
+  },
+  {
+    "id": 15787,
+    "title": "Summer Events 2022  Bilingual",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15787/Summer-Events-2022--Bilingual",
+    "description": "This document lists various summer events in New Rochelle, including free concerts, yoga sessions, and special activities at parks and beaches. It provides details on dates, times, and locations of these events, which can help residents plan their summer activities.",
+    "location": "New Rochelle, NY",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "press_release",
+    "project_name": null,
+    "dollar_amount": null,
+    "relevant_date": null,
+    "tags": [
+      "summer_events",
+      "recreation",
+      "community"
+    ],
+    "folder": "Events",
+    "source": "document_center"
+  },
+  {
+    "id": 15421,
+    "title": "Summer Youth Employment Pop-up locations ",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15421/Summer-Youth-Employment-Pop-up-locations-",
+    "description": "This document shows the locations of pop-up sites for the Summer Youth Employment program in New Rochelle. It is useful for residents who want to know where these sites are located.",
+    "location": "New Rochelle",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "other",
+    "project_name": "Summer Youth Employment Program",
+    "dollar_amount": null,
+    "relevant_date": null,
+    "tags": [
+      "youth",
+      "employment",
+      "locations"
+    ],
+    "folder": "Youth Bureau",
+    "source": "document_center"
+  },
+  {
+    "id": 18165,
+    "title": "TANF Employment Application 2024",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/18165/TANF-Employment-Application-2024",
+    "description": "This document outlines the requirements and procedures for youth employment through the TANF program in New Rochelle. It details the necessary documentation and conditions for youth aged 14-24 to obtain work permits and apply for jobs.",
+    "location": "515 North Avenue, New Rochelle, NY 10801",
+    "coords": {
+      "lat": 40.9201463,
+      "lng": -73.7857973
+    },
+    "classification": "other",
+    "project_name": null,
+    "dollar_amount": null,
+    "relevant_date": null,
+    "tags": [
+      "youth",
+      "employment",
+      "TANF"
+    ],
+    "folder": "Youth Bureau",
     "source": "document_center"
   },
   {
@@ -8912,6 +11906,50 @@
       "recreation"
     ],
     "folder": "Parks & Recreation",
+    "source": "document_center"
+  },
+  {
+    "id": 15789,
+    "title": "Ward Acres Master Plan",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15789/Ward-Acres-Master-Plan",
+    "description": "The Ward Acres Master Plan outlines the future development and use of Ward Acres park in New Rochelle. It is important for residents interested in local parks and recreational facilities.",
+    "location": "Ward Acres, New Rochelle",
+    "coords": {
+      "lat": 40.9585769,
+      "lng": -73.7816711
+    },
+    "classification": "environmental_review",
+    "project_name": "Ward Acres Master Plan",
+    "dollar_amount": null,
+    "relevant_date": null,
+    "tags": [
+      "parks",
+      "recreation",
+      "planning"
+    ],
+    "folder": "Parks & Recreation",
+    "source": "document_center"
+  },
+  {
+    "id": 16699,
+    "title": "Watershed map",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/16699/Watershed-map",
+    "description": "This document is a drainage map prepared by Brooker Engineering, PLLC for the City of New Rochelle. It provides details on the watershed and drainage systems which can help residents understand local water management and potential flood risks.",
+    "location": "City of New Rochelle",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "environmental_review",
+    "project_name": null,
+    "dollar_amount": null,
+    "relevant_date": null,
+    "tags": [
+      "watershed",
+      "drainage",
+      "engineering"
+    ],
+    "folder": "Public Works",
     "source": "document_center"
   },
   {

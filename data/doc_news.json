@@ -1,5 +1,82 @@
 [
   {
+    "title": "2026 Camp Trips",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/22288/2026-Camp-Trips",
+    "description": "This document provides details about optional camp trips for children in New Rochelle during the summer of 2026, including dates, locations, activities, and fees. Parents can use this information to register their children for the trips.",
+    "published": "2026-07-10",
+    "category": "other",
+    "relevant_date": "2026-07-10",
+    "classification": "other",
+    "folder": "Parks & Recreation",
+    "source": "document_center"
+  },
+  {
+    "title": "Camp Brochure ENG ",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/20355/Camp-Brochure-ENG-",
+    "description": "This document provides details about the 2026 summer camps offered by New Rochelle Parks and Recreation, including registration deadlines, fees, and program specifics. It is useful for residents interested in enrolling their children in summer camp activities.",
+    "published": "2026-07-06",
+    "category": "other",
+    "relevant_date": "2026-07-06",
+    "classification": "other",
+    "folder": "Parks & Recreation",
+    "source": "document_center"
+  },
+  {
+    "title": "Camp Brochure SPA",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/20356/Camp-Brochure-SPA",
+    "description": "This document provides information on summer camp programs for children in New Rochelle, including financial assistance and transportation options. It details important deadlines and contact information for interested families.",
+    "published": "2026-07-06",
+    "category": "press_release",
+    "relevant_date": "2026-07-06",
+    "classification": "press_release",
+    "folder": "Parks & Recreation",
+    "source": "document_center"
+  },
+  {
+    "title": "WACG Application",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/16567/WACG-Application",
+    "description": "This document is an application and rules form for the Ward Acres Community Garden (WACG). It outlines the requirements and responsibilities for becoming a member, including fees, plot assignments, and community service hours.",
+    "published": "2026-04-10",
+    "category": "other",
+    "relevant_date": "2026-04-10",
+    "classification": "other",
+    "folder": "Parks & Recreation",
+    "source": "document_center"
+  },
+  {
+    "title": "February 2026 The City Managers Update",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/22349/February-2026-The-City-Managers-Update",
+    "description": "This report provides updates on various city initiatives including the Thrive Non-Profit Grant Program, Participatory Budgeting, and the Police Career Pathways Program. It also includes upcoming events and statistical updates from the Police Department.",
+    "published": "2026-02-01",
+    "category": "report",
+    "relevant_date": "2026-02-01",
+    "classification": "report",
+    "folder": "City Manager",
+    "source": "document_center"
+  },
+  {
+    "title": "Ice Skating 2026 Info- Eng",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/19989/Ice-Skating-2026-Info--Eng",
+    "description": "This document provides details about the 2026 Ice Skating Program offered by New Rochelle Parks and Recreation, including dates, times, fees, and registration information.",
+    "published": "2026-01-16",
+    "category": "other",
+    "relevant_date": "2026-01-16",
+    "classification": "other",
+    "folder": "Parks & Recreation",
+    "source": "document_center"
+  },
+  {
+    "title": "Participatory Budgeting Presentation FINAL - 20260113",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/22179/Participatory-Budgeting-Presentation-FINAL---20260113",
+    "description": "This document outlines the plan for a Participatory Budgeting pilot program in New Rochelle, which will allow residents to propose and vote on how $200,000 of the city's capital budget is spent. It includes details on the timeline, process, and goals for the program.",
+    "published": "2026-01-13",
+    "category": "report",
+    "relevant_date": "2026-01-13",
+    "classification": "report",
+    "folder": "City Manager",
+    "source": "document_center"
+  },
+  {
     "title": "Current Property Tax Rates",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/696/Current-Property-Tax-Rates",
     "description": "This document provides the current property tax rates for the City of New Rochelle for the period from January 1 through December 31, 2026. It details the various tax rates applicable to different areas within the city.",
@@ -8,6 +85,94 @@
     "relevant_date": "2026-01-01",
     "classification": "report",
     "folder": "Tax",
+    "source": "document_center"
+  },
+  {
+    "title": "2026 Adopted Budget",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/22142/2026-Adopted-Budget",
+    "description": "The 2026 Adopted Budget provides a detailed overview of the City of New Rochelle's financial plans for the upcoming year, including allocations for various city departments and services. Residents can use this document to understand how their tax dollars will be spent.",
+    "published": "2026",
+    "category": "budget",
+    "relevant_date": "2026",
+    "classification": "budget",
+    "folder": "Finance",
+    "source": "document_center"
+  },
+  {
+    "title": "2026 Capital Budget Presentation",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/21822/2026-Capital-Budget-Presentation",
+    "description": "This document presents the proposed 2026 Capital Budget for the City of New Rochelle, detailing planned expenditures on various capital projects such as road paving, infrastructure improvements, and acquisitions. It provides a comprehensive overview of how the city plans to allocate its financial resources for major capital investments.",
+    "published": "2026",
+    "category": "budget",
+    "relevant_date": "2026",
+    "classification": "budget",
+    "folder": "Proposed 2026 Budget Presentations",
+    "source": "document_center"
+  },
+  {
+    "title": "2026 City of New Rochelle Proposed Budget",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/21723/2026-City-of-New-Rochelle-Proposed-Budget",
+    "description": "This document outlines the proposed budget for the City of New Rochelle for the fiscal year 2026. It provides details on how the city plans to allocate funds across various departments and initiatives, which can help residents understand the financial priorities of their local government.",
+    "published": "2026",
+    "category": "budget",
+    "relevant_date": "2026",
+    "classification": "budget",
+    "folder": "Finance",
+    "source": "document_center"
+  },
+  {
+    "title": "2026 Collection Schedule",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/22018/2026-Collection-Schedule",
+    "description": "This document provides the 2026 collection schedule for New Rochelle, detailing the days when waste and recycling will be collected each month. It helps residents plan their waste management activities accordingly.",
+    "published": "2026",
+    "category": "other",
+    "relevant_date": "2026",
+    "classification": "other",
+    "folder": "Public Works",
+    "source": "document_center"
+  },
+  {
+    "title": "2026 DPW Guide and Calendar",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/22014/2026-DPW-Information-Guide-and-Collection-Schedule",
+    "description": "This document provides a guide and calendar for the Department of Public Works (DPW) services in New Rochelle for 2026, including information on refuse collection, metal and e-waste pickup, and special handling items.",
+    "published": "2026",
+    "category": "other",
+    "relevant_date": "2026",
+    "classification": "other",
+    "folder": "DocumentCenter",
+    "source": "document_center"
+  },
+  {
+    "title": "2026 Final Budget Presentation - Parks",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/21826/2026-Final-Budget-Presentation---Parks",
+    "description": "This document presents the proposed budget for the Department of Parks and Recreation for 2026, detailing expenses, revenues, and goals. It provides insights into how the city plans to allocate funds for parks and recreational facilities.",
+    "published": "2026",
+    "category": "budget",
+    "relevant_date": "2026",
+    "classification": "budget",
+    "folder": "Proposed 2026 Budget Presentations",
+    "source": "document_center"
+  },
+  {
+    "title": "2026 Work Plan_FINAL",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/22178/2026-Work-Plan_FINAL",
+    "description": "The 2026 Work Plan outlines the strategic priorities and operational steps for the City of New Rochelle, focusing on enhancing the quality of life through initiatives in public safety, infrastructure, economic development, and community engagement.",
+    "published": "2026",
+    "category": "report",
+    "relevant_date": "2026",
+    "classification": "report",
+    "folder": "City Manager",
+    "source": "document_center"
+  },
+  {
+    "title": "FINAL_2026_Development_Budget_Presentation_With_Notes AS",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/21827/FINAL_2026_Development_Budget_Presentation_With_Notes-AS",
+    "description": "This document presents the proposed budget for the Department of Development for 2026, including details on expenses, revenues, organizational structure, and goals. It provides insights into the city's plans for improving the physical environment and quality of life.",
+    "published": "2026",
+    "category": "budget",
+    "relevant_date": "2026",
+    "classification": "budget",
+    "folder": "Proposed 2026 Budget Presentations",
     "source": "document_center"
   },
   {
@@ -22,6 +187,72 @@
     "source": "document_center"
   },
   {
+    "title": "2026 Final Budget Presentation - Information Technology",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/21823/2026-Final-Budget-Presentation---Information-Technology",
+    "description": "This document presents the proposed budget for the Office of Information Technology for 2026, detailing past accomplishments, current expenses, and future goals. It provides insight into how the city plans to allocate funds for technological improvements and services.",
+    "published": "2025-11-18",
+    "category": "budget",
+    "relevant_date": "2025-11-18",
+    "classification": "budget",
+    "folder": "Proposed 2026 Budget Presentations",
+    "source": "document_center"
+  },
+  {
+    "title": "2026 Final Budget Presentation - NRFD",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/21825/2026-Final-Budget-Presentation---NRFD",
+    "description": "This document presents the proposed budget for the New Rochelle Fire Department for 2026, detailing past accomplishments, financial projections, and goals for the upcoming year. It provides insights into how the department plans to allocate resources and improve services.",
+    "published": "2025-11-18",
+    "category": "budget",
+    "relevant_date": "2025-11-18",
+    "classification": "budget",
+    "folder": "Proposed 2026 Budget Presentations",
+    "source": "document_center"
+  },
+  {
+    "title": "2026 Final Budget Presentation - NRPD",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/21824/2026-Final-Budget-Presentation---NRPD",
+    "description": "This document presents the proposed budget for the New Rochelle Police Department for 2026, including details on expenses, revenues, and goals. It provides insights into the department's financial planning and priorities for the upcoming year.",
+    "published": "2025-11-18",
+    "category": "budget",
+    "relevant_date": "2025-11-18",
+    "classification": "budget",
+    "folder": "Proposed 2026 Budget Presentations",
+    "source": "document_center"
+  },
+  {
+    "title": "2026 Budget Presentation Building Dept - FINAL",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/21786/2026-Budget-Presentation-Building-Dept---FINAL",
+    "description": "This document presents the proposed budget for the New Rochelle Department of Buildings for fiscal year 2026. It includes details on past accomplishments, financial projections, and goals for the upcoming year.",
+    "published": "2025-11-12",
+    "category": "budget",
+    "relevant_date": "2025-11-12",
+    "classification": "budget",
+    "folder": "Proposed 2026 Budget Presentations",
+    "source": "document_center"
+  },
+  {
+    "title": "2026 Proposed City Budget Presentation - FINAL",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/21787/2026-Proposed-City-Budget-Presentation---FINAL",
+    "description": "This document presents the proposed 2026 budget for the City of New Rochelle, detailing accomplishments from 2025, revenue sources, and planned initiatives. It provides insights into how tax dollars are allocated and future financial plans.",
+    "published": "2025-11-12",
+    "category": "budget",
+    "relevant_date": "2025-11-12",
+    "classification": "budget",
+    "folder": "Proposed 2026 Budget Presentations",
+    "source": "document_center"
+  },
+  {
+    "title": "DPW 2026 Budget Presentation FINAL",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/21785/DPW-2026-Budget-Presentation-FINAL",
+    "description": "This document presents the proposed 2026 budget for the Department of Public Works, detailing their mission, organizational structure, accomplishments, and goals for the upcoming year. It is important for residents to understand how the city plans to allocate resources for public infrastructure maintenance and improvements.",
+    "published": "2025-11-12",
+    "category": "budget",
+    "relevant_date": "2025-11-12",
+    "classification": "budget",
+    "folder": "Proposed 2026 Budget Presentations",
+    "source": "document_center"
+  },
+  {
     "title": "Golf Registration",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/14543/Golf-Registration",
     "description": "This document announces the 68th Frederick J. Todora Golf Event hosted by the City of New Rochelle's Parks & Recreation Department on October 20, 2025. It provides details about the event schedule, fees, and sponsorship opportunities.",
@@ -30,6 +261,292 @@
     "relevant_date": "2025-10-20",
     "classification": "press_release",
     "folder": "Parks & Recreation",
+    "source": "document_center"
+  },
+  {
+    "title": "Job Posting - Sustainability Coordinator Oct 2025",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/21592/Job-Posting---Sustainability-Coordinator-Oct-2025",
+    "description": "This document is a job posting for a Sustainability Coordinator position in New Rochelle's Human Resources department. It is relevant to residents interested in local sustainability initiatives and employment opportunities.",
+    "published": "2025-10-01",
+    "category": "other",
+    "relevant_date": "2025-10-01",
+    "classification": "other",
+    "folder": "Human Resources",
+    "source": "document_center"
+  },
+  {
+    "title": "Translated copy of SOTC 2025",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/20762/Translated-copy-of-SOTC-2025",
+    "description": "This is a translated version of the Mayor's State of the City address from May 8, 2025. It discusses the progress and future plans for New Rochelle, including economic growth, housing initiatives, and community development.",
+    "published": "2025-05-08",
+    "category": "press_release",
+    "relevant_date": "2025-05-08",
+    "classification": "press_release",
+    "folder": "Mayor",
+    "source": "document_center"
+  },
+  {
+    "title": "05142025 UPDATE 2025 Work Plan- District 1-2",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/20793/05142025-UPDATE-2025-Work-Plan--District-1-2",
+    "description": "This document outlines the strategic priorities and operational steps for the City of New Rochelle in 2025, focusing on five key areas: Public Safety and Emergency Preparedness, Resilient Infrastructure, Environmental Sustainability and Stewardship, Economic Development, and Community Building. It provides updates on ongoing initiatives and achievements.",
+    "published": "2025-05-01",
+    "category": "report",
+    "relevant_date": "2025-05-01",
+    "classification": "report",
+    "folder": "City Council",
+    "source": "document_center"
+  },
+  {
+    "title": "04222025 UPDATE 2025 Work Plan- District 4",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/20791/04222025-UPDATE-2025-Work-Plan--District-4",
+    "description": "This document outlines the strategic priorities and operational steps for the City of New Rochelle in 2025, focusing on enhancing the quality of life through five key areas: public safety, resilient infrastructure, environmental sustainability, economic development, and community building.",
+    "published": "2025-04-01",
+    "category": "report",
+    "relevant_date": "2025-04-01",
+    "classification": "report",
+    "folder": "City Council",
+    "source": "document_center"
+  },
+  {
+    "title": "04292025 UPDATE 2025 Work Plan- District 3",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/20792/04292025-UPDATE-2025-Work-Plan--District-3",
+    "description": "This document outlines the strategic priorities and operational steps for the City of New Rochelle in 2025, focusing on enhancing the quality of life through five key areas: public safety, resilient infrastructure, environmental sustainability, economic development, and community building.",
+    "published": "2025-04-01",
+    "category": "report",
+    "relevant_date": "2025-04-01",
+    "classification": "report",
+    "folder": "City Council",
+    "source": "document_center"
+  },
+  {
+    "title": "032720251633 UPDATE 2025 Work Plan- Districts 5-6",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/20794/032720251633-UPDATE-2025-Work-Plan--Districts-5-6",
+    "description": "This document outlines the strategic priorities and operational steps for the City of New Rochelle in 2025, focusing on enhancing the quality of life through five key areas: public safety, resilient infrastructure, environmental sustainability, economic development, and community building.",
+    "published": "2025-03-01",
+    "category": "report",
+    "relevant_date": "2025-03-01",
+    "classification": "report",
+    "folder": "City Council",
+    "source": "document_center"
+  },
+  {
+    "title": "CITY MANAGER WORK PLAN 2025  2 11 25",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/20326/CITY-MANAGER-WORK-PLAN-2025--2-11-25",
+    "description": "This document outlines the City Manager's work plan for 2025, detailing key initiatives and goals for the coming year. It provides insight into the strategic direction of the city government.",
+    "published": "2025-02-11",
+    "category": "report",
+    "relevant_date": "2025-02-11",
+    "classification": "report",
+    "folder": "City Clerk",
+    "source": "document_center"
+  },
+  {
+    "title": "Ice Skating 2025 Info - Spanish",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/19988/Ice-Skating-2025-Info---Spanish",
+    "description": "This document provides information about the 2025 Ice Skating Program offered by New Rochelle Parks and Recreation. It includes details on dates, times, costs, and eligibility criteria.",
+    "published": "2025-01-17",
+    "category": "other",
+    "relevant_date": "2025-01-17",
+    "classification": "other",
+    "folder": "Parks & Recreation",
+    "source": "document_center"
+  },
+  {
+    "title": "2025 City of  New Rochelle Adopted Budget",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/20257/2025-City-of--New-Rochelle-Adopted-Budget",
+    "description": "This document is the adopted budget for the City of New Rochelle for the fiscal year 2025. It provides details on how the city plans to allocate its financial resources, which can help residents understand the priorities and funding for various city services and projects.",
+    "published": "2025",
+    "category": "budget",
+    "relevant_date": "2025",
+    "classification": "budget",
+    "folder": "Finance",
+    "source": "document_center"
+  },
+  {
+    "title": "2025 City of  New Rochelle Proposed Budget",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/19711/2025-City-of--New-Rochelle-Proposed-Budget",
+    "description": "This document outlines the proposed budget for the City of New Rochelle for the fiscal year 2025. It provides details on how the city plans to allocate funds across various departments and initiatives, which can help residents understand the financial priorities of their local government.",
+    "published": "2025",
+    "category": "budget",
+    "relevant_date": "2025",
+    "classification": "budget",
+    "folder": "Finance",
+    "source": "document_center"
+  },
+  {
+    "title": "2025 Proposed Budget Presentation",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/19823/2025-Proposed-Budget-Presentation",
+    "description": "This document presents the proposed budget for the city of New Rochelle for the year 2025. It provides details on how the city plans to allocate funds across various departments and initiatives, which is crucial for residents to understand the financial priorities of their local government.",
+    "published": "2025",
+    "category": "budget",
+    "relevant_date": "2025",
+    "classification": "budget",
+    "folder": "City Manager",
+    "source": "document_center"
+  },
+  {
+    "title": "2025 Street Fair Rules and Regulations",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/21000/2025-Street-Fair-Rules-and-Regulations",
+    "description": "This document outlines the rules and regulations for exhibitors participating in the 2025 New Rochelle Street Fair. It covers insurance requirements, compliance with local laws, and restrictions on certain activities.",
+    "published": "2025",
+    "category": "other",
+    "relevant_date": "2025",
+    "classification": "other",
+    "folder": "Events",
+    "source": "document_center"
+  },
+  {
+    "title": "Champions of Change Awards Honorees",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/20416/Champions-of-Change-Awards-Honorees",
+    "description": "This document lists the honorees for the Champions of Change Awards, highlighting their achievements and contributions to the community. It provides insight into the accomplishments of young residents in New Rochelle.",
+    "published": "2025",
+    "category": "press_release",
+    "relevant_date": "2025",
+    "classification": "press_release",
+    "folder": "Youth Bureau",
+    "source": "document_center"
+  },
+  {
+    "title": "Citizen Police Academy Objectives 2025",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/20202/Citizen-Police-Academy-Objectives-2025",
+    "description": "This document outlines the objectives of the Citizen Police Academy for 2025, aimed at strengthening the partnership between the New Rochelle Police Department and the community through increased communication, education, and fostering a safer environment.",
+    "published": "2025",
+    "category": "report",
+    "relevant_date": "2025",
+    "classification": "report",
+    "folder": "Police",
+    "source": "document_center"
+  },
+  {
+    "title": "2024 Year End Financial Report",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/21775/2024-Year-End-Financial-Report",
+    "description": "This document is the 2024 Year End Financial Report for the City of New Rochelle, detailing the financial status and activities of the city's various funds and operations. It provides comprehensive financial data that can help residents understand the city's fiscal health and management.",
+    "published": "2024-12-31",
+    "category": "report",
+    "relevant_date": "2024-12-31",
+    "classification": "report",
+    "folder": "Finance",
+    "source": "document_center"
+  },
+  {
+    "title": "WINTER EVENTS 2024",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/19961/WINTER-EVENTS-2024",
+    "description": "This document provides details about winter events in New Rochelle for December 2024, including holiday markets and Santa's park tours. Residents can find specific dates, times, and locations for these events.",
+    "published": "2024-12-04",
+    "category": "press_release",
+    "relevant_date": "2024-12-04",
+    "classification": "press_release",
+    "folder": "Public Information",
+    "source": "document_center"
+  },
+  {
+    "title": "WINTER EVENTS 2024 CALENDAR",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/19962/WINTER-EVENTS-2024-CALENDAR",
+    "description": "This document provides a calendar of winter events in New Rochelle for December 2024, including holiday markets and Santa's park tours. It is useful for residents planning to attend these community events.",
+    "published": "2024-12-01",
+    "category": "other",
+    "relevant_date": "2024-12-01",
+    "classification": "other",
+    "folder": "Public Information",
+    "source": "document_center"
+  },
+  {
+    "title": "FALL EVENTS 2024 CALENDAR (2)",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/19734/FALL-EVENTS-2024-CALENDAR-2",
+    "description": "This document provides a calendar of fall events in New Rochelle for 2024, including concerts, a D\u00eda de Muertos performance, and a turkey run. It is useful for residents who want to participate in community activities.",
+    "published": "2024-11-09",
+    "category": "other",
+    "relevant_date": "2024-11-09",
+    "classification": "other",
+    "folder": "Public Information",
+    "source": "document_center"
+  },
+  {
+    "title": "FYEP Application 2024.",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/19569/FYEP-Application-2024",
+    "description": "This document is an application for the FYEP (Full-Year Employment Program) for youth aged 14-24 in New Rochelle. It outlines the requirements for submitting an application, including necessary documentation and proof of income.",
+    "published": "2024-10-22",
+    "category": "other",
+    "relevant_date": "2024-10-22",
+    "classification": "other",
+    "folder": "Youth Bureau",
+    "source": "document_center"
+  },
+  {
+    "title": "PAGES-2024-ArtsFest-Brochure",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/19378/PAGES-2024-ArtsFest-Brochure",
+    "description": "This document is a brochure for ArtsFest 2024, a four-day festival in New Rochelle featuring various arts events including music, dance, art exhibits, and children's activities. It provides details on the schedule, locations, and organizers of the festival.",
+    "published": "2024-10-17",
+    "category": "press_release",
+    "relevant_date": "2024-10-17",
+    "classification": "press_release",
+    "folder": "Events",
+    "source": "document_center"
+  },
+  {
+    "title": "10_05_24_Saturday Afternoon Concert Fall 2024",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/19230/10_05_24_Saturday-Afternoon-Concert-Fall-2024",
+    "description": "This document provides details on upcoming Saturday afternoon concerts featuring young musicians in the Ossie Davis Theater. It includes information on performances celebrating Hispanic Heritage Month and chamber music concerts.",
+    "published": "2024-10-05",
+    "category": "other",
+    "relevant_date": "2024-10-05",
+    "classification": "other",
+    "folder": "NRPL Events",
+    "source": "document_center"
+  },
+  {
+    "title": "FALL EVENTS 2024 CALENDAR",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/19467/FALL-EVENTS-2024-CALENDAR",
+    "description": "This document provides a calendar of fall events happening in New Rochelle during October and early November 2024, including festivals, markets, and Halloween activities. It's useful for residents who want to know about community events.",
+    "published": "2024-10-05",
+    "category": "press_release",
+    "relevant_date": "2024-10-05",
+    "classification": "press_release",
+    "folder": "Public Information",
+    "source": "document_center"
+  },
+  {
+    "title": "09_20_24_Friday Night Concerts Fall 2024",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/19226/09_20_24_Friday-Night-Concerts-Fall-2024",
+    "description": "This document provides details about the upcoming Friday Night Concert Series at the Ossie Davis Theater in New Rochelle, featuring various musical ensembles throughout the fall of 2024.",
+    "published": "2024-09-20",
+    "category": "press_release",
+    "relevant_date": "2024-09-20",
+    "classification": "press_release",
+    "folder": "NRPL Events",
+    "source": "document_center"
+  },
+  {
+    "title": "SUMMER EVENTS 2024 CALENDAR",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/19466/SUMMER-EVENTS-2024-CALENDAR",
+    "description": "This document provides a calendar of summer events in New Rochelle, including free concerts, yoga sessions, swimming opportunities, and various community activities. It is useful for residents looking to participate in local summer events.",
+    "published": "2024-07-01",
+    "category": "press_release",
+    "relevant_date": "2024-07-01",
+    "classification": "press_release",
+    "folder": "Public Information",
+    "source": "document_center"
+  },
+  {
+    "title": "NRPD Memorial and Awards Program 2024",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/18688/NRPD-Memorial-and-Awards-Program-2024",
+    "description": "This document details the New Rochelle Police Department's Annual Memorial & Awards Ceremony scheduled for May 15, 2024. It includes a list of attendees and provides historical context about the department's patch design.",
+    "published": "2024-05-15",
+    "category": "other",
+    "relevant_date": "2024-05-15",
+    "classification": "other",
+    "folder": "Police",
+    "source": "document_center"
+  },
+  {
+    "title": "2024 RULES AND REGULATIONS",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/18607/2024-RULES-AND-REGULATIONS",
+    "description": "This document outlines the rules and regulations for a community flea market event in New Rochelle, detailing vendor requirements, application deadlines, and prohibited items.",
+    "published": "2024-05-04",
+    "category": "other",
+    "relevant_date": "2024-05-04",
+    "classification": "other",
+    "folder": "Events",
     "source": "document_center"
   },
   {
@@ -44,6 +561,83 @@
     "source": "document_center"
   },
   {
+    "title": "2024 Annual Report",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/21133/2024-Annual-Report",
+    "description": "This document is the 2024 Annual Report of the New Rochelle Police Department, detailing accomplishments such as awards received, recruitment initiatives, grants secured, deployment of new equipment, and community engagement activities.",
+    "published": "2024",
+    "category": "report",
+    "relevant_date": "2024",
+    "classification": "report",
+    "folder": "Police",
+    "source": "document_center"
+  },
+  {
+    "title": "2024 City Manager Workplan",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/18146/2024-City-Manager-Workplan",
+    "description": "This document outlines the City Manager's work plan for 2024, detailing initiatives such as investments in youth programs, tax amnesty, and improvements in technology security systems. It provides insights into the city's priorities and planned actions for the coming year.",
+    "published": "2024",
+    "category": "report",
+    "relevant_date": "2024",
+    "classification": "report",
+    "folder": "City Manager",
+    "source": "document_center"
+  },
+  {
+    "title": "2024 City of  New Rochelle Proposed Budget ",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/17532/2024-City-of--New-Rochelle-Proposed-Budget-",
+    "description": "This document is the proposed budget for the City of New Rochelle for the year 2024. It provides details on how the city plans to allocate funds across various departments and services, which is important for residents to understand the financial priorities and planned expenditures.",
+    "published": "2024",
+    "category": "budget",
+    "relevant_date": "2024",
+    "classification": "budget",
+    "folder": "Finance",
+    "source": "document_center"
+  },
+  {
+    "title": "2024 DPW Information Guide and Calendar",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/20024/2024-DPW-Information-Guide-and-Calendar",
+    "description": "This guide provides information on the services offered by the Department of Public Works, including refuse collection, street maintenance, and sewer management. It also includes important contact numbers and guidelines for proper waste disposal.",
+    "published": "2024",
+    "category": "other",
+    "relevant_date": "2024",
+    "classification": "other",
+    "folder": "Public Works",
+    "source": "document_center"
+  },
+  {
+    "title": "2024 camp trips info",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/18256/2024-camp-trips-info",
+    "description": "Information about 2024 camp trips organized by the Parks & Recreation department. This document likely includes details about available camps, schedules, and registration information.",
+    "published": "2024",
+    "category": "other",
+    "relevant_date": "2024",
+    "classification": "other",
+    "folder": "Parks & Recreation",
+    "source": "document_center"
+  },
+  {
+    "title": "City of New Rochelle Final ACFR 2023",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/19298/City-of-New-Rochelle-Final-ACFR-2023",
+    "description": "This document is the City of New Rochelle's Annual Comprehensive Financial Report for the fiscal year ending December 31, 2023. It provides detailed financial information including financial statements, management discussion, and audit reports, which are important for residents interested in the city's financial health and performance.",
+    "published": "2023-12-31",
+    "category": "report",
+    "relevant_date": "2023-12-31",
+    "classification": "report",
+    "folder": "Finance",
+    "source": "document_center"
+  },
+  {
+    "title": "CGR Final Report",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/17552/CGR-Final-Report",
+    "description": "This report discusses the potential creation of a Civilian Complaint Review Board (CCRB) in New Rochelle to improve police-community relations following recent incidents and state mandates. It includes analysis of past complaints and stakeholder opinions.",
+    "published": "2023-10-01",
+    "category": "report",
+    "relevant_date": "2023-10-01",
+    "classification": "report",
+    "folder": "Policing Review Committee",
+    "source": "document_center"
+  },
+  {
     "title": "FoodFest Directory ",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/6494/FoodFest-Directory-",
     "description": "This document is a directory for the New Rochelle FoodFest, which takes place from September 18-22. It lists various restaurants participating in the event, offering special deals and discounts.",
@@ -51,6 +645,28 @@
     "category": "other",
     "relevant_date": "2023-09-18",
     "classification": "other",
+    "folder": "Events",
+    "source": "document_center"
+  },
+  {
+    "title": "NOC Form_SDGEIS w hearing_7_11_23_w map (1)",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/17201/NOC-Form_SDGEIS-w-hearing_7_11_23_w-map-1",
+    "description": "This document announces the completion of a Draft Environmental Impact Statement (DEIS) for the proposed Lincoln Neighborhood District Downtown Overlay Zone (DO-8) and the 'LINC' Project. It includes details about a public hearing scheduled for September 12, 2023.",
+    "published": "2023-09-12",
+    "category": "environmental_review",
+    "relevant_date": "2023-09-12",
+    "classification": "environmental_review",
+    "folder": "Development",
+    "source": "document_center"
+  },
+  {
+    "title": "Street Fair Sponsorship Packages and App 2023",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/16875/Street-Fair-Sponsorship-Packages-and-App-2023",
+    "description": "This document outlines sponsorship packages for the 10th Annual New Rochelle Street Fair on September 10, 2023. It details various sponsorship levels and benefits, which can help residents understand the event's funding and corporate involvement.",
+    "published": "2023-09-10",
+    "category": "press_release",
+    "relevant_date": "2023-09-10",
+    "classification": "press_release",
     "folder": "Events",
     "source": "document_center"
   },
@@ -77,6 +693,83 @@
     "source": "document_center"
   },
   {
+    "title": "FXCollaborative Presentation to City Council 5-9-2023",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/16940/FXCollaborative-Presentation-to-City-Council-5-9-2023",
+    "description": "This document is a presentation by FXCollaborative to the City Council on a project aimed at rejuvenating a transit center in New Rochelle. It includes details on the project team, consultants, and an approach that involves understanding, process, and ideas.",
+    "published": "2023-05-09",
+    "category": "report",
+    "relevant_date": "2023-05-09",
+    "classification": "report",
+    "folder": "Development",
+    "source": "document_center"
+  },
+  {
+    "title": "GreeNR Presentation - City Council - 4 11 23",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/16869/GreeNR-Presentation---City-Council---4-11-23",
+    "description": "This presentation provides an update on the GreeNR Sustainability Plan, including progress made, activities planned for 2023, and next steps for the update. It is important for residents interested in the city's climate initiatives and sustainability efforts.",
+    "published": "2023-04-11",
+    "category": "report",
+    "relevant_date": "2023-04-11",
+    "classification": "report",
+    "folder": "Development",
+    "source": "document_center"
+  },
+  {
+    "title": "PRESENTATION - Development Highlights 4-11-23 ",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/16870/PRESENTATION---Development-Highlights-4-11-23-",
+    "description": "This report provides an update on various development initiatives in New Rochelle, including housing units, affordable housing, and community engagement projects. It highlights progress on approved projects, completed units, and community feedback.",
+    "published": "2023-04-11",
+    "category": "report",
+    "relevant_date": "2023-04-11",
+    "classification": "report",
+    "folder": "Development",
+    "source": "document_center"
+  },
+  {
+    "title": "NRIDA UTEP 20230329",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/17779/NRIDA-UTEP-20230329",
+    "description": "This document is a revised Uniform Tax Exemption Policy adopted by the New Rochelle Industrial Development Agency. It outlines the standards and financial assistance tools available for tax exemptions, which can be beneficial for businesses and developers in the city.",
+    "published": "2023-03-29",
+    "category": "report",
+    "relevant_date": "2023-03-29",
+    "classification": "report",
+    "folder": "Development",
+    "source": "document_center"
+  },
+  {
+    "title": "Summer in the City 2023 Sponsor Packages (6)",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/16584/Summer-in-the-City-2023-Sponsor-Packages-6",
+    "description": "This document outlines sponsorship packages for the 2023 Summer in the City Fundraiser hosted by the New Rochelle Youth Bureau. It details various levels of sponsorship and associated benefits, which can help residents understand how local businesses support community initiatives.",
+    "published": "2023-03-22",
+    "category": "press_release",
+    "relevant_date": "2023-03-22",
+    "classification": "press_release",
+    "folder": "Youth Bureau",
+    "source": "document_center"
+  },
+  {
+    "title": "Call for Poets to Create Poem on the History of the Enslaved in New Rochelle 03.10.23",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/16838/Call-for-Poets-to-Create-Poem-on-the-History-of-the-Enslaved-in-New-Rochelle-031023",
+    "description": "This document is a Request for Proposal (RFP) inviting poets to create a commemorative poem honoring the enslaved population of New Rochelle. The poem will be used in a permanent art piece near One Clinton Park.",
+    "published": "2023-03-10",
+    "category": "press_release",
+    "relevant_date": "2023-03-10",
+    "classification": "press_release",
+    "folder": "Public Information",
+    "source": "document_center"
+  },
+  {
+    "title": "State of the City 2023 Remarks of Mayor Noam Bramson.docx",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/16720/State-of-the-City-2023-Remarks-of-Mayor-Noam-Bramsondocx",
+    "description": "This document contains the remarks made by Mayor Noam Bramson during the 2023 State of the City address. It provides an overview of the city's progress, resilience during the pandemic, and future prospects.",
+    "published": "2023-03-09",
+    "category": "report",
+    "relevant_date": "2023-03-09",
+    "classification": "report",
+    "folder": "Public Information",
+    "source": "document_center"
+  },
+  {
     "title": "STRIVE Look at the 50s",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/3418/STRIVE-Look-at-the-50s",
     "description": "This document announces an event hosted by the New Rochelle Youth Bureau's Strive Leadership Academy, featuring a look back at the 1950s. It is free and takes place on March 1st at the Linda E. Kelly Theater.",
@@ -99,6 +792,182 @@
     "source": "document_center"
   },
   {
+    "title": "2023 Adopted Budget",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/16477/2023-Adopted-Budget",
+    "description": "This document outlines the adopted budget for the city of New Rochelle for the fiscal year 2023. It provides details on how the city plans to allocate its financial resources, which can help residents understand the priorities and funding for various city services and projects.",
+    "published": "2023",
+    "category": "budget",
+    "relevant_date": "2023",
+    "classification": "budget",
+    "folder": "Finance",
+    "source": "document_center"
+  },
+  {
+    "title": "2023 Annual Report Final",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/18644/2023-Annual-Report-Final",
+    "description": "This document is the 2023 Annual Report of the New Rochelle Police Department, detailing key accomplishments such as achieving accreditation, training dispatchers, reopening a sub-precinct, and enhancing transparency through civilian complaint data.",
+    "published": "2023",
+    "category": "report",
+    "relevant_date": "2023",
+    "classification": "report",
+    "folder": "Police",
+    "source": "document_center"
+  },
+  {
+    "title": "2023 City of  New Rochelle Proposed Budget",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/16235/2023-City-of--New-Rochelle-Proposed-Budget",
+    "description": "This document outlines the proposed budget for the City of New Rochelle for the fiscal year 2023. It provides details on how the city plans to allocate funds across various departments and initiatives, which can help residents understand the financial priorities of their local government.",
+    "published": "2023",
+    "category": "budget",
+    "relevant_date": "2023",
+    "classification": "budget",
+    "folder": "Finance",
+    "source": "document_center"
+  },
+  {
+    "title": "2023 New Rochelle Fire Department Honorees and Promotions",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/17554/2023-New-Rochelle-Fire-Department-Honorees-and-Promotions",
+    "description": "This document lists the honorees and promotions within the New Rochelle Fire Department for 2023. It provides information on personnel changes and recognitions within the fire department.",
+    "published": "2023",
+    "category": "press_release",
+    "relevant_date": "2023",
+    "classification": "press_release",
+    "folder": "Fire",
+    "source": "document_center"
+  },
+  {
+    "title": "Homeowner_Stormwater_Guidance_2023",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/17796/Homeowner_Stormwater_Guidance_2023",
+    "description": "This document provides guidelines for homeowners and small businesses in New Rochelle on managing stormwater effectively. It includes practical advice and steps to reduce stormwater issues, which can help residents protect their properties and contribute to the city's sustainability goals.",
+    "published": "2023",
+    "category": "environmental_review",
+    "relevant_date": "2023",
+    "classification": "environmental_review",
+    "folder": "Public Works",
+    "source": "document_center"
+  },
+  {
+    "title": "Job Posting - ASSISTANT DIRECTOR TO THE YOUTH BUREAU open west 2023",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/16909/Job-Posting---ASSISTANT-DIRECTOR-TO-THE-YOUTH-BUREAU-open-west-2023",
+    "description": "This document is a job posting for an Assistant Director position at the Youth Bureau in New Rochelle, open for applications in 2023.",
+    "published": "2023",
+    "category": "other",
+    "relevant_date": "2023",
+    "classification": "other",
+    "folder": "Human Resources",
+    "source": "document_center"
+  },
+  {
+    "title": "Job Posting -LIBRARY CLERK 2023",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/17249/Job-Posting--LIBRARY-CLERK-2023",
+    "description": "This document is a job posting for a Library Clerk position in 2023. It is relevant to residents interested in employment opportunities within the city.",
+    "published": "2023",
+    "category": "other",
+    "relevant_date": "2023",
+    "classification": "other",
+    "folder": "Human Resources",
+    "source": "document_center"
+  },
+  {
+    "title": "2022 Year End Financial Report",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/17662/2022-Year-End-Financial-Report",
+    "description": "This document provides a comprehensive overview of the financial status of the City of New Rochelle at the end of 2022. It includes details on revenues, expenditures, and financial health, which can help residents understand how their tax dollars are being used.",
+    "published": "2022-12-31",
+    "category": "report",
+    "relevant_date": "2022-12-31",
+    "classification": "report",
+    "folder": "Finance",
+    "source": "document_center"
+  },
+  {
+    "title": "Job Posting - SCHOOL CROSSING GUARDS DEC. 2022",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/16370/Job-Posting---SCHOOL-CROSSING-GUARDS-DEC-2022",
+    "description": "This document is a job posting for School Crossing Guards positions in December 2022. It is relevant to residents who may be interested in applying for the position or who want to know more about the hiring process for school safety roles.",
+    "published": "2022-12-01",
+    "category": "other",
+    "relevant_date": "2022-12-01",
+    "classification": "other",
+    "folder": "Human Resources",
+    "source": "document_center"
+  },
+  {
+    "title": "Sponsorship Packages",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15625/Sponsorship-Packages",
+    "description": "This document outlines sponsorship packages for the 9th Annual New Rochelle Street Fair, which took place on September 18, 2022. It details various sponsorship levels and benefits, including recognition, logo placement, and complimentary booth spaces.",
+    "published": "2022-09-18",
+    "category": "press_release",
+    "relevant_date": "2022-09-18",
+    "classification": "press_release",
+    "folder": "Events",
+    "source": "document_center"
+  },
+  {
+    "title": "Copy of NNO Save the date 618",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15786/Copy-of-NNO-Save-the-date-618",
+    "description": "This document announces the National Night Out event organized by the New Rochelle Police Department on August 2, 2022, from 5 PM to 8 PM. It provides details on how to sponsor or participate in the event.",
+    "published": "2022-08-02",
+    "category": "press_release",
+    "relevant_date": "2022-08-02",
+    "classification": "press_release",
+    "folder": "Police",
+    "source": "document_center"
+  },
+  {
+    "title": "NR_JobFair-2022_Flyer",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15824/NR_JobFair-2022_Flyer",
+    "description": "This flyer announces a job fair hosted by the City of New Rochelle and First Source Referral Center on July 28, 2022, at The Rotunda @ New Rochelle City Hall. It lists various job opportunities and encourages attendees to bring their resumes.",
+    "published": "2022-07-28",
+    "category": "other",
+    "relevant_date": "2022-07-28",
+    "classification": "other",
+    "folder": "Development",
+    "source": "document_center"
+  },
+  {
+    "title": "NR_JobFair-2022_Flyer_ESP_072122_V1",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15825/NR_JobFair-2022_Flyer_ESP_072122_V1",
+    "description": "This document is a flyer announcing an employment fair hosted by the City of New Rochelle and First Source Referral Center on July 28, 2022, at La Rotunda in City Hall. It lists various job opportunities and encourages attendees to bring business attire and resumes.",
+    "published": "2022-07-28",
+    "category": "other",
+    "relevant_date": "2022-07-28",
+    "classification": "other",
+    "folder": "Development",
+    "source": "document_center"
+  },
+  {
+    "title": "ARPA Bilingual Flyers   (1)",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15455/ARPA-Bilingual-Flyers---1",
+    "description": "This document provides FAQs about the American Rescue Plan Act (ARPA) funding for New Rochelle, detailing eligibility criteria, application process, deadlines, and contact information for assistance.",
+    "published": "2022-07-15",
+    "category": "press_release",
+    "relevant_date": "2022-07-15",
+    "classification": "press_release",
+    "folder": "ARPA",
+    "source": "document_center"
+  },
+  {
+    "title": "Juneteenth-Program-2022-Updated-8_5x11-Trifold",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15734/Juneteenth-Program-2022-Updated-8_5x11-Trifold",
+    "description": "This document outlines the Juneteenth celebration events held in New Rochelle from June 4 to June 24, 2022, including exhibits, workshops, and concerts. It provides details on various cultural activities and historical retrospectives.",
+    "published": "2022-06-04",
+    "category": "press_release",
+    "relevant_date": "2022-06-04",
+    "classification": "press_release",
+    "folder": "Parks & Recreation",
+    "source": "document_center"
+  },
+  {
+    "title": "NR- NRPD Award Ceremony 2022",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15574/NR--NRPD-Award-Ceremony-2022",
+    "description": "This press release details the New Rochelle Police Department's annual Memorial and Awards Ceremony held on May 17, 2022, recognizing various achievements and honoring fallen officers.",
+    "published": "2022-05-17",
+    "category": "press_release",
+    "relevant_date": "2022-05-17",
+    "classification": "press_release",
+    "folder": "Police",
+    "source": "document_center"
+  },
+  {
     "title": "PILOT",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/11486/PILOT",
     "description": "This document outlines the Uniform Tax Exemption Policy adopted by the New Rochelle Industrial Development Agency, which provides details on tax exemptions for certain properties. It is important for residents interested in understanding local tax incentives and exemptions.",
@@ -107,6 +976,28 @@
     "relevant_date": "2022-03-30",
     "classification": "ordinance",
     "folder": "Development",
+    "source": "document_center"
+  },
+  {
+    "title": "2022 AWARDS and PROMOTIONS CEREMONY",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/16176/2022-AWARDS-and-PROMOTIONS-CEREMONY",
+    "description": "This document likely contains details about awards and promotions given at the Fire Department's annual ceremony. It may include names of recipients and reasons for their recognition.",
+    "published": "2022",
+    "category": "other",
+    "relevant_date": "2022",
+    "classification": "other",
+    "folder": "Fire",
+    "source": "document_center"
+  },
+  {
+    "title": "2022 Adopted Budget",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15013/2022-Adopted-Budget",
+    "description": "This document is the adopted budget for the City of New Rochelle for the year 2022. It provides details on how the city plans to allocate its funds across various departments and initiatives, which is important for residents to understand the financial priorities of their local government.",
+    "published": "2022",
+    "category": "budget",
+    "relevant_date": "2022",
+    "classification": "budget",
+    "folder": "Finance",
     "source": "document_center"
   },
   {
@@ -138,6 +1029,28 @@
     "published": "2022",
     "category": "report",
     "relevant_date": "2022",
+    "classification": "report",
+    "folder": "Finance",
+    "source": "document_center"
+  },
+  {
+    "title": "Final 2022 Annual Report Binder",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/17036/Final-2022-Annual-Report-Binder",
+    "description": "This document is the 2022 Annual Report for the New Rochelle Police Department, providing statistics on crime rates, arrests, personnel demographics, and comparisons with similar municipalities.",
+    "published": "2022",
+    "category": "report",
+    "relevant_date": "2022",
+    "classification": "report",
+    "folder": "Police",
+    "source": "document_center"
+  },
+  {
+    "title": "2021 Year End Financial Report",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15956/2021-Year-End-Financial-Report",
+    "description": "This document provides a comprehensive overview of the financial status of the City of New Rochelle at the end of 2021, including expenditures, revenues, and financial health. It is valuable for residents interested in understanding how their tax dollars are being used.",
+    "published": "2021-12-31",
+    "category": "report",
+    "relevant_date": "2021-12-31",
     "classification": "report",
     "folder": "Finance",
     "source": "document_center"
@@ -715,6 +1628,17 @@
     "source": "document_center"
   },
   {
+    "title": "NRPD Annual Report 2021",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15716/NRPD-Annual-Report-2021",
+    "description": "The NRPD Annual Report 2021 provides an overview of the New Rochelle Police Department's activities and achievements throughout the year, including compliance with police reform initiatives, implementation of body-worn cameras, and restructuring efforts.",
+    "published": "2021",
+    "category": "report",
+    "relevant_date": "2021",
+    "classification": "report",
+    "folder": "Police",
+    "source": "document_center"
+  },
+  {
     "title": "NR Policing Review Committee Draft Report-CM Response-Legal Opinion",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/13150/NR-Policing-Review-Committee-Draft-Report-CM-Response-Legal-Opinion",
     "description": "This report details the New Rochelle Policing Review Committee's recommendations for improving transparency and trust between the New Rochelle Police Department and the community. It includes insights into use of force, training, data disclosure, and community engagement.",
@@ -1009,6 +1933,17 @@
     "relevant_date": "2020",
     "classification": "report",
     "folder": "Finance",
+    "source": "document_center"
+  },
+  {
+    "title": "Annual report 2020",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15048/Annual-report-2020",
+    "description": "This report details the achievements and initiatives of the New Rochelle Police Department in 2020, including responses to the COVID-19 pandemic and crime reduction efforts.",
+    "published": "2020",
+    "category": "report",
+    "relevant_date": "2020",
+    "classification": "report",
+    "folder": "Police",
     "source": "document_center"
   },
   {
@@ -3784,6 +4719,17 @@
     "source": "document_center"
   },
   {
+    "title": "CNR_2025_DPW information Guide and Collection Schedule",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/20012/CNR_2025_DPW-information-Guide-and-Collection-Schedule",
+    "description": "This document provides an overview of the Department of Public Works' services, including garbage and recycling collection, street maintenance, and sewer management. It also includes important contact numbers and guidelines for special waste disposal.",
+    "published": null,
+    "category": "other",
+    "relevant_date": null,
+    "classification": "other",
+    "folder": "Public Works",
+    "source": "document_center"
+  },
+  {
     "title": "CNR_DPW_2017_FINAL",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/6786/CNR_DPW_2017_FINAL",
     "description": "This document provides contact information and guidelines for various services managed by the Department of Public Works in New Rochelle, including trash and recycling collection, engineering, roads, stormwater drainage, and sewer systems.",
@@ -3861,6 +4807,28 @@
     "source": "document_center"
   },
   {
+    "title": "CPPB Profiles 2022",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15503/CPPB-Profiles-2022",
+    "description": "This document provides profiles of members of the Community-Police Partnership Board (CPPB) in New Rochelle, detailing their backgrounds and roles in promoting community-police relations and justice initiatives.",
+    "published": null,
+    "category": "report",
+    "relevant_date": null,
+    "classification": "report",
+    "folder": "Policing Review Committee",
+    "source": "document_center"
+  },
+  {
+    "title": "CPPB Profiles_2023",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/17152/CPPB-Profiles_2023",
+    "description": "This document provides profiles of members of the Community-Police Partnership Board (CPPB) in New Rochelle, detailing their backgrounds and roles in promoting community policing and justice initiatives.",
+    "published": null,
+    "category": "report",
+    "relevant_date": null,
+    "classification": "report",
+    "folder": "Policing Review Committee",
+    "source": "document_center"
+  },
+  {
     "title": "CURRENT Information and Collection Schedule",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/3326/CURRENT-Information-and-Collection-Schedule",
     "description": "This document provides information and collection schedules for sanitation and recycling services in New Rochelle. It includes guidelines and contact details that are useful for residents.",
@@ -3869,6 +4837,17 @@
     "relevant_date": null,
     "classification": "report",
     "folder": "Public Works",
+    "source": "document_center"
+  },
+  {
+    "title": "Childrens Camp In New York State",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15214/Childrens-Camp-In-New-York-State",
+    "description": "This document provides guidelines and safety requirements for children's camps in New York State, including details on camp facility safety, swimming safety, fire safety, and rights and responsibilities of parents and guardians.",
+    "published": null,
+    "category": "report",
+    "relevant_date": null,
+    "classification": "report",
+    "folder": "Parks & Recreation",
     "source": "document_center"
   },
   {
@@ -3891,6 +4870,28 @@
     "relevant_date": null,
     "classification": "other",
     "folder": "Police",
+    "source": "document_center"
+  },
+  {
+    "title": "City of New Rochelle 1095C Notice",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/22315/City-of-New-Rochelle-1095C-Notice",
+    "description": "This notice informs current and former employees of the City of New Rochelle that Form 1095-C, which provides information about health insurance coverage, is available upon request for tax year 2025 and forward.",
+    "published": null,
+    "category": "press_release",
+    "relevant_date": null,
+    "classification": "press_release",
+    "folder": "Finance",
+    "source": "document_center"
+  },
+  {
+    "title": "Coffee with the Mayor August 2025",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/21640/Coffee-with-the-Mayor-August-2025",
+    "description": "This document provides an economic snapshot and overview of New Rochelle's development and growth, highlighting new housing units, commercial spaces, and a vibrant social and retail scene. It is useful for residents interested in the city's progress and future plans.",
+    "published": null,
+    "category": "press_release",
+    "relevant_date": null,
+    "classification": "press_release",
+    "folder": "Mayor",
     "source": "document_center"
   },
   {
@@ -4114,6 +5115,17 @@
     "source": "document_center"
   },
   {
+    "title": "Fall Events Calendar 2022 (Letter)",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/16092/Fall-Events-Calendar-2022-Letter",
+    "description": "This document provides a calendar of fall events in New Rochelle, including arts festivals, parades, and community activities. It is useful for residents who want to participate in local events and activities.",
+    "published": null,
+    "category": "other",
+    "relevant_date": null,
+    "classification": "other",
+    "folder": "Events",
+    "source": "document_center"
+  },
+  {
     "title": "Farmers Market",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/554/Farmers-Market",
     "description": "This document likely provides information about the Farmers Market in New Rochelle, which could include details about its location, operating times, vendors, and other relevant information for residents.",
@@ -4133,6 +5145,17 @@
     "relevant_date": null,
     "classification": "other",
     "folder": "Development",
+    "source": "document_center"
+  },
+  {
+    "title": "Fields Fee Schedule",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15019/Fields-Fee-Schedule",
+    "description": "This document outlines the fee schedule for various fields managed by the Parks & Recreation department. It is useful for residents who wish to use these facilities and need to know the associated costs.",
+    "published": null,
+    "category": "report",
+    "relevant_date": null,
+    "classification": "report",
+    "folder": "Parks & Recreation",
     "source": "document_center"
   },
   {
@@ -4169,6 +5192,17 @@
     "source": "document_center"
   },
   {
+    "title": "Grant Opportunities for Business Owners",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/19811/Grant-Opportunities-for-Business-Owners",
+    "description": "This document provides a list of grant opportunities for business owners in New Rochelle, including federal, state, and private grants. It serves as a resource guide for finding various funding sources.",
+    "published": null,
+    "category": "other",
+    "relevant_date": null,
+    "classification": "other",
+    "folder": "Business Ambassador",
+    "source": "document_center"
+  },
+  {
     "title": "HOW TO CALCULATE TOTAL TAXES",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/5409/HOW-TO-CALCULATE-TOTAL-TAXES",
     "description": "This document provides instructions on how to calculate total property taxes for a home in New Rochelle, including the tax rate and additional fees.",
@@ -4177,6 +5211,17 @@
     "relevant_date": null,
     "classification": "other",
     "folder": "Tax",
+    "source": "document_center"
+  },
+  {
+    "title": "Helpsy Clothing Recycling in New Rochelle",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/19695/Helpsy-Clothing-Recycling-in-New-Rochelle",
+    "description": "New Rochelle has partnered with Helpsy to offer free home pickup clothing recycling services to residents. This initiative aims to reduce the amount of clothing ending up in landfills and incinerators.",
+    "published": null,
+    "category": "press_release",
+    "relevant_date": null,
+    "classification": "press_release",
+    "folder": "Public Works",
     "source": "document_center"
   },
   {
@@ -4370,6 +5415,28 @@
     "title": "JOB ANNOUNCEMENT FOR ACCOUNTING SUPERVISOR",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/10588/JOB-ANNOUNCEMENT-FOR-ACCOUNTING-SUPERVISOR",
     "description": "This document is a job announcement for an Accounting Supervisor position within the Human Resources department of New Rochelle city government. It is relevant to residents interested in employment opportunities within the city government.",
+    "published": null,
+    "category": "other",
+    "relevant_date": null,
+    "classification": "other",
+    "folder": "Human Resources",
+    "source": "document_center"
+  },
+  {
+    "title": "JOB ANNOUNCEMENT FOR ACCOUNTING SUPERVISOR 2023",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/16300/JOB-ANNOUNCEMENT-FOR-ACCOUNTING-SUPERVISOR-2023",
+    "description": "This document is a job announcement for an Accounting Supervisor position in the Human Resources department of New Rochelle city government. It is relevant to residents interested in employment opportunities within the city government.",
+    "published": null,
+    "category": "other",
+    "relevant_date": null,
+    "classification": "other",
+    "folder": "Human Resources",
+    "source": "document_center"
+  },
+  {
+    "title": "JOB ANNOUNCEMENT FOR ACCOUNTING SUPERVISOR 2023 REVISED",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/16304/JOB-ANNOUNCEMENT-FOR-ACCOUNTING-SUPERVISOR-2023-REVISED",
+    "description": "This document is a job announcement for an Accounting Supervisor position in the Human Resources department of New Rochelle. It is relevant for residents interested in employment opportunities within the city government.",
     "published": null,
     "category": "other",
     "relevant_date": null,
@@ -5126,9 +6193,31 @@
     "source": "document_center"
   },
   {
+    "title": "Job Posting - Asst Director of Facilities - OPEN 2022",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/16236/Job-Posting---Asst-Director-of-Facilities---OPEN-2022",
+    "description": "This document is a job posting for an Assistant Director of Facilities position in the Human Resources department of New Rochelle. It is relevant to residents interested in employment opportunities within the city government.",
+    "published": null,
+    "category": "other",
+    "relevant_date": null,
+    "classification": "other",
+    "folder": "Human Resources",
+    "source": "document_center"
+  },
+  {
     "title": "Job Posting - Asst to Clerk and Sec OPEN",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/12205/Job-Posting---Asst-to-Clerk-and-Sec-OPEN",
     "description": "This document is a job posting for an Assistant to the Clerk and Secretary position in the Human Resources department of New Rochelle city government. It is relevant to residents interested in employment opportunities within the city government.",
+    "published": null,
+    "category": "other",
+    "relevant_date": null,
+    "classification": "other",
+    "folder": "Human Resources",
+    "source": "document_center"
+  },
+  {
+    "title": "Job Posting - Audio Visual Technician - OPEN",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/16310/Job-Posting---Audio-Visual-Technician---OPEN",
+    "description": "This document is a job posting for an Audio Visual Technician position within the Human Resources department of New Rochelle city government. It is relevant to residents who may be interested in employment opportunities with the city.",
     "published": null,
     "category": "other",
     "relevant_date": null,
@@ -5390,6 +6479,17 @@
     "source": "document_center"
   },
   {
+    "title": "Job Posting - Customer Service Rep",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/16240/Job-Posting---Customer-Service-Rep",
+    "description": "This document is a job posting for a Customer Service Representative position within the Human Resources department of New Rochelle city government. It is relevant to residents who may be interested in employment opportunities with the city.",
+    "published": null,
+    "category": "other",
+    "relevant_date": null,
+    "classification": "other",
+    "folder": "Human Resources",
+    "source": "document_center"
+  },
+  {
     "title": "Job Posting - DIRECTOR OF TRAFFIC ENGINEER 2016",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/6112/Job-Posting---DIRECTOR-OF-TRAFFIC-ENGINEER-2016",
     "description": "This document is a job posting for the position of Director of Traffic Engineer within the Public Works department. It is relevant to residents interested in local government employment opportunities or those curious about the city's traffic management initiatives.",
@@ -5481,6 +6581,17 @@
     "title": "Job Posting - Data Support Specialist ",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/9762/Job-Posting---Data-Support-Specialist-",
     "description": "This document is a job posting for a Data Support Specialist position within the Human Resources department of New Rochelle city government. It is relevant to residents interested in employment opportunities with the city.",
+    "published": null,
+    "category": "other",
+    "relevant_date": null,
+    "classification": "other",
+    "folder": "Human Resources",
+    "source": "document_center"
+  },
+  {
+    "title": "Job Posting - Data Support Specialist open State",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/16910/Job-Posting---Data-Support-Specialist-open-State",
+    "description": "This document is a job posting for a Data Support Specialist position within the Human Resources department of New Rochelle city government. It is relevant to residents interested in employment opportunities within the city government.",
     "published": null,
     "category": "other",
     "relevant_date": null,
@@ -5668,6 +6779,17 @@
     "title": "Job Posting - Engineering Technician 2021 westchester",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/13448/Job-Posting---Engineering-Technician-2021-westchester",
     "description": "This document is a job posting for an Engineering Technician position in Westchester County. It is relevant to residents interested in employment opportunities within the local government.",
+    "published": null,
+    "category": "other",
+    "relevant_date": null,
+    "classification": "other",
+    "folder": "Human Resources",
+    "source": "document_center"
+  },
+  {
+    "title": "Job Posting - Food Service Helper - Fulltime (8 Hours)",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/16305/Job-Posting---Food-Service-Helper---Fulltime-8-Hours",
+    "description": "This document is a job posting for a Food Service Helper position in the Human Resources department of New Rochelle city government. It is relevant to residents who may be interested in employment opportunities within the city.",
     "published": null,
     "category": "other",
     "relevant_date": null,
@@ -5896,6 +7018,17 @@
     "source": "document_center"
   },
   {
+    "title": "Job Posting - Hourly Customer Service Rep temp 2022B",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15541/Job-Posting---Hourly-Customer-Service-Rep-temp-2022B",
+    "description": "This document is a job posting for an hourly customer service representative position in the Human Resources department of New Rochelle city government.",
+    "published": null,
+    "category": "other",
+    "relevant_date": null,
+    "classification": "other",
+    "folder": "Human Resources",
+    "source": "document_center"
+  },
+  {
     "title": "Job Posting - Hourly Customer Service Rep-2019",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/10800/Job-Posting---Hourly-Customer-Service-Rep-2019",
     "description": "This document is a job posting for an hourly customer service representative position in the Human Resources department of New Rochelle city government. It is useful for residents interested in employment opportunities within the city.",
@@ -6097,6 +7230,17 @@
     "title": "Job Posting - Hourly office Aide public works",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/5760/Job-Posting---Hourly-office-Aide-public-works",
     "description": "This document is a job posting for an hourly office aide position within the public works department. It is relevant to residents who may be interested in employment opportunities with the city.",
+    "published": null,
+    "category": "other",
+    "relevant_date": null,
+    "classification": "other",
+    "folder": "Human Resources",
+    "source": "document_center"
+  },
+  {
+    "title": "Job Posting - Housing Assistance Aide open",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15497/Job-Posting---Housing-Assistance-Aide-open",
+    "description": "This document is a job posting for a Housing Assistance Aide position within the Human Resources department of New Rochelle. It is relevant to residents interested in employment opportunities with the city.",
     "published": null,
     "category": "other",
     "relevant_date": null,
@@ -6372,6 +7516,17 @@
     "title": "Job Posting - Library Assistant -Bilingual - Hourly and full time 2021",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/14291/Job-Posting---Library-Assistant--Bilingual---Hourly-and-full-time-2021",
     "description": "This document is a job posting for a bilingual Library Assistant position at the New Rochelle Public Library. It is useful for residents interested in employment opportunities within the city.",
+    "published": null,
+    "category": "other",
+    "relevant_date": null,
+    "classification": "other",
+    "folder": "Human Resources",
+    "source": "document_center"
+  },
+  {
+    "title": "Job Posting - Library Clerk Typist",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/16306/Job-Posting---Library-Clerk-Typist",
+    "description": "This document is a job posting for a Library Clerk Typist position within the Human Resources department of New Rochelle. It is useful for residents interested in employment opportunities with the city.",
     "published": null,
     "category": "other",
     "relevant_date": null,
@@ -6778,6 +7933,17 @@
   {
     "title": "Job Posting - Principal Clerk OPEN CITY 2021",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/14674/Job-Posting---Principal-Clerk-OPEN-CITY-2021",
+    "description": "This document is a job posting for the position of Principal Clerk in the City of New Rochelle. It is relevant to residents who may be interested in employment opportunities within the city government.",
+    "published": null,
+    "category": "other",
+    "relevant_date": null,
+    "classification": "other",
+    "folder": "Human Resources",
+    "source": "document_center"
+  },
+  {
+    "title": "Job Posting - Principal Clerk OPEN CITY 2022",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/16369/Job-Posting---Principal-Clerk-OPEN-CITY-2022",
     "description": "This document is a job posting for the position of Principal Clerk in the City of New Rochelle. It is relevant to residents who may be interested in employment opportunities within the city government.",
     "published": null,
     "category": "other",
@@ -7205,6 +8371,17 @@
     "source": "document_center"
   },
   {
+    "title": "Job Posting - Senior Data Manager-OPEN",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/16309/Job-Posting---Senior-Data-Manager-OPEN",
+    "description": "This document is a job posting for a Senior Data Manager position within the Human Resources department of New Rochelle city government. It is relevant to residents interested in employment opportunities within the city government.",
+    "published": null,
+    "category": "other",
+    "relevant_date": null,
+    "classification": "other",
+    "folder": "Human Resources",
+    "source": "document_center"
+  },
+  {
     "title": "Job Posting - Senior Engineer Technician",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/9141/Job-Posting---Senior-Engineer-Technician",
     "description": "This document is a job posting for a Senior Engineer Technician position within the Human Resources department of New Rochelle. It is relevant to residents interested in employment opportunities within the city government.",
@@ -7263,6 +8440,17 @@
     "title": "Job Posting - Senior Office Assistant Hourly Bilingual",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/10590/Job-Posting---Senior-Office-Assistant-Hourly-Bilingual",
     "description": "This document is a job posting for a Senior Office Assistant position in the Human Resources department of New Rochelle city government. It is useful for residents interested in employment opportunities within the city government.",
+    "published": null,
+    "category": "other",
+    "relevant_date": null,
+    "classification": "other",
+    "folder": "Human Resources",
+    "source": "document_center"
+  },
+  {
+    "title": "Job Posting - Senior Payroll Clerk OPEN 2022",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15540/Job-Posting---Senior-Payroll-Clerk-OPEN-2022",
+    "description": "This document is a job posting for a Senior Payroll Clerk position within the Human Resources department of New Rochelle city government. It is relevant to residents interested in employment opportunities with the city.",
     "published": null,
     "category": "other",
     "relevant_date": null,
@@ -7678,6 +8866,17 @@
     "source": "document_center"
   },
   {
+    "title": "Job Posting - Youth Worker open ",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15788/Job-Posting---Youth-Worker-open-",
+    "description": "This document is a job posting for a Youth Worker position within the Human Resources department of New Rochelle. It is relevant to residents who may be interested in employment opportunities.",
+    "published": null,
+    "category": "other",
+    "relevant_date": null,
+    "classification": "other",
+    "folder": "Human Resources",
+    "source": "document_center"
+  },
+  {
     "title": "Job Posting - hourly maintance",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/10855/Job-Posting---hourly-maintance",
     "description": "This document is a job posting for hourly maintenance positions within the Human Resources department of New Rochelle. It may be relevant to residents interested in employment opportunities with the city.",
@@ -7942,6 +9141,39 @@
     "source": "document_center"
   },
   {
+    "title": "Job Posting for Senior Nutrition Food Handler",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15498/Job-Posting-for-Senior-Nutrition-Food-Handler",
+    "description": "This document is a job posting for a Senior Nutrition Food Handler position within the Human Resources department of New Rochelle. It is relevant for residents interested in employment opportunities within the city.",
+    "published": null,
+    "category": "other",
+    "relevant_date": null,
+    "classification": "other",
+    "folder": "Human Resources",
+    "source": "document_center"
+  },
+  {
+    "title": "Job Posting-SENIOR CLERK FINANCE - ASSESORS -open",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/16346/Job-Posting-SENIOR-CLERK-FINANCE---ASSESORS--open",
+    "description": "This document is a job posting for a Senior Clerk Finance-Assessors position in the Human Resources department. It is relevant to residents interested in employment opportunities within the city government.",
+    "published": null,
+    "category": "other",
+    "relevant_date": null,
+    "classification": "other",
+    "folder": "Human Resources",
+    "source": "document_center"
+  },
+  {
+    "title": "Job Posting-SENIOR CLERK PARKS AND REC-OPEN",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/16241/Job-Posting-SENIOR-CLERK-PARKS-AND-REC-OPEN",
+    "description": "This document is a job posting for a Senior Clerk position within the Parks and Recreation department. It is relevant to residents interested in employment opportunities within the city government.",
+    "published": null,
+    "category": "other",
+    "relevant_date": null,
+    "classification": "other",
+    "folder": "Human Resources",
+    "source": "document_center"
+  },
+  {
     "title": "Job Postings  fire equip mechanic",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/10510/Job-Postings--fire-equip-mechanic",
     "description": "This document lists job postings for a fire equipment mechanic position within the New Rochelle city government. It is useful for residents interested in employment opportunities with the city.",
@@ -8118,6 +9350,17 @@
     "source": "document_center"
   },
   {
+    "title": "NR Connect with City Hall 2024 ",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/19501/NR-Connect-with-City-Hall-2024-",
+    "description": "This document provides information on how residents can stay informed about city activities through various communication channels such as NewRoAlert, e-newsletters, social media, and the city's website. It also lists contact details and online resources for different city departments.",
+    "published": null,
+    "category": "other",
+    "relevant_date": null,
+    "classification": "other",
+    "folder": "Public Information",
+    "source": "document_center"
+  },
+  {
     "title": "NR325TimelinePanelsForWebsite",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/6538/NR325TimelinePanelsForWebsite",
     "description": "This document provides a historical timeline of New Rochelle from its founding in 1654 to recent developments in 2008. It highlights key events such as the settlement of Huguenots, significant buildings, and modern landmarks.",
@@ -8132,6 +9375,17 @@
     "title": "NRPD Home Safety Tips",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/4009/NRPD-Home-Safety-Tips",
     "description": "This document provides home safety and burglary prevention tips for residents of New Rochelle. It includes practical advice to help residents secure their homes and deter potential burglars.",
+    "published": null,
+    "category": "other",
+    "relevant_date": null,
+    "classification": "other",
+    "folder": "Police",
+    "source": "document_center"
+  },
+  {
+    "title": "NRPD Memorial and Awards list",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/16982/NRPD-Memorial-and-Awards-list",
+    "description": "This document lists the names of individuals honored by the New Rochelle Police Department through memorials and awards. It provides recognition for service and contributions to the community.",
     "published": null,
     "category": "other",
     "relevant_date": null,
@@ -8158,6 +9412,17 @@
     "category": "ordinance",
     "relevant_date": null,
     "classification": "ordinance",
+    "folder": "Public Works",
+    "source": "document_center"
+  },
+  {
+    "title": "New Rochelle - WHAT WE ACCEPT",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/19693/New-Rochelle---WHAT-WE-ACCEPT",
+    "description": "This document lists the types of clothing and accessories that the city accepts for recycling, including footwear, clothing, accessories, and linens. It is useful for residents who want to know what items can be recycled.",
+    "published": null,
+    "category": "other",
+    "relevant_date": null,
+    "classification": "other",
     "folder": "Public Works",
     "source": "document_center"
   },
@@ -8217,6 +9482,28 @@
     "source": "document_center"
   },
   {
+    "title": "New Rochelle Spanish Flyer WO Date",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15741/New-Rochelle-Spanish-Flyer-WO-Date",
+    "description": "This flyer promotes a smoke alarm installation campaign called 'Activa tu Alarma' in New Rochelle. It encourages residents to request free smoke alarms for their homes.",
+    "published": null,
+    "category": "press_release",
+    "relevant_date": null,
+    "classification": "press_release",
+    "folder": "Fire",
+    "source": "document_center"
+  },
+  {
+    "title": "New Rochelle Youth Council",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/16732/New-Rochelle-Youth-Council",
+    "description": "This document provides an overview of the New Rochelle Youth Council, including its history, activities, and signature events. It is useful for residents interested in community service and youth-related initiatives.",
+    "published": null,
+    "category": "other",
+    "relevant_date": null,
+    "classification": "other",
+    "folder": "Youth Bureau",
+    "source": "document_center"
+  },
+  {
     "title": "Noise Ordinance",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/1164/Noise-Ordinance",
     "description": "This document outlines the noise ordinance for the Parks & Recreation department in New Rochelle. It details the rules and regulations regarding noise levels in parks and recreational areas, which is important for residents to understand their responsibilities and rights.",
@@ -8261,6 +9548,17 @@
     "source": "document_center"
   },
   {
+    "title": "PERT - Manual (5)",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15411/PERT---Manual-5",
+    "description": "This document is a manual for the Professional Employment Readiness Techniques (PERT) program run by the New Rochelle Youth Bureau. It outlines the bureau's mission to prevent juvenile delinquency and offers guidance on communication skills and appearance for young people.",
+    "published": null,
+    "category": "report",
+    "relevant_date": null,
+    "classification": "report",
+    "folder": "Youth Bureau",
+    "source": "document_center"
+  },
+  {
     "title": "PSA Notice of EA Availability and Public Meeting_Spanish",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/14111/PSA-Notice-of-EA-Availability-and-Public-Meeting_Spanish",
     "description": "This document announces the availability of an Environmental Assessment (EA) and a draft Section 4(f) Evaluation for the Metro-North Railroad Penn Station Access Project by the Metropolitan Transportation Authority (MTA). It also invites the public to a virtual meeting to review and comment on these documents.",
@@ -8269,6 +9567,17 @@
     "relevant_date": null,
     "classification": "environmental_review",
     "folder": "Public Information",
+    "source": "document_center"
+  },
+  {
+    "title": "Paws Place Rules and Regs",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/17056/Paws-Place-Rules-and-Regs",
+    "description": "This document outlines the rules and regulations for using the Paws Place Dog Park at Ward Acres, including requirements for dog passes, owner responsibilities, and restrictions on dog behavior and access.",
+    "published": null,
+    "category": "other",
+    "relevant_date": null,
+    "classification": "other",
+    "folder": "Parks & Recreation",
     "source": "document_center"
   },
   {
@@ -8291,6 +9600,17 @@
     "relevant_date": null,
     "classification": "environmental_review",
     "folder": "Public Works",
+    "source": "document_center"
+  },
+  {
+    "title": "ProjLife",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15035/ProjLife",
+    "description": "Project Lifesaver is a program designed to help individuals with Autism, Dementia, and other developmental disabilities who may wander off and get lost. It uses wristband transmitters to track them.",
+    "published": null,
+    "category": "press_release",
+    "relevant_date": null,
+    "classification": "press_release",
+    "folder": "Police",
     "source": "document_center"
   },
   {
@@ -8338,6 +9658,17 @@
     "source": "document_center"
   },
   {
+    "title": "STA English W Dates_NewRochelle (002)",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15742/STA-English-W-Dates_NewRochelle-002",
+    "description": "This document is a press release about a campaign to install free smoke alarms in homes across New Rochelle to reduce the risk of death from home fires. Residents can request an installation to protect their families.",
+    "published": null,
+    "category": "press_release",
+    "relevant_date": null,
+    "classification": "press_release",
+    "folder": "Fire",
+    "source": "document_center"
+  },
+  {
     "title": "STUDENT GENERATION",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/11482/STUDENT-GENERATION",
     "description": "This document provides a table illustrating student generation numbers based on a theoretical development scenario in New Rochelle. It includes multipliers for different types of units to estimate the number of students anticipated from new developments.",
@@ -8346,6 +9677,17 @@
     "relevant_date": null,
     "classification": "environmental_review",
     "folder": "Development",
+    "source": "document_center"
+  },
+  {
+    "title": "SYEP BENEFITS FOR EMPLOYERS 2026",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/22342/SYEP-BENEFITS-FOR-EMPLOYERS-2026",
+    "description": "This document outlines the benefits for local businesses that participate in the Summer Youth Employment Program (SYEP) in New Rochelle. It highlights how businesses can benefit from free labor and pre-screened youth workers for a six-week period.",
+    "published": null,
+    "category": "press_release",
+    "relevant_date": null,
+    "classification": "press_release",
+    "folder": "Youth Bureau",
     "source": "document_center"
   },
   {
@@ -8393,6 +9735,17 @@
     "source": "document_center"
   },
   {
+    "title": "State of the CIty Slide Presentation",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/20747/State-of-the-CIty-Slide-Presentation",
+    "description": "This document is a slide presentation from the State of the City address by Mayor Yadira Ramos-Herbert. It covers various initiatives and achievements in areas such as climate leadership, energy, housing, and economic prosperity, providing an overview of the city's progress and future plans.",
+    "published": null,
+    "category": "report",
+    "relevant_date": null,
+    "classification": "report",
+    "folder": "Mayor",
+    "source": "document_center"
+  },
+  {
     "title": "Strive Plus Brochure ",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/7367/Strive-Plus-Brochure-",
     "description": "This brochure introduces the STRIVE PLUS program offered by the New Rochelle Youth Bureau, which expands on the STRIVE Leadership Academy with a more in-depth curriculum focused on dance and art. It is available for ages 10-17 and takes place at the Hugh Doyle Senior Center.",
@@ -8401,6 +9754,50 @@
     "relevant_date": null,
     "classification": "press_release",
     "folder": "Youth Bureau",
+    "source": "document_center"
+  },
+  {
+    "title": "Summer Events 2022  Bilingual",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15787/Summer-Events-2022--Bilingual",
+    "description": "This document lists various summer events in New Rochelle, including free concerts, yoga sessions, and special activities at parks and beaches. It provides details on dates, times, and locations of these events, which can help residents plan their summer activities.",
+    "published": null,
+    "category": "press_release",
+    "relevant_date": null,
+    "classification": "press_release",
+    "folder": "Events",
+    "source": "document_center"
+  },
+  {
+    "title": "TANF Employment Application 2024",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/18165/TANF-Employment-Application-2024",
+    "description": "This document outlines the requirements and procedures for youth employment through the TANF program in New Rochelle. It details the necessary documentation and conditions for youth aged 14-24 to obtain work permits and apply for jobs.",
+    "published": null,
+    "category": "other",
+    "relevant_date": null,
+    "classification": "other",
+    "folder": "Youth Bureau",
+    "source": "document_center"
+  },
+  {
+    "title": "Title VI Complaint Procedures",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15910/Title-VI-Complaint-Procedures",
+    "description": "This document outlines the procedures for filing a Title VI discrimination complaint with the City of New Rochelle. It details how to file a complaint and the process for resolving it.",
+    "published": null,
+    "category": "other",
+    "relevant_date": null,
+    "classification": "other",
+    "folder": "Government",
+    "source": "document_center"
+  },
+  {
+    "title": "Title VI Non-Discrimination Policy Statement ",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15909/Title-VI-Non-Discrimination-Policy-Statement-",
+    "description": "This document outlines the city's policy statement on non-discrimination under Title VI, ensuring that all residents have equal access to city services and programs without discrimination.",
+    "published": null,
+    "category": "other",
+    "relevant_date": null,
+    "classification": "other",
+    "folder": "Government",
     "source": "document_center"
   },
   {
@@ -8467,6 +9864,17 @@
     "relevant_date": null,
     "classification": "other",
     "folder": "Police",
+    "source": "document_center"
+  },
+  {
+    "title": "WHAT WE ACCEPT",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/19694/WHAT-WE-ACCEPT",
+    "description": "This document lists the types of clothing and accessories that the city accepts for recycling. It is useful for residents who want to know what items can be recycled through the city's program.",
+    "published": null,
+    "category": "other",
+    "relevant_date": null,
+    "classification": "other",
+    "folder": "Public Works",
     "source": "document_center"
   },
   {

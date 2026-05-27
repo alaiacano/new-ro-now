@@ -28,8 +28,8 @@ console = Console()
 
 DEFAULT_API_URL = "http://localhost:8000/v1"
 DEFAULT_MODEL = "Qwen/Qwen2.5-32B-Instruct"
-MAX_TEXT_CHARS = 4000        # chars from the start of the document
-MAX_TEXT_CHARS_TAIL = 1500  # additional chars from the end (for long PDFs)
+MAX_TEXT_CHARS = 12000       # chars from the start of the document
+MAX_TEXT_CHARS_TAIL = 3000  # additional chars from the end (for long PDFs)
 
 SYSTEM_PROMPT = """You are a document analyst for New Rochelle, NY city government records.
 Your job is to decide whether a document is useful for a civic information app and, if so, where it belongs.
@@ -143,7 +143,14 @@ def _analyze_one(client: OpenAI, model: str, doc: dict) -> dict | None:
         raise RuntimeError(f"LLM call failed ({type(e).__name__}): {e}") from e
 
 
-def _get_pending(conn, limit: int | None, folder_id: int | None, reanalyze: bool) -> list[dict]:
+def _get_pending(
+    conn,
+    limit: int | None,
+    folder_id: int | None,
+    reanalyze: bool,
+    min_text_len: int | None = None,
+    max_text_len: int | None = None,
+) -> list[dict]:
     """Query docs that need analysis, joining with doc_text and folders."""
     if reanalyze:
         where = "1=1"
@@ -165,6 +172,12 @@ def _get_pending(conn, limit: int | None, folder_id: int | None, reanalyze: bool
         folder_filter = f"AND d.folder_id IN ({placeholders})"
         params.extend(subtree)
 
+    text_len_filter = ""
+    if min_text_len is not None:
+        text_len_filter += f" AND length(dt.text) >= {min_text_len}"
+    if max_text_len is not None:
+        text_len_filter += f" AND length(dt.text) <= {max_text_len}"
+
     query = f"""
         SELECT
             d.id,
@@ -181,6 +194,7 @@ def _get_pending(conn, limit: int | None, folder_id: int | None, reanalyze: bool
         WHERE {where}
           AND d.downloaded_at IS NOT NULL
           {folder_filter}
+          {text_len_filter}
         ORDER BY d.id
     """
     if limit:
@@ -197,12 +211,14 @@ def analyze(
     folder_id: int | None = None,
     reanalyze: bool = False,
     concurrency: int = 8,
+    min_text_len: int | None = None,
+    max_text_len: int | None = None,
 ) -> None:
     init_db()
     conn = get_conn()
     now = _now()
 
-    pending = _get_pending(conn, limit, folder_id, reanalyze)
+    pending = _get_pending(conn, limit, folder_id, reanalyze, min_text_len, max_text_len)
     console.print(f"  {len(pending)} documents to analyze")
     console.print(f"  Model: {model}  API: {api_url}  Concurrency: {concurrency}")
 

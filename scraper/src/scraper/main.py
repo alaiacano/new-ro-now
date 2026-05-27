@@ -167,6 +167,8 @@ def cmd_analyze(
     api_url: str = typer.Option("http://localhost:8000/v1", "--api-url", help="OpenAI-compatible API base URL"),
     model: str = typer.Option("Qwen/Qwen2.5-32B-Instruct", "--model", help="Model name as registered in vLLM"),
     concurrency: int = typer.Option(8, "--concurrency", "-c", help="Parallel requests to LLM"),
+    min_text_len: Optional[int] = typer.Option(None, "--min-text-len", help="Only analyze docs with extracted text >= N chars"),
+    max_text_len: Optional[int] = typer.Option(None, "--max-text-len", help="Only analyze docs with extracted text <= N chars"),
 ):
     """
     Classify and extract structured data from downloaded documents using a local LLM.
@@ -175,6 +177,11 @@ def cmd_analyze(
         vllm serve Qwen/Qwen2.5-32B-Instruct --quantization awq --max-model-len 8192
 
     Results feed into the existing UI tabs via `scrape export-docs`.
+
+    To re-analyze only docs that were previously truncated (benefiting from the higher
+    character limit), use --reanalyze with --min-text-len and --max-text-len:
+
+        uv run scrape analyze --reanalyze --min-text-len 5500 --max-text-len 500000 ...
     """
     console.rule("[bold blue]DocumentCenter Analysis")
     analyze_mod.analyze(
@@ -184,6 +191,8 @@ def cmd_analyze(
         folder_id=folder_id,
         reanalyze=reanalyze,
         concurrency=concurrency,
+        min_text_len=min_text_len,
+        max_text_len=max_text_len,
     )
 
 

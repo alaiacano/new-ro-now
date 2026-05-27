@@ -242,6 +242,54 @@
     "source": "document_center"
   },
   {
+    "id": 20893,
+    "title": "2025 CDBG HOME ACTION PLAN PUBLIC NOTICE - English ",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/20893/2025-CDBG-HOME-ACTION-PLAN-PUBLIC-NOTICE---English-",
+    "description": "This document is an official public notice announcing a 30-day comment period and a public hearing regarding the City\u2019s Draft 2025 Annual Action Plan and amendments to the CDBG & HOME budgets. Residents can review the draft plans at City Hall, the public library, or online, and submit written comments by July 10, 2025. The public hearing will be held on July 8, 2025, at City Hall, giving residents a chance to provide feedback on how federal community development funds will be allocated.",
+    "location": "515 North Avenue, New Rochelle, NY",
+    "coords": {
+      "lat": 40.9201463,
+      "lng": -73.7857973
+    },
+    "classification": "public_hearing",
+    "project_name": "2025 CDBG & HOME Annual Action Plan",
+    "dollar_amount": null,
+    "relevant_date": "2025-07-08",
+    "tags": [
+      "CDBG",
+      "HOME",
+      "public hearing",
+      "budget",
+      "community development"
+    ],
+    "folder": "CDBG and HOME",
+    "source": "document_center"
+  },
+  {
+    "id": 20894,
+    "title": "2025 CDBG HOME ACTION PLAN PUBLIC NOTICE - Spanish ",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/20894/2025-CDBG-HOME-ACTION-PLAN-PUBLIC-NOTICE---Spanish-",
+    "description": "This document is a public notice announcing a 30-day comment period and a public hearing regarding the City\u2019s 2025 Annual Action Plan for CDBG and HOME federal housing funds. Residents can review the draft plan and budget amendments at City Hall, the public library, or online, and submit written comments by July 10, 2025. A public hearing will be held on July 8, 2025, at City Hall, with final council action expected on July 15.",
+    "location": "515 North Avenue, New Rochelle",
+    "coords": {
+      "lat": 40.9201463,
+      "lng": -73.7857973
+    },
+    "classification": "public_hearing",
+    "project_name": "2025 CDBG and HOME Action Plan",
+    "dollar_amount": null,
+    "relevant_date": "2025-07-08",
+    "tags": [
+      "public_hearing",
+      "CDBG",
+      "HOME",
+      "budget",
+      "housing"
+    ],
+    "folder": "CDBG and HOME",
+    "source": "document_center"
+  },
+  {
     "id": 21049,
     "title": "CITYMANAGERSPRESENTATION _QUALITY OF LIFE INITIATIVE",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/21049/CITYMANAGERSPRESENTATION-_QUALITY-OF-LIFE-INITIATIVE",
@@ -264,6 +312,102 @@
     "source": "document_center"
   },
   {
+    "id": 20728,
+    "title": "2025 CDBG Amendment - 2 PLAN PUBLIC NOTICE - English",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/20728/2025-CDBG-Amendment---2-PLAN-PUBLIC-NOTICE---English",
+    "description": "This document is a public hearing notice announcing a 30-day comment period and a public hearing regarding amendments to the city's CDBG Annual Action Plans and budgets. It proposes allocating $250,000 to replace the elevator at the Boys and Girls Club Mascaro Clubhouse to improve accessibility and public safety. Residents can submit written comments or attend the hearing at City Hall in June 2025.",
+    "location": "515 North Avenue, New Rochelle, NY",
+    "coords": {
+      "lat": 40.9201463,
+      "lng": -73.7857973
+    },
+    "classification": "public_hearing",
+    "project_name": "Boys and Girls Club Mascaro Clubhouse Elevator Replacement",
+    "dollar_amount": "$250,000",
+    "relevant_date": "2025-06-10",
+    "tags": [
+      "public_hearing",
+      "CDBG",
+      "accessibility",
+      "infrastructure",
+      "New_Rochelle"
+    ],
+    "folder": "CDBG and HOME",
+    "source": "document_center"
+  },
+  {
+    "id": 20729,
+    "title": "2025 CDBG Amendment -2 PLAN PUBLIC NOTICE - Spanish",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/20729/2025-CDBG-Amendment--2-PLAN-PUBLIC-NOTICE---Spanish",
+    "description": "This document is a public notice announcing a 30-day comment period and a public hearing on June 10, 2025, regarding proposed amendments to the city's CDBG action plans and budgets. The amendments would reallocate $250,000 to fund an elevator replacement at the Boys and Girls Club Mascar\u00f3. Residents can submit written comments until June 12 or attend the hearing at City Hall.",
+    "location": "515 North Avenue, New Rochelle",
+    "coords": {
+      "lat": 40.9201463,
+      "lng": -73.7857973
+    },
+    "classification": "public_hearing",
+    "project_name": "Boys and Girls Club Mascar\u00f3 elevator replacement",
+    "dollar_amount": "$250,000",
+    "relevant_date": "2025-06-10",
+    "tags": [
+      "CDBG",
+      "public_hearing",
+      "community_development",
+      "infrastructure",
+      "New_Rochelle"
+    ],
+    "folder": "CDBG and HOME",
+    "source": "document_center"
+  },
+  {
+    "id": 20731,
+    "title": "2025 HOME SUBSTANTIAL AMENDMENT -1 Plan Public Notice - English",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/20731/2025-HOME-SUBSTANTIAL-AMENDMENT--1-Plan-Public-Notice---English",
+    "description": "This document is a public hearing notice announcing a 30-day comment period and a public hearing on June 10, 2025, regarding amendments to the city's HOME and HOME ARP budgets. The proposed changes would reallocate $474,429 to the Tenant Based Rental Assistance (TBRA) program to support vulnerable residents.",
+    "location": "City Hall, 515 North Avenue",
+    "coords": {
+      "lat": 40.9201463,
+      "lng": -73.7857973
+    },
+    "classification": "public_hearing",
+    "project_name": "HOME and HOME ARP Budgets / TBRA Program",
+    "dollar_amount": "$474,429",
+    "relevant_date": "2025-06-10",
+    "tags": [
+      "public_hearing",
+      "housing_assistance",
+      "budget_amendment",
+      "TBRA",
+      "HUD"
+    ],
+    "folder": "CDBG and HOME",
+    "source": "document_center"
+  },
+  {
+    "id": 20732,
+    "title": "2025 HOME SUBSTANTIAL AMENDMENT -1 Plan Public Notice - Spanish",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/20732/2025-HOME-SUBSTANTIAL-AMENDMENT--1-Plan-Public-Notice---Spanish",
+    "description": "This document is a public notice announcing a 30-day comment period and a public hearing on June 10, 2025, regarding proposed amendments to New Rochelle's HOME and HOME ARP housing action plans. The city proposes reallocating $474,429 to the Tenant-Based Rental Assistance (TBRA) program to continue supporting vulnerable residents. Residents can submit written comments until June 12 or attend the hearing at City Hall.",
+    "location": "515 North Avenue, New Rochelle",
+    "coords": {
+      "lat": 40.9201463,
+      "lng": -73.7857973
+    },
+    "classification": "public_hearing",
+    "project_name": "HOME and HOME ARP Substantial Amendment 1 Plan",
+    "dollar_amount": "$474,429",
+    "relevant_date": "2025-06-10",
+    "tags": [
+      "public_hearing",
+      "housing_funding",
+      "HOME_program",
+      "TBRA",
+      "budget_amendment"
+    ],
+    "folder": "CDBG and HOME",
+    "source": "document_center"
+  },
+  {
     "id": 20793,
     "title": "05142025 UPDATE 2025 Work Plan- District 1-2",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/20793/05142025-UPDATE-2025-Work-Plan--District-1-2",
@@ -283,6 +427,54 @@
       "public_safety"
     ],
     "folder": "City Council",
+    "source": "document_center"
+  },
+  {
+    "id": 20491,
+    "title": "APRIL 2025 CDBG Amendment PUBLIC NOTICE - English",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/20491/APRIL-2025-CDBG-Amendment-PUBLIC-NOTICE---English",
+    "description": "This public notice announces a 30-day comment period and a public hearing on April 8, 2025, regarding proposed amendments to the city's CDBG budget and action plans. It outlines the reallocation of approximately $751,000 to fund sidewalk upgrades, ADA improvements at Lincoln Park, and a transit center budget shortfall. Residents can submit written comments or attend the hearing at City Hall.",
+    "location": "515 North Avenue, New Rochelle",
+    "coords": {
+      "lat": 40.9201463,
+      "lng": -73.7857973
+    },
+    "classification": "public_hearing",
+    "project_name": "CDBG Amendment 2018-2024",
+    "dollar_amount": "$751,469.44",
+    "relevant_date": "2025-04-08",
+    "tags": [
+      "public_hearing",
+      "CDBG",
+      "budget_amendment",
+      "ADA_improvements",
+      "New_Rochelle"
+    ],
+    "folder": "CDBG and HOME",
+    "source": "document_center"
+  },
+  {
+    "id": 20490,
+    "title": "APRIL 2025 CDBG Amendment PUBLIC NOTICE - Spanish",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/20490/APRIL-2025-CDBG-Amendment-PUBLIC-NOTICE---Spanish",
+    "description": "This Spanish-language public notice announces a 30-day comment period and a public hearing regarding amendments to the city\u2019s CDBG action plans and budgets for 2018-2024. It outlines the reallocation of approximately $751,000 in federal grant funds for sidewalk/ADA upgrades, Lincoln Park improvements, and transit center costs. Residents can submit written comments or attend the hearing at City Hall in April 2025.",
+    "location": "515 North Avenue, New Rochelle",
+    "coords": {
+      "lat": 40.9201463,
+      "lng": -73.7857973
+    },
+    "classification": "public_hearing",
+    "project_name": "CDBG 2018-2024 Action Plan Amendments",
+    "dollar_amount": "$751,469.44",
+    "relevant_date": "2025-04-08",
+    "tags": [
+      "CDBG",
+      "public hearing",
+      "budget amendment",
+      "ADA improvements",
+      "public notice"
+    ],
+    "folder": "CDBG and HOME",
     "source": "document_center"
   },
   {
@@ -349,6 +541,78 @@
       "public_works"
     ],
     "folder": "Public Works",
+    "source": "document_center"
+  },
+  {
+    "id": 20696,
+    "title": "New Rochelle Climate Vulnerability Assessment Report_FINAL_20250401",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/20696/New-Rochelle-Climate-Vulnerability-Assessment-Report_FINAL_20250401",
+    "description": "A completed professional report assessing climate vulnerability across New Rochelle, prepared by Stantec Consulting Services for the city in April 2025. It outlines environmental risks and resilience strategies relevant to city planning and community safety.",
+    "location": "New Rochelle, NY",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "report",
+    "project_name": "New Rochelle Climate Vulnerability Assessment",
+    "dollar_amount": null,
+    "relevant_date": "2025-04-01",
+    "tags": [
+      "climate",
+      "sustainability",
+      "vulnerability assessment",
+      "city planning",
+      "resilience"
+    ],
+    "folder": "Sustainability",
+    "source": "document_center"
+  },
+  {
+    "id": 20493,
+    "title": "2024 CAPER Publication Notice - English",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/20493/2024-CAPER-Publication-Notice---English",
+    "description": "This notice announces a 15-day public comment period for the City's 2024 Consolidated Annual Performance and Evaluation Report (CAPER) regarding CDBG and HOME funds. Residents can review the draft report at the New Rochelle Public Library or online and submit written comments by March 24, 2025.",
+    "location": "515 North Ave., New Rochelle, NY 10801",
+    "coords": {
+      "lat": 40.9201463,
+      "lng": -73.7857973
+    },
+    "classification": "public_hearing",
+    "project_name": null,
+    "dollar_amount": null,
+    "relevant_date": "2025-03-10",
+    "tags": [
+      "public comment",
+      "CDBG",
+      "HOME",
+      "CAPER",
+      "housing"
+    ],
+    "folder": "CDBG and HOME",
+    "source": "document_center"
+  },
+  {
+    "id": 20492,
+    "title": "2024 CAPER Publication Notice - Spanish",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/20492/2024-CAPER-Publication-Notice---Spanish",
+    "description": "This document is a Spanish-language public notice announcing a 15-day comment period for the City of New Rochelle's 2024 Consolidated Annual Performance and Evaluation Report (CAPER). It informs residents where to review the draft report and how to submit written feedback regarding CDBG and HOME program progress.",
+    "location": "515 North Ave., New Rochelle, NY 10801",
+    "coords": {
+      "lat": 40.9201463,
+      "lng": -73.7857973
+    },
+    "classification": "public_hearing",
+    "project_name": null,
+    "dollar_amount": null,
+    "relevant_date": "2025-03-10",
+    "tags": [
+      "public_notice",
+      "CDBG",
+      "HOME",
+      "CAPER",
+      "public_comment"
+    ],
+    "folder": "CDBG and HOME",
     "source": "document_center"
   },
   {
@@ -987,6 +1251,30 @@
       "accomplishments"
     ],
     "folder": "Police",
+    "source": "document_center"
+  },
+  {
+    "id": 5933,
+    "title": "Ideal Business Guide 2023",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/5933/Ideal-Business-Guide-2023",
+    "description": "This document is a comprehensive guide for residents and entrepreneurs on how to start and operate a business in New Rochelle. It outlines key resources, city contacts, zoning considerations, and information on securing funding and bidding on city contracts.",
+    "location": "New Rochelle",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "other",
+    "project_name": null,
+    "dollar_amount": null,
+    "relevant_date": "2023",
+    "tags": [
+      "business guide",
+      "economic development",
+      "city resources",
+      "entrepreneurship",
+      "New Rochelle"
+    ],
+    "folder": "Business Ambassador",
     "source": "document_center"
   },
   {
@@ -3234,6 +3522,30 @@
     "source": "document_center"
   },
   {
+    "id": 13528,
+    "title": "90 Cortlandt",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/13528/90-Cortlandt",
+    "description": "This document is a zoning compliance and historic landmarks review board presentation for a proposed screened porch at 90 Cortlandt Avenue. It outlines lot coverage requirements, building footprint adjustments, and impervious surface calculations to ensure compliance with Rochelle Heights Historic District standards.",
+    "location": "90 Cortlandt Avenue, New Rochelle, NY 10801",
+    "coords": {
+      "lat": 40.9256551,
+      "lng": -73.7773802
+    },
+    "classification": "permit",
+    "project_name": "90 Cortlandt",
+    "dollar_amount": null,
+    "relevant_date": "2021-02-07",
+    "tags": [
+      "zoning",
+      "historic district",
+      "porch",
+      "construction",
+      "HLRB"
+    ],
+    "folder": "HLRB",
+    "source": "document_center"
+  },
+  {
     "id": 13467,
     "title": "20-032E REV Spec Vol 2",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/13467/20-032E-REV-Spec-Vol-2",
@@ -3297,6 +3609,54 @@
       "transparency"
     ],
     "folder": "Policing Review Committee",
+    "source": "document_center"
+  },
+  {
+    "id": 13530,
+    "title": "Nomination of Fomer Keith-Albee--Proctors--RKO Theater as Local Landmark",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/13530/Nomination-of-Fomer-Keith-Albee--Proctors--RKO-Theater-as-Local-Landmark",
+    "description": "This document is a formal nomination to designate the former Proctor's/Keith-Albee/RKO Theater at 572 Main Street as a local landmark. It outlines the building's architectural history, cultural significance, and current ownership, providing residents with key information on local historic preservation efforts.",
+    "location": "572 Main Street, New Rochelle, NY 10801",
+    "coords": {
+      "lat": 40.9068213,
+      "lng": -73.7839718
+    },
+    "classification": "report",
+    "project_name": "RKO Theater Landmark Nomination",
+    "dollar_amount": null,
+    "relevant_date": "2021-02",
+    "tags": [
+      "historic preservation",
+      "landmark nomination",
+      "architecture",
+      "Main Street",
+      "city planning"
+    ],
+    "folder": "HLRB",
+    "source": "document_center"
+  },
+  {
+    "id": 13529,
+    "title": "Nomination of Fomer Mahlstedt Lumber and Coal Company Office Building as Local Landmark.docx",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/13529/Nomination-of-Fomer-Mahlstedt-Lumber-and-Coal-Company-Office-Building-as-Local-Landmarkdocx",
+    "description": "This document is a completed nomination report designating the former Mahlstedt Lumber and Coal Company building at 415 Huguenot Street as a local historic landmark. It outlines the property's architectural features, historical significance to New Rochelle, and current ownership status. The nomination provides residents with official documentation of the building's protected historic status.",
+    "location": "415 Huguenot Street, New Rochelle, NY 10801",
+    "coords": {
+      "lat": 40.9060337,
+      "lng": -73.7869165
+    },
+    "classification": "report",
+    "project_name": "Former Mahlstedt Lumber and Coal Company Office Building Landmark Nomination",
+    "dollar_amount": null,
+    "relevant_date": "2021-02",
+    "tags": [
+      "historic landmark",
+      "property nomination",
+      "architectural history",
+      "415 Huguenot Street",
+      "city historian"
+    ],
+    "folder": "HLRB",
     "source": "document_center"
   },
   {
@@ -3675,6 +4035,30 @@
     "source": "document_center"
   },
   {
+    "id": 13462,
+    "title": "5 Brittany Lane - PARC",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/13462/5-Brittany-Lane---PARC",
+    "description": "This document contains contextual photos and conceptual renderings for a residential development project at 5 Brittany Lane. It was submitted as part of the planning review process in December 2020. It matters to residents as it outlines proposed changes or construction plans for a specific property.",
+    "location": "5 Brittany Lane, New Rochelle, NY",
+    "coords": {
+      "lat": 40.8928746,
+      "lng": -73.7755863
+    },
+    "classification": "permit",
+    "project_name": "Forliano/Pirraglia Residence",
+    "dollar_amount": null,
+    "relevant_date": "2020-12-29",
+    "tags": [
+      "planning",
+      "residential",
+      "site plan",
+      "renderings",
+      "5 Brittany Lane"
+    ],
+    "folder": "Planning",
+    "source": "document_center"
+  },
+  {
     "id": 13271,
     "title": "2020 1223 - Contract 20-033 - Addendum No, 1",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/13271/2020-1223---Contract-20-033---Addendum-No-1",
@@ -3826,6 +4210,30 @@
       "clarification"
     ],
     "folder": "Purchasing",
+    "source": "document_center"
+  },
+  {
+    "id": 13360,
+    "title": "93-Beverly-Rd 1-20-21",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/13360/93-Beverly-Rd-1-20-21",
+    "description": "This document is a site plan and photo exhibit location map for the Goldberg Subdivision at 93 Beverly Road. It outlines proposed demolition areas and designated locations for photographic documentation as part of a city planning review.",
+    "location": "93 Beverly Road",
+    "coords": {
+      "lat": 40.9577444,
+      "lng": -73.7924394
+    },
+    "classification": "permit",
+    "project_name": "Goldberg Subdivision",
+    "dollar_amount": null,
+    "relevant_date": "2020-12-01",
+    "tags": [
+      "subdivision",
+      "site plan",
+      "planning",
+      "93 Beverly Road",
+      "demolition"
+    ],
+    "folder": "Planning",
     "source": "document_center"
   },
   {
@@ -4577,6 +4985,30 @@
     "source": "document_center"
   },
   {
+    "id": 12452,
+    "title": "COVID CDBG HOME ACTION PLAN PUBLIC NOTICE - Spanish - 20200430",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/12452/COVID-CDBG-HOME-ACTION-PLAN-PUBLIC-NOTICE---Spanish---20200430",
+    "description": "This document is a public notice announcing a five-day comment period and a virtual public hearing regarding proposed modifications to the city's CDBG and HOME action plans and budgets. It outlines the allocation of $853,167 in federal COVID-19 relief funds for small business grants, food distribution programs, and administrative costs. Residents are invited to submit written comments or attend the virtual hearing to provide feedback on the funding changes.",
+    "location": "New Rochelle, NY",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "public_hearing",
+    "project_name": "COVID CDBG HOME Action Plan",
+    "dollar_amount": "$853,167",
+    "relevant_date": "2020-05-18",
+    "tags": [
+      "public_hearing",
+      "CDBG",
+      "HOME",
+      "COVID-19",
+      "funding_allocation"
+    ],
+    "folder": "CDBG and HOME",
+    "source": "document_center"
+  },
+  {
     "id": 12367,
     "title": "Project 20-009 - Sanitary Sewer Enhancements Phase 1D",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/12367/Project-20-009---Sanitary-Sewer-Enhancements-Phase-1D",
@@ -4640,6 +5072,30 @@
       "bid"
     ],
     "folder": "Purchasing",
+    "source": "document_center"
+  },
+  {
+    "id": 12402,
+    "title": "Pelhamville Road",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/12402/Pelhamville-Road",
+    "description": "This document is a zoning variance application and project proposal for a new office campus by Component Assembly Systems at 632-636 Fifth Avenue. It outlines the site's history, requested zoning changes, neighborhood impact, and benefits like job creation and school internships. It matters to residents as it details a major local development and its potential effects on traffic, zoning, and the community.",
+    "location": "632-636 Fifth Avenue, New Rochelle, NY",
+    "coords": {
+      "lat": 40.9205925,
+      "lng": -73.8043497
+    },
+    "classification": "permit",
+    "project_name": "Component Assembly Systems Campus Office Building",
+    "dollar_amount": null,
+    "relevant_date": "2020-05-05",
+    "tags": [
+      "zoning",
+      "variance",
+      "development",
+      "office campus",
+      "fifth avenue"
+    ],
+    "folder": "BAZ",
     "source": "document_center"
   },
   {
@@ -4904,6 +5360,30 @@
       "community"
     ],
     "folder": "Development",
+    "source": "document_center"
+  },
+  {
+    "id": 12457,
+    "title": "2020 CDBG Budget - Draft",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/12457/2020-CDBG-Budget---Draft",
+    "description": "This document outlines the proposed and revised 2020 Community Development Block Grant (CDBG) budget for New Rochelle. It details funding allocations for various local social service programs, including youth activities, food assistance, and job training, along with administrative costs. It matters to residents as it shows how federal grant funds are distributed to support community initiatives.",
+    "location": "New Rochelle",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "budget",
+    "project_name": null,
+    "dollar_amount": "$1,451,633",
+    "relevant_date": "2020",
+    "tags": [
+      "budget",
+      "CDBG",
+      "community services",
+      "funding",
+      "2020"
+    ],
+    "folder": "CDBG and HOME",
     "source": "document_center"
   },
   {
@@ -5479,6 +5959,30 @@
     "source": "document_center"
   },
   {
+    "id": 12451,
+    "title": "2019 Action Plan 6.17.19",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/12451/2019-Action-Plan-61719",
+    "description": "This document outlines the City of New Rochelle's 2019 Annual Action Plan for federal CDBG and HOME funds. It details the allocation of over $1.7 million for housing and community development initiatives, along with public hearing schedules and citizen participation procedures.",
+    "location": "New Rochelle, NY",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "budget",
+    "project_name": null,
+    "dollar_amount": "$1,792,069",
+    "relevant_date": "2019-06-17",
+    "tags": [
+      "CDBG",
+      "HOME",
+      "budget",
+      "action plan",
+      "community development"
+    ],
+    "folder": "CDBG and HOME",
+    "source": "document_center"
+  },
+  {
     "id": 11023,
     "title": "2019 SPRING EVENTS ",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/11023/2019-SPRING-EVENTS-",
@@ -5898,6 +6402,30 @@
     "source": "document_center"
   },
   {
+    "id": 12445,
+    "title": "Amended 2019 CDBG Budget",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/12445/Amended-2019-CDBG-Budget",
+    "description": "This document outlines the amended 2019 budget for the Community Development Block Grant (CDBG) program in New Rochelle. It details specific funding allocations for local public service programs, including food assistance, youth services, and job training, as well as administrative costs. It provides transparency on how federal grant funds are utilized to support community welfare.",
+    "location": "New Rochelle",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "budget",
+    "project_name": null,
+    "dollar_amount": "$1,411,982",
+    "relevant_date": "2019-04-10",
+    "tags": [
+      "budget",
+      "CDBG",
+      "public services",
+      "grant funding",
+      "2019"
+    ],
+    "folder": "CDBG and HOME",
+    "source": "document_center"
+  },
+  {
     "id": 10964,
     "title": "5060_Beechmont Lake Improvements COMPILED FINAL BID DOCS_20190408",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/10964/5060_Beechmont-Lake-Improvements-COMPILED-FINAL-BID-DOCS_20190408",
@@ -6071,6 +6599,30 @@
       "services"
     ],
     "folder": "Public Works",
+    "source": "document_center"
+  },
+  {
+    "id": 9941,
+    "title": "DRAFT 2019 PHA ANNUAL PLAN",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/9941/DRAFT-2019-PHA-ANNUAL-PLAN",
+    "description": "This document is the draft 2019 Annual Plan for the New Rochelle Public Housing Authority's Housing Choice Voucher program. It outlines the agency's mission, goals, waiting list demographics, and progress on affordable housing initiatives for the fiscal year.",
+    "location": "New Rochelle",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "report",
+    "project_name": null,
+    "dollar_amount": null,
+    "relevant_date": "2019-01",
+    "tags": [
+      "housing",
+      "PHA",
+      "Section 8",
+      "annual plan",
+      "affordable housing"
+    ],
+    "folder": "Section 8",
     "source": "document_center"
   },
   {
@@ -6316,6 +6868,30 @@
     "source": "document_center"
   },
   {
+    "id": 9792,
+    "title": "DRAFT 2018-2022 Consolidated Plan and 2018 Action Plan",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/9792/DRAFT-2018-2022-Consolidated-Plan-and-2018-Action-Plan",
+    "description": "This document outlines the City of New Rochelle's five-year strategic plan and annual action plan for affordable housing and community development. It details federal grant allocations, housing needs assessments, and specific goals to address cost burdens and homelessness for low- and moderate-income residents.",
+    "location": "New Rochelle, NY",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "report",
+    "project_name": "2018-2022 Consolidated Plan and 2018 Action Plan",
+    "dollar_amount": "$1,858,341",
+    "relevant_date": "2018-06-13",
+    "tags": [
+      "affordable housing",
+      "community development",
+      "CDBG",
+      "HOME",
+      "strategic plan"
+    ],
+    "folder": "CDBG and HOME",
+    "source": "document_center"
+  },
+  {
     "id": 9734,
     "title": "PB Presentation 6-4-2018",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/9734/PB-Presentation-6-4-2018",
@@ -6357,6 +6933,54 @@
       "environment"
     ],
     "folder": "Public Works",
+    "source": "document_center"
+  },
+  {
+    "id": 9834,
+    "title": "Affordable Housing Report-New Rochelle 6.26.18 FINAL",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/9834/Affordable-Housing-Report-New-Rochelle-62618-FINAL",
+    "description": "This May 2018 policy report analyzes New Rochelle's affordable housing market, outlines current affordability challenges, and provides strategic recommendations for the city's Affordable Housing Fund. It matters to residents as it details official city strategies to preserve housing options and mitigate displacement amid rapid real estate development.",
+    "location": "New Rochelle",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "report",
+    "project_name": null,
+    "dollar_amount": null,
+    "relevant_date": "2018-05",
+    "tags": [
+      "affordable housing",
+      "policy report",
+      "housing fund",
+      "urban development",
+      "city planning"
+    ],
+    "folder": "Projects ie Rezoning Developments etc",
+    "source": "document_center"
+  },
+  {
+    "id": 9378,
+    "title": "New Rochelle Workshop for 04.18.18",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/9378/New-Rochelle-Workshop-for-041818",
+    "description": "This document is a public announcement for a homeownership workshop scheduled for April 18, 2018. It provides residents with details on the event location, time, and key resources for affordable mortgages and closing costs.",
+    "location": "500 Main St., New Rochelle, NY 10801",
+    "coords": {
+      "lat": 40.908585,
+      "lng": -73.7812354
+    },
+    "classification": "other",
+    "project_name": null,
+    "dollar_amount": null,
+    "relevant_date": "2018-04-18",
+    "tags": [
+      "homeownership",
+      "workshop",
+      "affordable housing",
+      "community announcement",
+      "Housing Action Council"
+    ],
+    "folder": "CDBG and HOME",
     "source": "document_center"
   },
   {
@@ -7196,6 +7820,78 @@
     "source": "document_center"
   },
   {
+    "id": 5905,
+    "title": "Public Notice re 2016 CDBG  HOME Action Plan",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/5905/Public-Notice-re-2016-CDBG--HOME-Action-Plan",
+    "description": "This document is a public notice announcing a public hearing and a 30-day comment period for the City's 2016 CDBG and HOME Action Plan and budget amendments. Residents can review the draft plans at City Hall or the public library and submit written comments by May 12, 2016.",
+    "location": "515 North Avenue",
+    "coords": {
+      "lat": 40.9201463,
+      "lng": -73.7857973
+    },
+    "classification": "public_hearing",
+    "project_name": "2016 CDBG & HOME Action Plan",
+    "dollar_amount": null,
+    "relevant_date": "2016-05-10",
+    "tags": [
+      "public hearing",
+      "CDBG",
+      "HOME",
+      "budget",
+      "action plan"
+    ],
+    "folder": "CDBG and HOME",
+    "source": "document_center"
+  },
+  {
+    "id": 5934,
+    "title": "OFFICE AND RETAIL PERMIT CHECKLIST 20160421",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/5934/OFFICE-AND-RETAIL-PERMIT-CHECKLIST-20160421",
+    "description": "This document provides a step-by-step checklist for businesses applying for professional office and retail permits in New Rochelle. It outlines required city and county permits, lists contact information for relevant departments, and explains applicable fees. It serves as a practical guide for local business owners navigating the permitting process.",
+    "location": "New Rochelle, NY",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "permit",
+    "project_name": null,
+    "dollar_amount": null,
+    "relevant_date": "2016-04-21",
+    "tags": [
+      "permit",
+      "business",
+      "checklist",
+      "city permits",
+      "county permits"
+    ],
+    "folder": "Business Ambassador",
+    "source": "document_center"
+  },
+  {
+    "id": 5935,
+    "title": "RESTAURANT PERMIT CHECKLIST 20160421",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/5935/RESTAURANT-PERMIT-CHECKLIST-20160421",
+    "description": "This document provides a step-by-step checklist for restaurant owners to obtain necessary city, county, and state permits in New Rochelle. It outlines required departments, contact information, and key compliance steps for new food service businesses.",
+    "location": "New Rochelle, NY",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "permit",
+    "project_name": null,
+    "dollar_amount": null,
+    "relevant_date": "2016-04-21",
+    "tags": [
+      "restaurant",
+      "permit",
+      "checklist",
+      "business",
+      "licensing"
+    ],
+    "folder": "Business Ambassador",
+    "source": "document_center"
+  },
+  {
     "id": 6034,
     "title": "BUSINESS AMBASSADOR NEWSLETTTER MARCH 13",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/6034/BUSINESS-AMBASSADOR-NEWSLETTTER-MARCH-13",
@@ -7213,6 +7909,30 @@
       "business",
       "advertising",
       "signs"
+    ],
+    "folder": "Business Ambassador",
+    "source": "document_center"
+  },
+  {
+    "id": 6035,
+    "title": "BUSINESS AMBASSADOR NEWSLETTTER MARCH 1",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/6035/BUSINESS-AMBASSADOR-NEWSLETTTER-MARCH-1",
+    "description": "This March 2016 newsletter from the City's Business Ambassador provides resources for local business owners, including details on an upcoming job fair and guidance on how to find and bid on municipal, county, and state contracts.",
+    "location": "29 Castle Place, New Rochelle, NY",
+    "coords": {
+      "lat": 40.9005463,
+      "lng": -73.7810086
+    },
+    "classification": "other",
+    "project_name": null,
+    "dollar_amount": null,
+    "relevant_date": "2016-03-01",
+    "tags": [
+      "business",
+      "newsletter",
+      "contracting",
+      "job fair",
+      "resources"
     ],
     "folder": "Business Ambassador",
     "source": "document_center"
@@ -7438,6 +8158,54 @@
     "source": "document_center"
   },
   {
+    "id": 4221,
+    "title": "IDA Regular Meeting Notice_June 17 2015",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/4221/IDA-Regular-Meeting-Notice_June-17-2015",
+    "description": "This document is a notice for a regular meeting of the New Rochelle Industrial Development Agency scheduled for June 17, 2015. It provides the meeting time, location at City Hall, and notes that one member will attend via video conference. Residents can use this information to attend or observe the agency's discussions on local economic development and property tax exemptions.",
+    "location": "515 North Ave., New Rochelle, NY 10801",
+    "coords": {
+      "lat": 40.9201463,
+      "lng": -73.7857973
+    },
+    "classification": "agenda",
+    "project_name": null,
+    "dollar_amount": null,
+    "relevant_date": "2015-06-17",
+    "tags": [
+      "IDA",
+      "meeting_notice",
+      "city_board",
+      "economic_development",
+      "New_Rochelle"
+    ],
+    "folder": "IDA",
+    "source": "document_center"
+  },
+  {
+    "id": 4217,
+    "title": "EnvisioNR - June 8 Sustainability Meeting News Release",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/4217/EnvisioNR---June-8-Sustainability-Meeting-News-Release",
+    "description": "This is an official city press release announcing a public meeting on June 8, 2015, to discuss sustainability goals as part of the EnvisioNR 2016 Comprehensive Plan update. Residents are invited to attend at City Hall Annex to provide input on future development and preservation. The release also mentions a follow-up meeting on downtown planning scheduled for July 8.",
+    "location": "90 Beaufort Place",
+    "coords": {
+      "lat": 40.9206226,
+      "lng": -73.7856
+    },
+    "classification": "press_release",
+    "project_name": "EnvisioNR 2016",
+    "dollar_amount": null,
+    "relevant_date": "2015-06-08",
+    "tags": [
+      "press_release",
+      "public_meeting",
+      "comprehensive_plan",
+      "sustainability",
+      "EnvisioNR"
+    ],
+    "folder": "EnvisioNR",
+    "source": "document_center"
+  },
+  {
     "id": 4178,
     "title": "05.07.15 Revised Schedule- HalcyonPark",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/4178/050715-Revised-Schedule--HalcyonPark",
@@ -7523,6 +8291,30 @@
       "youth"
     ],
     "folder": "Youth Bureau",
+    "source": "document_center"
+  },
+  {
+    "id": 4069,
+    "title": "City of New Rochelle 2015 Annual Action Plan",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/4069/City-of-New-Rochelle-2015-Annual-Action-Plan",
+    "description": "This document is the City of New Rochelle's 2015 Annual Action Plan detailing the allocation of federal CDBG and HOME grant funds for community development, affordable housing, and infrastructure. It outlines annual goals, citizen participation processes, and specific funding amounts for the fiscal year.",
+    "location": "New Rochelle, NY",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "report",
+    "project_name": "Downtown Traffic and Gateway Improvement project",
+    "dollar_amount": "$1,525,852",
+    "relevant_date": "2015-04-14",
+    "tags": [
+      "CDBG",
+      "HOME",
+      "annual_action_plan",
+      "community_development",
+      "federal_grants"
+    ],
+    "folder": "CDBG and HOME",
     "source": "document_center"
   },
   {
@@ -7813,6 +8605,30 @@
     "source": "document_center"
   },
   {
+    "id": 3007,
+    "title": "FEIS II Responses DEIS IV.B",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/3007/FEIS-II-Responses-DEIS-IVB",
+    "description": "This document contains official responses to public and agency comments on the Draft Environmental Impact Statement (DEIS) for the Echo Bay Center development. It addresses resident concerns regarding shoreline access, flood zone compliance, dredging, and state environmental regulations. It matters to residents as it outlines how the city and developer plan to mitigate environmental impacts and comply with flood and wetland regulations.",
+    "location": "Echo Bay, New Rochelle",
+    "coords": {
+      "lat": 40.9050994,
+      "lng": -73.7676323
+    },
+    "classification": "environmental_review",
+    "project_name": "Echo Bay Center",
+    "dollar_amount": null,
+    "relevant_date": "2013-06-25",
+    "tags": [
+      "environmental_review",
+      "Echo Bay Center",
+      "DEIS",
+      "flood_zone",
+      "public_comment"
+    ],
+    "folder": "FEIS Echo Bay",
+    "source": "document_center"
+  },
+  {
     "id": 2717,
     "title": "325 Sponsorship 4-2013",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/2717/325-Sponsorship-4-2013",
@@ -7832,6 +8648,30 @@
       "events"
     ],
     "folder": "325th Anniversary",
+    "source": "document_center"
+  },
+  {
+    "id": 2701,
+    "title": "3.20.13 PH Notice re HOME  Re-program",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/2701/32013-PH-Notice-re-HOME--Re-program",
+    "description": "This document is a public hearing notice regarding the reprogramming of $132,723.19 in HOME funds from the Heritage Homes project to the Residential Rehabilitation Program. It informs residents of the hearing date, comment period, and the purpose of avoiding automatic recapture of funds by HUD.",
+    "location": "515 North Ave, New Rochelle",
+    "coords": {
+      "lat": 40.9201463,
+      "lng": -73.7857973
+    },
+    "classification": "public_hearing",
+    "project_name": "HOME Investments Partnership Program",
+    "dollar_amount": "$132,723.19",
+    "relevant_date": "2013-04-09",
+    "tags": [
+      "public_hearing",
+      "HOME_funds",
+      "budget_transfer",
+      "HUD_compliance",
+      "New_Rochelle"
+    ],
+    "folder": "CDBG and HOME",
     "source": "document_center"
   },
   {
@@ -8275,6 +9115,54 @@
     "source": "document_center"
   },
   {
+    "id": 727,
+    "title": "Presbyterian Church RFP",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/727/Presbyterian-Church-RFP",
+    "description": "This document is a Request for Proposals (RFP) from the City of New Rochelle seeking religious organizations to lease or purchase the former North Avenue Presbyterian Church for rehabilitation and use as a house of worship. It details submission requirements, evaluation criteria, and key deadlines for interested parties.",
+    "location": "515 North Avenue, New Rochelle, NY",
+    "coords": {
+      "lat": 40.9201463,
+      "lng": -73.7857973
+    },
+    "classification": "bid",
+    "project_name": "North Avenue Presbyterian Church",
+    "dollar_amount": null,
+    "relevant_date": "2011-02-11",
+    "tags": [
+      "RFP",
+      "property lease",
+      "church",
+      "development",
+      "procurement"
+    ],
+    "folder": "Projects ie Rezoning Developments etc",
+    "source": "document_center"
+  },
+  {
+    "id": 699,
+    "title": "PH Notice for  RARAP Conplan Amendment",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/699/PH-Notice-for--RARAP-Conplan-Amendment",
+    "description": "This public notice announces a hearing and comment period regarding an amendment to the city's Consolidated Plan for CDBG and HOME funds. It outlines procedures to minimize resident displacement and ensure replacement of demolished low-income housing units. Residents can attend the hearing at City Hall or submit written comments by January 18, 2011.",
+    "location": "515 North Avenue, New Rochelle",
+    "coords": {
+      "lat": 40.9201463,
+      "lng": -73.7857973
+    },
+    "classification": "public_hearing",
+    "project_name": "RARAP Conplan Amendment",
+    "dollar_amount": null,
+    "relevant_date": "2011-01-18",
+    "tags": [
+      "public_hearing",
+      "CDBG",
+      "housing_policy",
+      "consolidated_plan",
+      "comment_period"
+    ],
+    "folder": "CDBG and HOME",
+    "source": "document_center"
+  },
+  {
     "id": 1185,
     "title": "2011 NRPD Annual Report",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/1185/2011-NRPD-Annual-Report",
@@ -8294,6 +9182,54 @@
       "crime_statistics"
     ],
     "folder": "Police",
+    "source": "document_center"
+  },
+  {
+    "id": 655,
+    "title": "Newspaper Notice LUR (3)",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/655/Newspaper-Notice-LUR-3",
+    "description": "This document is a public notice announcing a City Council hearing on November 9, 2010, regarding proposed amendments to the Lincoln Avenue Urban Renewal Plan. It outlines changes to building controls and zoning standards for residential and commercial structures in the area. Residents can attend the hearing or submit written comments to provide input on the redevelopment guidelines.",
+    "location": "Lincoln Avenue, New Rochelle",
+    "coords": {
+      "lat": 40.9166174,
+      "lng": -73.7927228
+    },
+    "classification": "public_hearing",
+    "project_name": "Lincoln Avenue Urban Renewal Plan",
+    "dollar_amount": null,
+    "relevant_date": "2010-11-09",
+    "tags": [
+      "public_hearing",
+      "zoning",
+      "urban_renewal",
+      "Lincoln_Avenue",
+      "city_council"
+    ],
+    "folder": "Projects ie Rezoning Developments etc",
+    "source": "document_center"
+  },
+  {
+    "id": 698,
+    "title": "Final RARAP (Nov.2010)",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/698/Final-RARAP-Nov2010",
+    "description": "This document outlines the City of New Rochelle's Residential Anti-Displacement and Relocation Assistance Plan (RARAP) for CDBG and HOME funded activities. It details procedures to minimize resident displacement, provide relocation assistance, and ensure one-for-one replacement of demolished low-income housing units.",
+    "location": "New Rochelle",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "report",
+    "project_name": null,
+    "dollar_amount": null,
+    "relevant_date": "2010-11",
+    "tags": [
+      "housing policy",
+      "CDBG",
+      "HOME program",
+      "relocation assistance",
+      "anti-displacement"
+    ],
+    "folder": "CDBG and HOME",
     "source": "document_center"
   },
   {
@@ -8492,6 +9428,30 @@
       "residential services"
     ],
     "folder": "Development",
+    "source": "document_center"
+  },
+  {
+    "id": 72,
+    "title": "City of New Rochelle - Analysis of Impediments to",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/72/City-of-New-Rochelle---Analysis-of-Impediments-to",
+    "description": "This completed 2008 city report analyzes barriers to fair housing choice in New Rochelle and outlines federal CDBG and HOME funding allocations. It details demographic data, identifies housing challenges like affordability and accessibility, and provides recommendations for city policy. It matters to residents as it shapes local housing initiatives and grant usage.",
+    "location": "New Rochelle",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "report",
+    "project_name": null,
+    "dollar_amount": "$1,723,930",
+    "relevant_date": "2008-06-00",
+    "tags": [
+      "fair housing",
+      "CDBG",
+      "HOME",
+      "housing policy",
+      "city report"
+    ],
+    "folder": "CDBG and HOME",
     "source": "document_center"
   },
   {
@@ -9812,6 +10772,30 @@
       "faq"
     ],
     "folder": "Parks & Recreation",
+    "source": "document_center"
+  },
+  {
+    "id": 675,
+    "title": "Energy Efficiency Revised",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/675/Energy-Efficiency-Revised",
+    "description": "This document outlines various energy efficiency programs, rebates, tax credits, and financing options available to New Rochelle residents for home improvements. It provides eligibility criteria, application links, and contact information for state, county, and utility-sponsored initiatives. It helps residents reduce energy costs and access financial assistance for upgrades.",
+    "location": "New Rochelle",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "classification": "other",
+    "project_name": null,
+    "dollar_amount": null,
+    "relevant_date": null,
+    "tags": [
+      "energy efficiency",
+      "rebates",
+      "sustainability",
+      "residential programs",
+      "financing"
+    ],
+    "folder": "Sustainability",
     "source": "document_center"
   },
   {

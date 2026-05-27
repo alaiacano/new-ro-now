@@ -12,6 +12,7 @@ Usage (from repo root):
     uv run --project scraper scrape discover
     uv run --project scraper scrape download [--limit N] [--folder-id F] [--retry-errors]
     uv run --project scraper scrape analyze [--limit N] [--folder-id F] [--reanalyze] [--api-url URL] [--model NAME] [--concurrency N]
+  → Default concurrency=2 for single GPU, do not increase beyond 3
     uv run --project scraper scrape export-docs
 """
 import json
@@ -166,7 +167,7 @@ def cmd_analyze(
     reanalyze: bool = typer.Option(False, "--reanalyze", help="Re-analyze already-analyzed docs"),
     api_url: str = typer.Option("http://localhost:8000/v1", "--api-url", help="OpenAI-compatible API base URL"),
     model: str = typer.Option("Qwen/Qwen2.5-32B-Instruct", "--model", help="Model name as registered in vLLM"),
-    concurrency: int = typer.Option(8, "--concurrency", "-c", help="Parallel requests to LLM"),
+    concurrency: int = typer.Option(2, "--concurrency", "-c", help="Parallel requests to LLM"),
     min_text_len: Optional[int] = typer.Option(None, "--min-text-len", help="Only analyze docs with extracted text >= N chars"),
     max_text_len: Optional[int] = typer.Option(None, "--max-text-len", help="Only analyze docs with extracted text <= N chars"),
 ):

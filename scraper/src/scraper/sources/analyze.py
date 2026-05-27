@@ -98,6 +98,8 @@ def _build_prompt(title: str, folder: str, file_type: str, text: str | None) -> 
 
 def _parse_response(content: str) -> dict:
     """Extract JSON from model response, handling markdown fences if present."""
+    if content is None:
+        raise ValueError("Model returned null content")
     # Strip markdown code fences if model ignored instructions
     content = content.strip()
     if content.startswith("```"):
@@ -126,10 +128,17 @@ def _analyze_one(client: OpenAI, model: str, doc: dict) -> dict | None:
                 {"role": "user", "content": prompt},
             ],
             temperature=0.1,
-            max_tokens=800,
+            max_tokens=8192,
             response_format={"type": "json_object"},
+            extra_body={"disable_free_form_reasoning": True},
         )
         content = response.choices[0].message.content
+        if content is None:
+            reasoning = getattr(response.choices[0].message, "reasoning", None)
+            raise RuntimeError(
+                f"Model returned null content (finish_reason={response.choices[0].finish_reason}). "
+                f"Reasoning: {reasoning[:200] if reasoning else '(none)'}"
+            )
         return _parse_response(content)
     except Exception as e:
         # Include response body if available (e.g. from openai.APIStatusError)
@@ -210,7 +219,7 @@ def analyze(
     limit: int | None = None,
     folder_id: int | None = None,
     reanalyze: bool = False,
-    concurrency: int = 8,
+    concurrency: int = 2,
     min_text_len: int | None = None,
     max_text_len: int | None = None,
 ) -> None:

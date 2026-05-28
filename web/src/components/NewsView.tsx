@@ -3,7 +3,7 @@ import type { NewsItem, PublicHearing } from '../types'
 interface Props {
   news: NewsItem[]
   hearings: PublicHearing[]
-  fromYear: number | null
+  fromYear: number | 'upcoming' | null
 }
 
 function formatDate(iso: string | null | undefined): string | null {
@@ -14,7 +14,8 @@ function formatDate(iso: string | null | undefined): string | null {
 }
 
 export default function NewsView({ news, hearings, fromYear }: Props) {
-  const cutoff = fromYear ? new Date(`${fromYear}-01-01`) : null
+  const year = typeof fromYear === 'number' ? fromYear : null
+  const cutoff = year ? new Date(`${year}-01-01`) : null
 
   const filteredNews = cutoff
     ? news.filter(item => item.published && new Date(item.published) >= cutoff)

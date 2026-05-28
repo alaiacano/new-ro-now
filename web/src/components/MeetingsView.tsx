@@ -3,7 +3,7 @@ import type { Meeting } from '../types'
 
 interface Props {
   meetings: Meeting[]
-  fromYear: number | null
+  fromYear: number | 'upcoming' | null
 }
 
 function groupByMonth(events: Meeting[]): Record<string, Meeting[]> {
@@ -30,11 +30,16 @@ function formatTime(iso: string): string {
 export default function MeetingsView({ meetings, fromYear }: Props) {
   const [calFilter, setCalFilter] = useState<string>('All')
 
+  const today = useMemo(() => {
+    const now = new Date()
+    return new Date(now.getFullYear(), now.getMonth(), now.getDate())
+  }, [])
+
   const dated = useMemo(() => {
-    if (!fromYear) return meetings
-    const cutoff = new Date(`${fromYear}-01-01`)
+    if (fromYear === 'upcoming') return meetings.filter(m => m.start && new Date(m.start) >= today)
+    const cutoff = fromYear ? new Date(`${fromYear}-01-01`) : today
     return meetings.filter(m => m.start && new Date(m.start) >= cutoff)
-  }, [meetings, fromYear])
+  }, [meetings, fromYear, today])
 
   const calendars = useMemo<string[]>(() => {
     const seen = new Set(dated.map(m => m.calendar))

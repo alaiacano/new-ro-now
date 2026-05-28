@@ -82,7 +82,7 @@ interface Props {
   construction: ConstructionItem[]
   paving: PavingEntry[]
   docMap?: DocMapEntry[]
-  fromYear: number | null
+  fromYear: number | 'upcoming' | null
 }
 
 export default function MapView({ construction, paving, docMap = [], fromYear }: Props) {
@@ -125,7 +125,8 @@ export default function MapView({ construction, paving, docMap = [], fromYear }:
 
   // Filter doc_map by year and excluded classifications, then group by classification
   const docByClassification = useMemo<DocGroup[]>(() => {
-    const cutoff = fromYear ? new Date(`${fromYear}-01-01`) : null
+    const year = typeof fromYear === 'number' ? fromYear : null
+    const cutoff = year ? new Date(`${year}-01-01`) : null
     const filtered = docMap.filter(d => {
       if (d.classification && MAP_EXCLUDED_CLASSIFICATIONS.has(d.classification)) return false
       if (!cutoff) return true

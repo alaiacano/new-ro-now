@@ -2,7 +2,7 @@ import type { Bid } from '../types'
 
 interface Props {
   bids: Bid[]
-  fromYear: number | null
+  fromYear: number | 'upcoming' | null
 }
 
 function formatDate(iso: string | null | undefined): string | null {
@@ -50,7 +50,8 @@ function BidCard({ bid }: BidCardProps) {
 }
 
 export default function BidsView({ bids, fromYear }: Props) {
-  const cutoff = fromYear ? new Date(`${fromYear}-01-01`) : null
+  const year = typeof fromYear === 'number' ? fromYear : null
+  const cutoff = year ? new Date(`${year}-01-01`) : null
 
   function inRange(dateStr: string | null | undefined): boolean {
     if (!cutoff || !dateStr) return true

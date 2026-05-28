@@ -10,6 +10,7 @@ import BidsView from './components/BidsView'
 import NewsView from './components/NewsView'
 
 type TabId = 'map' | 'construction' | 'paving' | 'meetings' | 'bids' | 'news'
+type YearOption = number | 'upcoming' | null
 
 interface Tab {
   id: TabId
@@ -36,11 +37,11 @@ function formatLastUpdated(meta: Meta): string | null {
   } catch { return null }
 }
 
-const YEAR_OPTS: Array<number | null> = [2026, 2025, 2024, 2023, 2022, null]  // null = All
+const YEAR_OPTS: YearOption[] = [2026, 2025, 2024, 2023, 2022, 'upcoming']  // null = All (legacy, kept for type compatibility)
 
 export default function App() {
   const [tab, setTab] = useState<TabId>('map')
-  const [fromYear, setFromYear] = useState<number | null>(2025)
+  const [fromYear, setFromYear] = useState<YearOption>('upcoming')
   const { data, loading, error } = useData()
 
   if (loading) {
@@ -93,7 +94,7 @@ export default function App() {
               className={fromYear === y ? 'selected' : ''}
               onClick={() => setFromYear(y)}
             >
-              {y ? `${y}+` : 'All'}
+              {y === 'upcoming' ? 'Upcoming' : y ? `${y}+` : 'All'}
             </button>
           ))}
         </div>

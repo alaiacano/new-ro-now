@@ -41,7 +41,11 @@ const YEAR_OPTS: YearOption[] = [2026, 2025, 2024, 2023, 2022, 'upcoming']  // n
 
 export default function App() {
   const [tab, setTab] = useState<TabId>('map')
-  const [fromYear, setFromYear] = useState<YearOption>('upcoming')
+  const [tabYearFilters, setTabYearFilters] = useState<Record<TabId, YearOption>>({
+    map: 2026, construction: 2026, paving: 2026,
+    meetings: 'upcoming', bids: 2026, news: 2026,
+  })
+  const fromYear = tabYearFilters[tab] ?? 2026
   const { data, loading, error } = useData()
 
   if (loading) {
@@ -92,7 +96,7 @@ export default function App() {
             <button
               key={y ?? 'all'}
               className={fromYear === y ? 'selected' : ''}
-              onClick={() => setFromYear(y)}
+              onClick={() => setTabYearFilters(prev => ({ ...prev, [tab]: y }))}
             >
               {y === 'upcoming' ? 'Upcoming' : y ? `${y}+` : 'All'}
             </button>

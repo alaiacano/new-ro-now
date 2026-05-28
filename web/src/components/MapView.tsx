@@ -3,16 +3,19 @@ import { MapContainer, TileLayer, Marker, Tooltip } from 'react-leaflet'
 import MarkerClusterGroup from 'react-leaflet-cluster'
 import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
+import type {
+  ConstructionItem, PavingEntry, DocMapEntry, SelectedItem,
+} from '../types'
 
 // Fix Leaflet default marker icon path issue with bundlers
-delete L.Icon.Default.prototype._getIconUrl
+delete (L.Icon.Default.prototype as unknown as { _getIconUrl?: unknown })._getIconUrl
 L.Icon.Default.mergeOptions({
   iconRetinaUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon-2x.png',
   iconUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon.png',
   shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
 })
 
-const COLORS = {
+const COLORS: Record<'roadway_alerts' | 'flood_mitigation', string> = {
   roadway_alerts:   '#d97706',
   flood_mitigation: '#2563eb',
 }
@@ -27,15 +30,15 @@ const DOC_CLASS_COLORS = [
   '#0f766e', '#b91c1c', '#1e40af', '#92400e',
 ]
 
-function pavingColor(yearIndex) {
+function pavingColor(yearIndex: number): string {
   return PAVING_COLORS[yearIndex % PAVING_COLORS.length]
 }
 
-function docClassColor(index) {
+function docClassColor(index: number): string {
   return DOC_CLASS_COLORS[index % DOC_CLASS_COLORS.length]
 }
 
-function coloredIcon(color, size = 14) {
+function coloredIcon(color: string, size = 14): L.DivIcon {
   return L.divIcon({
     className: '',
     html: `<div style="
@@ -50,16 +53,43 @@ function coloredIcon(color, size = 14) {
   })
 }
 
-const CONSTRUCTION_LAYERS = [
+interface ConstructionLayer {
+  id: 'roadway_alerts' | 'flood_mitigation'
+  label: string
+}
+
+const CONSTRUCTION_LAYERS: ConstructionLayer[] = [
   { id: 'roadway_alerts',   label: '🚧 Roadway' },
-  { id: 'flood_mitigation', label: '💧 Flood/Storm' },
+  { id: 'flood_mitigation', label: '💧 Flood/Stormwater' },
 ]
 
-export default function MapView({ construction, paving, docMap = [], fromYear }) {
-  const [selected, setSelected] = useState(null)
-  const [hiddenLayers, setHiddenLayers] = useState(new Set())
+interface PavingGroup {
+  year: string
+  entries: PavingEntry[]
+  color: string
+  layerId: string
+}
 
-  function toggleLayer(id) {
+interface DocGroup {
+  cls: string
+  docs: DocMapEntry[]
+  color: string
+  layerId: string
+  label: string
+}
+
+interface Props {
+  construction: ConstructionItem[]
+  paving: PavingEntry[]
+  docMap?: DocMapEntry[]
+  fromYear: number | null
+}
+
+export default function MapView({ construction, paving, docMap = [], fromYear }: Props) {
+  const [selected, setSelected] = useState<SelectedItem | null>(null)
+  const [hiddenLayers, setHiddenLayers] = useState<Set<string>>(new Set())
+
+  function toggleLayer(id: string) {
     setHiddenLayers(prev => {
       const next = new Set(prev)
       next.has(id) ? next.delete(id) : next.add(id)
@@ -71,16 +101,16 @@ export default function MapView({ construction, paving, docMap = [], fromYear })
   const unmappedConstruction = construction.filter(p => !p.coords)
 
   // Group paving by year; deduplicate by street name within each year
-  const pavingByYear = useMemo(() => {
-    const map = {}
+  const pavingByYear = useMemo<PavingGroup[]>(() => {
+    const map: Record<string, Map<string, PavingEntry>> = {}
     paving.forEach(p => {
       if (!p.coords) return
-      const yr = p.year ?? 'Unknown'
+      const yr = String(p.year ?? 'Unknown')
       if (!map[yr]) map[yr] = new Map()
       if (!map[yr].has(p.street)) map[yr].set(p.street, p)
     })
     return Object.entries(map)
-      .sort(([a], [b]) => String(b).localeCompare(String(a)))
+      .sort(([a], [b]) => b.localeCompare(a))
       .map(([year, streetMap], idx) => ({
         year,
         entries: Array.from(streetMap.values()),
@@ -94,17 +124,17 @@ export default function MapView({ construction, paving, docMap = [], fromYear })
   ])
 
   // Filter doc_map by year and excluded classifications, then group by classification
-  const docByClassification = useMemo(() => {
+  const docByClassification = useMemo<DocGroup[]>(() => {
     const cutoff = fromYear ? new Date(`${fromYear}-01-01`) : null
     const filtered = docMap.filter(d => {
-      if (MAP_EXCLUDED_CLASSIFICATIONS.has(d.classification)) return false
+      if (d.classification && MAP_EXCLUDED_CLASSIFICATIONS.has(d.classification)) return false
       if (!cutoff) return true
       if (!d.relevant_date) return false
       const dt = new Date(d.relevant_date)
-      return !isNaN(dt) && dt >= cutoff
+      return !isNaN(dt.getTime()) && dt >= cutoff
     })
 
-    const groups = {}
+    const groups: Record<string, DocMapEntry[]> = {}
     filtered.forEach(doc => {
       const cls = doc.classification || 'other'
       if (!groups[cls]) groups[cls] = []
@@ -122,7 +152,7 @@ export default function MapView({ construction, paving, docMap = [], fromYear })
       }))
   }, [docMap, fromYear])
 
-  const center = [40.9115, -73.7824]
+  const center: [number, number] = [40.9115, -73.7824]
 
   return (
     <div className="map-layout">
@@ -137,7 +167,7 @@ export default function MapView({ construction, paving, docMap = [], fromYear })
           {!hiddenLayers.has('roadway_alerts') && mappedConstruction
             .filter(p => p.source === 'roadway_alerts')
             .map((proj, i) => (
-              <Marker key={`road-${i}`} position={[proj.coords.lat, proj.coords.lng]}
+              <Marker key={`road-${i}`} position={[proj.coords!.lat, proj.coords!.lng]}
                 icon={coloredIcon(COLORS.roadway_alerts)}
                 eventHandlers={{ click: () => setSelected({ ...proj, _type: 'construction' }) }}>
                 <Tooltip direction="top" offset={[0, -6]}>
@@ -150,7 +180,7 @@ export default function MapView({ construction, paving, docMap = [], fromYear })
           {!hiddenLayers.has('flood_mitigation') && mappedConstruction
             .filter(p => p.source === 'flood_mitigation')
             .map((proj, i) => (
-              <Marker key={`flood-${i}`} position={[proj.coords.lat, proj.coords.lng]}
+              <Marker key={`flood-${i}`} position={[proj.coords!.lat, proj.coords!.lng]}
                 icon={coloredIcon(COLORS.flood_mitigation)}
                 eventHandlers={{ click: () => setSelected({ ...proj, _type: 'construction' }) }}>
                 <Tooltip direction="top" offset={[0, -6]}>
@@ -176,7 +206,7 @@ export default function MapView({ construction, paving, docMap = [], fromYear })
 
           {pavingByYear.map(({ year, entries, color, layerId }) =>
             !hiddenLayers.has(layerId) && entries.map((entry, i) => (
-              <Marker key={`pave-${year}-${i}`} position={[entry.coords.lat, entry.coords.lng]}
+              <Marker key={`pave-${year}-${i}`} position={[entry.coords!.lat, entry.coords!.lng]}
                 icon={coloredIcon(color, 12)}
                 eventHandlers={{ click: () => setSelected({ ...entry, _type: 'paving' }) }}>
                 <Tooltip direction="top" offset={[0, -6]}>
@@ -231,7 +261,7 @@ export default function MapView({ construction, paving, docMap = [], fromYear })
               Documents
             </div>
           )}
-          {docByClassification.map(({ cls, docs, color, layerId, label }) => (
+          {docByClassification.map(({ docs, color, layerId, label }) => (
             <LayerToggle key={layerId}
               layerId={layerId}
               label={`📄 ${label}`}
@@ -287,7 +317,7 @@ export default function MapView({ construction, paving, docMap = [], fromYear })
         {mappedConstruction.map((proj, i) => (
           <div key={i} className="map-item"
             onClick={() => setSelected({ ...proj, _type: 'construction' })}
-            style={selected === proj ? { background: 'var(--brand-light)' } : {}}>
+            style={(selected as unknown) === proj ? { background: 'var(--brand-light)' } : {}}>
             <div className="map-item-title">{proj.title}</div>
             <div className="map-item-sub">
               {proj.source === 'roadway_alerts' ? '🚧 Roadway' : '💧 Flood/Storm'}
@@ -312,7 +342,16 @@ export default function MapView({ construction, paving, docMap = [], fromYear })
   )
 }
 
-function LayerToggle({ layerId, label, color, count, hidden, onToggle }) {
+interface LayerToggleProps {
+  layerId: string
+  label: string
+  color: string
+  count: number
+  hidden: boolean
+  onToggle: (id: string) => void
+}
+
+function LayerToggle({ layerId, label, color, count, hidden, onToggle }: LayerToggleProps) {
   return (
     <label style={{
       display: 'flex', alignItems: 'center', gap: '0.5rem',

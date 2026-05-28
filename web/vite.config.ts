@@ -1,10 +1,10 @@
-import { defineConfig } from 'vite'
+import { defineConfig, type Plugin } from 'vite'
 import react from '@vitejs/plugin-react'
 import { resolve } from 'path'
 import { copyFileSync, mkdirSync, readdirSync } from 'fs'
 
 // Plugin to copy data/ JSON files into public/data/ at build time
-function copyDataPlugin() {
+function copyDataPlugin(): Plugin {
   return {
     name: 'copy-data',
     buildStart() {
@@ -17,7 +17,8 @@ function copyDataPlugin() {
           copyFileSync(resolve(dataDir, file), resolve(destDir, file))
         }
       } catch (e) {
-        console.warn('Warning: could not copy data files:', e.message)
+        const message = e instanceof Error ? e.message : String(e)
+        console.warn('Warning: could not copy data files:', message)
       }
     }
   }

@@ -1,11 +1,19 @@
-function formatDate(iso) {
+import type { NewsItem, PublicHearing } from '../types'
+
+interface Props {
+  news: NewsItem[]
+  hearings: PublicHearing[]
+  fromYear: number | null
+}
+
+function formatDate(iso: string | null | undefined): string | null {
   if (!iso) return null
   try {
     return new Date(iso).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })
   } catch { return iso }
 }
 
-export default function NewsView({ news, hearings, fromYear }) {
+export default function NewsView({ news, hearings, fromYear }: Props) {
   const cutoff = fromYear ? new Date(`${fromYear}-01-01`) : null
 
   const filteredNews = cutoff
@@ -15,7 +23,7 @@ export default function NewsView({ news, hearings, fromYear }) {
   const filteredHearings = cutoff
     ? hearings.filter(h => {
         const d = h.date_text ? new Date(h.date_text) : null
-        return !d || isNaN(d) || d >= cutoff
+        return !d || isNaN(d.getTime()) || d >= cutoff
       })
     : hearings
 

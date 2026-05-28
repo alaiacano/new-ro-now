@@ -1,9 +1,15 @@
 import { useState, useMemo } from 'react'
+import type { Meeting } from '../types'
 
-function groupByMonth(events) {
-  const groups = {}
+interface Props {
+  meetings: Meeting[]
+  fromYear: number | null
+}
+
+function groupByMonth(events: Meeting[]): Record<string, Meeting[]> {
+  const groups: Record<string, Meeting[]> = {}
   for (const ev of events) {
-    const d = new Date(ev.start)
+    const d = new Date(ev.start as string)
     const key = d.toLocaleDateString('en-US', { month: 'long', year: 'numeric' })
     if (!groups[key]) groups[key] = []
     groups[key].push(ev)
@@ -11,24 +17,18 @@ function groupByMonth(events) {
   return groups
 }
 
-function formatDate(iso) {
+function formatDate(iso: string): string {
   const d = new Date(iso)
   return d.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' })
 }
 
-function formatTime(iso) {
+function formatTime(iso: string): string {
   const d = new Date(iso)
   return d.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' })
 }
 
-const ALL_CALENDARS = [
-  'Planning Board', 'Zoning Board', 'City Clerk',
-  'Historical & Landmark Review Board', 'Municipal Arts Commission',
-  'IDA', 'Housing', 'Finance', 'Youth Bureau', 'Parks and Recreation',
-]
-
-export default function MeetingsView({ meetings, fromYear }) {
-  const [calFilter, setCalFilter] = useState('All')
+export default function MeetingsView({ meetings, fromYear }: Props) {
+  const [calFilter, setCalFilter] = useState<string>('All')
 
   const dated = useMemo(() => {
     if (!fromYear) return meetings
@@ -36,7 +36,7 @@ export default function MeetingsView({ meetings, fromYear }) {
     return meetings.filter(m => m.start && new Date(m.start) >= cutoff)
   }, [meetings, fromYear])
 
-  const calendars = useMemo(() => {
+  const calendars = useMemo<string[]>(() => {
     const seen = new Set(dated.map(m => m.calendar))
     return ['All', ...Array.from(seen).sort()]
   }, [dated])
@@ -83,7 +83,7 @@ export default function MeetingsView({ meetings, fromYear }) {
                       {ev.folder && <span style={{ opacity: 0.7 }}>📁 {ev.folder}</span>}
                       <span style={{ opacity: 0.55 }}>📄 Document</span>
                     </>
-                  : <span>{formatDate(ev.start)} · {formatTime(ev.start)}</span>
+                  : <span>{formatDate(ev.start as string)} · {formatTime(ev.start as string)}</span>
                 }
                 {ev.location && <span>📍 {ev.location}</span>}
               </div>

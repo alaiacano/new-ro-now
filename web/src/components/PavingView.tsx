@@ -1,13 +1,26 @@
 import { useState } from 'react'
+import type { PavingEntry } from '../types'
 
-export default function PavingView({ paving }) {
-  const [filter, setFilter] = useState('all')
+interface Props {
+  paving: PavingEntry[]
+}
+
+type Filter = 'all' | 'citywide' | 'downtown'
+
+export default function PavingView({ paving }: Props) {
+  const [filter, setFilter] = useState<Filter>('all')
 
   const year = paving.find(p => p.year)?.year ?? '—'
   const filtered = filter === 'all' ? paving : paving.filter(p => p.list === filter)
 
   // Deduplicate street names for the summary count
   const uniqueStreets = new Set(paving.map(p => p.street)).size
+
+  const FILTERS: Array<{ key: Filter; label: string }> = [
+    { key: 'all', label: `All (${paving.length})` },
+    { key: 'citywide', label: `Citywide (${paving.filter(p => p.list === 'citywide').length})` },
+    { key: 'downtown', label: `Downtown (${paving.filter(p => p.list === 'downtown').length})` },
+  ]
 
   return (
     <div className="section">
@@ -26,11 +39,7 @@ export default function PavingView({ paving }) {
       </div>
 
       <div className="filter-bar">
-        {[
-          { key: 'all', label: `All (${paving.length})` },
-          { key: 'citywide', label: `Citywide (${paving.filter(p => p.list === 'citywide').length})` },
-          { key: 'downtown', label: `Downtown (${paving.filter(p => p.list === 'downtown').length})` },
-        ].map(f => (
+        {FILTERS.map(f => (
           <button
             key={f.key}
             className={filter === f.key ? 'selected' : ''}

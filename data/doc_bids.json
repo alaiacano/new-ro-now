@@ -1,5 +1,35 @@
 [
   {
+    "title": "RFB-PW-2026-004 - Guiderail Replacement",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/22508/RFB-PW-2026-004---Guiderail-Replacement",
+    "status": "2026-04-22",
+    "description": "This document is an Invitation to Bids for a guiderail replacement project along Pinebrook Boulevard and surrounding streets. It outlines the scope of work, insurance requirements, bid schedule, and technical specifications for contractors interested in submitting proposals.",
+    "relevant_date": "2026-04-22",
+    "classification": "bid",
+    "folder": "Purchasing",
+    "source": "document_center"
+  },
+  {
+    "title": "GUIDELINES FOR CDBG APPLICATIONS 2026",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/21093/GUIDELINES-FOR-CDBG-APPLICATIONS-2026",
+    "status": "2026",
+    "description": "This document outlines the guidelines, eligibility requirements, and funding limits for organizations applying for New Rochelle's 2026 Community Development Block Grant (CDBG) program. It details income thresholds for beneficiaries, matching fund policies, and city priorities for youth, senior, and housing services.",
+    "relevant_date": "2026",
+    "classification": "other",
+    "folder": "CDBG and HOME",
+    "source": "document_center"
+  },
+  {
+    "title": "GUIDELINES FOR CDBG APPLICATIONS Spanish 2026 Final",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/21094/GUIDELINES-FOR-CDBG-APPLICATIONS-Spanish-2026-Final",
+    "status": "2026",
+    "description": "This document outlines the 2026 application guidelines for the City of New Rochelle's Community Development Block Grant (CDBG) program. It details eligibility requirements, funding limits, income thresholds, and priority areas for community organizations seeking financial assistance.",
+    "relevant_date": "2026",
+    "classification": "other",
+    "folder": "CDBG and HOME",
+    "source": "document_center"
+  },
+  {
     "title": "5813 - Addendum 1 Package ",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/21326/5813---Addendum-1-Package-",
     "status": "2025-08-15",
@@ -1090,6 +1120,16 @@
     "source": "document_center"
   },
   {
+    "title": "CAPER draft 2.28.22",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15267/CAPER-draft-22822",
+    "status": "2022-02-28",
+    "description": "This draft CAPER outlines New Rochelle\u2019s planned expenditure of federal CDBG and HOME funds for community development and housing programs. It details how the city intends to allocate resources to support local infrastructure, affordable housing, and economic development initiatives. Residents can review it to understand upcoming funded projects and community investments.",
+    "relevant_date": "2022-02-28",
+    "classification": "budget",
+    "folder": "CDBG and HOME",
+    "source": "document_center"
+  },
+  {
     "title": "RFB-NR-5431 Supply and Install Bleachers",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/15171/RFB-NR-5431-Supply-and-Install-Bleachers",
     "status": "2022-02-24",
@@ -1187,6 +1227,16 @@
     "relevant_date": "2022-01-13",
     "classification": "bid",
     "folder": "Purchasing",
+    "source": "document_center"
+  },
+  {
+    "title": "CDBG Funding Req Brochure 2022 Spanish",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/14081/CDBG-Funding-Req-Brochure-2022-Spanish",
+    "status": "2022",
+    "description": "This Spanish-language brochure outlines eligibility criteria, income limits, and application requirements for agencies seeking CDBG funding in New Rochelle. It details program goals, organizational requirements, and client verification processes for community development projects.",
+    "relevant_date": "2022",
+    "classification": "other",
+    "folder": "CDBG and HOME",
     "source": "document_center"
   },
   {
@@ -4180,6 +4230,16 @@
     "source": "document_center"
   },
   {
+    "title": "2018 NOFA RFP",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/8056/2018-NOFA-RFP",
+    "status": "2018",
+    "description": "This document is a 2018 Request for Proposals (RFP) issued under the federal Notice of Funding Availability (NOFA) for Community Development Block Grant (CDBG) and HOME funds. It outlines the city's solicitation for proposals to fund housing, infrastructure, or community development projects. Residents and developers can use it to understand funding priorities, application requirements, and how public funds are allocated for local improvements.",
+    "relevant_date": "2018",
+    "classification": "bid",
+    "folder": "CDBG and HOME",
+    "source": "document_center"
+  },
+  {
     "title": "JOB ANNOUNCEMENT FOR PURCHASING AGENT -  2018",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/9210/JOB-ANNOUNCEMENT-FOR-PURCHASING-AGENT----2018",
     "status": "2018",
@@ -4270,6 +4330,36 @@
     "source": "document_center"
   },
   {
+    "title": "NRMasterDevGuideRFQGuide_053014",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/3615/NRMasterDevGuideRFQGuide_053014",
+    "status": "2014-05-30",
+    "description": "This document is a Request for Qualifications (RFQ) issued by the City of New Rochelle seeking qualified real estate development firms to serve as master developers for the city's Transit-Oriented and Downtown Development Clusters. It outlines the city's redevelopment goals, zoning considerations, and the selection process for a development partner to guide mixed-use projects in these key areas.",
+    "relevant_date": "2014-05-30",
+    "classification": "bid",
+    "folder": "New Rochelle Cluster RFQ",
+    "source": "document_center"
+  },
+  {
+    "title": "NRMasterDevGuideRFQ_053014",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/3614/NRMasterDevGuideRFQ_053014",
+    "status": "2014-05-30",
+    "description": "This document is a Request for Qualifications (RFQ) issued by the City of New Rochelle on May 30, 2014, seeking qualified real estate development firms to act as master developers for two key redevelopment areas. It outlines the city's vision for mixed-use growth, zoning guidelines, and partnership structures to guide future construction and urban planning in the downtown and transit corridors.",
+    "relevant_date": "2014-05-30",
+    "classification": "bid",
+    "folder": "New Rochelle Cluster RFQ",
+    "source": "document_center"
+  },
+  {
+    "title": "Twining Properties RFP May 30 2014",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/3631/Twining-Properties-RFP-May-30-2014",
+    "status": "2014-05-30",
+    "description": "This document is a formal proposal from Twining Properties responding to the City of New Rochelle's RFP for the redevelopment of the Echo Bay Waterfront. It outlines the developer's vision, financial capacity, team, and commitment to a public-private partnership for the project. It matters to residents as it details plans for transforming industrial waterfront land into a mixed-use town center with parks, retail, and housing.",
+    "relevant_date": "2014-05-30",
+    "classification": "bid",
+    "folder": "Echo Bay",
+    "source": "document_center"
+  },
+  {
     "title": "INVITATION TO BIDDERS- Traffic Signals 2013",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/3077/INVITATION-TO-BIDDERS--Traffic-Signals-2013",
     "status": "2013-01-01",
@@ -4320,6 +4410,26 @@
     "source": "document_center"
   },
   {
+    "title": "2012 CDBG Application Instructions  RFP",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/920/2012-CDBG-Application-Instructions--RFP",
+    "status": "2012",
+    "description": "This document outlines the instructions and requirements for applying for the 2012 Community Development Block Grant (CDBG) funds. It serves as a Request for Proposal (RFP) to guide eligible entities through the application process for federal community development funding.",
+    "relevant_date": "2012",
+    "classification": "bid",
+    "folder": "CDBG and HOME",
+    "source": "document_center"
+  },
+  {
+    "title": "GUIDELINES for CDBG 2012 Application",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/917/GUIDELINES-for-CDBG-2012-Application",
+    "status": "2012",
+    "description": "This document outlines the official guidelines and eligibility requirements for non-profit organizations applying for Community Development Block Grant (CDBG) funding in New Rochelle. It details funding limits, beneficiary income thresholds, and priority program areas for the 2012 application cycle.",
+    "relevant_date": "2012",
+    "classification": "other",
+    "folder": "CDBG and HOME",
+    "source": "document_center"
+  },
+  {
     "title": "Presbyterian Church RFP",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/727/Presbyterian-Church-RFP",
     "status": "2011-02-11",
@@ -4327,6 +4437,36 @@
     "relevant_date": "2011-02-11",
     "classification": "bid",
     "folder": "Projects ie Rezoning Developments etc",
+    "source": "document_center"
+  },
+  {
+    "title": "2011 CDBG RFP and Instructions",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/499/2011-CDBG-RFP-and-Instructions",
+    "status": "2011",
+    "description": "This document is a Request for Proposals (RFP) and application packet for the City of New Rochelle's 2011 Community Development Block Grant (CDBG) funds. It outlines eligibility requirements, funding priorities for low-income and special needs programs, submission deadlines, and instructions for non-profit organizations seeking grants.",
+    "relevant_date": "2011",
+    "classification": "bid",
+    "folder": "CDBG and HOME",
+    "source": "document_center"
+  },
+  {
+    "title": "FINALDRAFT - MainStreetCore_RFQ_03.18.10",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/475/FINALDRAFT---MainStreetCore_RFQ_031810",
+    "status": "2010-03-18",
+    "description": "This document is a Request for Qualifications (RFQ) issued by the City of New Rochelle in March 2010 to solicit developer qualifications for the Main Street Core Redevelopment project. It outlines the project scope, site details, zoning information, and submission deadlines for interested real estate developers.",
+    "relevant_date": "2010-03-18",
+    "classification": "bid",
+    "folder": "Main Street Core",
+    "source": "document_center"
+  },
+  {
+    "title": "FINALDRAFT - TransitCentral_RFQ_03.18.10",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/476/FINALDRAFT---TransitCentral_RFQ_031810",
+    "status": "2010-03-18",
+    "description": "This document is a Request for Qualifications (RFQ) issued by the City of New Rochelle in March 2010 to solicit developer interest for the Transit Central Redevelopment project. It outlines the project scope, site boundaries, zoning regulations, and submission requirements for potential developers.",
+    "relevant_date": "2010-03-18",
+    "classification": "bid",
+    "folder": "Parking",
     "source": "document_center"
   },
   {
@@ -5287,6 +5427,16 @@
     "relevant_date": null,
     "classification": "other",
     "folder": "Human Resources",
+    "source": "document_center"
+  },
+  {
+    "title": "PRC 2026005906",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/22509/PRC-2026005906",
+    "status": "See document",
+    "description": "This document is a purchasing record or contract reference from the city's Purchasing department, identified by the tracking number PRC 2026005906. It likely contains details regarding a specific procurement transaction or vendor agreement.",
+    "relevant_date": null,
+    "classification": "bid",
+    "folder": "Purchasing",
     "source": "document_center"
   },
   {

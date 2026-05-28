@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import { useData } from './useData'
+import type { Meta } from './types'
 import MapView from './components/MapView'
 import MeetingsView from './components/MeetingsView'
 import ConstructionView from './components/ConstructionView'
@@ -8,7 +9,14 @@ import PavingView from './components/PavingView'
 import BidsView from './components/BidsView'
 import NewsView from './components/NewsView'
 
-const TABS = [
+type TabId = 'map' | 'construction' | 'paving' | 'meetings' | 'bids' | 'news'
+
+interface Tab {
+  id: TabId
+  label: string
+}
+
+const TABS: Tab[] = [
   { id: 'map',          label: '🗺 Map' },
   { id: 'construction', label: '🚧 Projects' },
   { id: 'paving',       label: '🛣 Paving' },
@@ -17,10 +25,10 @@ const TABS = [
   { id: 'news',         label: '📰 News' },
 ]
 
-function formatLastUpdated(meta) {
-  const dates = Object.values(meta).filter(Boolean)
+function formatLastUpdated(meta: Meta): string | null {
+  const dates = Object.values(meta).filter((v): v is string => Boolean(v))
   if (!dates.length) return null
-  const latest = dates.sort().at(-1)
+  const latest = dates.sort().at(-1) as string
   try {
     return 'Updated ' + new Date(latest).toLocaleDateString('en-US', {
       month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit',
@@ -28,11 +36,11 @@ function formatLastUpdated(meta) {
   } catch { return null }
 }
 
-const YEAR_OPTS = [2026, 2025, 2024, 2023, 2022, null]  // null = All
+const YEAR_OPTS: Array<number | null> = [2026, 2025, 2024, 2023, 2022, null]  // null = All
 
 export default function App() {
-  const [tab, setTab] = useState('map')
-  const [fromYear, setFromYear] = useState(2025)
+  const [tab, setTab] = useState<TabId>('map')
+  const [fromYear, setFromYear] = useState<number | null>(2025)
   const { data, loading, error } = useData()
 
   if (loading) {
@@ -76,7 +84,7 @@ export default function App() {
         ))}
       </nav>
 
-      {['map', 'meetings', 'bids', 'news'].includes(tab) && (
+      {(['map', 'meetings', 'bids', 'news'] as TabId[]).includes(tab) && (
         <div className="date-filter">
           <span>Show from:</span>
           {YEAR_OPTS.map(y => (

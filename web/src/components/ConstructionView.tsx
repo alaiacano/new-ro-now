@@ -1,11 +1,24 @@
 import { useState } from 'react'
+import type { ConstructionItem } from '../types'
 
-export default function ConstructionView({ construction }) {
-  const [filter, setFilter] = useState('all')
+interface Props {
+  construction: ConstructionItem[]
+}
+
+type Filter = 'all' | 'roadway_alerts' | 'flood_mitigation'
+
+export default function ConstructionView({ construction }: Props) {
+  const [filter, setFilter] = useState<Filter>('all')
 
   const filtered = filter === 'all'
     ? construction
     : construction.filter(p => p.source === filter)
+
+  const FILTERS: Array<{ key: Filter; label: string }> = [
+    { key: 'all', label: 'All' },
+    { key: 'roadway_alerts', label: '🚧 Roadway' },
+    { key: 'flood_mitigation', label: '💧 Flood/Stormwater' },
+  ]
 
   return (
     <div className="section">
@@ -15,11 +28,7 @@ export default function ConstructionView({ construction }) {
       </div>
 
       <div className="filter-bar">
-        {[
-          { key: 'all', label: 'All' },
-          { key: 'roadway_alerts', label: '🚧 Roadway' },
-          { key: 'flood_mitigation', label: '💧 Flood/Stormwater' },
-        ].map(f => (
+        {FILTERS.map(f => (
           <button
             key={f.key}
             className={filter === f.key ? 'selected' : ''}
@@ -47,7 +56,7 @@ export default function ConstructionView({ construction }) {
             }
           </div>
           <div className="card-title">{proj.title}</div>
-          {proj.addresses?.length > 0 && (
+          {proj.addresses && proj.addresses.length > 0 && (
             <div className="card-body">
               <p>{proj.addresses.join(' · ')}</p>
             </div>

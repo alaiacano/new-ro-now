@@ -1,5 +1,5 @@
 ---
-name: weekly-update
+name: new-ro-now-weekly-update
 description: Refresh New Rochelle civic data by running the scrape pipeline with the data-loss guard. Snapshots record counts, runs Pipeline A (live scrapers) and Pipeline B (DocumentCenter mirror), then verifies no file shrunk. Does NOT touch git — the caller handles pull/commit/push.
 ---
 

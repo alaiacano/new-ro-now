@@ -20,3 +20,4 @@ data/documents.db
 data/documents.db-wal
 data/documents.db-shm
 data/doc_cache/
+data/.record_counts.json

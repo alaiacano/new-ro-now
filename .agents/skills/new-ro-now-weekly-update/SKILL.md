@@ -21,7 +21,7 @@ If the verify step fails, **stop and report the failure**. Do not retry. Do not 
 
 ## Working directory
 
-Always run from the repo root: `/Users/alaiacano/dev/github/alaiacano/new-ro-monitor`
+Always run from the root of the new-ro-now repository.
 
 ## Prerequisites (one-time per machine)
 

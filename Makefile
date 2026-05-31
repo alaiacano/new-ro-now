@@ -12,8 +12,8 @@ SHELL := /bin/bash
 
 SCRAPE       := uv run --project scraper scrape
 CHECK        := python3 scripts/check_record_counts.py
-VLLM_URL     ?= http://localhost:8000/v1
-VLLM_MODEL   ?= Qwen/Qwen2.5-32B-Instruct
+VLLM_URL     ?= http://spark-2c6d.local:8000/v1
+VLLM_MODEL   ?= qwen36-35b
 ANALYZE_ARGS ?=
 
 .DEFAULT_GOAL := help

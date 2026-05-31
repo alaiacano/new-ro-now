@@ -30,12 +30,19 @@ cd scraper && uv sync
 playwright install chromium
 ```
 
-For Pipeline B (`analyze` stage), a vLLM server must be reachable. Defaults in the Makefile assume `http://localhost:8000/v1`. Override via env vars if needed:
+For Pipeline B (`analyze` stage), a vLLM server must be reachable. The Makefile defaults (`VLLM_URL`, `VLLM_MODEL`) point at the usual server, but the model name changes whenever the server is redeployed — so **verify the current name before relying on it**.
+
+The `VLLM_MODEL` value must exactly match a model the server is currently serving, or every LLM call returns 404 and all documents fail analysis (the failure is silent — data isn't lost, it just isn't updated). Look up the live name rather than assuming the default is still correct:
 
 ```bash
 export VLLM_URL=http://spark-2c6d.local:8000/v1
-export VLLM_MODEL=qwen36-35b
+
+# Discover the model the server is actually serving and use its id:
+curl -s "$VLLM_URL/models"   # -> {"data":[{"id":"...", ...}]}
+export VLLM_MODEL=<the "id" from the response>
 ```
+
+If the analyze stage reports that all documents failed, the most likely cause is a `VLLM_MODEL` that no longer matches the server — re-check `/models` and update it.
 
 ## How to run
 
@@ -113,6 +120,24 @@ Never bypass the Makefile:
 - Pipeline B stages must run **in order**. `make all` and `make docs` handle this.
 - `make download --retry-errors` retries previously failed downloads — only invoke if asked.
 - `scrape library` returns 0–2 events because LibCal blocks scraping; this is expected. If `library_events.json` was already 0, holding at 0 is a pass.
+
+## Pitfalls
+
+### Analyze stage fails for every document (model name mismatch)
+
+**Symptom:** the `analyze` stage reports that all documents failed; LLM calls return 404.
+
+**Cause:** `VLLM_MODEL` doesn't match any model the vLLM server is currently serving. The name changes whenever the server is redeployed, so a previously-correct value (including the Makefile default) goes stale.
+
+**Fix:** ask the server what it's actually serving and pick a reasonable model from the list, then re-run analyze:
+
+```bash
+curl -s "$VLLM_URL/models"        # lists every served model as {"data":[{"id":"..."}]}
+export VLLM_MODEL=<an "id" from that list>   # prefer the largest instruct model available
+make analyze                      # re-run just the analyze stage
+```
+
+No data is lost while this is broken — analysis simply doesn't update. Once the model name is corrected, `make analyze` backfills the documents that failed.
 
 ## Recovery (only if the caller asks)
 

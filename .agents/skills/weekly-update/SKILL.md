@@ -1,116 +1,127 @@
 ---
 name: weekly-update
-description: Run the New Rochelle civic data scraper, build the web frontend, commit and push data changes to GitHub. Use when performing scheduled weekly updates or on-demand data refreshes for the new-ro-monitor project.
+description: Refresh New Rochelle civic data by running the scrape pipeline with the data-loss guard. Snapshots record counts, runs Pipeline A (live scrapers) and Pipeline B (DocumentCenter mirror), then verifies no file shrunk. Does NOT touch git — the caller handles pull/commit/push.
 ---
 
 # Weekly Update
 
-## Overview
+## What this skill does
 
-Automates the full update cycle for the New Rochelle civic data monitor:
-1. Scrape live data (Pipeline A) and/or DocumentCenter documents (Pipeline B)
-2. Build the React frontend
-3. Commit and push data changes to GitHub
+1. Snapshot current record counts in every `data/*.json`.
+2. Run all scrapers (Pipeline A + Pipeline B).
+3. Verify no file ended up with fewer records than the snapshot.
 
-Run from the repository root (`/Users/alaiacano/dev/github/alaiacano/new-ro-monitor`).
+If the verify step fails, **stop and report the failure**. Do not retry. Do not modify `data/`. The caller decides recovery.
 
-## Prerequisites
+## What this skill does NOT do
 
-One-time setup:
+- It does not `git pull`, `git commit`, or `git push`. The caller (cron prompt) handles git.
+- It does not build the web frontend. GitHub Actions does that on push.
+- It does not delete or restore files under `data/`.
+
+## Working directory
+
+Always run from the repo root: `/Users/alaiacano/dev/github/alaiacano/new-ro-monitor`
+
+## Prerequisites (one-time per machine)
+
 ```bash
 cd scraper && uv sync
-playwright install chromium   # headless browser for DocumentCenter discovery
+playwright install chromium
 ```
 
-## Step 1 — Scrape Data
-
-### Pipeline A: Quick Refresh (safe, fast, daily)
-
-Always re-fetches all live sources. No state, no GPU needed.
+For Pipeline B (`analyze` stage), a vLLM server must be reachable. Defaults in the Makefile assume `http://localhost:8000/v1`. Override via env vars if needed:
 
 ```bash
-uv run --project scraper scrape all
+export VLLM_URL=http://spark-2c6d.local:8000/v1
+export VLLM_MODEL=qwen36-35b
 ```
 
-Individual sources (if only one needs updating):
-```bash
-uv run --project scraper scrape meetings
-uv run --project scraper scrape construction
-uv run --project scraper scrape paving
-uv run --project scraper scrape bids
-uv run --project scraper scrape news
-```
+## How to run
 
-> **Note:** `scrape library` is often blocked by LibCal and returns 0–2 events. It requires Playwright (not implemented in cron path).
-
-### Pipeline B: DocumentCenter Mirror (stateful, sequential, weekly)
-
-Must run stages in order. Each stage is safe to re-run.
+**One command. Use this.**
 
 ```bash
-# Stage 1 — Discover (walk folder tree, records metadata)
-uv run --project scraper scrape discover
-
-# Stage 2 — Download (fetches files, extracts text)
-uv run --project scraper scrape download --retry-errors
-
-# Stage 3 — Analyze (LLM classification, requires GPU)
-# Requires running vLLM first:
-vllm serve Qwen/Qwen3.6-35B-A3B-FP8 --quantization fp8 --max-model-len 8192
-# Then:
-uv run --project scraper scrape analyze --api-url http://spark-2c6d.local:8000/v1 --model qwen36-35b --concurrency 2
-
-# Stage 4 — Export (writes JSON for frontend)
-uv run --project scraper scrape export-docs
+make all
 ```
 
-## Step 2 — Build Frontend
+This target automatically:
+- runs `make snapshot` (writes `data/.record_counts.json`)
+- runs every Pipeline A scraper (meetings, construction, paving, library, bids, news)
+- runs Pipeline B sequentially (discover → download → analyze → export-docs)
+- runs `make check` at the end
+
+If you do not have vLLM available, run `make quick` instead — Pipeline A only, no document analysis.
+
+**Never run `uv run --project scraper scrape …` directly.** That bypasses the snapshot and check, which is exactly how the data was lost previously.
+
+## What success looks like
+
+The final lines of `make all` output will look like:
+
+```
+OK: all 13 tracked files held or grew their record counts.
+  bids.json: 4 -> 5 (+1)
+  construction.json: 14 -> 14 ( 0)
+  ...
+```
+
+If you see this, the run succeeded. Report success to the caller.
+
+## What failure looks like — WARN LOUDLY
+
+If `make check` fails, the output will include:
+
+```
+FAIL: record count regressed in one or more files:
+  meetings.json: 41 -> 0
+  bids.json: 4 -> 0
+```
+
+When this happens:
+
+1. **Do not commit anything.** Do not push. Do not run `make` again to "try once more".
+2. **Do not touch `data/`.** The existing JSON files on disk are now the bad (shrunk) version — but the *git-committed* versions are still good, and the caller will decide whether to `git restore` them.
+3. **Report the full FAIL block to the caller verbatim**, including every file:before:after line. The caller needs this to decide recovery.
+4. **Note the likely cause**: a source went temporarily empty (city site down, network error, scraper bug) and the scraper overwrote real data with `[]`. This is a known bug in the scraper — it writes unconditionally even when fetched data is empty. The check catches it; recovery is by `git restore data/<file>.json` from the caller side.
+
+## Critical safety rules
+
+Never run any of these against `data/`:
+
+- `rm`, `rm -rf`, `find … -delete`
+- `git checkout -- data/`, `git restore data/` (the caller may do this; the skill must not)
+- `git reset --hard`, `git clean -fd`
+- Manual edits to `data/*.json`, `data/documents.db`, `data/doc_cache/`, or `data/geocache.json`
+
+Never bypass the Makefile:
+
+- Do not call `uv run scrape` directly.
+- Do not call `python3 scripts/check_record_counts.py snapshot` between scrape steps to "reset" the baseline. The snapshot must be taken once, before any scrape runs.
+- Do not pass `--no-verify` or `--force` to any command.
+
+## Pipeline notes
+
+| Stage | Command | Notes |
+|---|---|---|
+| Pipeline A | `make quick` | Live scrapers. Stateless. Safe to re-run. |
+| Pipeline B discover | `make discover` | Playwright walks DocumentCenter tree → `documents.db`. |
+| Pipeline B download | `make download` | Fetches files → `doc_cache/`. Skips already-downloaded. |
+| Pipeline B analyze | `make analyze` | LLM classification. Requires vLLM. |
+| Pipeline B export | `make export-docs` | Writes `doc_*.json` from DB. |
+
+- Pipeline B stages must run **in order**. `make all` and `make docs` handle this.
+- `make download --retry-errors` retries previously failed downloads — only invoke if asked.
+- `scrape library` returns 0–2 events because LibCal blocks scraping; this is expected. If `library_events.json` was already 0, holding at 0 is a pass.
+
+## Recovery (only if the caller asks)
+
+If `make check` failed and the caller asks you to recover:
 
 ```bash
-cd web && npm run build
+git status data/                        # see what changed
+git restore data/<file-that-shrunk>.json
+python3 scripts/check_record_counts.py check  # verify recovery
 ```
 
-This generates static files into `web/dist/`, which are copied to `web/public/data/` by the build process. The web server serves the static site from `web/dist/`.
-
-## Step 3 — Commit and Push
-
-Only commit JSON data files — `doc_cache/`, `documents.db`, and `node_modules/` are gitignored.
-
-```bash
-cd /Users/alaiacano/dev/github/alaiacano/new-ro-monitor
-
-# Stage data changes
-git add data/*.json data/doc_*.json
-
-# Check if there are changes
-if ! git diff --cached --quiet; then
-  git commit -m "chore: refresh civic data [auto]"
-  git push
-fi
-```
-
-> **Do NOT commit** `data/doc_cache/`, `data/documents.db`, `web/dist/`, `web/public/data/`, `web/node_modules/`, or `scraper/.venv/`.
-
-## Verification
-
-1. **Check for errors** — look for `Traceback` or non-zero exit codes after each step
-2. **Verify output files** after scraping:
-   ```bash
-   ls -la data/*.json data/doc_*.json 2>/dev/null
-   ```
-3. **Confirm git commit** succeeded:
-   ```bash
-   git log --oneline -1
-   ```
-4. **Check meta timestamps** updated:
-   ```bash
-   cat data/meta.json
-   ```
-
-## Pitfalls
-
-- **Concurrency bug**: `analyze` defaults to 8 but should be 2. Pass `--concurrency 2` explicitly — the GPU is the bottleneck.
-- **Pipeline B is sequential**: do not run stages in parallel. `discover` → `download` → `analyze` → `export-docs` in order.
-- **vLLM must be running** before `analyze`. Start it in a separate process and wait for it to be ready.
-- **Library scraper** often blocked — don't worry if `scrape library` returns few events.
-- **Nominatim rate limit**: 1 req/sec built into the geocoder. No action needed.
+Do not run scrapers again after recovery without explicit instruction.

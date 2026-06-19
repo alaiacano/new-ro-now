@@ -1,5 +1,55 @@
 [
   {
+    "id": 22864,
+    "title": "2026 CDBG HOME ACTION PLAN PUBLIC NOTICE - English",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/22864/2026-CDBG-HOME-ACTION-PLAN-PUBLIC-NOTICE---English",
+    "folder": "CDBG and HOME",
+    "ui_tab": "news",
+    "classification": "public_hearing",
+    "summary": "This document is a public notice announcing a 30-day comment period and a public hearing regarding the City\u2019s Draft 2026 Annual Action Plan and budget amendments for CDBG and HOME federal funding. Residents can review the proposed plans, submit written comments, or attend the hearing at City Hall to provide input on how over $1.8 million in federal grants will be used for community development and housing programs.",
+    "relevant_date": "2026-07-14",
+    "project_name": "2026 CDBG & HOME Annual Action Plan",
+    "dollar_amount": "$1,819,281",
+    "location": "515 North Avenue, New Rochelle",
+    "coords": {
+      "lat": 40.9201463,
+      "lng": -73.7857973
+    },
+    "tags": [
+      "public hearing",
+      "CDBG",
+      "HOME",
+      "budget",
+      "community development"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 22863,
+    "title": "2026 CDBG HOME ACTION PLAN PUBLIC NOTICE - Spanish",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/22863/2026-CDBG-HOME-ACTION-PLAN-PUBLIC-NOTICE---Spanish",
+    "folder": "CDBG and HOME",
+    "ui_tab": "news",
+    "classification": "public_hearing",
+    "summary": "This document is a public notice announcing a 30-day comment period and a public hearing regarding New Rochelle's 2026 Annual Action Plan and CDBG/HOME budget amendments. It outlines how federal housing and community development funds will be allocated for local infrastructure and public service projects. Residents can submit written comments or attend the hearing at City Hall to provide input on the proposed spending.",
+    "relevant_date": "2026-07-14",
+    "project_name": "2026 CDBG/HOME Action Plan",
+    "dollar_amount": "$1,351,992",
+    "location": "515 North Avenue, New Rochelle",
+    "coords": {
+      "lat": 40.9201463,
+      "lng": -73.7857973
+    },
+    "tags": [
+      "CDBG",
+      "HOME",
+      "public_hearing",
+      "budget",
+      "community_development"
+    ],
+    "confidence": 0.95
+  },
+  {
     "id": 22288,
     "title": "2026 Camp Trips",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/22288/2026-Camp-Trips",
@@ -65,6 +115,97 @@
       "summer_camp",
       "financial_assistance",
       "transportation"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 22803,
+    "title": "Participatory Budget Steering Committee Agenda - 20260602",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/22803/Participatory-Budget-Steering-Committee-Agenda---20260602",
+    "folder": "Participatory Budgeting",
+    "ui_tab": "meetings",
+    "classification": "agenda",
+    "summary": "This document is the agenda and supporting materials for the Participatory Budgeting Steering Committee meeting on June 2, 2026. It outlines the committee's proposed structure, authority, and rulebook for guiding resident participation in local capital budget decisions. The package also includes a draft ordinance to formally establish the committee within city code.",
+    "relevant_date": "2026-06-02",
+    "project_name": "Participatory Budgeting Steering Committee",
+    "dollar_amount": null,
+    "location": "City of New Rochelle",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "tags": [
+      "participatory budgeting",
+      "steering committee",
+      "agenda",
+      "ordinance",
+      "city governance"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 22802,
+    "title": "Participatory Budget Steering Committee Agenda Packet - 20260602",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/22802/Participatory-Budget-Steering-Committee-Agenda-Packet---20260602",
+    "folder": "Participatory Budgeting",
+    "ui_tab": "meetings",
+    "classification": "agenda",
+    "summary": "This document is an agenda packet for the June 2, 2026 meeting of the Participatory Budgeting Steering Committee. It outlines the committee's structure, authority, and the proposed rulebook that will guide residents in voting on local capital budget priorities.",
+    "relevant_date": "2026-06-02",
+    "project_name": "Participatory Budgeting Steering Committee",
+    "dollar_amount": null,
+    "location": null,
+    "coords": null,
+    "tags": [
+      "participatory budgeting",
+      "steering committee",
+      "agenda",
+      "city governance",
+      "civic engagement"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 22909,
+    "title": "SFGEIS with Appedices_Accepted_reduced",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/22909/SFGEIS-with-Appedices_Accepted_reduced",
+    "folder": "DOZ",
+    "ui_tab": "news",
+    "classification": "environmental_review",
+    "summary": "This document is the Supplemental Final Generic Environmental Impact Statement (SFGEIS) for the City of New Rochelle's 2026 Downtown Overlay Zone amendments. It details the environmental and community impacts of proposed zoning changes and includes transcripts from a public hearing where residents provided feedback on downtown development. It matters to residents as it directly influences future commercial, residential, and cultural projects in the downtown district.",
+    "relevant_date": "2026-05-22",
+    "project_name": "2026 Downtown Overlay Zone Amendments",
+    "dollar_amount": null,
+    "location": "Downtown New Rochelle",
+    "coords": null,
+    "tags": [
+      "environmental review",
+      "zoning",
+      "downtown development",
+      "public hearing",
+      "SEQRA"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 22839,
+    "title": "May 2026 The City Manager's Update",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/22839/May-2026-The-City-Managers-Update",
+    "folder": "City Manager",
+    "ui_tab": "news",
+    "classification": "report",
+    "summary": "This monthly City Manager's update provides residents with a recap of recent community meetings, announcements on departmental retirements, and progress reports on key city initiatives like traffic signal replacements and parking management. It also includes upcoming community event schedules and quarterly performance statistics from various city departments.",
+    "relevant_date": "2026-05",
+    "project_name": "Main St/Huguenot St Traffic Signal Replacement Project",
+    "dollar_amount": null,
+    "location": "Main Street / Huguenot Street, Downtown New Rochelle",
+    "coords": null,
+    "tags": [
+      "city update",
+      "traffic signals",
+      "parking management",
+      "department statistics",
+      "community events"
     ],
     "confidence": 0.95
   },
@@ -302,6 +443,27 @@
       "city initiatives",
       "2026",
       "infrastructure"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 22276,
+    "title": "NR DOZ 2026 SDGEIS",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/22276/NR-DOZ-2026-SDGEIS",
+    "folder": "DOZ",
+    "ui_tab": "news",
+    "classification": "environmental_review",
+    "summary": "This document is a Supplemental Draft Generic Environmental Impact Statement (SDGEIS) regarding proposed amendments to the Downtown Overlay Zone and an updated theoretical development scenario. It outlines potential environmental impacts, solicits feedback from city departments, and announces a public hearing scheduled for March 10, 2026. Residents can review the full statement online and submit written comments by March 20, 2026.",
+    "relevant_date": "2026-01-26",
+    "project_name": "2026 Downtown Overlay Zone Amendments",
+    "dollar_amount": null,
+    "location": "Downtown New Rochelle",
+    "coords": null,
+    "tags": [
+      "environmental_review",
+      "zoning_amendment",
+      "public_hearing",
+      "downtown_development"
     ],
     "confidence": 0.95
   },
@@ -544,6 +706,28 @@
       "calendar"
     ],
     "confidence": 0.95
+  },
+  {
+    "id": 22862,
+    "title": "2026 DRAFT CDBG HOME ACTION PLAN WITH BUDGET",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/22862/2026-DRAFT-CDBG-HOME-ACTION-PLAN-WITH-BUDGET",
+    "folder": "CDBG and HOME",
+    "ui_tab": "news",
+    "classification": "budget",
+    "summary": "This document is the draft 2026 Annual Action Plan and budget for New Rochelle's CDBG and HOME programs. It outlines funding allocations, affordable housing goals, and community development priorities for the upcoming year.",
+    "relevant_date": "2026",
+    "project_name": null,
+    "dollar_amount": "$446,045.84",
+    "location": null,
+    "coords": null,
+    "tags": [
+      "CDBG",
+      "HOME",
+      "budget",
+      "affordable housing",
+      "annual action plan"
+    ],
+    "confidence": 0.9
   },
   {
     "id": 21826,
@@ -1078,6 +1262,31 @@
     "confidence": 0.95
   },
   {
+    "id": 21167,
+    "title": "GrowAmerica Presentation on 40 Memorial Highway",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/21167/GrowAmerica-Presentation-on-40-Memorial-Highway",
+    "folder": "IDA Web Revisions and Additions",
+    "ui_tab": "map",
+    "classification": "report",
+    "summary": "This document is a presentation to the New Rochelle IDA Board regarding a proposed 15-year extension of a PILOT agreement for a mixed-use development at 40 Memorial Highway. It outlines the project's scope, financial terms, and public benefits, including workforce housing requirements and capital improvements.",
+    "relevant_date": "2025-07-30",
+    "project_name": "HGI New Rochelle Gardens",
+    "dollar_amount": "$63,279,738",
+    "location": "40 Memorial Highway",
+    "coords": {
+      "lat": 40.9093602,
+      "lng": -73.7819392
+    },
+    "tags": [
+      "PILOT extension",
+      "mixed-use development",
+      "IDA board",
+      "housing",
+      "Memorial Highway"
+    ],
+    "confidence": 0.95
+  },
+  {
     "id": 21092,
     "title": "CDBG NOFA Public Notice 2026 NOFA English and Spanish for Lohud",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/21092/CDBG-NOFA-Public-Notice-2026-NOFA-English-and-Spanish-for-Lohud",
@@ -1361,6 +1570,31 @@
       "public_safety"
     ],
     "confidence": 0.95
+  },
+  {
+    "id": 20907,
+    "title": "Historical Rates for Westchester Power Thru 10-31-2024",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/20907/Historical-Rates-for-Westchester-Power-Thru-10-31-2024",
+    "folder": "CCA",
+    "ui_tab": "none",
+    "classification": "report",
+    "summary": "This document provides a historical table of electricity supply rates for the Westchester Power municipal program, covering contract periods from April 2016 through November 2025. It breaks down pricing by renewable percentage and customer type, noting a rate decrease effective May 1, 2025. This reference helps New Rochelle residents and businesses track past utility costs and understand current municipal power pricing.",
+    "relevant_date": "2025-05-01",
+    "project_name": "Westchester Power",
+    "dollar_amount": null,
+    "location": "New Rochelle",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "tags": [
+      "utility rates",
+      "Westchester Power",
+      "municipal energy",
+      "historical rates",
+      "residential commercial"
+    ],
+    "confidence": 0.9
   },
   {
     "id": 20730,
@@ -2127,6 +2361,28 @@
     "confidence": 0.95
   },
   {
+    "id": 22799,
+    "title": "GreeNRHighlightsRelatedCityPriorities",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/22799/GreeNRHighlightsRelatedCityPriorities",
+    "folder": "Sustainability",
+    "ui_tab": "news",
+    "classification": "press_release",
+    "summary": "This document outlines key sustainability initiatives and programs under New Rochelle\u2019s GreeNR Climate Action Plan, including climate vulnerability assessments, food waste recycling enhancements, electric landscaping rebates, and fleet efficiency policies. It provides residents with updates on upcoming programs, community engagement opportunities, and citywide environmental goals.",
+    "relevant_date": "2025",
+    "project_name": "GreeNR Climate Action Plan",
+    "dollar_amount": null,
+    "location": "New Rochelle (citywide)",
+    "coords": null,
+    "tags": [
+      "sustainability",
+      "climate action",
+      "GreeNR",
+      "environmental programs",
+      "city initiatives"
+    ],
+    "confidence": 0.9
+  },
+  {
     "id": 20595,
     "title": "GreenNR Climate Action Plan Update 2025",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/20595/GreenNR-Climate-Action-Plan-Update-2025",
@@ -2455,6 +2711,53 @@
     "confidence": 0.95
   },
   {
+    "id": 19474,
+    "title": "FAQ Combined for NR English",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/19474/FAQ-Combined-for-NR-English",
+    "folder": "CCA",
+    "ui_tab": "news",
+    "classification": "other",
+    "summary": "This document is a frequently asked questions guide detailing the new contract terms for the Westchester Power community energy program in New Rochelle. It explains fixed electricity rates, the 100% renewable default option, opt-out procedures, and how residents can manage their enrollment. The information is important for residents to understand their electricity supply options and billing changes effective November 2024.",
+    "relevant_date": "2024-11-01",
+    "project_name": "Westchester Power Community Energy Program",
+    "dollar_amount": null,
+    "location": null,
+    "coords": null,
+    "tags": [
+      "energy",
+      "Westchester Power",
+      "FAQ",
+      "utility rates",
+      "New Rochelle"
+    ],
+    "confidence": 0.9
+  },
+  {
+    "id": 19473,
+    "title": "FAQ Combined for NR Spanish",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/19473/FAQ-Combined-for-NR-Spanish",
+    "folder": "CCA",
+    "ui_tab": "news",
+    "classification": "other",
+    "summary": "This Spanish-language FAQ outlines the details of the Westchester Power community energy program for New Rochelle residents, including contract dates, electricity rates, renewable energy options, and enrollment procedures. It is important for residents to understand their default supply option, opt-out deadlines, and how to manage their electricity billing.",
+    "relevant_date": "2024-11-01",
+    "project_name": "Westchester Power",
+    "dollar_amount": null,
+    "location": "New Rochelle, NY",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "tags": [
+      "community energy",
+      "Westchester Power",
+      "utility rates",
+      "FAQ",
+      "New Rochelle"
+    ],
+    "confidence": 0.95
+  },
+  {
     "id": 10326,
     "title": "Sect. 8 Temporary Office Hours Notice Oct 29",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/10326/Sect-8-Temporary-Office-Hours-Notice-Oct-29",
@@ -2571,6 +2874,53 @@
     "confidence": 0.95
   },
   {
+    "id": 19663,
+    "title": "New Rochelle 2024-10 Con Ed Newly Eligible Letters ENG",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/19663/New-Rochelle-2024-10-Con-Ed-Newly-Eligible-Letters-ENG",
+    "folder": "CCA",
+    "ui_tab": "news",
+    "classification": "press_release",
+    "summary": "This document is a notification letter to New Rochelle residents informing them of their automatic enrollment in a Community Choice Aggregation (CCA) program for electricity supply. It details the default 100% renewable energy rate, provides a comparison with Con Edison pricing, and explains how to opt-out or change their plan.",
+    "relevant_date": "2024-10-07",
+    "project_name": "Community Choice Aggregation (CCA) Program",
+    "dollar_amount": "$0.13298/kWh",
+    "location": "New Rochelle",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "tags": [
+      "energy",
+      "CCA",
+      "utility",
+      "announcement",
+      "Sustainable Westchester"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 19664,
+    "title": "New Rochelle 2024-10 Con Ed Newly Eligible Letters SPA",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/19664/New-Rochelle-2024-10-Con-Ed-Newly-Eligible-Letters-SPA",
+    "folder": "CCA",
+    "ui_tab": "news",
+    "classification": "press_release",
+    "summary": "This document is an official announcement from the City of New Rochelle informing residents and small businesses about a new community electricity aggregation program administered by Sustainable Westchester. It details the default renewable energy provider, the fixed rate of $0.13298/kWh, the contract period through November 2025, and provides clear instructions on how to opt out or change plans.",
+    "relevant_date": "2024-10-07",
+    "project_name": "Community Choice Aggregation (CCA) Program",
+    "dollar_amount": "$0.13298/kWh",
+    "location": "New Rochelle (Citywide)",
+    "coords": null,
+    "tags": [
+      "CCA",
+      "electricity",
+      "utility",
+      "public_announcement",
+      "energy"
+    ],
+    "confidence": 0.95
+  },
+  {
     "id": 19230,
     "title": "10_05_24_Saturday Afternoon Concert Fall 2024",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/19230/10_05_24_Saturday-Afternoon-Concert-Fall-2024",
@@ -2627,6 +2977,53 @@
       "concerts",
       "events",
       "music"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 19449,
+    "title": "Notification Letter English",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/19449/Notification-Letter-English",
+    "folder": "CCA",
+    "ui_tab": "news",
+    "classification": "press_release",
+    "summary": "This letter notifies New Rochelle residents about the renewal of the Community Choice Aggregation (CCA) program for electricity supply. It outlines the default 100% renewable energy rate, compares it to standard utility pricing, and provides instructions and a deadline for opting out or changing plans.",
+    "relevant_date": "2024-09-16",
+    "project_name": "Community Choice Aggregation (CCA) program",
+    "dollar_amount": "$.13298/kWh",
+    "location": "New Rochelle",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "tags": [
+      "CCA",
+      "electricity",
+      "energy",
+      "opt-out",
+      "announcement"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 19445,
+    "title": "Notification Letter Spanish",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/19445/Notification-Letter-Spanish",
+    "folder": "CCA",
+    "ui_tab": "news",
+    "classification": "press_release",
+    "summary": "This Spanish-language notification informs New Rochelle residents and small businesses about the city's Community Choice Aggregation (CCA) energy program. It details the new electricity provider, the fixed rate of $0.13298/kWh, the contract period through November 2025, and instructions for opting out.",
+    "relevant_date": "2024-09-16",
+    "project_name": "Community Choice Aggregation (CCA) Program",
+    "dollar_amount": "$0.13298/kWh",
+    "location": null,
+    "coords": null,
+    "tags": [
+      "energy",
+      "CCA",
+      "utility",
+      "announcement",
+      "Sustainable Westchester"
     ],
     "confidence": 0.95
   },
@@ -5303,6 +5700,31 @@
     "confidence": 1.0
   },
   {
+    "id": 19465,
+    "title": "Current Rates for Westchester Power",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/19465/Current-Rates-for-Westchester-Power",
+    "folder": "CCA",
+    "ui_tab": "news",
+    "classification": "other",
+    "summary": "This document outlines the current electricity rates for New Rochelle's Westchester Power program, comparing 100% renewable energy pricing against standard grid rates for residential and commercial customers. It covers the contract period from November 2022 through October 2024 and lists specific per-kWh costs. Residents can use this information to understand their current utility rates and the price difference between renewable and standard power options.",
+    "relevant_date": "2022-11-01",
+    "project_name": "Westchester Power",
+    "dollar_amount": null,
+    "location": "New Rochelle",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "tags": [
+      "electricity rates",
+      "Westchester Power",
+      "community choice aggregation",
+      "utility pricing",
+      "residential commercial"
+    ],
+    "confidence": 0.95
+  },
+  {
     "id": 16087,
     "title": "Rack_Card_Con_Ed_2022_relaunch_rev_2022_09_26_Final",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/16087/Rack_Card_Con_Ed_2022_relaunch_rev_2022_09_26_Final",
@@ -5871,6 +6293,50 @@
       "truck wash"
     ],
     "confidence": 1.0
+  },
+  {
+    "id": 15962,
+    "title": "Gateway Digital Art Contest Info - Spanish",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15962/Gateway-Digital-Art-Contest-Info---Spanish",
+    "folder": "Gateway Digital Art Contest",
+    "ui_tab": "bids",
+    "classification": "bid",
+    "summary": "This document outlines the guidelines and requirements for a public digital art contest to design a mural for the North Avenue bridge wall panels. It details the project scope, submission criteria, jury evaluation process, a $3,000 prize, and the September 2022 deadline.",
+    "relevant_date": "2022-09-28",
+    "project_name": "Gateway Digital Art Contest",
+    "dollar_amount": "$3,000",
+    "location": "North Avenue bridge over Metro North Railroad tracks (288 North Avenue)",
+    "coords": null,
+    "tags": [
+      "public_art",
+      "contest",
+      "mural",
+      "procurement",
+      "North_Avenue"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 15961,
+    "title": "Gateway Digital Art Contest Info- English",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15961/Gateway-Digital-Art-Contest-Info--English",
+    "folder": "Gateway Digital Art Contest",
+    "ui_tab": "bids",
+    "classification": "bid",
+    "summary": "This document is a public announcement and request for proposals for a digital art contest to design a mural for the North Avenue Bridge. It outlines the project scope, submission guidelines, judging criteria, a $3,000 prize, and the September 2022 deadline. It matters to residents as it invites local artists to contribute to a visible public art installation and wayfinding feature near the train station.",
+    "relevant_date": "2022-09-28",
+    "project_name": "Downtown Gateway Art Contest",
+    "dollar_amount": "$3,000",
+    "location": "Western side of North Avenue Bridge over Metro North Railroad tracks",
+    "coords": null,
+    "tags": [
+      "public art",
+      "RFP",
+      "North Avenue Bridge",
+      "art contest",
+      "wayfinding"
+    ],
+    "confidence": 0.95
   },
   {
     "id": 15986,
@@ -6456,6 +6922,31 @@
       "public_work"
     ],
     "confidence": 0.95
+  },
+  {
+    "id": 19464,
+    "title": "Historical Rates for Westchester Power",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/19464/Historical-Rates-for-Westchester-Power",
+    "folder": "CCA",
+    "ui_tab": "news",
+    "classification": "report",
+    "summary": "This document outlines historical electricity rates for the Westchester Power community choice aggregation program, comparing 100% renewable and standard grid options for residential and small commercial customers between 2016 and 2022. It provides residents with a clear record of past pricing changes, helping them understand the cost history of New Rochelle's municipal power program and evaluate renewable versus standard energy options.",
+    "relevant_date": "2022-06-30",
+    "project_name": "Westchester Power",
+    "dollar_amount": null,
+    "location": "New Rochelle",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "tags": [
+      "utility rates",
+      "Westchester Power",
+      "community choice aggregation",
+      "energy pricing",
+      "historical data"
+    ],
+    "confidence": 0.9
   },
   {
     "id": 15771,
@@ -8525,6 +9016,28 @@
     "confidence": 0.95
   },
   {
+    "id": 14682,
+    "title": "Appendix B-1_DOZ SDGEIS Notice of Completion",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/14682/Appendix-B-1_DOZ-SDGEIS-Notice-of-Completion",
+    "folder": "Appendices",
+    "ui_tab": "news",
+    "classification": "environmental_review",
+    "summary": "This document is an official resolution and notice of completion for the 2021 Downtown Overlay Zone zoning amendments, accepting the Supplemental Final Generic Environmental Impact Statement (SFGEIS) under SEQRA regulations. It schedules a public hearing for December 7, 2021, and outlines proposed zoning updates, including new residential options and a new Waterfront Overlay District. Residents can review the full environmental impact report at City Hall, the public library, or online.",
+    "relevant_date": "2021-11-09",
+    "project_name": "2021 Downtown Overlay Zone (DOZ) Amendments",
+    "dollar_amount": null,
+    "location": "Downtown Overlay Zone, including Main Street, North Avenue, Huguenot Street, and the proposed DO-7 Waterfront District",
+    "coords": null,
+    "tags": [
+      "zoning",
+      "environmental_review",
+      "public_hearing",
+      "downtown_overlay_zone",
+      "SEQRA"
+    ],
+    "confidence": 0.95
+  },
+  {
     "id": 14696,
     "title": "FOCE_COM_NY17147_22-051_SBA_Moves_Westchester_County_Business_Recovery_Center_2021_11_03",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/14696/FOCE_COM_NY17147_22-051_SBA_Moves_Westchester_County_Business_Recovery_Center_2021_11_03",
@@ -8586,6 +9099,28 @@
       "banking",
       "procurement",
       "finance"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 14780,
+    "title": "Appendix A-1 DOZ Zoning Book FGEIS_10-28-2021",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/14780/Appendix-A-1-DOZ-Zoning-Book-FGEIS_10-28-2021",
+    "folder": "Appendices",
+    "ui_tab": "news",
+    "classification": "environmental_review",
+    "summary": "This document is a supplemental Final Generic Environmental Impact Statement (FGEIS) and redline zoning code amendments for New Rochelle's Downtown Overlay Zone. It outlines proposed regulatory changes, development standards, and environmental considerations for the downtown district. It is important for residents and developers as it establishes the rules governing land use and construction in the area.",
+    "relevant_date": "2021-10-28",
+    "project_name": "Downtown Overlay Zone (DOZ) Zoning Amendments",
+    "dollar_amount": null,
+    "location": "Downtown Overlay Zone (DOZ), New Rochelle",
+    "coords": null,
+    "tags": [
+      "zoning",
+      "environmental_review",
+      "downtown",
+      "code_amendment",
+      "FGEIS"
     ],
     "confidence": 0.95
   },
@@ -8738,6 +9273,28 @@
       "facility_assessment",
       "garage",
       "maintenance"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 14681,
+    "title": "Appendix A-2 NR_Community Benefit Bonus_10-26-21",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/14681/Appendix-A-2-NR_Community-Benefit-Bonus_10-26-21",
+    "folder": "Appendices",
+    "ui_tab": "news",
+    "classification": "environmental_review",
+    "summary": "This document outlines the Community Benefit Bonuses and Funds Policy for the City of New Rochelle's Downtown Overlay Zone. It details how developers can earn height bonuses by providing community benefits like historic preservation, arts spaces, or affordable housing, and lists required funding amounts per square foot for different districts. It matters to residents as it shapes future development, community amenities, and affordable housing in downtown New Rochelle.",
+    "relevant_date": "2021-10-26",
+    "project_name": "Downtown Overlay Zone",
+    "dollar_amount": null,
+    "location": "Downtown Overlay Zone, New Rochelle",
+    "coords": null,
+    "tags": [
+      "zoning",
+      "community benefits",
+      "development policy",
+      "environmental review",
+      "downtown"
     ],
     "confidence": 0.95
   },
@@ -9368,6 +9925,28 @@
       "NFPA 72"
     ],
     "confidence": 1.0
+  },
+  {
+    "id": 14685,
+    "title": "Appendix D-Written Comments-uneditable",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/14685/Appendix-D-Written-Comments-uneditable",
+    "folder": "Appendices",
+    "ui_tab": "news",
+    "classification": "environmental_review",
+    "summary": "This document compiles written public comments regarding the City of New Rochelle's proposed Downtown Overlay Zone amendments and Supplemental Generic Environmental Impact Statement. It includes feedback from developers, residents, and advisory committees on zoning changes, residential unit allocations, and sustainability goals for downtown redevelopment.",
+    "relevant_date": "2021-07-22",
+    "project_name": "Downtown Overlay Zone Amendments",
+    "dollar_amount": null,
+    "location": "Downtown Overlay Zone, 438 Main Street, New Rochelle, NY",
+    "coords": null,
+    "tags": [
+      "zoning",
+      "environmental review",
+      "public comments",
+      "downtown redevelopment",
+      "overlay zone"
+    ],
+    "confidence": 0.95
   },
   {
     "id": 14299,
@@ -11427,6 +12006,28 @@
     "confidence": 0.95
   },
   {
+    "id": 14193,
+    "title": "00-FIGURES-ALL",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/14193/00-FIGURES-ALL",
+    "folder": "Figures",
+    "ui_tab": "map",
+    "classification": "environmental_review",
+    "summary": "This document contains a series of zoning and environmental maps for the 2021 Downtown Overlay Zone (DOZ) Amendments. It illustrates existing and proposed zoning districts, soil conditions, and waterfront revitalization boundaries as part of a Supplemental Draft Generic Environmental Impact Statement (DGEIS). It matters to residents as it visualizes proposed changes to local land use and development regulations.",
+    "relevant_date": "2021",
+    "project_name": "2021 DOZ Amendments",
+    "dollar_amount": null,
+    "location": "Downtown Overlay Zone, New Rochelle",
+    "coords": null,
+    "tags": [
+      "zoning",
+      "environmental review",
+      "DGEIS",
+      "Downtown Overlay Zone",
+      "maps"
+    ],
+    "confidence": 0.95
+  },
+  {
     "id": 14660,
     "title": "2021 AWARDS - Recipient Award List",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/14660/2021-AWARDS---Recipient-Award-List",
@@ -11709,6 +12310,295 @@
       "public information"
     ],
     "confidence": 0.9
+  },
+  {
+    "id": 14194,
+    "title": "Fig2-1_Overall Study Area",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/14194/Fig2-1_Overall-Study-Area",
+    "folder": "Figures",
+    "ui_tab": "map",
+    "classification": "environmental_review",
+    "summary": "This document is a zoning map figure from a 2021 supplemental environmental impact statement (DGEIS) for New Rochelle. It illustrates the overall study area and compares existing downtown overlay zones with proposed zoning changes. Residents can use it to understand which neighborhoods are affected by potential downtown zoning amendments.",
+    "relevant_date": "2021",
+    "project_name": "2021 Downtown Overlay Zone (DOZ) Amendments",
+    "dollar_amount": null,
+    "location": "Downtown New Rochelle",
+    "coords": null,
+    "tags": [
+      "zoning",
+      "environmental_review",
+      "downtown",
+      "overlay_zone",
+      "2021"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 14195,
+    "title": "Fig2-2_Regional Location Map",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/14195/Fig2-2_Regional-Location-Map",
+    "folder": "Figures",
+    "ui_tab": "map",
+    "classification": "environmental_review",
+    "summary": "This document is a regional location map illustrating existing and proposed Downtown Overlay Zones in New Rochelle as part of the 2021 Downtown Overlay Zone (DOZ) amendments. It serves as a visual reference for the Supplemental Draft Generic Environmental Impact Statement (DGEIS), showing how proposed zoning changes would affect specific areas of the city. Residents can use it to understand which neighborhoods or districts are impacted by the new zoning regulations.",
+    "relevant_date": "2021",
+    "project_name": "2021 Downtown Overlay Zone (DOZ) Amendments",
+    "dollar_amount": null,
+    "location": "Downtown Overlay Zone, New Rochelle",
+    "coords": null,
+    "tags": [
+      "zoning",
+      "overlay_zone",
+      "location_map",
+      "DGEIS",
+      "DOZ_amendments"
+    ],
+    "confidence": 0.9
+  },
+  {
+    "id": 14198,
+    "title": "Fig2-5_Existing DOZ Zoning Districts",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/14198/Fig2-5_Existing-DOZ-Zoning-Districts",
+    "folder": "Figures",
+    "ui_tab": "map",
+    "classification": "environmental_review",
+    "summary": "This document is a zoning map illustrating the existing Downtown Overlay Zone (DOZ) districts in New Rochelle, sourced from the 2021 DOZ Amendments Supplemental Draft Environmental Impact Statement. It visually defines the boundaries of zones DO-1 through DO-6, helping residents understand current land-use regulations and development guidelines in the downtown area.",
+    "relevant_date": "2021",
+    "project_name": "2021 DOZ Amendments",
+    "dollar_amount": null,
+    "location": "Downtown Overlay Zone, New Rochelle",
+    "coords": null,
+    "tags": [
+      "zoning",
+      "downtown",
+      "overlay_zone",
+      "environmental_review",
+      "map"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 14199,
+    "title": "Fig2-6_Existing Zoning of DO-7",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/14199/Fig2-6_Existing-Zoning-of-DO-7",
+    "folder": "Figures",
+    "ui_tab": "map",
+    "classification": "environmental_review",
+    "summary": "This document is a zoning map figure illustrating the existing and proposed zoning districts for the Downtown Overlay Zone 7 (DO-7) area in New Rochelle. It serves as a visual reference for the 2021 Downtown Zoning Amendments and the accompanying Supplemental Draft Generic Environmental Impact Statement (DGEIS). Residents can use it to see how proposed zoning changes may impact land use, building heights, and development in the downtown waterfront district.",
+    "relevant_date": "2021",
+    "project_name": "2021 Downtown Zoning Amendments (DO-7)",
+    "dollar_amount": null,
+    "location": "Downtown Overlay Zone 7 (DO-7), New Rochelle waterfront",
+    "coords": null,
+    "tags": [
+      "zoning",
+      "map",
+      "environmental_review",
+      "downtown",
+      "DO-7"
+    ],
+    "confidence": 0.9
+  },
+  {
+    "id": 14201,
+    "title": "Fig3.1-2_Existing and Proposed Zoning",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/14201/Fig31-2_Existing-and-Proposed-Zoning",
+    "folder": "Figures",
+    "ui_tab": "map",
+    "classification": "environmental_review",
+    "summary": "This document is a zoning map figure from a 2021 supplemental environmental impact statement (DGEIS) for New Rochelle. It illustrates the existing and proposed Downtown Overlay Zone (DOZ) districts, showing how zoning boundaries are planned to change. Residents can use this to understand proposed land-use changes and development regulations in specific neighborhoods.",
+    "relevant_date": "2021",
+    "project_name": "2021 DOZ Amendments",
+    "dollar_amount": null,
+    "location": "Downtown Overlay Zone, New Rochelle",
+    "coords": null,
+    "tags": [
+      "zoning",
+      "environmental_review",
+      "downtown",
+      "land_use",
+      "map"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 14204,
+    "title": "Fig3.3-1 School Zones",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/14204/Fig33-1-School-Zones",
+    "folder": "Figures",
+    "ui_tab": "map",
+    "classification": "environmental_review",
+    "summary": "This document is a map figure illustrating New Rochelle's school zones and proposed Downtown Overlay Zone (DO-7) boundaries as part of the 2021 zoning amendments. It helps residents visualize how school districts and overlay zones align across neighborhoods like Webster, Ward, and Central.",
+    "relevant_date": "2021",
+    "project_name": "2021 DOZ Amendments",
+    "dollar_amount": null,
+    "location": "New Rochelle (School Districts and Downtown Overlay Zone)",
+    "coords": null,
+    "tags": [
+      "school zones",
+      "zoning map",
+      "overlay district",
+      "environmental review",
+      "GIS"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 14206,
+    "title": "Fig3.3-2 Water Supply Infrastructure",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/14206/Fig33-2-Water-Supply-Infrastructure",
+    "folder": "Figures",
+    "ui_tab": "map",
+    "classification": "environmental_review",
+    "summary": "This document is a map figure illustrating the water supply infrastructure across New Rochelle. It serves as an exhibit in the 2021 DOZ Amendments Supplemental DGEIS, which evaluates the environmental impacts of proposed zoning changes.",
+    "relevant_date": "2021",
+    "project_name": "2021 DOZ Amendments",
+    "dollar_amount": null,
+    "location": "New Rochelle",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "tags": [
+      "water supply",
+      "infrastructure map",
+      "environmental review",
+      "zoning amendments",
+      "DGEIS"
+    ],
+    "confidence": 0.9
+  },
+  {
+    "id": 14207,
+    "title": "Fig3.3-3 Sewer Districts",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/14207/Fig33-3-Sewer-Districts",
+    "folder": "Figures",
+    "ui_tab": "map",
+    "classification": "environmental_review",
+    "summary": "This document is a map figure from a 2021 supplemental environmental impact statement showing existing sewer districts, proposed downtown overlay zones, and the location of the New Rochelle wastewater treatment facility. It helps residents understand current and planned infrastructure zoning and sewer service areas in the city.",
+    "relevant_date": "2021",
+    "project_name": "Downtown Overlay Zone (DOZ) Amendments",
+    "dollar_amount": null,
+    "location": "New Rochelle (Downtown Overlay Zone, Bronx Valley, Hutchinson, Mamaroneck)",
+    "coords": null,
+    "tags": [
+      "sewer districts",
+      "zoning",
+      "environmental review",
+      "infrastructure",
+      "New Rochelle"
+    ],
+    "confidence": 0.9
+  },
+  {
+    "id": 14208,
+    "title": "Fig3.3-4 Sewer Infrastructure",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/14208/Fig33-4-Sewer-Infrastructure",
+    "folder": "Figures",
+    "ui_tab": "map",
+    "classification": "environmental_review",
+    "summary": "This document is a map figure from a 2021 Draft Generic Environmental Impact Statement (DGEIS) showing New Rochelle's sewer infrastructure, including sanitary lines, manholes, and the wastewater treatment facility. It also highlights proposed zoning changes and water supply districts. Residents can use it to understand how local sewer systems and proposed development zones are mapped across the city.",
+    "relevant_date": "2021",
+    "project_name": "2021 Downtown Overlay Zone (DOZ) Amendments",
+    "dollar_amount": null,
+    "location": "New Rochelle (Downtown Overlay Zone, Stephenson Brook Basin, and Wastewater Treatment Facility)",
+    "coords": null,
+    "tags": [
+      "sewer infrastructure",
+      "environmental review",
+      "zoning",
+      "New Rochelle",
+      "DGEIS"
+    ],
+    "confidence": 0.9
+  },
+  {
+    "id": 14212,
+    "title": "Fig3.5-2 DO-7 NWI Wetlands",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/14212/Fig35-2-DO-7-NWI-Wetlands",
+    "folder": "Figures",
+    "ui_tab": "map",
+    "classification": "environmental_review",
+    "summary": "This document is a zoning and wetlands map from the 2021 Downtown Overlay Zone Amendments Supplemental Draft Generic Environmental Impact Statement (DGEIS). It illustrates the proposed DO-7 zoning district alongside existing wetlands and marine areas in New Rochelle. Residents can use it to understand how proposed zoning changes intersect with protected environmental areas in the downtown district.",
+    "relevant_date": "2021",
+    "project_name": "2021 Downtown Overlay Zone Amendments",
+    "dollar_amount": null,
+    "location": "Downtown Overlay Zone (DO-7), New Rochelle",
+    "coords": null,
+    "tags": [
+      "zoning",
+      "wetlands",
+      "environmental review",
+      "DGEIS",
+      "downtown"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 14213,
+    "title": "Fig3.5-3 LIS CEA",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/14213/Fig35-3-LIS-CEA",
+    "folder": "Figures",
+    "ui_tab": "map",
+    "classification": "environmental_review",
+    "summary": "This document is a zoning and environmental map from the 2021 Downtown Overlay Zone Amendments Supplemental Draft Generic Environmental Impact Statement. It illustrates proposed zoning changes and critical environmental areas along the Long Island Sound, which directly impacts local development regulations and land use planning.",
+    "relevant_date": "2021",
+    "project_name": "2021 DOZ Amendments Supplemental DGEIS",
+    "dollar_amount": null,
+    "location": "New Rochelle Downtown / Long Island Sound",
+    "coords": null,
+    "tags": [
+      "zoning",
+      "environmental_review",
+      "DGEIS",
+      "map",
+      "land_use"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 14214,
+    "title": "Fig3.5-4 LWRP",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/14214/Fig35-4-LWRP",
+    "folder": "Figures",
+    "ui_tab": "map",
+    "classification": "environmental_review",
+    "summary": "This document is a boundary map from a Supplemental Draft Generic Environmental Impact Statement (DGEIS) detailing the Local Waterfront Revitalization Program area and proposed Downtown Overlay Zone amendments. It matters to residents because it defines the geographic scope and zoning changes that will guide future waterfront development and land use regulations in New Rochelle.",
+    "relevant_date": "2021",
+    "project_name": "Local Waterfront Revitalization Program (LWRP)",
+    "dollar_amount": null,
+    "location": "New Rochelle waterfront / Downtown Overlay Zone",
+    "coords": null,
+    "tags": [
+      "zoning",
+      "waterfront",
+      "LWRP",
+      "DGEIS",
+      "map"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 14217,
+    "title": "Fig3.7-1 Existing DOZ Soil Map",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/14217/Fig37-1-Existing-DOZ-Soil-Map",
+    "folder": "Figures",
+    "ui_tab": "map",
+    "classification": "environmental_review",
+    "summary": "This document is a soil map figure from the 2021 Downtown Overlay Zone Amendments Supplemental Draft Generic Environmental Impact Statement (DGEIS). It illustrates existing soil classifications across the Downtown Overlay Zone to inform zoning and environmental planning decisions.",
+    "relevant_date": "2021",
+    "project_name": "Downtown Overlay Zone Amendments",
+    "dollar_amount": null,
+    "location": "Downtown Overlay Zone, New Rochelle",
+    "coords": null,
+    "tags": [
+      "soil map",
+      "Downtown Overlay Zone",
+      "environmental review",
+      "zoning",
+      "DGEIS"
+    ],
+    "confidence": 0.95
   },
   {
     "id": 14122,
@@ -20953,6 +21843,28 @@
     "confidence": 0.9
   },
   {
+    "id": 14683,
+    "title": "Appendix B-2_Published ENB Notice",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/14683/Appendix-B-2_Published-ENB-Notice",
+    "folder": "Appendices",
+    "ui_tab": "news",
+    "classification": "environmental_review",
+    "summary": "This document is a published notice for a Supplemental Final Generic Environmental Impact Statement (FGEIS) regarding proposed amendments to the Downtown Overlay Zone (DOZ) in New Rochelle. It outlines updates to zoning to allow for additional residential, live/work, and retail options, including a new Waterfront Overlay District.",
+    "relevant_date": "2019-01",
+    "project_name": "Proposed 2021 Downtown Overlay Zone (DOZ) Amendments",
+    "dollar_amount": null,
+    "location": "Downtown New Rochelle, NY",
+    "coords": null,
+    "tags": [
+      "zoning",
+      "environmental_review",
+      "downtown",
+      "waterfront",
+      "public_notice"
+    ],
+    "confidence": 0.9
+  },
+  {
     "id": 9941,
     "title": "DRAFT 2019 PHA ANNUAL PLAN",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/9941/DRAFT-2019-PHA-ANNUAL-PLAN",
@@ -22612,6 +23524,28 @@
     "confidence": 0.95
   },
   {
+    "id": 9499,
+    "title": "Westchester County 2018 AMI",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/9499/Westchester-County-2018-AMI",
+    "folder": "DOZ",
+    "ui_tab": "none",
+    "classification": "report",
+    "summary": "This document outlines the 2018 Area Median Income (AMI) limits and corresponding housing cost, rent, and sales price guidelines for Westchester County. It provides residents and developers with the income thresholds and utility allowances used to determine eligibility for affordable housing programs.",
+    "relevant_date": "2018-04-01",
+    "project_name": null,
+    "dollar_amount": null,
+    "location": null,
+    "coords": null,
+    "tags": [
+      "housing affordability",
+      "income limits",
+      "rent guidelines",
+      "Westchester County",
+      "2018 AMI"
+    ],
+    "confidence": 0.95
+  },
+  {
     "id": 9220,
     "title": "Agenda March 2018",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/9220/Agenda-March-2018",
@@ -23561,6 +24495,28 @@
     "confidence": 0.95
   },
   {
+    "id": 6151,
+    "title": "NRIDA UTEP_Amended Dec 20 2017",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/6151/NRIDA-UTEP_Amended-Dec-20-2017",
+    "folder": "IDA Web Revisions and Additions",
+    "ui_tab": "news",
+    "classification": "other",
+    "summary": "This document outlines the Uniform Tax Exemption Policy (UTEP) adopted by the New Rochelle Industrial Development Agency, detailing the financial incentives, tax exemptions, and PILOT agreements available for eligible development projects. It serves as a public guideline for how the city structures economic development incentives to promote local business growth and community prosperity. Residents and developers can reference it to understand the criteria and financial frameworks applied to city-backed projects.",
+    "relevant_date": "2017-12-20",
+    "project_name": null,
+    "dollar_amount": null,
+    "location": null,
+    "coords": null,
+    "tags": [
+      "tax exemption",
+      "economic development",
+      "IDA policy",
+      "PILOT agreements",
+      "New Rochelle"
+    ],
+    "confidence": 0.95
+  },
+  {
     "id": 8846,
     "title": "Agenda December 2017",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/8846/Agenda-December-2017",
@@ -24133,6 +25089,31 @@
       "traffic signals",
       "downtown redevelopment",
       "public meeting"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 8352,
+    "title": "Sept 6 IDA Meeting Agenda",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/8352/Sept-6-IDA-Meeting-Agenda",
+    "folder": "IDA Web Revisions and Additions",
+    "ui_tab": "meetings",
+    "classification": "agenda",
+    "summary": "This document is the agenda for the New Rochelle Industrial Development Agency meeting on September 6, 2017. It outlines a public hearing and authorization votes for a development project at 255 Huguenot Street, alongside administrative policy updates. Residents can use it to track upcoming board decisions and public hearing schedules.",
+    "relevant_date": "2017-09-06",
+    "project_name": "255 Huguenot Street project",
+    "dollar_amount": null,
+    "location": "255 Huguenot Street, New Rochelle",
+    "coords": {
+      "lat": 40.9106814,
+      "lng": -73.7837216
+    },
+    "tags": [
+      "IDA",
+      "meeting_agenda",
+      "255_Huguenot_Street",
+      "public_hearing",
+      "development"
     ],
     "confidence": 0.95
   },
@@ -26032,6 +27013,31 @@
     "confidence": 0.95
   },
   {
+    "id": 6657,
+    "title": "New Rochelle Comp Plan and Rezoning FGEIS_Accepted 10_18_16",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/6657/New-Rochelle-Comp-Plan-and-Rezoning-FGEIS_Accepted-10_18_16",
+    "folder": "EnvisioNR Docs",
+    "ui_tab": "news",
+    "classification": "environmental_review",
+    "summary": "This document is the Final Generic Environmental Impact Statement (FGEIS) for the City of New Rochelle's Comprehensive Plan Update and Zoning Code Amendments. It details the state environmental review process, addresses public comments, and outlines required approvals for proposed zoning changes. It matters to residents as it establishes the legal framework for future development, building heights, and neighborhood preservation across the city.",
+    "relevant_date": "2016-10-18",
+    "project_name": "Comprehensive Plan Update and Zoning Code Amendments",
+    "dollar_amount": null,
+    "location": "City of New Rochelle",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "tags": [
+      "zoning",
+      "comprehensive_plan",
+      "environmental_review",
+      "land_use",
+      "FGEIS"
+    ],
+    "confidence": 0.95
+  },
+  {
     "id": 6605,
     "title": "Job Posting - Sr Data Manager Open Comp 09282016",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/6605/Job-Posting---Sr-Data-Manager-Open-Comp-09282016",
@@ -26114,6 +27120,28 @@
       "New Rochelle"
     ],
     "confidence": 0.95
+  },
+  {
+    "id": 6475,
+    "title": "Final Tree List 9.12.16",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/6475/Final-Tree-List-91216",
+    "folder": "PB 2015 Revisions",
+    "ui_tab": "map",
+    "classification": "report",
+    "summary": "This document provides the City of New Rochelle's official list of approved street tree species for public planting. It includes scientific and common names, preferred cultivars, planting frequency, and notes on native species and pest resistance. It serves as a guideline for urban forestry and street beautification efforts across the city.",
+    "relevant_date": "2016-09-12",
+    "project_name": null,
+    "dollar_amount": null,
+    "location": null,
+    "coords": null,
+    "tags": [
+      "street trees",
+      "urban forestry",
+      "approved species",
+      "city guidelines",
+      "infrastructure"
+    ],
+    "confidence": 0.9
   },
   {
     "id": 6288,
@@ -26305,6 +27333,28 @@
     "confidence": 0.95
   },
   {
+    "id": 6715,
+    "title": "DOZ Planning Board Applicant Process",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/6715/DOZ-Planning-Board-Applicant-Process",
+    "folder": "DOZ",
+    "ui_tab": "meetings",
+    "classification": "report",
+    "summary": "This document outlines the step-by-step application and review process for the New Rochelle Planning Board regarding Development of Zoning (DOZ) projects. It details submission requirements, internal departmental reviews, PARC meetings, and public notice procedures. It serves as a procedural reference for developers and residents navigating the city's land use approval process.",
+    "relevant_date": "2016-08",
+    "project_name": null,
+    "dollar_amount": null,
+    "location": null,
+    "coords": null,
+    "tags": [
+      "planning board",
+      "DOZ",
+      "application process",
+      "zoning",
+      "development"
+    ],
+    "confidence": 0.95
+  },
+  {
     "id": 6343,
     "title": "Job Posting - Gen School Aide 07272016",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/6343/Job-Posting---Gen-School-Aide-07272016",
@@ -26411,6 +27461,28 @@
       "job",
       "human_resources",
       "employment"
+    ],
+    "confidence": 0.9
+  },
+  {
+    "id": 6302,
+    "title": "New Rochelle Comp Plan and ZoningDGEIS7.12.16",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/6302/New-Rochelle-Comp-Plan-and-ZoningDGEIS71216",
+    "folder": "EnvisioNR Docs",
+    "ui_tab": "news",
+    "classification": "environmental_review",
+    "summary": "This document is a Draft Generic Environmental Impact Statement (DGEIS) evaluating proposed updates to New Rochelle\u2019s Comprehensive Plan and zoning regulations. It outlines potential environmental and community impacts of future development strategies and land use changes. Residents can review it to understand how city planning decisions may affect local infrastructure, housing, and neighborhood character.",
+    "relevant_date": "2016-07-12",
+    "project_name": "EnvisioNR Comprehensive Plan",
+    "dollar_amount": null,
+    "location": "New Rochelle (city-wide)",
+    "coords": null,
+    "tags": [
+      "zoning",
+      "comprehensive plan",
+      "environmental review",
+      "DGEIS",
+      "land use"
     ],
     "confidence": 0.9
   },
@@ -26733,6 +27805,28 @@
     "confidence": 0.95
   },
   {
+    "id": 6714,
+    "title": "DOZ Application Flowchart Process",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/6714/DOZ-Application-Flowchart-Process",
+    "folder": "DOZ",
+    "ui_tab": "map",
+    "classification": "permit",
+    "summary": "This document outlines the step-by-step application process for a DOZ permit in New Rochelle. It details required pre-application meetings, filing fees, planning board referrals, and construction timelines for developers. Residents can use it to understand the regulatory pathway and expected duration for zoning and building approvals.",
+    "relevant_date": "2016-05-20",
+    "project_name": null,
+    "dollar_amount": null,
+    "location": null,
+    "coords": null,
+    "tags": [
+      "zoning",
+      "permit",
+      "development",
+      "planning board",
+      "process guide"
+    ],
+    "confidence": 0.9
+  },
+  {
     "id": 11523,
     "title": "5292 Exhibit B",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/11523/5292-Exhibit-B",
@@ -26811,6 +27905,31 @@
       "historic district",
       "fence permit",
       "public hearing"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 6025,
+    "title": "New Rochelle - City Council Presentation2 2016 05 10",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/6025/New-Rochelle---City-Council-Presentation2-2016-05-10",
+    "folder": "EnvisioNR Docs",
+    "ui_tab": "meetings",
+    "classification": "report",
+    "summary": "This document is a presentation to the New Rochelle City Council detailing the update to the city's Comprehensive Plan. It outlines the rationale for the update, a project timeline, and key planning chapters covering land use, zoning, transportation, and historic preservation. It matters to residents as it establishes the long-term vision and policy framework for future development and community improvements.",
+    "relevant_date": "2016-05-10",
+    "project_name": "New Rochelle Comprehensive Plan Update",
+    "dollar_amount": null,
+    "location": "New Rochelle",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "tags": [
+      "comprehensive plan",
+      "city council",
+      "urban planning",
+      "zoning",
+      "New Rochelle"
     ],
     "confidence": 0.95
   },
@@ -27000,6 +28119,28 @@
     "confidence": 0.9
   },
   {
+    "id": 19444,
+    "title": "Public-Service-Commission-CCA- Authorizing Order",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/19444/Public-Service-Commission-CCA--Authorizing-Order",
+    "folder": "CCA",
+    "ui_tab": "news",
+    "classification": "other",
+    "summary": "This document is a 2016 New York State Public Service Commission order establishing the regulatory framework for Community Choice Aggregation (CCA) programs. It outlines the standards and procedures for municipalities to aggregate energy purchasing, potentially lowering utility bills and promoting clean energy for residents.",
+    "relevant_date": "2016-04-20",
+    "project_name": "Community Choice Aggregation (CCA) Program",
+    "dollar_amount": null,
+    "location": null,
+    "coords": null,
+    "tags": [
+      "energy regulation",
+      "community choice aggregation",
+      "state order",
+      "utilities",
+      "municipal policy"
+    ],
+    "confidence": 0.95
+  },
+  {
     "id": 5841,
     "title": "HLRB AGENDA APRIL 2016",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/5841/HLRB-AGENDA-APRIL-2016",
@@ -27110,6 +28251,28 @@
     "confidence": 0.95
   },
   {
+    "id": 5909,
+    "title": "EnvisioNR - Preliminary Public Hearing - Flyer",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/5909/EnvisioNR---Preliminary-Public-Hearing---Flyer",
+    "folder": "EnvisioNR Docs",
+    "ui_tab": "news",
+    "classification": "public_hearing",
+    "summary": "This flyer announces a preliminary public hearing on March 21, 2016, to review the draft New Rochelle Comprehensive Plan. Residents are invited to discuss potential zoning changes, sustainability goals, and future land use recommendations. The event will be held at City Hall's Council Chambers.",
+    "relevant_date": "2016-03-21",
+    "project_name": "EnvisioNR / New Rochelle Comprehensive Plan",
+    "dollar_amount": null,
+    "location": "515 North Avenue, New Rochelle City Hall Council Chambers",
+    "coords": null,
+    "tags": [
+      "public_hearing",
+      "comprehensive_plan",
+      "zoning",
+      "community_engagement",
+      "EnvisioNR"
+    ],
+    "confidence": 0.95
+  },
+  {
     "id": 5656,
     "title": "March 21 2016 CLD Mtg Agenda",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/5656/March-21-2016-CLD-Mtg-Agenda",
@@ -27172,6 +28335,28 @@
       "zoning",
       "public hearing",
       "downtown redevelopment"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 5864,
+    "title": "New Rochelle Comprehensive Plan - Recommendations_r2_160318",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/5864/New-Rochelle-Comprehensive-Plan---Recommendations_r2_160318",
+    "folder": "EnvisioNR Docs",
+    "ui_tab": "news",
+    "classification": "report",
+    "summary": "This document outlines the recommendations for New Rochelle's EnvisioNR Comprehensive Plan, covering land use, zoning, affordable housing, economic development, and downtown revitalization. It was prepared for a preliminary public hearing in March 2016 to guide future municipal planning and policy decisions.",
+    "relevant_date": "2016-03-21",
+    "project_name": "EnvisioNR Comprehensive Plan",
+    "dollar_amount": null,
+    "location": "New Rochelle (citywide)",
+    "coords": null,
+    "tags": [
+      "comprehensive plan",
+      "urban planning",
+      "zoning",
+      "public hearing",
+      "land use"
     ],
     "confidence": 0.95
   },
@@ -27360,6 +28545,28 @@
     "confidence": 0.95
   },
   {
+    "id": 5964,
+    "title": "New Rochelle LWRP - Public Workshop 2 - Meeting Summary",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/5964/New-Rochelle-LWRP---Public-Workshop-2---Meeting-Summary",
+    "folder": "LWRP Outreach",
+    "ui_tab": "meetings",
+    "classification": "meeting_minutes",
+    "summary": "This document summarizes the second public workshop for the City of New Rochelle's Local Waterfront Revitalization Program (LWRP). It outlines the meeting agenda, presents preliminary project ideas for waterfront development, and records public feedback and stakeholder discussions.",
+    "relevant_date": "2016-02-10",
+    "project_name": "Local Waterfront Revitalization Program (LWRP)",
+    "dollar_amount": null,
+    "location": "New Rochelle waterfront",
+    "coords": null,
+    "tags": [
+      "meeting summary",
+      "LWRP",
+      "waterfront planning",
+      "public workshop",
+      "city development"
+    ],
+    "confidence": 0.95
+  },
+  {
     "id": 5444,
     "title": "2016-2-4 Public Meeting Presentation FINAL",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/5444/2016-2-4-Public-Meeting-Presentation-FINAL",
@@ -27380,6 +28587,28 @@
       "downtown development"
     ],
     "confidence": 0.9
+  },
+  {
+    "id": 5961,
+    "title": "LWRP Public Workshop Flyer - landscape",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/5961/LWRP-Public-Workshop-Flyer---landscape",
+    "folder": "LWRP Outreach",
+    "ui_tab": "news",
+    "classification": "other",
+    "summary": "This flyer announces a public workshop on February 3, 2016, for the Local Waterfront Revitalization Program (LWRP). It invites residents to City Hall to review potential waterfront projects and provide input on city policy and land use recommendations.",
+    "relevant_date": "2016-02-03",
+    "project_name": "Local Waterfront Revitalization Program (LWRP)",
+    "dollar_amount": null,
+    "location": "City Hall Rotunda, 515 North Avenue",
+    "coords": null,
+    "tags": [
+      "LWRP",
+      "public workshop",
+      "waterfront revitalization",
+      "community input",
+      "city planning"
+    ],
+    "confidence": 0.95
   },
   {
     "id": 5331,
@@ -27404,6 +28633,28 @@
     "confidence": 0.95
   },
   {
+    "id": 5962,
+    "title": "LWRP Workshop Handout - FINAL",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/5962/LWRP-Workshop-Handout---FINAL",
+    "folder": "LWRP Outreach",
+    "ui_tab": "meetings",
+    "classification": "agenda",
+    "summary": "This document is the agenda and handout for a public workshop on the Local Waterfront Revitalization Plan held on February 3, 2016. It outlines presentations and Q&A sessions regarding specific planning areas along New Rochelle's waterfront. It provides residents with details on public engagement opportunities for local waterfront development and preservation efforts.",
+    "relevant_date": "2016-02-03",
+    "project_name": "Local Waterfront Revitalization Plan",
+    "dollar_amount": null,
+    "location": "New Rochelle waterfront / City Council Chambers",
+    "coords": null,
+    "tags": [
+      "LWRP",
+      "waterfront revitalization",
+      "public workshop",
+      "agenda",
+      "urban planning"
+    ],
+    "confidence": 0.95
+  },
+  {
     "id": 5332,
     "title": "New Rochelle LWRP - Public Workshop - 02 03 2016 - reduced",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/5332/New-Rochelle-LWRP---Public-Workshop---02-03-2016---reduced",
@@ -27424,6 +28675,50 @@
       "planning"
     ],
     "confidence": 0.95
+  },
+  {
+    "id": 5963,
+    "title": "New Rochelle LWRP - Public Workshop - 02 03 2016 - reduced",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/5963/New-Rochelle-LWRP---Public-Workshop---02-03-2016---reduced",
+    "folder": "LWRP Outreach",
+    "ui_tab": "meetings",
+    "classification": "agenda",
+    "summary": "This document is the agenda and presentation materials for a public workshop on the Local Waterfront Revitalization Program (LWRP) held on February 3, 2016. It outlines the program's goals, state coastal policies, planning areas, and preliminary project ideas for New Rochelle's waterfront. It matters to residents as it details upcoming waterfront development plans and provides information on how to participate in future public input sessions.",
+    "relevant_date": "2016-02-03",
+    "project_name": "Local Waterfront Revitalization Program (LWRP)",
+    "dollar_amount": null,
+    "location": "New Rochelle waterfront (Davids Island, Glen Island Park, Travers Island)",
+    "coords": null,
+    "tags": [
+      "waterfront",
+      "LWRP",
+      "public workshop",
+      "urban planning",
+      "community outreach"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 4003,
+    "title": "Planning Board Plans Schedule February 2016",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/4003/Planning-Board-Plans-Schedule-February-2016",
+    "folder": "PB 2015 Revisions",
+    "ui_tab": "meetings",
+    "classification": "agenda",
+    "summary": "This document lists the scheduled meeting dates for the New Rochelle Planning Board for February 2016. It allows residents to plan attendance, submit public comments, or track ongoing zoning and development reviews. Reviewing this schedule ensures community members can participate in local land-use decisions.",
+    "relevant_date": "2016-02",
+    "project_name": null,
+    "dollar_amount": null,
+    "location": null,
+    "coords": null,
+    "tags": [
+      "planning board",
+      "meeting schedule",
+      "zoning",
+      "city government",
+      "February 2016"
+    ],
+    "confidence": 0.9
   },
   {
     "id": 5844,
@@ -27520,6 +28815,53 @@
     "confidence": 0.95
   },
   {
+    "id": 5881,
+    "title": "EnvisioNR Draft Plan Recommendations",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/5881/EnvisioNR-Draft-Plan-Recommendations",
+    "folder": "EnvisioNR Docs",
+    "ui_tab": "news",
+    "classification": "report",
+    "summary": "This document outlines preliminary recommendations for New Rochelle's comprehensive plan, covering zoning adjustments, affordable housing strategies, economic development, and sustainability initiatives. It serves as a foundational policy guide for future city planning and community development.",
+    "relevant_date": "2016-01-21",
+    "project_name": "EnvisioNR Comprehensive Plan",
+    "dollar_amount": null,
+    "location": "New Rochelle (citywide)",
+    "coords": null,
+    "tags": [
+      "comprehensive plan",
+      "zoning",
+      "housing",
+      "sustainability",
+      "land use"
+    ],
+    "confidence": 0.9
+  },
+  {
+    "id": 5882,
+    "title": "EnvisioNR Draft Plan Recommendations-Spanish",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/5882/EnvisioNR-Draft-Plan-Recommendations-Spanish",
+    "folder": "EnvisioNR Docs",
+    "ui_tab": "news",
+    "classification": "report",
+    "summary": "This document is a Spanish translation of the preliminary recommendations for New Rochelle's 'EnvisioNR' comprehensive plan, dated January 2016. It outlines city-wide strategies and policy recommendations for housing, zoning, economic development, public facilities, and environmental sustainability.",
+    "relevant_date": "2016-01-21",
+    "project_name": "EnvisioNR Comprehensive Plan",
+    "dollar_amount": null,
+    "location": "New Rochelle",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "tags": [
+      "comprehensive_plan",
+      "zoning",
+      "housing",
+      "economic_development",
+      "spanish"
+    ],
+    "confidence": 0.95
+  },
+  {
     "id": 5300,
     "title": "EnvisioNR Draft Plan Recommendations_201601281416546650",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/5300/EnvisioNR-Draft-Plan-Recommendations_201601281416546650",
@@ -27607,6 +28949,31 @@
       "zoning",
       "housing",
       "transportation"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 5884,
+    "title": "PUBLIC INPUT - PubWrkshp4 - 21Jan2016",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/5884/PUBLIC-INPUT---PubWrkshp4---21Jan2016",
+    "folder": "EnvisioNR Docs",
+    "ui_tab": "meetings",
+    "classification": "meeting_minutes",
+    "summary": "This document contains compiled notes and public feedback from a January 2016 open house workshop for the City of New Rochelle's Comprehensive Plan Update. It details resident concerns and suggestions across various planning chapters, including zoning, housing, transportation, and parks. The feedback is valuable for understanding community priorities during the city's long-term development process.",
+    "relevant_date": "2016-01-21",
+    "project_name": "Comprehensive Plan Update",
+    "dollar_amount": null,
+    "location": "515 North Avenue, New Rochelle",
+    "coords": {
+      "lat": 40.9201463,
+      "lng": -73.7857973
+    },
+    "tags": [
+      "comprehensive plan",
+      "public workshop",
+      "community feedback",
+      "land use",
+      "zoning"
     ],
     "confidence": 0.95
   },
@@ -28752,6 +30119,50 @@
     "confidence": 0.9
   },
   {
+    "id": 5959,
+    "title": "Combined Questions",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/5959/Combined-Questions",
+    "folder": "LWRP Outreach",
+    "ui_tab": "meetings",
+    "classification": "agenda",
+    "summary": "This document is a discussion guide and set of brainstorming questions for a public workshop on the New Rochelle Local Waterfront Revitalization Program. It outlines key topics for community input, including land use, public access, environmental resilience, and infrastructure improvements along the waterfront.",
+    "relevant_date": "2015-10-08",
+    "project_name": "New Rochelle Local Waterfront Revitalization Program",
+    "dollar_amount": null,
+    "location": "New Rochelle waterfront",
+    "coords": null,
+    "tags": [
+      "public workshop",
+      "waterfront revitalization",
+      "community outreach",
+      "agenda",
+      "LWRP"
+    ],
+    "confidence": 0.9
+  },
+  {
+    "id": 5960,
+    "title": "LWRP First Public Workshop Flyer",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/5960/LWRP-First-Public-Workshop-Flyer",
+    "folder": "LWRP Outreach",
+    "ui_tab": "news",
+    "classification": "public_hearing",
+    "summary": "This document is a flyer announcing the opening public workshop for the Local Waterfront Revitalization Program (LWRP). It provides the date, time, and location for residents to learn about waterfront improvements and share their community vision. Attending allows residents to help shape policy and land use recommendations for the city's waterfront.",
+    "relevant_date": "2015-10-08",
+    "project_name": "Local Waterfront Revitalization Program",
+    "dollar_amount": null,
+    "location": "Five Islands Park, LeFevre Ln, New Rochelle",
+    "coords": null,
+    "tags": [
+      "public workshop",
+      "waterfront revitalization",
+      "community outreach",
+      "LWRP",
+      "New Rochelle"
+    ],
+    "confidence": 0.95
+  },
+  {
     "id": 5327,
     "title": "LWRP Questions Workshop 1 - General Questions",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/5327/LWRP-Questions-Workshop-1---General-Questions",
@@ -28836,6 +30247,50 @@
       "waterfront revitalization",
       "zoning",
       "infrastructure"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 5965,
+    "title": "NR LWRP - Public Workshop 1 - Meeting Summary",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/5965/NR-LWRP---Public-Workshop-1---Meeting-Summary",
+    "folder": "LWRP Outreach",
+    "ui_tab": "meetings",
+    "classification": "meeting_minutes",
+    "summary": "This document summarizes the first public workshop for New Rochelle's Local Waterfront Revitalization Program (LWRP), held in October 2015. It captures public feedback on land use, zoning, waterfront access, environmental resiliency, and infrastructure to guide future city planning and policy development.",
+    "relevant_date": "2015-10-08",
+    "project_name": "Local Waterfront Revitalization Program (LWRP)",
+    "dollar_amount": null,
+    "location": "New Rochelle waterfront (Echo Bay, Davids Island, Hudson Park, New Rochelle Creek)",
+    "coords": null,
+    "tags": [
+      "LWRP",
+      "public workshop",
+      "waterfront planning",
+      "zoning",
+      "infrastructure"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 5966,
+    "title": "NR LWRP - Public Workshop 1 - Presentation_Reduced_final",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/5966/NR-LWRP---Public-Workshop-1---Presentation_Reduced_final",
+    "folder": "LWRP Outreach",
+    "ui_tab": "meetings",
+    "classification": "agenda",
+    "summary": "This document contains the agenda and presentation slides for the first public workshop of New Rochelle's Local Waterfront Revitalization Program (LWRP), held on October 8, 2015. It outlines the workshop schedule, introduces the project working group and consultants, and explains the program's objectives to update the city's waterfront planning.",
+    "relevant_date": "2015-10-08",
+    "project_name": "Local Waterfront Revitalization Program (LWRP)",
+    "dollar_amount": null,
+    "location": "New Rochelle waterfront",
+    "coords": null,
+    "tags": [
+      "LWRP",
+      "public workshop",
+      "waterfront revitalization",
+      "city planning",
+      "agenda"
     ],
     "confidence": 0.95
   },
@@ -28953,6 +30408,28 @@
     "confidence": 0.95
   },
   {
+    "id": 5874,
+    "title": "COMPILED Notes - PubWrkshpSept 2015",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/5874/COMPILED-Notes---PubWrkshpSept-2015",
+    "folder": "EnvisioNR Docs",
+    "ui_tab": "meetings",
+    "classification": "meeting_minutes",
+    "summary": "This document contains compiled notes and resident feedback from a public workshop held on September 28, 2015, for New Rochelle's Comprehensive Plan Update. It details community input on housing affordability, zoning, historic preservation, and open space improvements across various city neighborhoods. The feedback provides valuable insight into local priorities and concerns for future city planning.",
+    "relevant_date": "2015-09-28",
+    "project_name": "Comprehensive Plan Update",
+    "dollar_amount": null,
+    "location": "New Rochelle (citywide)",
+    "coords": null,
+    "tags": [
+      "comprehensive plan",
+      "public workshop",
+      "housing",
+      "zoning",
+      "community feedback"
+    ],
+    "confidence": 0.95
+  },
+  {
     "id": 5299,
     "title": "EnvisioNR - Public Workshop Flyer 9-28-15",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/5299/EnvisioNR---Public-Workshop-Flyer-9-28-15",
@@ -28975,6 +30452,28 @@
     "confidence": 0.9
   },
   {
+    "id": 5875,
+    "title": "EnvisioNR - Public Workshop Sept 2015 - Flyer_r2 (2)",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/5875/EnvisioNR---Public-Workshop-Sept-2015---Flyer_r2-2",
+    "folder": "EnvisioNR Docs",
+    "ui_tab": "news",
+    "classification": "other",
+    "summary": "This document is a public workshop announcement for the EnvisioNR initiative, which aims to complete New Rochelle's Comprehensive Plan. It invites residents to discuss citywide issues like land use, transportation, and housing on September 28, 2015.",
+    "relevant_date": "2015-09-28",
+    "project_name": "EnvisioNR Comprehensive Plan",
+    "dollar_amount": null,
+    "location": "29 Glover Place, Montefiore New Rochelle Hospital Auditorium",
+    "coords": null,
+    "tags": [
+      "comprehensive plan",
+      "public workshop",
+      "city planning",
+      "announcement",
+      "EnvisioNR"
+    ],
+    "confidence": 0.95
+  },
+  {
     "id": 5305,
     "title": "New Rochelle - Public Workshop 09282015 - Presentation",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/5305/New-Rochelle---Public-Workshop-09282015---Presentation",
@@ -28993,6 +30492,31 @@
       "city planning",
       "agenda",
       "community input"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 5877,
+    "title": "New Rochelle - Public Workshop 09282015 - Presentation r1",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/5877/New-Rochelle---Public-Workshop-09282015---Presentation-r1",
+    "folder": "EnvisioNR Docs",
+    "ui_tab": "meetings",
+    "classification": "agenda",
+    "summary": "This document contains the agenda and presentation slides for a public workshop held on September 28, 2015, focused on updating New Rochelle's Comprehensive Plan. It outlines the planning timeline, key discussion topics like land use and housing, and objectives for gathering resident feedback. The workshop aims to identify community issues and opportunities to guide future city development.",
+    "relevant_date": "2015-09-28",
+    "project_name": "Comprehensive Plan Update",
+    "dollar_amount": null,
+    "location": "New Rochelle",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "tags": [
+      "comprehensive plan",
+      "public workshop",
+      "urban planning",
+      "zoning",
+      "community outreach"
     ],
     "confidence": 0.95
   },
@@ -29172,6 +30696,31 @@
       "zoning",
       "environmental",
       "planning"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 19447,
+    "title": "Ordinance No. 176-2015",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/19447/Ordinance-No-176-2015",
+    "folder": "CCA",
+    "ui_tab": "news",
+    "classification": "ordinance",
+    "summary": "This ordinance establishes a Community Choice Aggregation (CCA) energy program for New Rochelle residents and small commercial customers. It authorizes the city to collectively procure electricity and natural gas supply, giving residents the option to opt out while maintaining existing utility distribution services.",
+    "relevant_date": "2015-09-16",
+    "project_name": "Community Choice Aggregation (Energy) Program",
+    "dollar_amount": null,
+    "location": "New Rochelle",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "tags": [
+      "ordinance",
+      "energy",
+      "community choice aggregation",
+      "utility",
+      "city code"
     ],
     "confidence": 0.95
   },
@@ -29756,6 +31305,28 @@
     "confidence": 0.95
   },
   {
+    "id": 5872,
+    "title": "Sustnblty Pub Wrkshp - Agenda",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/5872/Sustnblty-Pub-Wrkshp---Agenda",
+    "folder": "EnvisioNR Docs",
+    "ui_tab": "meetings",
+    "classification": "agenda",
+    "summary": "This document is the agenda for a public workshop held on June 8, 2015, as part of the City of New Rochelle's Comprehensive Plan Update. It outlines the schedule, speakers, and discussion topics related to developing sustainable development goals and strategies for the city. Residents can use this to understand the planning process and how public feedback was incorporated into the city's sustainability initiatives.",
+    "relevant_date": "2015-06-08",
+    "project_name": "Comprehensive Plan Update",
+    "dollar_amount": null,
+    "location": "515 North Ave., City Hall, Room B1",
+    "coords": null,
+    "tags": [
+      "agenda",
+      "public workshop",
+      "comprehensive plan",
+      "sustainability",
+      "city planning"
+    ],
+    "confidence": 0.95
+  },
+  {
     "id": 4216,
     "title": "Sustnblty Pub Wrkshp - Agenda 6.8.15",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/4216/Sustnblty-Pub-Wrkshp---Agenda-6815",
@@ -29798,6 +31369,31 @@
       "agenda"
     ],
     "confidence": 0.95
+  },
+  {
+    "id": 5873,
+    "title": "Workshop Notes - 8June2015",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/5873/Workshop-Notes---8June2015",
+    "folder": "EnvisioNR Docs",
+    "ui_tab": "meetings",
+    "classification": "meeting_minutes",
+    "summary": "This document contains notes from a June 2015 public sustainability workshop in New Rochelle, detailing community feedback and strategy recommendations for energy, waste, ecology, economic growth, and transportation. It outlines proposed city initiatives and priorities for sustainable development that could impact local infrastructure and community planning.",
+    "relevant_date": "2015-06-08",
+    "project_name": "EnvisioNR",
+    "dollar_amount": null,
+    "location": "New Rochelle",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "tags": [
+      "sustainability",
+      "workshop",
+      "comprehensive plan",
+      "public feedback",
+      "environmental"
+    ],
+    "confidence": 0.9
   },
   {
     "id": 4178,
@@ -29934,6 +31530,28 @@
     "confidence": 0.95
   },
   {
+    "id": 5862,
+    "title": "COMPILED Breakout Notes - PubWrkshp1",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/5862/COMPILED-Breakout-Notes---PubWrkshp1",
+    "folder": "EnvisioNR Docs",
+    "ui_tab": "meetings",
+    "classification": "meeting_minutes",
+    "summary": "This document contains compiled breakout session notes from a public workshop for the New Rochelle Comprehensive Plan Update held on May 6, 2015. It captures detailed community feedback on housing affordability, economic development, open space, and downtown revitalization. It matters to residents as it documents public input that will guide the city's future zoning, development, and planning policies.",
+    "relevant_date": "2015-05-06",
+    "project_name": "Comprehensive Plan Update (EnvisioNR)",
+    "dollar_amount": null,
+    "location": "New Rochelle (City-wide)",
+    "coords": null,
+    "tags": [
+      "comprehensive plan",
+      "public workshop",
+      "community feedback",
+      "urban planning",
+      "meeting notes"
+    ],
+    "confidence": 0.95
+  },
+  {
     "id": 5304,
     "title": "New Rochelle - Public Workshop 1 - Presentation_r3",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/5304/New-Rochelle---Public-Workshop-1---Presentation_r3",
@@ -29959,6 +31577,31 @@
     "confidence": 0.95
   },
   {
+    "id": 5863,
+    "title": "New Rochelle - Public Workshop 1 - Presentation_r3",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/5863/New-Rochelle---Public-Workshop-1---Presentation_r3",
+    "folder": "EnvisioNR Docs",
+    "ui_tab": "meetings",
+    "classification": "agenda",
+    "summary": "This document contains the agenda and presentation slides for Public Workshop #1 of the New Rochelle Comprehensive Plan Update, held on May 6, 2015. It outlines the workshop schedule, reviews past public outreach efforts, presents demographic and economic data, and introduces preliminary planning themes for the city's future development.",
+    "relevant_date": "2015-05-06",
+    "project_name": "Comprehensive Plan Update",
+    "dollar_amount": null,
+    "location": "New Rochelle",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "tags": [
+      "comprehensive plan",
+      "public workshop",
+      "city planning",
+      "agenda",
+      "demographics"
+    ],
+    "confidence": 0.95
+  },
+  {
     "id": 5309,
     "title": "Public Workshop 1 - Agenda",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/5309/Public-Workshop-1---Agenda",
@@ -29980,6 +31623,31 @@
       "city planning",
       "agenda",
       "community engagement"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 5865,
+    "title": "Public Workshop 1 - Agenda",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/5865/Public-Workshop-1---Agenda",
+    "folder": "EnvisioNR Docs",
+    "ui_tab": "meetings",
+    "classification": "agenda",
+    "summary": "This document is the agenda for a public workshop held on May 6, 2015, as part of the City of New Rochelle's Comprehensive Plan Update. It outlines the schedule, speakers, and facilitated breakout session topics for residents attending the event.",
+    "relevant_date": "2015-05-06",
+    "project_name": "Comprehensive Plan Update",
+    "dollar_amount": null,
+    "location": "2 Clinton Place",
+    "coords": {
+      "lat": 40.9087023,
+      "lng": -73.7790432
+    },
+    "tags": [
+      "agenda",
+      "public workshop",
+      "comprehensive plan",
+      "city planning",
+      "EnvisioNR"
     ],
     "confidence": 0.95
   },
@@ -30122,6 +31790,28 @@
     "confidence": 0.95
   },
   {
+    "id": 4165,
+    "title": "IDA By-Law Amendment_March 26 2015",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/4165/IDA-By-Law-Amendment_March-26-2015",
+    "folder": "IDA Web Revisions and Additions",
+    "ui_tab": "news",
+    "classification": "ordinance",
+    "summary": "This document contains the official amendments to the by-laws of the New Rochelle Industrial Development Agency (IDA), adopted on March 26, 2015. It outlines changes to the agency's governance structure, operational procedures, or authority. Residents and local businesses may reference this to understand how the IDA regulates economic development projects and tax incentives in the city.",
+    "relevant_date": "2015-03-26",
+    "project_name": null,
+    "dollar_amount": null,
+    "location": null,
+    "coords": null,
+    "tags": [
+      "IDA",
+      "by-laws",
+      "governance",
+      "economic development",
+      "2015"
+    ],
+    "confidence": 0.85
+  },
+  {
     "id": 4078,
     "title": "3.25.2015 AP Public Notice re Public Hearing",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/4078/3252015-AP-Public-Notice-re-Public-Hearing",
@@ -30252,6 +31942,50 @@
       "public_notice"
     ],
     "confidence": 0.85
+  },
+  {
+    "id": 19446,
+    "title": "Order Granting Petition in Part in Case 14-M-0564, issued February 26, 2015",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/19446/Order-Granting-Petition-in-Part-in-Case-14-M-0564-issued-February-26-2015",
+    "folder": "CCA",
+    "ui_tab": "news",
+    "classification": "other",
+    "summary": "This New York State Public Service Commission order approves a pilot Community Choice Aggregation (CCA) program for Westchester County. It outlines procedures for utilities to share customer data, mandates an RFP process for selecting energy suppliers, and establishes consumer opt-out rights and annual reporting. It matters to residents as it governs the county's initiative to collectively purchase electricity and natural gas to secure lower rates.",
+    "relevant_date": "2015-02-26",
+    "project_name": "Westchester County Community Choice Aggregation Pilot",
+    "dollar_amount": null,
+    "location": null,
+    "coords": null,
+    "tags": [
+      "energy",
+      "community choice aggregation",
+      "PSC order",
+      "utility regulation",
+      "Westchester County"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 19448,
+    "title": "PSC Press Release related to 14-M-0564",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/19448/PSC-Press-Release-related-to-14-M-0564",
+    "folder": "CCA",
+    "ui_tab": "news",
+    "classification": "press_release",
+    "summary": "This press release announces the New York State Public Service Commission's approval of the first Community Choice Aggregation pilot program in Westchester County. It explains how local municipalities can pool resident energy purchases to negotiate lower rates and cleaner power options.",
+    "relevant_date": "2015-02-26",
+    "project_name": "Sustainable Westchester CCA Pilot Program",
+    "dollar_amount": null,
+    "location": null,
+    "coords": null,
+    "tags": [
+      "energy",
+      "press_release",
+      "community_choice_aggregation",
+      "Westchester",
+      "PSC"
+    ],
+    "confidence": 0.95
   },
   {
     "id": 3995,
@@ -31822,6 +33556,31 @@
       "administrative policy",
       "HUD guidelines",
       "public housing"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 2620,
+    "title": "Appendix 11 Construction",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/2620/Appendix-11-Construction",
+    "folder": "Appendix Individual",
+    "ui_tab": "map",
+    "classification": "construction",
+    "summary": "This document outlines the phased construction schedule and visual progress snapshots for the Echo Bay development project in New Rochelle. It details project timelines from April 2014 through March 2016, providing residents with a clear overview of the development's duration and key milestones.",
+    "relevant_date": "2014",
+    "project_name": "Echo Bay",
+    "dollar_amount": null,
+    "location": "New Rochelle, NY",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "tags": [
+      "construction",
+      "schedule",
+      "Echo Bay",
+      "development",
+      "New Rochelle"
     ],
     "confidence": 0.95
   },
@@ -33689,6 +35448,50 @@
     "confidence": 0.95
   },
   {
+    "id": 2607,
+    "title": "SEQR - Notice of Completion Hearing",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/2607/SEQR---Notice-of-Completion-Hearing",
+    "folder": "Narrative with Graphics",
+    "ui_tab": "news",
+    "classification": "environmental_review",
+    "summary": "This document serves as a notice of completion for a Draft Environmental Impact Statement and announces a public hearing for the Echo Bay Center Waterfront Redevelopment. It outlines the proposed mixed-use commercial and residential project, its specific locations at the City Yard and Armory parcels, and details potential environmental and community impacts.",
+    "relevant_date": "2013-02-12",
+    "project_name": "Echo Bay Center Waterfront Redevelopment",
+    "dollar_amount": null,
+    "location": "224 East Main Street and 260-70 East Main Street, New Rochelle, NY",
+    "coords": null,
+    "tags": [
+      "environmental_review",
+      "public_hearing",
+      "waterfront_redevelopment",
+      "DEIS",
+      "Echo_Bay"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 2610,
+    "title": "SEQR - Notice of Completion and Hearing 2",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/2610/SEQR---Notice-of-Completion-and-Hearing-2",
+    "folder": "Narrative without Graphics",
+    "ui_tab": "news",
+    "classification": "environmental_review",
+    "summary": "This document is a notice of completion for a Draft Environmental Impact Statement regarding the Echo Bay Center Waterfront Redevelopment. It announces a public hearing on March 12, 2013, and outlines the project's details, including a mixed-use building, affordable housing, and waterfront improvements.",
+    "relevant_date": "2013-02-12",
+    "project_name": "Echo Bay Center Waterfront Redevelopment",
+    "dollar_amount": null,
+    "location": "224 East Main Street and 260-70 East Main Street, New Rochelle, NY",
+    "coords": null,
+    "tags": [
+      "environmental_review",
+      "public_hearing",
+      "waterfront_redevelopment",
+      "SEQR",
+      "Echo_Bay"
+    ],
+    "confidence": 0.95
+  },
+  {
     "id": 2633,
     "title": "AgendaFebruary 2013",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/2633/AgendaFebruary-2013",
@@ -33707,6 +35510,163 @@
       "meeting",
       "february 2013",
       "zoning"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 2611,
+    "title": "DEIS NARRATIVE SECTIONS I-X No Graphics",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/2611/DEIS-NARRATIVE-SECTIONS-I-X-No-Graphics",
+    "folder": "Narrative without Graphics",
+    "ui_tab": "map",
+    "classification": "environmental_review",
+    "summary": "This document is a Draft Environmental Impact Statement (DEIS) for the Echo Bay Center Waterfront Redevelopment project. It outlines the proposed mixed-use development, potential environmental impacts, mitigation measures, and schedules for public hearings and comment periods. It matters to residents as it details a major waterfront redevelopment and provides dates for public input.",
+    "relevant_date": "2013-01-29",
+    "project_name": "Echo Bay Center Waterfront Redevelopment",
+    "dollar_amount": null,
+    "location": "South Side of Main Street (US Route 1) Opposite Pratt Street, New Rochelle, NY 10801",
+    "coords": null,
+    "tags": [
+      "environmental review",
+      "waterfront redevelopment",
+      "public hearing",
+      "DEIS",
+      "Echo Bay Center"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 2609,
+    "title": "DEIS SECTION IV ENVIRONMENTAL ANALYSES W GRAPHICS",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/2609/DEIS-SECTION-IV-ENVIRONMENTAL-ANALYSES-W-GRAPHICS",
+    "folder": "Narrative with Graphics",
+    "ui_tab": "map",
+    "classification": "environmental_review",
+    "summary": "This document is a section of a Draft Environmental Impact Statement (DEIS) for the Echo Bay Center development project. It details land use, zoning, construction impacts, traffic, and noise analyses for the City Yard and Armory parcels. It informs residents about the proposed mixed-use development and its potential effects on the surrounding neighborhood.",
+    "relevant_date": "2013-01-29",
+    "project_name": "Echo Bay Center",
+    "dollar_amount": null,
+    "location": "City Yard and Armory parcels, East Main Street, New Rochelle",
+    "coords": null,
+    "tags": [
+      "environmental_review",
+      "DEIS",
+      "Echo Bay Center",
+      "construction",
+      "land_use"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 2604,
+    "title": "DEIS SECTION V ALTERNATIVES",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/2604/DEIS-SECTION-V-ALTERNATIVES",
+    "folder": "Narrative with Graphics",
+    "ui_tab": "map",
+    "classification": "environmental_review",
+    "summary": "This document is Section V of a Draft Environmental Impact Statement (DEIS) analyzing development alternatives for the Echo Bay Center project in New Rochelle. It compares the proposed mixed-use waterfront development against a 'No Build' scenario and other zoning options, detailing potential impacts on land use, traffic, utilities, and ecological resources.",
+    "relevant_date": "2013-01-29",
+    "project_name": "Echo Bay Center",
+    "dollar_amount": null,
+    "location": "Echo Bay waterfront, City Yard DPW parcel, and Armory parcel, New Rochelle, NY",
+    "coords": null,
+    "tags": [
+      "environmental_review",
+      "DEIS",
+      "Echo Bay Center",
+      "development",
+      "New Rochelle"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 2606,
+    "title": "DEIS TOC, Sect II Exec Summary and Sect III Desc of Project w Graphics",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/2606/DEIS-TOC-Sect-II-Exec-Summary-and-Sect-III-Desc-of-Project-w-Graphics",
+    "folder": "Narrative with Graphics",
+    "ui_tab": "map",
+    "classification": "environmental_review",
+    "summary": "This Draft Environmental Impact Statement (DEIS) outlines the proposed Echo Bay Center Waterfront Redevelopment, a mixed-use project on Main Street. It details the project's scope, potential environmental impacts, required approvals, and mitigation strategies. Residents can use this document to understand the planned construction and its effects on the local community and waterfront.",
+    "relevant_date": "2013-01-29",
+    "project_name": "Echo Bay Center Waterfront Redevelopment",
+    "dollar_amount": null,
+    "location": "South Side of Main Street (US Route 1), Opposite Pratt Street, New Rochelle, NY 10801",
+    "coords": null,
+    "tags": [
+      "environmental_review",
+      "waterfront_redevelopment",
+      "construction",
+      "DEIS",
+      "New_Rochelle"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 2623,
+    "title": "DEIS XI Appendices",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/2623/DEIS-XI-Appendices",
+    "folder": "Appendix Individual",
+    "ui_tab": "map",
+    "classification": "environmental_review",
+    "summary": "This document is a table of contents for the appendices of a Draft Environmental Impact Statement (DEIS) regarding the Echo Bay Center redevelopment project. It catalogs technical studies, including environmental, geotechnical, transportation, and socioeconomic assessments, alongside a construction schedule and project memoranda. It provides residents with transparency into the planned development's potential impacts on the local environment and community.",
+    "relevant_date": "2013-01-29",
+    "project_name": "Echo Bay Center",
+    "dollar_amount": null,
+    "location": "Echo Bay, New Rochelle",
+    "coords": {
+      "lat": 40.9050994,
+      "lng": -73.7676323
+    },
+    "tags": [
+      "environmental review",
+      "DEIS",
+      "Echo Bay Center",
+      "redevelopment",
+      "New Rochelle"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 2624,
+    "title": "Appendix 9 Socio and Fiscal",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/2624/Appendix-9-Socio-and-Fiscal",
+    "folder": "Appendix Individual",
+    "ui_tab": "map",
+    "classification": "environmental_review",
+    "summary": "This document is a socioeconomic and fiscal impacts analysis for the proposed Echo Bay Center development in New Rochelle. It provides detailed demographic data, population trends, and economic projections for the project site and surrounding neighborhoods. It matters to residents by outlining the projected community and financial effects of the development.",
+    "relevant_date": "2013-01-28",
+    "project_name": "Echo Bay Center Development",
+    "dollar_amount": null,
+    "location": "Echo Bay Center, New Rochelle, NY",
+    "coords": null,
+    "tags": [
+      "environmental_review",
+      "socioeconomic_analysis",
+      "Echo Bay Center",
+      "development",
+      "New Rochelle"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 2617,
+    "title": "Appendix 8 Traffic",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/2617/Appendix-8-Traffic",
+    "folder": "Appendix Individual",
+    "ui_tab": "map",
+    "classification": "environmental_review",
+    "summary": "This document is a traffic and shared parking analysis appendix for the Draft Environmental Impact Statement (DEIS) regarding the Echo Bay Center Waterfront and Armory redevelopment projects. It provides trip generation data and peak hour traffic projections for the proposed retail, residential, and commercial spaces. It matters to residents as it outlines the anticipated traffic impact of major downtown development.",
+    "relevant_date": "2013-01-07",
+    "project_name": "Echo Bay Center Waterfront Redevelopment",
+    "dollar_amount": null,
+    "location": "Main Street, New Rochelle (Echo Bay Center / Armory site)",
+    "coords": null,
+    "tags": [
+      "traffic analysis",
+      "environmental review",
+      "redevelopment",
+      "DEIS",
+      "Echo Bay Center"
     ],
     "confidence": 0.95
   },
@@ -33927,6 +35887,28 @@
     "confidence": 0.95
   },
   {
+    "id": 5244,
+    "title": "Figure 2-4 Aerial Photograph",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/5244/Figure-2-4-Aerial-Photograph",
+    "folder": "GEIS Figures",
+    "ui_tab": "map",
+    "classification": "environmental_review",
+    "summary": "This document is an aerial photograph figure from a Generic Environmental Impact Statement (GEIS) for New Rochelle's Downtown Overlay Zone. It provides a visual baseline of the study area as of 2013, which is used by city planners and residents to assess potential development impacts and zoning changes. It helps the public understand the geographic scope of ongoing downtown planning efforts.",
+    "relevant_date": "2013",
+    "project_name": "Downtown Overlay Zone",
+    "dollar_amount": null,
+    "location": "Downtown Overlay Zone, New Rochelle",
+    "coords": null,
+    "tags": [
+      "environmental_review",
+      "aerial_map",
+      "downtown_planning",
+      "GEIS",
+      "zoning"
+    ],
+    "confidence": 0.9
+  },
+  {
     "id": 2753,
     "title": "Invitation to Bidders CDBG Sidewalk Project 2013",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/2753/Invitation-to-Bidders-CDBG-Sidewalk-Project-2013",
@@ -34104,6 +36086,56 @@
       "city government"
     ],
     "confidence": 0.95
+  },
+  {
+    "id": 2625,
+    "title": "Appendix 10 Historic and Archaeological",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/2625/Appendix-10-Historic-and-Archaeological",
+    "folder": "Appendix Individual",
+    "ui_tab": "map",
+    "classification": "environmental_review",
+    "summary": "This document is a completed Phase 1A archaeological and historic literature review for the Echo Bay Center redevelopment project on East Main Street. It outlines the survey methodology, historical context, and regulatory permits required for the proposed mixed-use development. It matters to residents as it details the environmental and historic preservation steps for a major local construction project.",
+    "relevant_date": "2012-12",
+    "project_name": "Echo Bay Center",
+    "dollar_amount": null,
+    "location": "East Main Street, New Rochelle",
+    "coords": {
+      "lat": 40.9178999,
+      "lng": -73.7681879
+    },
+    "tags": [
+      "archaeological survey",
+      "historic preservation",
+      "Echo Bay Center",
+      "environmental review",
+      "development project"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 2626,
+    "title": "Appendix 10 Photos and Maps",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/2626/Appendix-10-Photos-and-Maps",
+    "folder": "Appendix Individual",
+    "ui_tab": "map",
+    "classification": "environmental_review",
+    "summary": "This document is an appendix of photographs and maps documenting the historical and physical condition of the New Rochelle Armory at 260-270 East Main Street. It was prepared in December 2012 as part of a cultural resource and sensitivity analysis for the Echo Bay Mixed-Use Development project. It provides residents with visual documentation of a historic site involved in a major local redevelopment effort.",
+    "relevant_date": "2012-12",
+    "project_name": "Echo Bay Mixed-Use Development",
+    "dollar_amount": null,
+    "location": "260-270 East Main Street, New Rochelle, NY",
+    "coords": {
+      "lat": 40.9178999,
+      "lng": -73.7681879
+    },
+    "tags": [
+      "cultural resource",
+      "development",
+      "historic preservation",
+      "Echo Bay",
+      "armory"
+    ],
+    "confidence": 0.9
   },
   {
     "id": 639,
@@ -34352,6 +36384,53 @@
     "confidence": 0.9
   },
   {
+    "id": 2615,
+    "title": "Appendix 5 Ecological",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/2615/Appendix-5-Ecological",
+    "folder": "Appendix Individual",
+    "ui_tab": "map",
+    "classification": "environmental_review",
+    "summary": "This document is an ecological assessment report for the Echo Bay Center development project in New Rochelle. It details the site's environmental conditions, observed wildlife species, and regulatory considerations, providing transparency on the project's ecological impact.",
+    "relevant_date": "2012-08-31",
+    "project_name": "Echo Bay Center",
+    "dollar_amount": null,
+    "location": "Echo Bay, New Rochelle, NY",
+    "coords": {
+      "lat": 40.9050994,
+      "lng": -73.7676323
+    },
+    "tags": [
+      "ecological assessment",
+      "environmental review",
+      "Echo Bay Center",
+      "development",
+      "New Rochelle"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 2616,
+    "title": "Appendix 6 Stormwater",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/2616/Appendix-6-Stormwater",
+    "folder": "Appendix Individual",
+    "ui_tab": "map",
+    "classification": "environmental_review",
+    "summary": "A completed stormwater management report for the Echo Bay redevelopment project in New Rochelle. It details drainage conditions, runoff reduction strategies, and environmental compliance for a 9.44-acre site near Main Street and Huguenot Street. This matters to residents as it outlines how the city and developers plan to manage water runoff and protect the Long Island Sound during construction and future use.",
+    "relevant_date": "2012-08-31",
+    "project_name": "Echo Bay",
+    "dollar_amount": null,
+    "location": "Main Street and Huguenot Street, New Rochelle, NY",
+    "coords": null,
+    "tags": [
+      "stormwater",
+      "environmental",
+      "construction",
+      "Echo Bay",
+      "drainage"
+    ],
+    "confidence": 0.95
+  },
+  {
     "id": 2297,
     "title": "Agenda August 14, 2012",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/2297/Agenda-August-14-2012",
@@ -34439,6 +36518,53 @@
       "regional_plan"
     ],
     "confidence": 0.95
+  },
+  {
+    "id": 2614,
+    "title": "Appendix 4 Geotech",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/2614/Appendix-4-Geotech",
+    "folder": "Appendix Individual",
+    "ui_tab": "map",
+    "classification": "report",
+    "summary": "A preliminary geotechnical assessment for the proposed Echo Bay Waterfront Redevelopment at 224 Main Street. The report details subsurface soil and bedrock conditions, test boring results, and construction recommendations for a planned mixed-use building. It provides technical background on site preparation and foundation requirements for a major local development.",
+    "relevant_date": "2012-07-26",
+    "project_name": "Echo Bay Waterfront Redevelopment",
+    "dollar_amount": null,
+    "location": "224 Main Street, New Rochelle, NY",
+    "coords": {
+      "lat": 40.9088637,
+      "lng": -73.7815694
+    },
+    "tags": [
+      "geotechnical",
+      "construction",
+      "Echo Bay",
+      "development",
+      "site assessment"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 2622,
+    "title": "Appendix 13 Armory GoodProfit Proposal",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/2622/Appendix-13-Armory-GoodProfit-Proposal",
+    "folder": "Appendix Individual",
+    "ui_tab": "map",
+    "classification": "report",
+    "summary": "This document is a development proposal submitted by Good Profit for the renovation and adaptive reuse of the City of New Rochelle Armory. It outlines the project's community benefits, site plans, financial approach, and development team experience.",
+    "relevant_date": "2012-07-20",
+    "project_name": "City of New Rochelle Armory",
+    "dollar_amount": null,
+    "location": "City of New Rochelle Armory",
+    "coords": null,
+    "tags": [
+      "development proposal",
+      "armory",
+      "historic renovation",
+      "public private partnership",
+      "city planning"
+    ],
+    "confidence": 0.9
   },
   {
     "id": 2322,
@@ -34558,6 +36684,53 @@
     "confidence": 0.9
   },
   {
+    "id": 2612,
+    "title": "Appendix 1 SEQRA Documentation",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/2612/Appendix-1-SEQRA-Documentation",
+    "folder": "Appendix Individual",
+    "ui_tab": "map",
+    "classification": "environmental_review",
+    "summary": "This document is a completed State Environmental Quality Review (SEQRA) Environmental Assessment Form for the Echo Bay Waterfront Redevelopment project. It details the project's location, applicant, and required environmental impact analysis for the Main Street corridor. It matters to residents as it outlines the regulatory review process for a major waterfront development.",
+    "relevant_date": "2012-05-15",
+    "project_name": "Echo Bay Waterfront Redevelopment",
+    "dollar_amount": null,
+    "location": "South Side of Main Street between Echo Avenue and LeFevre's Lane, New Rochelle, NY",
+    "coords": null,
+    "tags": [
+      "environmental_review",
+      "SEQRA",
+      "Echo Bay",
+      "development",
+      "infrastructure"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 2621,
+    "title": "Appendix 12 MOU",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/2621/Appendix-12-MOU",
+    "folder": "Appendix Individual",
+    "ui_tab": "bids",
+    "classification": "other",
+    "summary": "This document is a Restated Memorandum of Understanding dated May 2012 concerning the Echo Bay Redevelopment Project. It outlines the terms and agreements between the city and development partners for revitalizing the Echo Bay area. Residents can reference it to understand the contractual framework guiding local redevelopment efforts.",
+    "relevant_date": "2012-05",
+    "project_name": "Echo Bay Redevelopment Project",
+    "dollar_amount": null,
+    "location": "Echo Bay",
+    "coords": {
+      "lat": 40.9050994,
+      "lng": -73.7676323
+    },
+    "tags": [
+      "redevelopment",
+      "MOU",
+      "Echo Bay",
+      "contract",
+      "city_agreement"
+    ],
+    "confidence": 0.9
+  },
+  {
     "id": 2102,
     "title": "AgendaApril 24, 2012",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/2102/AgendaApril-24-2012",
@@ -34665,6 +36838,28 @@
       "HUD"
     ],
     "confidence": 0.85
+  },
+  {
+    "id": 3997,
+    "title": "Complete Streets 3-13-12",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/3997/Complete-Streets-3-13-12",
+    "folder": "PB 2015 Revisions",
+    "ui_tab": "map",
+    "classification": "report",
+    "summary": "This document relates to the city's \"Complete Streets\" planning initiative, likely reviewed or revised by the Planning Board. It addresses street design and infrastructure improvements relevant to community development.",
+    "relevant_date": "2012-03-13",
+    "project_name": "Complete Streets",
+    "dollar_amount": null,
+    "location": null,
+    "coords": null,
+    "tags": [
+      "complete streets",
+      "planning board",
+      "infrastructure",
+      "urban design",
+      "2012"
+    ],
+    "confidence": 0.5
   },
   {
     "id": 1194,
@@ -37875,6 +40070,31 @@
       "housing policy"
     ],
     "confidence": 0.95
+  },
+  {
+    "id": 4166,
+    "title": "New Rochelle IDA By-Laws",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/4166/New-Rochelle-IDA-By-Laws",
+    "folder": "IDA Web Revisions and Additions",
+    "ui_tab": "meetings",
+    "classification": "other",
+    "summary": "This document contains the official by-laws for the New Rochelle Industrial Development Agency (IDA), detailing its governance structure, board composition, and amendment procedures. It establishes the legal and operational framework for the agency that oversees economic development and tax incentive programs in the city.",
+    "relevant_date": "2006",
+    "project_name": null,
+    "dollar_amount": null,
+    "location": "City Hall, 515 North Avenue, New Rochelle, NY",
+    "coords": {
+      "lat": 40.9201463,
+      "lng": -73.7857973
+    },
+    "tags": [
+      "IDA",
+      "by-laws",
+      "governance",
+      "city agency",
+      "economic development"
+    ],
+    "confidence": 0.9
   },
   {
     "id": 233,
@@ -42129,6 +44349,115 @@
     "confidence": 0.8
   },
   {
+    "id": 2618,
+    "title": "Appendix 2 Correspond and Contacts",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/2618/Appendix-2-Correspond-and-Contacts",
+    "folder": "Appendix Individual",
+    "ui_tab": "none",
+    "classification": "report",
+    "summary": "This document appears to be an appendix listing correspondence and contact information, likely attached to a larger city report or project file. Without extractable text, specific details about the project or decisions cannot be determined.",
+    "relevant_date": null,
+    "project_name": null,
+    "dollar_amount": null,
+    "location": null,
+    "coords": null,
+    "tags": [
+      "appendix",
+      "contacts",
+      "correspondence",
+      "report"
+    ],
+    "confidence": 0.4
+  },
+  {
+    "id": 2613,
+    "title": "Appendix 3 Shoreline Assessment",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/2613/Appendix-3-Shoreline-Assessment",
+    "folder": "Appendix Individual",
+    "ui_tab": "map",
+    "classification": "environmental_review",
+    "summary": "This document is an appendix to a Shoreline Assessment Report, containing technical engineering data and photo plans related to New Rochelle's coastal areas. It provides foundational information for local environmental planning and shoreline infrastructure projects.",
+    "relevant_date": null,
+    "project_name": null,
+    "dollar_amount": null,
+    "location": "New Rochelle shoreline",
+    "coords": null,
+    "tags": [
+      "shoreline",
+      "assessment",
+      "engineering",
+      "environmental",
+      "report"
+    ],
+    "confidence": 0.8
+  },
+  {
+    "id": 2619,
+    "title": "Appendix 7 Phase I ESA - City Yard",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/2619/Appendix-7-Phase-I-ESA---City-Yard",
+    "folder": "Appendix Individual",
+    "ui_tab": "map",
+    "classification": "environmental_review",
+    "summary": "This document is a Phase I Environmental Site Assessment appendix for a municipal property known as the City Yard. It evaluates the historical and current environmental conditions of the site to identify potential contamination or regulatory compliance issues. Residents may reference this to understand environmental due diligence conducted on city-owned land.",
+    "relevant_date": null,
+    "project_name": "City Yard",
+    "dollar_amount": null,
+    "location": "City Yard",
+    "coords": null,
+    "tags": [
+      "environmental",
+      "site assessment",
+      "municipal property",
+      "Phase I ESA",
+      "city yard"
+    ],
+    "confidence": 0.85
+  },
+  {
+    "id": 2630,
+    "title": "Appendix 7 Phase I ESA-Armory",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/2630/Appendix-7-Phase-I-ESA-Armory",
+    "folder": "Appendix Individual",
+    "ui_tab": "news",
+    "classification": "environmental_review",
+    "summary": "This document is a Phase I Environmental Site Assessment (ESA) appendix concerning the Armory site. It details environmental findings and historical data relevant to the property. It matters to residents interested in local development, environmental compliance, or land use changes.",
+    "relevant_date": null,
+    "project_name": "Armory",
+    "dollar_amount": null,
+    "location": "Armory, New Rochelle",
+    "coords": null,
+    "tags": [
+      "environmental_review",
+      "ESA",
+      "Armory",
+      "Phase I",
+      "site_assessment"
+    ],
+    "confidence": 0.75
+  },
+  {
+    "id": 14684,
+    "title": "Appendix C Public Hearing Transcript_uneditable",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/14684/Appendix-C-Public-Hearing-Transcript_uneditable",
+    "folder": "Appendices",
+    "ui_tab": "meetings",
+    "classification": "public_hearing",
+    "summary": "This document is a transcript of a public hearing regarding the City of New Rochelle\u2019s Supplemental Draft Generic Environmental Impact Statement (SDGEIS) for the Downtown Overlay Zone and Zoning Map Amendments. It records resident and stakeholder comments, questions, and discussions about proposed zoning changes in the downtown area. Residents can review it to understand community feedback on local development and land use regulations.",
+    "relevant_date": null,
+    "project_name": "Downtown Overlay Zone & Zoning Map Amendments",
+    "dollar_amount": null,
+    "location": "Downtown New Rochelle",
+    "coords": null,
+    "tags": [
+      "public_hearing",
+      "zoning",
+      "downtown",
+      "environmental_review",
+      "transcript"
+    ],
+    "confidence": 0.95
+  },
+  {
     "id": 249,
     "title": "Appendix E Parking Evaluation",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/249/Appendix-E-Parking-Evaluation",
@@ -43883,6 +46212,28 @@
     "confidence": 0.9
   },
   {
+    "id": 22800,
+    "title": "Community Information Resources",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/22800/Community-Information-Resources",
+    "folder": "Sustainability",
+    "ui_tab": "news",
+    "classification": "other",
+    "summary": "This document is a comprehensive resource guide for New Rochelle residents covering sustainability, energy assistance, recycling, transportation, and workforce development programs. It provides direct contact information, website links, and program details to help residents access city, county, and state services.",
+    "relevant_date": null,
+    "project_name": null,
+    "dollar_amount": null,
+    "location": null,
+    "coords": null,
+    "tags": [
+      "sustainability",
+      "community resources",
+      "energy assistance",
+      "recycling",
+      "transportation"
+    ],
+    "confidence": 0.9
+  },
+  {
     "id": 927,
     "title": "Community Resource Program",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/927/Community-Resource-Program",
@@ -44012,6 +46363,28 @@
       "calendar"
     ],
     "confidence": 0.95
+  },
+  {
+    "id": 2605,
+    "title": "DEIS SECTIONS VI-X",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/2605/DEIS-SECTIONS-VI-X",
+    "folder": "Narrative with Graphics",
+    "ui_tab": "news",
+    "classification": "environmental_review",
+    "summary": "This document contains Sections VI through X of a Draft Environmental Impact Statement (DEIS) for a New Rochelle project. It details environmental assessments, potential impacts, and proposed mitigation measures. Residents can review it to understand the environmental considerations and public input opportunities related to the development.",
+    "relevant_date": null,
+    "project_name": null,
+    "dollar_amount": null,
+    "location": null,
+    "coords": null,
+    "tags": [
+      "environmental review",
+      "DEIS",
+      "impact assessment",
+      "public record",
+      "New Rochelle"
+    ],
+    "confidence": 0.8
   },
   {
     "id": 2060,
@@ -45329,6 +47702,717 @@
     "confidence": 0.8
   },
   {
+    "id": 5951,
+    "title": "Fifth Ave neighborhood meeting",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/5951/Fifth-Ave-neighborhood-meeting",
+    "folder": "EnvisioNR Docs",
+    "ui_tab": "meetings",
+    "classification": "meeting_minutes",
+    "summary": "This document pertains to a community meeting regarding the Fifth Avenue neighborhood in New Rochelle. It likely contains agendas, discussion points, or minutes from a local planning or civic gathering. Residents in the area should review it to stay informed about neighborhood updates and city initiatives.",
+    "relevant_date": null,
+    "project_name": null,
+    "dollar_amount": null,
+    "location": "Fifth Avenue",
+    "coords": {
+      "lat": 40.9205925,
+      "lng": -73.8043497
+    },
+    "tags": [
+      "Fifth Avenue",
+      "neighborhood meeting",
+      "community engagement",
+      "city planning"
+    ],
+    "confidence": 0.75
+  },
+  {
+    "id": 14196,
+    "title": "Fig2-3_Proposed DO-7 Parcels",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/14196/Fig2-3_Proposed-DO-7-Parcels",
+    "folder": "Figures",
+    "ui_tab": "map",
+    "classification": "report",
+    "summary": "This document is a planning figure illustrating proposed parcel designations under the DO-7 zoning or development overlay. It is likely part of a larger municipal report or zoning amendment proposal affecting specific land parcels in New Rochelle. Residents can reference it to understand proposed land use changes or development boundaries.",
+    "relevant_date": null,
+    "project_name": "DO-7 Parcels",
+    "dollar_amount": null,
+    "location": null,
+    "coords": null,
+    "tags": [
+      "zoning",
+      "parcels",
+      "planning",
+      "development",
+      "map"
+    ],
+    "confidence": 0.6
+  },
+  {
+    "id": 14200,
+    "title": "Fig3.1-1_Existing Land Uses",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/14200/Fig31-1_Existing-Land-Uses",
+    "folder": "Figures",
+    "ui_tab": "map",
+    "classification": "environmental_review",
+    "summary": "This document is a land use map illustrating current property classifications within a specific area of New Rochelle. It is likely a figure from a broader city planning or environmental review report used to guide zoning, development, and infrastructure decisions.",
+    "relevant_date": null,
+    "project_name": null,
+    "dollar_amount": null,
+    "location": null,
+    "coords": null,
+    "tags": [
+      "land use",
+      "zoning",
+      "planning",
+      "map",
+      "environmental review"
+    ],
+    "confidence": 0.7
+  },
+  {
+    "id": 14202,
+    "title": "Fig3.2-1 Environmental Noise Survey Locations",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/14202/Fig32-1-Environmental-Noise-Survey-Locations",
+    "folder": "Figures",
+    "ui_tab": "map",
+    "classification": "environmental_review",
+    "summary": "This document is a figure showing the specific locations in New Rochelle where an environmental noise survey was conducted. It supports an environmental review process, likely associated with a construction or infrastructure project, and helps residents track where noise monitoring is occurring.",
+    "relevant_date": null,
+    "project_name": null,
+    "dollar_amount": null,
+    "location": null,
+    "coords": null,
+    "tags": [
+      "environmental_review",
+      "noise_survey",
+      "infrastructure",
+      "map_figure",
+      "city_planning"
+    ],
+    "confidence": 0.7
+  },
+  {
+    "id": 14209,
+    "title": "Fig3.3-5 Stormwater Infrastructure",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/14209/Fig33-5-Stormwater-Infrastructure",
+    "folder": "Figures",
+    "ui_tab": "map",
+    "classification": "environmental_review",
+    "summary": "This document is a figure from a municipal engineering or environmental report detailing stormwater infrastructure in New Rochelle. It likely illustrates drainage systems or water management facilities relevant to local environmental planning and development.",
+    "relevant_date": null,
+    "project_name": null,
+    "dollar_amount": null,
+    "location": null,
+    "coords": null,
+    "tags": [
+      "stormwater",
+      "infrastructure",
+      "environmental",
+      "engineering",
+      "figures"
+    ],
+    "confidence": 0.7
+  },
+  {
+    "id": 14211,
+    "title": "Fig3.5-1 DO-7 NYSDEC Wetlands",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/14211/Fig35-1-DO-7-NYSDEC-Wetlands",
+    "folder": "Figures",
+    "ui_tab": "map",
+    "classification": "environmental_review",
+    "summary": "This document appears to be a figure or diagram from an environmental review related to NYSDEC wetlands. It likely illustrates wetland boundaries or mitigation plans for a local development or infrastructure project. While it lacks extractable text, it supports environmental permitting or zoning decisions in New Rochelle.",
+    "relevant_date": null,
+    "project_name": null,
+    "dollar_amount": null,
+    "location": null,
+    "coords": null,
+    "tags": [
+      "wetlands",
+      "NYSDEC",
+      "environmental_review",
+      "figure",
+      "permitting"
+    ],
+    "confidence": 0.5
+  },
+  {
+    "id": 14216,
+    "title": "Fig3.5-7 NYSDEC Tidal Wetlands Jurisdiction",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/14216/Fig35-7-NYSDEC-Tidal-Wetlands-Jurisdiction",
+    "folder": "Figures",
+    "ui_tab": "map",
+    "classification": "environmental_review",
+    "summary": "This document is a jurisdictional map figure showing New York State Department of Environmental Conservation (NYSDEC) tidal wetlands boundaries within New Rochelle. It identifies areas subject to state environmental regulations, which directly impacts property development, construction permits, and land use decisions. Residents and developers can reference it to understand environmental protections and permitting requirements for specific coastal or riverine locations.",
+    "relevant_date": null,
+    "project_name": null,
+    "dollar_amount": null,
+    "location": null,
+    "coords": null,
+    "tags": [
+      "environmental",
+      "wetlands",
+      "NYSDEC",
+      "jurisdiction",
+      "permits"
+    ],
+    "confidence": 0.7
+  },
+  {
+    "id": 14218,
+    "title": "Fig3.7-2_Proposed DO-7 Soils",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/14218/Fig37-2_Proposed-DO-7-Soils",
+    "folder": "Figures",
+    "ui_tab": "map",
+    "classification": "environmental_review",
+    "summary": "This document appears to be a technical figure or map showing proposed soil conditions for a project designated as DO-7. It is likely part of a larger site plan or environmental review submitted to the city for permitting.",
+    "relevant_date": null,
+    "project_name": "DO-7",
+    "dollar_amount": null,
+    "location": null,
+    "coords": null,
+    "tags": [
+      "soils",
+      "site plan",
+      "DO-7",
+      "geotechnical",
+      "figure"
+    ],
+    "confidence": 0.5
+  },
+  {
+    "id": 14219,
+    "title": "Fig3.7-3 Existing DOZ Topography",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/14219/Fig37-3-Existing-DOZ-Topography",
+    "folder": "Figures",
+    "ui_tab": "map",
+    "classification": "report",
+    "summary": "This document is a topography figure showing existing ground elevations for the Downtown Overlay Zone (DOZ). It is likely part of a larger planning or environmental review report detailing site conditions for a specific development or infrastructure project.",
+    "relevant_date": null,
+    "project_name": null,
+    "dollar_amount": null,
+    "location": "Downtown Overlay Zone",
+    "coords": null,
+    "tags": [
+      "topography",
+      "site_conditions",
+      "planning",
+      "DOZ",
+      "figure"
+    ],
+    "confidence": 0.5
+  },
+  {
+    "id": 14220,
+    "title": "Fig3.7-4 Proposed DO-7 Topopgraphy",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/14220/Fig37-4-Proposed-DO-7-Topopgraphy",
+    "folder": "Figures",
+    "ui_tab": "map",
+    "classification": "construction",
+    "summary": "This document is a topography figure (Fig 3.7-4) associated with a proposed project or development designated as DO-7. It provides terrain and geographic data used in planning or construction phases for New Rochelle. While it lacks standalone text, it serves as a technical reference for site-specific development.",
+    "relevant_date": null,
+    "project_name": null,
+    "dollar_amount": null,
+    "location": null,
+    "coords": null,
+    "tags": [
+      "topography",
+      "site planning",
+      "proposed development",
+      "New Rochelle",
+      "technical figure"
+    ],
+    "confidence": 0.65
+  },
+  {
+    "id": 5241,
+    "title": "Figure 2-1 Location Map",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/5241/Figure-2-1-Location-Map",
+    "folder": "GEIS Figures",
+    "ui_tab": "map",
+    "classification": "environmental_review",
+    "summary": "This document is a location map from a Generic Draft Environmental Impact Statement (DEIS) for New Rochelle. It outlines the geographic study area, municipal boundaries, and the Downtown Overlay Zone being evaluated. Residents can use it to identify which areas are subject to the city\u2019s environmental review process.",
+    "relevant_date": null,
+    "project_name": null,
+    "dollar_amount": null,
+    "location": "New Rochelle / Downtown Overlay Zone",
+    "coords": null,
+    "tags": [
+      "environmental_review",
+      "location_map",
+      "GEIS",
+      "study_area",
+      "New_Rochelle"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 5242,
+    "title": "Figure 2-2 DOZ Study Area",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/5242/Figure-2-2-DOZ-Study-Area",
+    "folder": "GEIS Figures",
+    "ui_tab": "map",
+    "classification": "environmental_review",
+    "summary": "This document is a map figure from a Draft Generic Environmental Impact Statement (DEIS) outlining the study area for the Downtown Overlay Zone. It defines the geographic boundaries being evaluated for potential zoning or development changes, allowing residents to see if their property falls within the reviewed region.",
+    "relevant_date": null,
+    "project_name": "Downtown Overlay Zone",
+    "dollar_amount": null,
+    "location": "Downtown Overlay Zone, New Rochelle",
+    "coords": null,
+    "tags": [
+      "environmental_review",
+      "study_area",
+      "downtown_overlay_zone",
+      "geis",
+      "map"
+    ],
+    "confidence": 0.85
+  },
+  {
+    "id": 5243,
+    "title": "Figure 2-3 Proposed Zoning Districts",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/5243/Figure-2-3-Proposed-Zoning-Districts",
+    "folder": "GEIS Figures",
+    "ui_tab": "map",
+    "classification": "environmental_review",
+    "summary": "This document is a zoning map figure from a Generic Environmental Impact Statement (GEIS) showing proposed zoning district boundaries for New Rochelle. It outlines how different areas of the city are planned for future development, residential use, or commercial activity. Residents can use this to understand proposed land-use changes that may affect their neighborhood or property values.",
+    "relevant_date": null,
+    "project_name": null,
+    "dollar_amount": null,
+    "location": "New Rochelle",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "tags": [
+      "zoning",
+      "GEIS",
+      "land-use",
+      "environmental-review",
+      "city-planning"
+    ],
+    "confidence": 0.9
+  },
+  {
+    "id": 5245,
+    "title": "Figure 2-5 Existing Zoning",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/5245/Figure-2-5-Existing-Zoning",
+    "folder": "GEIS Figures",
+    "ui_tab": "map",
+    "classification": "environmental_review",
+    "summary": "This document is a zoning map figure from a Generic Environmental Impact Statement (GEIS) for New Rochelle's Downtown Overlay Zone. It displays existing zoning designations and a legend for various land use categories across the study area. It matters to residents and developers as it outlines current zoning regulations for the downtown area.",
+    "relevant_date": null,
+    "project_name": "Downtown Overlay Zone",
+    "dollar_amount": null,
+    "location": "Downtown Overlay Zone, New Rochelle",
+    "coords": null,
+    "tags": [
+      "zoning",
+      "map",
+      "GEIS",
+      "downtown",
+      "environmental_review"
+    ],
+    "confidence": 0.9
+  },
+  {
+    "id": 5246,
+    "title": "Figure 3-1 Existing Land Use",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/5246/Figure-3-1-Existing-Land-Use",
+    "folder": "GEIS Figures",
+    "ui_tab": "map",
+    "classification": "environmental_review",
+    "summary": "This document is a land use map from a Generic Environmental Impact Statement (GEIS) for New Rochelle's Downtown Overlay Zone. It illustrates the current distribution of property types, such as residential, commercial, industrial, and public spaces, across the downtown area. Residents can use this to understand existing development patterns and how proposed zoning changes might affect the neighborhood.",
+    "relevant_date": null,
+    "project_name": "Downtown Overlay Zone",
+    "dollar_amount": null,
+    "location": "Downtown Overlay Zone, New Rochelle",
+    "coords": null,
+    "tags": [
+      "land use",
+      "downtown overlay zone",
+      "environmental review",
+      "GIS map",
+      "zoning"
+    ],
+    "confidence": 0.9
+  },
+  {
+    "id": 5255,
+    "title": "Figure 3-10 Water Districts",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/5255/Figure-3-10-Water-Districts",
+    "folder": "GEIS Figures",
+    "ui_tab": "map",
+    "classification": "environmental_review",
+    "summary": "This document is a map figure from a Generic Draft Environmental Impact Statement (DEIS) illustrating the various water districts serving New Rochelle. It identifies key water sources, utility zones, and overlay areas managed by entities like Westchester County Water District and United Water. Residents can use this to understand which water utility serves their neighborhood and how the city's water infrastructure is organized.",
+    "relevant_date": null,
+    "project_name": null,
+    "dollar_amount": null,
+    "location": "New Rochelle (city-wide water districts)",
+    "coords": null,
+    "tags": [
+      "water districts",
+      "infrastructure",
+      "DEIS",
+      "environmental review",
+      "map"
+    ],
+    "confidence": 0.9
+  },
+  {
+    "id": 5256,
+    "title": "Figure 3-11 School Zones",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/5256/Figure-3-11-School-Zones",
+    "folder": "GEIS Figures",
+    "ui_tab": "map",
+    "classification": "environmental_review",
+    "summary": "This document is a map figure from a Generic Environmental Impact Statement (GEIS) showing designated school zones across New Rochelle. It provides residents with a visual reference for school boundaries and specific zoning areas like the Downtown Overlay Zone. The figure aids in understanding how school districts align with city planning and development zones.",
+    "relevant_date": null,
+    "project_name": "Generic Environmental Impact Statement (GEIS)",
+    "dollar_amount": null,
+    "location": "New Rochelle (Downtown Overlay Zone, Barnard, Ward, Webster, Trinity, Lincoln, Columbus, Jefferson)",
+    "coords": null,
+    "tags": [
+      "school zones",
+      "GEIS",
+      "environmental review",
+      "map",
+      "zoning"
+    ],
+    "confidence": 0.9
+  },
+  {
+    "id": 5257,
+    "title": "Figure 3-12 Traffic Study Intersections",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/5257/Figure-3-12-Traffic-Study-Intersections",
+    "folder": "GEIS Figures",
+    "ui_tab": "map",
+    "classification": "environmental_review",
+    "summary": "This document is a map figure from a Draft Environmental Impact Statement (DEIS) for the Downtown New Rochelle Revitalization Action Plan. It identifies specific intersections and study areas being analyzed for traffic impacts as part of proposed zoning amendments. Residents can use it to understand which streets and neighborhoods are being evaluated for future development changes.",
+    "relevant_date": null,
+    "project_name": "Downtown New Rochelle Revitalization Action Plan",
+    "dollar_amount": null,
+    "location": "Downtown New Rochelle (Memorial Highway, Division Street, North Avenue, Palmer Avenue, River Street)",
+    "coords": null,
+    "tags": [
+      "traffic study",
+      "DEIS",
+      "zoning amendments",
+      "Downtown New Rochelle",
+      "environmental review"
+    ],
+    "confidence": 0.9
+  },
+  {
+    "id": 5258,
+    "title": "Figure 3-13 Public Transportation",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/5258/Figure-3-13-Public-Transportation",
+    "folder": "GEIS Figures",
+    "ui_tab": "map",
+    "classification": "environmental_review",
+    "summary": "This document is a transportation figure from a Generic Environmental Impact Statement (GEIS) for New Rochelle. It maps public transportation routes and zones, specifically highlighting the Downtown Overlay Zone. It serves as a planning resource for residents interested in city development and infrastructure reviews.",
+    "relevant_date": null,
+    "project_name": "Generic Environmental Impact Statement (GEIS)",
+    "dollar_amount": null,
+    "location": "Downtown Overlay Zone, New Rochelle",
+    "coords": null,
+    "tags": [
+      "environmental_review",
+      "transportation",
+      "GEIS",
+      "Downtown Overlay Zone",
+      "planning"
+    ],
+    "confidence": 0.85
+  },
+  {
+    "id": 5259,
+    "title": "Figure 3-14 Flood Zones",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/5259/Figure-3-14-Flood-Zones",
+    "folder": "GEIS Figures",
+    "ui_tab": "map",
+    "classification": "environmental_review",
+    "summary": "This document is a map figure from a Generic Environmental Impact Statement (GEIS) illustrating flood zones and base flood elevations within New Rochelle's Downtown Overlay Zone. It provides residents and developers with critical information on flood risk areas and regulatory boundaries for land use and insurance.",
+    "relevant_date": null,
+    "project_name": "Generic DEIS / Downtown Overlay Zone",
+    "dollar_amount": null,
+    "location": "Downtown Overlay Zone, New Rochelle",
+    "coords": null,
+    "tags": [
+      "flood zones",
+      "GEIS",
+      "environmental review",
+      "Downtown Overlay",
+      "GIS map"
+    ],
+    "confidence": 0.9
+  },
+  {
+    "id": 5260,
+    "title": "Figure 3-15 Hurricane Inundation Map",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/5260/Figure-3-15-Hurricane-Inundation-Map",
+    "folder": "GEIS Figures",
+    "ui_tab": "map",
+    "classification": "environmental_review",
+    "summary": "This document is a hurricane storm surge inundation map for New Rochelle, illustrating potential flooding levels for Category 1 through 4 storms. It helps residents understand flood risks in specific areas of the city, which is important for emergency preparedness and property safety.",
+    "relevant_date": null,
+    "project_name": null,
+    "dollar_amount": null,
+    "location": "New Rochelle (Downtown Overlay Zone)",
+    "coords": null,
+    "tags": [
+      "hurricane",
+      "flood",
+      "inundation",
+      "environmental_review",
+      "new_rochelle"
+    ],
+    "confidence": 0.9
+  },
+  {
+    "id": 5261,
+    "title": "Figure 3-16 Wetlands",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/5261/Figure-3-16-Wetlands",
+    "folder": "GEIS Figures",
+    "ui_tab": "map",
+    "classification": "environmental_review",
+    "summary": "This document is a map figure from the Downtown Overlay Zone Generic Draft Environmental Impact Statement (DEIS). It illustrates the locations of federal and state-designated wetlands within the downtown study area. It provides residents with environmental baseline data relevant to future development and zoning changes.",
+    "relevant_date": null,
+    "project_name": "Downtown Overlay Zone",
+    "dollar_amount": null,
+    "location": "Downtown Overlay Zone, New Rochelle",
+    "coords": null,
+    "tags": [
+      "wetlands",
+      "DEIS",
+      "environmental_review",
+      "downtown_overlay_zone",
+      "map_figure"
+    ],
+    "confidence": 0.9
+  },
+  {
+    "id": 5262,
+    "title": "Figure 3-17 Topography",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/5262/Figure-3-17-Topography",
+    "folder": "GEIS Figures",
+    "ui_tab": "map",
+    "classification": "environmental_review",
+    "summary": "This document is a topography map (Figure 3-17) from a Generic Environmental Impact Statement (GEIS) for New Rochelle. It displays elevation data and study areas, including the Downtown Overlay Zone, to support environmental planning and development reviews.",
+    "relevant_date": null,
+    "project_name": "Generic DEIS",
+    "dollar_amount": null,
+    "location": "New Rochelle, Downtown Overlay Zone",
+    "coords": null,
+    "tags": [
+      "topography",
+      "environmental_review",
+      "GEIS",
+      "elevation",
+      "New_Rochelle"
+    ],
+    "confidence": 0.9
+  },
+  {
+    "id": 5263,
+    "title": "Figure 3-18 Soils",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/5263/Figure-3-18-Soils",
+    "folder": "GEIS Figures",
+    "ui_tab": "map",
+    "classification": "environmental_review",
+    "summary": "This document is a soil map figure from a Generic Environmental Impact Statement (GEIS) for New Rochelle. It displays soil types and study areas across the city, particularly highlighting the Downtown Overlay Zone. It serves as part of the city's environmental planning and development review process.",
+    "relevant_date": null,
+    "project_name": "Generic DEIS",
+    "dollar_amount": null,
+    "location": "New Rochelle, Downtown Overlay Zone",
+    "coords": null,
+    "tags": [
+      "soil map",
+      "GEIS",
+      "environmental review",
+      "Downtown Overlay Zone",
+      "New Rochelle"
+    ],
+    "confidence": 0.9
+  },
+  {
+    "id": 5247,
+    "title": "Figure 3-2 Public Lands",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/5247/Figure-3-2-Public-Lands",
+    "folder": "GEIS Figures",
+    "ui_tab": "map",
+    "classification": "environmental_review",
+    "summary": "This document is a map figure from a Generic Environmental Impact Statement (GEIS) showing the location of public lands within New Rochelle. It helps residents and planners understand the distribution of city, county, and state-owned properties in the designated study area. This information is useful for understanding land use planning and environmental assessments affecting local parks and public spaces.",
+    "relevant_date": null,
+    "project_name": null,
+    "dollar_amount": null,
+    "location": "New Rochelle",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "tags": [
+      "public lands",
+      "GEIS",
+      "environmental review",
+      "map",
+      "New Rochelle"
+    ],
+    "confidence": 0.9
+  },
+  {
+    "id": 5248,
+    "title": "Figure 3-3 Existing and Proposed Zoning",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/5248/Figure-3-3-Existing-and-Proposed-Zoning",
+    "folder": "GEIS Figures",
+    "ui_tab": "map",
+    "classification": "environmental_review",
+    "summary": "This document is a zoning map figure from a Generic Environmental Impact Statement (GEIS) for New Rochelle's Downtown Overlay Zone. It illustrates existing and proposed zoning designations and their corresponding codes, which are crucial for understanding future development and land use regulations in the downtown area.",
+    "relevant_date": null,
+    "project_name": "Downtown Overlay Zone GEIS",
+    "dollar_amount": null,
+    "location": "Downtown Overlay Zone, New Rochelle",
+    "coords": null,
+    "tags": [
+      "zoning",
+      "downtown",
+      "environmental_review",
+      "land_use",
+      "map"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 5249,
+    "title": "Figure 3-4 Program Concept Graphic",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/5249/Figure-3-4-Program-Concept-Graphic",
+    "folder": "GEIS Figures",
+    "ui_tab": "news",
+    "classification": "environmental_review",
+    "summary": "This document is a conceptual graphic from a Generic Environmental Impact Statement (GEIS) for New Rochelle. It visually outlines a proposed program or development concept as part of the city's environmental planning and review process.",
+    "relevant_date": null,
+    "project_name": null,
+    "dollar_amount": null,
+    "location": null,
+    "coords": null,
+    "tags": [
+      "environmental_review",
+      "GEIS",
+      "conceptual_graphic",
+      "planning"
+    ],
+    "confidence": 0.75
+  },
+  {
+    "id": 5250,
+    "title": "Figure 3-5 Cultural Resources",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/5250/Figure-3-5-Cultural-Resources",
+    "folder": "GEIS Figures",
+    "ui_tab": "map",
+    "classification": "environmental_review",
+    "summary": "This document is a cultural resources map from a Generic Draft Environmental Impact Statement (DEIS) for the Downtown New Rochelle Revitalization Action Plan. It identifies archaeological sensitive areas, historic buildings, and survey zones within the Rochelle Park-Rochelle Heights Historic District. It informs residents about heritage preservation considerations tied to downtown development.",
+    "relevant_date": null,
+    "project_name": "Downtown New Rochelle Revitalization Action Plan",
+    "dollar_amount": null,
+    "location": "Downtown New Rochelle / Rochelle Park-Rochelle Heights Historic District",
+    "coords": null,
+    "tags": [
+      "cultural_resources",
+      "DEIS",
+      "historic_preservation",
+      "downtown_revitalization",
+      "map"
+    ],
+    "confidence": 0.9
+  },
+  {
+    "id": 5251,
+    "title": "Figure 3-6 Fire and EMS Zone",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/5251/Figure-3-6-Fire-and-EMS-Zone",
+    "folder": "GEIS Figures",
+    "ui_tab": "map",
+    "classification": "environmental_review",
+    "summary": "This document is a geographic figure from a Generic Environmental Impact Statement (GEIS) illustrating the designated Fire and EMS response zones in New Rochelle. It provides residents with a visual reference for emergency service coverage areas across the city.",
+    "relevant_date": null,
+    "project_name": null,
+    "dollar_amount": null,
+    "location": null,
+    "coords": null,
+    "tags": [
+      "fire",
+      "EMS",
+      "emergency services",
+      "GEIS",
+      "zone map"
+    ],
+    "confidence": 0.85
+  },
+  {
+    "id": 5252,
+    "title": "Figure 3-7 Sanitary Sewer Infrastructure",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/5252/Figure-3-7-Sanitary-Sewer-Infrastructure",
+    "folder": "GEIS Figures",
+    "ui_tab": "map",
+    "classification": "environmental_review",
+    "summary": "This document is a map figure illustrating the sanitary sewer infrastructure across New Rochelle, likely part of a Geographic Environmental Impact Statement (GEIS). It visually details existing sewer lines and planning zones, such as the Downtown Overlay Zone, providing residents with important context on local infrastructure and environmental planning.",
+    "relevant_date": null,
+    "project_name": null,
+    "dollar_amount": null,
+    "location": "New Rochelle, Downtown Overlay Zone",
+    "coords": null,
+    "tags": [
+      "sanitary sewer",
+      "infrastructure",
+      "GEIS",
+      "environmental review",
+      "map"
+    ],
+    "confidence": 0.9
+  },
+  {
+    "id": 5253,
+    "title": "Figure 3-8 Sewer Districts",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/5253/Figure-3-8-Sewer-Districts",
+    "folder": "GEIS Figures",
+    "ui_tab": "map",
+    "classification": "environmental_review",
+    "summary": "This document is a map figure from a Generic Environmental Impact Statement (GEIS) illustrating the designated sewer districts across New Rochelle. It outlines key infrastructure boundaries and overlay zones, which are essential for understanding local development regulations and wastewater management.",
+    "relevant_date": null,
+    "project_name": null,
+    "dollar_amount": null,
+    "location": "New Rochelle (Downtown Overlay Zone, Bronx Valley, Hutchinson)",
+    "coords": null,
+    "tags": [
+      "sewer_districts",
+      "infrastructure",
+      "GEIS",
+      "environmental_review",
+      "New_Rochelle"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 5254,
+    "title": "Figure 3-9 Stormwater Infrastructure",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/5254/Figure-3-9-Stormwater-Infrastructure",
+    "folder": "GEIS Figures",
+    "ui_tab": "map",
+    "classification": "environmental_review",
+    "summary": "This document is a map figure from a Generic Environmental Impact Statement (GEIS) illustrating stormwater infrastructure in Downtown New Rochelle. It supports the Downtown New Rochelle Revitalization Action Plan by detailing existing infrastructure relevant to city planning.",
+    "relevant_date": null,
+    "project_name": "Downtown New Rochelle Revitalization Action Plan",
+    "dollar_amount": null,
+    "location": "Downtown New Rochelle",
+    "coords": null,
+    "tags": [
+      "stormwater",
+      "infrastructure",
+      "GEIS",
+      "Downtown New Rochelle",
+      "environmental_review"
+    ],
+    "confidence": 0.9
+  },
+  {
     "id": 5224,
     "title": "Findings Final Version 11-30",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/5224/Findings-Final-Version-11-30",
@@ -46015,6 +49099,50 @@
       "Ward Elementary School"
     ],
     "confidence": 0.85
+  },
+  {
+    "id": 19450,
+    "title": "How to Read Con Ed bill - ENG",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/19450/How-to-Read-Con-Ed-bill---ENG",
+    "folder": "CCA",
+    "ui_tab": "none",
+    "classification": "other",
+    "summary": "This document is a guide explaining how residential customers can read and understand their Con Edison utility bills. It breaks down the components of a billing statement to help residents navigate charges and manage their utility expenses.",
+    "relevant_date": null,
+    "project_name": null,
+    "dollar_amount": null,
+    "location": null,
+    "coords": null,
+    "tags": [
+      "utility",
+      "billing",
+      "con edison",
+      "resident guide",
+      "informational"
+    ],
+    "confidence": 0.9
+  },
+  {
+    "id": 19451,
+    "title": "How to Read Con Ed bill - SPANISH",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/19451/How-to-Read-Con-Ed-bill---SPANISH",
+    "folder": "CCA",
+    "ui_tab": "news",
+    "classification": "other",
+    "summary": "This Spanish-language document is a public service guide explaining how to read a Con Edison utility bill. It breaks down account information, billing summaries, payment methods, and definitions of common charges to help residents understand their energy costs. It matters to residents by clarifying billing details and providing contact information for service inquiries.",
+    "relevant_date": null,
+    "project_name": null,
+    "dollar_amount": null,
+    "location": null,
+    "coords": null,
+    "tags": [
+      "utility",
+      "Con Edison",
+      "bill guide",
+      "Spanish",
+      "public service"
+    ],
+    "confidence": 0.9
   },
   {
     "id": 14871,
@@ -54053,6 +57181,30 @@
     "confidence": 0.8
   },
   {
+    "id": 5952,
+    "title": "Lincoln Avenue Neighborhood Meeting",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/5952/Lincoln-Avenue-Neighborhood-Meeting",
+    "folder": "EnvisioNR Docs",
+    "ui_tab": "meetings",
+    "classification": "meeting_minutes",
+    "summary": "This document pertains to a neighborhood meeting focused on the Lincoln Avenue area, likely discussing local community issues or city planning initiatives. It is useful for residents in that neighborhood to track civic discussions and decisions.",
+    "relevant_date": null,
+    "project_name": null,
+    "dollar_amount": null,
+    "location": "Lincoln Avenue, New Rochelle",
+    "coords": {
+      "lat": 40.9176302,
+      "lng": -73.7872199
+    },
+    "tags": [
+      "neighborhood meeting",
+      "community engagement",
+      "Lincoln Avenue",
+      "city planning"
+    ],
+    "confidence": 0.75
+  },
+  {
     "id": 4119,
     "title": "Lombardi_PublicHearingNotice",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/4119/Lombardi_PublicHearingNotice",
@@ -55953,6 +59105,28 @@
     "confidence": 0.95
   },
   {
+    "id": 21169,
+    "title": "Pratt Landing Inducement Presentation",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/21169/Pratt-Landing-Inducement-Presentation",
+    "folder": "IDA Web Revisions and Additions",
+    "ui_tab": "map",
+    "classification": "report",
+    "summary": "This document is a presentation outlining the Pratt Landing development project in New Rochelle, detailing its public-private partnership structure, community outreach efforts, and proposed community benefits. It matters to residents as it outlines plans for a major waterfront redevelopment that will impact local access, retail, historic preservation, and environmental resilience.",
+    "relevant_date": null,
+    "project_name": "Pratt Landing",
+    "dollar_amount": null,
+    "location": "Pratt Landing, New Rochelle waterfront",
+    "coords": null,
+    "tags": [
+      "development",
+      "waterfront",
+      "public-private partnership",
+      "community benefits",
+      "Pratt Landing"
+    ],
+    "confidence": 0.95
+  },
+  {
     "id": 15035,
     "title": "ProjLife",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/15035/ProjLife",
@@ -56419,6 +59593,28 @@
     "confidence": 0.8
   },
   {
+    "id": 5878,
+    "title": "Public Workshop 3 - Agenda",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/5878/Public-Workshop-3---Agenda",
+    "folder": "EnvisioNR Docs",
+    "ui_tab": "meetings",
+    "classification": "agenda",
+    "summary": "This document is the agenda for the third public workshop related to the EnvisioNR initiative. It outlines the meeting schedule and discussion topics, providing residents with information on how to participate and what will be covered.",
+    "relevant_date": null,
+    "project_name": "EnvisioNR",
+    "dollar_amount": null,
+    "location": null,
+    "coords": null,
+    "tags": [
+      "public workshop",
+      "agenda",
+      "EnvisioNR",
+      "city planning",
+      "community engagement"
+    ],
+    "confidence": 0.8
+  },
+  {
     "id": 5311,
     "title": "Public Workshop 4_Final Boards-reduced",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/5311/Public-Workshop-4_Final-Boards-reduced",
@@ -56439,6 +59635,28 @@
       "historic preservation"
     ],
     "confidence": 0.85
+  },
+  {
+    "id": 5885,
+    "title": "Public Workshop 4_Final Boards-reduced",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/5885/Public-Workshop-4_Final-Boards-reduced",
+    "folder": "EnvisioNR Docs",
+    "ui_tab": "map",
+    "classification": "report",
+    "summary": "This document outlines proposed zoning adjustments, sustainability initiatives, and development strategies for various New Rochelle neighborhoods and districts. It serves as a visual guide for a public planning workshop to gather community feedback on the city's comprehensive land use plan.",
+    "relevant_date": null,
+    "project_name": "EnvisioNR Comprehensive Plan",
+    "dollar_amount": null,
+    "location": "Downtown, Golden Horseshoe, Quaker Ridge, Union Avenue, Hospital District, Municipal Marina, Echo Bay",
+    "coords": null,
+    "tags": [
+      "zoning",
+      "comprehensive plan",
+      "public workshop",
+      "land use",
+      "sustainability"
+    ],
+    "confidence": 0.9
   },
   {
     "id": 3665,
@@ -59401,6 +62619,31 @@
     "confidence": 0.7
   },
   {
+    "id": 22910,
+    "title": "Ward Acres Barn Visioning",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/22910/Ward-Acres-Barn-Visioning",
+    "folder": "Parks & Recreation",
+    "ui_tab": "map",
+    "classification": "report",
+    "summary": "This document outlines a visioning process or planning initiative for the Ward Acres Barn facility. It likely details proposed improvements, community input, or future use plans managed by the Parks & Recreation department.",
+    "relevant_date": null,
+    "project_name": "Ward Acres Barn",
+    "dollar_amount": null,
+    "location": "Ward Acres",
+    "coords": {
+      "lat": 40.9585769,
+      "lng": -73.7816711
+    },
+    "tags": [
+      "parks",
+      "planning",
+      "community visioning",
+      "Ward Acres",
+      "infrastructure"
+    ],
+    "confidence": 0.7
+  },
+  {
     "id": 2176,
     "title": "Ward Acres Master Plan",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/2176/Ward-Acres-Master-Plan",
@@ -59535,6 +62778,30 @@
       "road"
     ],
     "confidence": 0.8
+  },
+  {
+    "id": 5953,
+    "title": "Wilmot Road Neighborhood Meeting",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/5953/Wilmot-Road-Neighborhood-Meeting",
+    "folder": "EnvisioNR Docs",
+    "ui_tab": "meetings",
+    "classification": "meeting_minutes",
+    "summary": "This document pertains to a neighborhood meeting focused on Wilmot Road, likely covering local planning, infrastructure, or community updates. It is useful for residents in the area to track civic discussions and decisions affecting their neighborhood.",
+    "relevant_date": null,
+    "project_name": null,
+    "dollar_amount": null,
+    "location": "Wilmot Road",
+    "coords": {
+      "lat": 40.9638635,
+      "lng": -73.7960129
+    },
+    "tags": [
+      "neighborhood meeting",
+      "Wilmot Road",
+      "community engagement",
+      "city planning"
+    ],
+    "confidence": 0.7
   },
   {
     "id": 2212,

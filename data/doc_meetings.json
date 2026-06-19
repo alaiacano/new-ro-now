@@ -1,5 +1,33 @@
 [
   {
+    "id": "doc-22803",
+    "calendar": "Participatory Budgeting",
+    "title": "Participatory Budget Steering Committee Agenda - 20260602",
+    "start": "2026-06-02",
+    "end": null,
+    "location": "City of New Rochelle",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/22803/Participatory-Budget-Steering-Committee-Agenda---20260602",
+    "description": "This document is the agenda and supporting materials for the Participatory Budgeting Steering Committee meeting on June 2, 2026. It outlines the committee's proposed structure, authority, and rulebook for guiding resident participation in local capital budget decisions. The package also includes a draft ordinance to formally establish the committee within city code.",
+    "relevant_date": "2026-06-02",
+    "classification": "agenda",
+    "folder": "Participatory Budgeting",
+    "source": "document_center"
+  },
+  {
+    "id": "doc-22802",
+    "calendar": "Participatory Budgeting",
+    "title": "Participatory Budget Steering Committee Agenda Packet - 20260602",
+    "start": "2026-06-02",
+    "end": null,
+    "location": null,
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/22802/Participatory-Budget-Steering-Committee-Agenda-Packet---20260602",
+    "description": "This document is an agenda packet for the June 2, 2026 meeting of the Participatory Budgeting Steering Committee. It outlines the committee's structure, authority, and the proposed rulebook that will guide residents in voting on local capital budget priorities.",
+    "relevant_date": "2026-06-02",
+    "classification": "agenda",
+    "folder": "Participatory Budgeting",
+    "source": "document_center"
+  },
+  {
     "id": "doc-22572",
     "calendar": "MAC",
     "title": "2026 MAC Calendar",
@@ -1960,6 +1988,20 @@
     "source": "document_center"
   },
   {
+    "id": "doc-8352",
+    "calendar": "IDA Web Revisions and Additions",
+    "title": "Sept 6 IDA Meeting Agenda",
+    "start": "2017-09-06",
+    "end": null,
+    "location": "255 Huguenot Street, New Rochelle",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/8352/Sept-6-IDA-Meeting-Agenda",
+    "description": "This document is the agenda for the New Rochelle Industrial Development Agency meeting on September 6, 2017. It outlines a public hearing and authorization votes for a development project at 255 Huguenot Street, alongside administrative policy updates. Residents can use it to track upcoming board decisions and public hearing schedules.",
+    "relevant_date": "2017-09-06",
+    "classification": "agenda",
+    "folder": "IDA Web Revisions and Additions",
+    "source": "document_center"
+  },
+  {
     "id": "doc-8194",
     "calendar": "Planning",
     "title": "Agenda July 2017 REVISED 7-17-17",
@@ -2380,6 +2422,20 @@
     "source": "document_center"
   },
   {
+    "id": "doc-6715",
+    "calendar": "DOZ",
+    "title": "DOZ Planning Board Applicant Process",
+    "start": "2016-08",
+    "end": null,
+    "location": null,
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/6715/DOZ-Planning-Board-Applicant-Process",
+    "description": "This document outlines the step-by-step application and review process for the New Rochelle Planning Board regarding Development of Zoning (DOZ) projects. It details submission requirements, internal departmental reviews, PARC meetings, and public notice procedures. It serves as a procedural reference for developers and residents navigating the city's land use approval process.",
+    "relevant_date": "2016-08",
+    "classification": "report",
+    "folder": "DOZ",
+    "source": "document_center"
+  },
+  {
     "id": "doc-6296",
     "calendar": "Planning",
     "title": "Agenda July 2016",
@@ -2517,6 +2573,20 @@
     "relevant_date": "2016-05-11",
     "classification": "agenda",
     "folder": "HLRB",
+    "source": "document_center"
+  },
+  {
+    "id": "doc-6025",
+    "calendar": "EnvisioNR Docs",
+    "title": "New Rochelle - City Council Presentation2 2016 05 10",
+    "start": "2016-05-10",
+    "end": null,
+    "location": "New Rochelle",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/6025/New-Rochelle---City-Council-Presentation2-2016-05-10",
+    "description": "This document is a presentation to the New Rochelle City Council detailing the update to the city's Comprehensive Plan. It outlines the rationale for the update, a project timeline, and key planning chapters covering land use, zoning, transportation, and historic preservation. It matters to residents as it establishes the long-term vision and policy framework for future development and community improvements.",
+    "relevant_date": "2016-05-10",
+    "classification": "report",
+    "folder": "EnvisioNR Docs",
     "source": "document_center"
   },
   {
@@ -2660,6 +2730,20 @@
     "source": "document_center"
   },
   {
+    "id": "doc-5964",
+    "calendar": "LWRP Outreach",
+    "title": "New Rochelle LWRP - Public Workshop 2 - Meeting Summary",
+    "start": "2016-02-10",
+    "end": null,
+    "location": "New Rochelle waterfront",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/5964/New-Rochelle-LWRP---Public-Workshop-2---Meeting-Summary",
+    "description": "This document summarizes the second public workshop for the City of New Rochelle's Local Waterfront Revitalization Program (LWRP). It outlines the meeting agenda, presents preliminary project ideas for waterfront development, and records public feedback and stakeholder discussions.",
+    "relevant_date": "2016-02-10",
+    "classification": "meeting_minutes",
+    "folder": "LWRP Outreach",
+    "source": "document_center"
+  },
+  {
     "id": "doc-5444",
     "calendar": "Arts and Cultural District",
     "title": "2016-2-4 Public Meeting Presentation FINAL",
@@ -2688,6 +2772,20 @@
     "source": "document_center"
   },
   {
+    "id": "doc-5962",
+    "calendar": "LWRP Outreach",
+    "title": "LWRP Workshop Handout - FINAL",
+    "start": "2016-02-03",
+    "end": null,
+    "location": "New Rochelle waterfront / City Council Chambers",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/5962/LWRP-Workshop-Handout---FINAL",
+    "description": "This document is the agenda and handout for a public workshop on the Local Waterfront Revitalization Plan held on February 3, 2016. It outlines presentations and Q&A sessions regarding specific planning areas along New Rochelle's waterfront. It provides residents with details on public engagement opportunities for local waterfront development and preservation efforts.",
+    "relevant_date": "2016-02-03",
+    "classification": "agenda",
+    "folder": "LWRP Outreach",
+    "source": "document_center"
+  },
+  {
     "id": "doc-5332",
     "calendar": "LWRP",
     "title": "New Rochelle LWRP - Public Workshop - 02 03 2016 - reduced",
@@ -2699,6 +2797,34 @@
     "relevant_date": "2016-02-03",
     "classification": "agenda",
     "folder": "LWRP",
+    "source": "document_center"
+  },
+  {
+    "id": "doc-5963",
+    "calendar": "LWRP Outreach",
+    "title": "New Rochelle LWRP - Public Workshop - 02 03 2016 - reduced",
+    "start": "2016-02-03",
+    "end": null,
+    "location": "New Rochelle waterfront (Davids Island, Glen Island Park, Travers Island)",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/5963/New-Rochelle-LWRP---Public-Workshop---02-03-2016---reduced",
+    "description": "This document is the agenda and presentation materials for a public workshop on the Local Waterfront Revitalization Program (LWRP) held on February 3, 2016. It outlines the program's goals, state coastal policies, planning areas, and preliminary project ideas for New Rochelle's waterfront. It matters to residents as it details upcoming waterfront development plans and provides information on how to participate in future public input sessions.",
+    "relevant_date": "2016-02-03",
+    "classification": "agenda",
+    "folder": "LWRP Outreach",
+    "source": "document_center"
+  },
+  {
+    "id": "doc-4003",
+    "calendar": "PB 2015 Revisions",
+    "title": "Planning Board Plans Schedule February 2016",
+    "start": "2016-02",
+    "end": null,
+    "location": null,
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/4003/Planning-Board-Plans-Schedule-February-2016",
+    "description": "This document lists the scheduled meeting dates for the New Rochelle Planning Board for February 2016. It allows residents to plan attendance, submit public comments, or track ongoing zoning and development reviews. Reviewing this schedule ensures community members can participate in local land-use decisions.",
+    "relevant_date": "2016-02",
+    "classification": "agenda",
+    "folder": "PB 2015 Revisions",
     "source": "document_center"
   },
   {
@@ -2741,6 +2867,20 @@
     "relevant_date": "2016-01-21",
     "classification": "meeting_minutes",
     "folder": "EnvisioNR",
+    "source": "document_center"
+  },
+  {
+    "id": "doc-5884",
+    "calendar": "EnvisioNR Docs",
+    "title": "PUBLIC INPUT - PubWrkshp4 - 21Jan2016",
+    "start": "2016-01-21",
+    "end": null,
+    "location": "515 North Avenue, New Rochelle",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/5884/PUBLIC-INPUT---PubWrkshp4---21Jan2016",
+    "description": "This document contains compiled notes and public feedback from a January 2016 open house workshop for the City of New Rochelle's Comprehensive Plan Update. It details resident concerns and suggestions across various planning chapters, including zoning, housing, transportation, and parks. The feedback is valuable for understanding community priorities during the city's long-term development process.",
+    "relevant_date": "2016-01-21",
+    "classification": "meeting_minutes",
+    "folder": "EnvisioNR Docs",
     "source": "document_center"
   },
   {
@@ -2898,6 +3038,20 @@
     "source": "document_center"
   },
   {
+    "id": "doc-5959",
+    "calendar": "LWRP Outreach",
+    "title": "Combined Questions",
+    "start": "2015-10-08",
+    "end": null,
+    "location": "New Rochelle waterfront",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/5959/Combined-Questions",
+    "description": "This document is a discussion guide and set of brainstorming questions for a public workshop on the New Rochelle Local Waterfront Revitalization Program. It outlines key topics for community input, including land use, public access, environmental resilience, and infrastructure improvements along the waterfront.",
+    "relevant_date": "2015-10-08",
+    "classification": "agenda",
+    "folder": "LWRP Outreach",
+    "source": "document_center"
+  },
+  {
     "id": "doc-5327",
     "calendar": "LWRP",
     "title": "LWRP Questions Workshop 1 - General Questions",
@@ -2954,6 +3108,34 @@
     "source": "document_center"
   },
   {
+    "id": "doc-5965",
+    "calendar": "LWRP Outreach",
+    "title": "NR LWRP - Public Workshop 1 - Meeting Summary",
+    "start": "2015-10-08",
+    "end": null,
+    "location": "New Rochelle waterfront (Echo Bay, Davids Island, Hudson Park, New Rochelle Creek)",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/5965/NR-LWRP---Public-Workshop-1---Meeting-Summary",
+    "description": "This document summarizes the first public workshop for New Rochelle's Local Waterfront Revitalization Program (LWRP), held in October 2015. It captures public feedback on land use, zoning, waterfront access, environmental resiliency, and infrastructure to guide future city planning and policy development.",
+    "relevant_date": "2015-10-08",
+    "classification": "meeting_minutes",
+    "folder": "LWRP Outreach",
+    "source": "document_center"
+  },
+  {
+    "id": "doc-5966",
+    "calendar": "LWRP Outreach",
+    "title": "NR LWRP - Public Workshop 1 - Presentation_Reduced_final",
+    "start": "2015-10-08",
+    "end": null,
+    "location": "New Rochelle waterfront",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/5966/NR-LWRP---Public-Workshop-1---Presentation_Reduced_final",
+    "description": "This document contains the agenda and presentation slides for the first public workshop of New Rochelle's Local Waterfront Revitalization Program (LWRP), held on October 8, 2015. It outlines the workshop schedule, introduces the project working group and consultants, and explains the program's objectives to update the city's waterfront planning.",
+    "relevant_date": "2015-10-08",
+    "classification": "agenda",
+    "folder": "LWRP Outreach",
+    "source": "document_center"
+  },
+  {
     "id": "doc-5333",
     "calendar": "LWRP",
     "title": "New Rochelle LWRP - Public Workshop 1 - Meeting Summary_Final",
@@ -2996,6 +3178,20 @@
     "source": "document_center"
   },
   {
+    "id": "doc-5874",
+    "calendar": "EnvisioNR Docs",
+    "title": "COMPILED Notes - PubWrkshpSept 2015",
+    "start": "2015-09-28",
+    "end": null,
+    "location": "New Rochelle (citywide)",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/5874/COMPILED-Notes---PubWrkshpSept-2015",
+    "description": "This document contains compiled notes and resident feedback from a public workshop held on September 28, 2015, for New Rochelle's Comprehensive Plan Update. It details community input on housing affordability, zoning, historic preservation, and open space improvements across various city neighborhoods. The feedback provides valuable insight into local priorities and concerns for future city planning.",
+    "relevant_date": "2015-09-28",
+    "classification": "meeting_minutes",
+    "folder": "EnvisioNR Docs",
+    "source": "document_center"
+  },
+  {
     "id": "doc-5305",
     "calendar": "EnvisioNR",
     "title": "New Rochelle - Public Workshop 09282015 - Presentation",
@@ -3007,6 +3203,20 @@
     "relevant_date": "2015-09-28",
     "classification": "agenda",
     "folder": "EnvisioNR",
+    "source": "document_center"
+  },
+  {
+    "id": "doc-5877",
+    "calendar": "EnvisioNR Docs",
+    "title": "New Rochelle - Public Workshop 09282015 - Presentation r1",
+    "start": "2015-09-28",
+    "end": null,
+    "location": "New Rochelle",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/5877/New-Rochelle---Public-Workshop-09282015---Presentation-r1",
+    "description": "This document contains the agenda and presentation slides for a public workshop held on September 28, 2015, focused on updating New Rochelle's Comprehensive Plan. It outlines the planning timeline, key discussion topics like land use and housing, and objectives for gathering resident feedback. The workshop aims to identify community issues and opportunities to guide future city development.",
+    "relevant_date": "2015-09-28",
+    "classification": "agenda",
+    "folder": "EnvisioNR Docs",
     "source": "document_center"
   },
   {
@@ -3136,6 +3346,20 @@
     "source": "document_center"
   },
   {
+    "id": "doc-5872",
+    "calendar": "EnvisioNR Docs",
+    "title": "Sustnblty Pub Wrkshp - Agenda",
+    "start": "2015-06-08",
+    "end": null,
+    "location": "515 North Ave., City Hall, Room B1",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/5872/Sustnblty-Pub-Wrkshp---Agenda",
+    "description": "This document is the agenda for a public workshop held on June 8, 2015, as part of the City of New Rochelle's Comprehensive Plan Update. It outlines the schedule, speakers, and discussion topics related to developing sustainable development goals and strategies for the city. Residents can use this to understand the planning process and how public feedback was incorporated into the city's sustainability initiatives.",
+    "relevant_date": "2015-06-08",
+    "classification": "agenda",
+    "folder": "EnvisioNR Docs",
+    "source": "document_center"
+  },
+  {
     "id": "doc-4216",
     "calendar": "EnvisioNR",
     "title": "Sustnblty Pub Wrkshp - Agenda 6.8.15",
@@ -3161,6 +3385,20 @@
     "relevant_date": "2015-06-08",
     "classification": "agenda",
     "folder": "EnvisioNR",
+    "source": "document_center"
+  },
+  {
+    "id": "doc-5873",
+    "calendar": "EnvisioNR Docs",
+    "title": "Workshop Notes - 8June2015",
+    "start": "2015-06-08",
+    "end": null,
+    "location": "New Rochelle",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/5873/Workshop-Notes---8June2015",
+    "description": "This document contains notes from a June 2015 public sustainability workshop in New Rochelle, detailing community feedback and strategy recommendations for energy, waste, ecology, economic growth, and transportation. It outlines proposed city initiatives and priorities for sustainable development that could impact local infrastructure and community planning.",
+    "relevant_date": "2015-06-08",
+    "classification": "meeting_minutes",
+    "folder": "EnvisioNR Docs",
     "source": "document_center"
   },
   {
@@ -3192,6 +3430,20 @@
     "source": "document_center"
   },
   {
+    "id": "doc-5862",
+    "calendar": "EnvisioNR Docs",
+    "title": "COMPILED Breakout Notes - PubWrkshp1",
+    "start": "2015-05-06",
+    "end": null,
+    "location": "New Rochelle (City-wide)",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/5862/COMPILED-Breakout-Notes---PubWrkshp1",
+    "description": "This document contains compiled breakout session notes from a public workshop for the New Rochelle Comprehensive Plan Update held on May 6, 2015. It captures detailed community feedback on housing affordability, economic development, open space, and downtown revitalization. It matters to residents as it documents public input that will guide the city's future zoning, development, and planning policies.",
+    "relevant_date": "2015-05-06",
+    "classification": "meeting_minutes",
+    "folder": "EnvisioNR Docs",
+    "source": "document_center"
+  },
+  {
     "id": "doc-5304",
     "calendar": "EnvisioNR",
     "title": "New Rochelle - Public Workshop 1 - Presentation_r3",
@@ -3206,6 +3458,20 @@
     "source": "document_center"
   },
   {
+    "id": "doc-5863",
+    "calendar": "EnvisioNR Docs",
+    "title": "New Rochelle - Public Workshop 1 - Presentation_r3",
+    "start": "2015-05-06",
+    "end": null,
+    "location": "New Rochelle",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/5863/New-Rochelle---Public-Workshop-1---Presentation_r3",
+    "description": "This document contains the agenda and presentation slides for Public Workshop #1 of the New Rochelle Comprehensive Plan Update, held on May 6, 2015. It outlines the workshop schedule, reviews past public outreach efforts, presents demographic and economic data, and introduces preliminary planning themes for the city's future development.",
+    "relevant_date": "2015-05-06",
+    "classification": "agenda",
+    "folder": "EnvisioNR Docs",
+    "source": "document_center"
+  },
+  {
     "id": "doc-5309",
     "calendar": "EnvisioNR",
     "title": "Public Workshop 1 - Agenda",
@@ -3217,6 +3483,20 @@
     "relevant_date": "2015-05-06",
     "classification": "agenda",
     "folder": "EnvisioNR",
+    "source": "document_center"
+  },
+  {
+    "id": "doc-5865",
+    "calendar": "EnvisioNR Docs",
+    "title": "Public Workshop 1 - Agenda",
+    "start": "2015-05-06",
+    "end": null,
+    "location": "2 Clinton Place",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/5865/Public-Workshop-1---Agenda",
+    "description": "This document is the agenda for a public workshop held on May 6, 2015, as part of the City of New Rochelle's Comprehensive Plan Update. It outlines the schedule, speakers, and facilitated breakout session topics for residents attending the event.",
+    "relevant_date": "2015-05-06",
+    "classification": "agenda",
+    "folder": "EnvisioNR Docs",
     "source": "document_center"
   },
   {
@@ -4200,6 +4480,20 @@
     "source": "document_center"
   },
   {
+    "id": "doc-4166",
+    "calendar": "IDA Web Revisions and Additions",
+    "title": "New Rochelle IDA By-Laws",
+    "start": "2006",
+    "end": null,
+    "location": "City Hall, 515 North Avenue, New Rochelle, NY",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/4166/New-Rochelle-IDA-By-Laws",
+    "description": "This document contains the official by-laws for the New Rochelle Industrial Development Agency (IDA), detailing its governance structure, board composition, and amendment procedures. It establishes the legal and operational framework for the agency that oversees economic development and tax incentive programs in the city.",
+    "relevant_date": "2006",
+    "classification": "other",
+    "folder": "IDA Web Revisions and Additions",
+    "source": "document_center"
+  },
+  {
     "id": "doc-2194",
     "calendar": "Development",
     "title": "Agenda for Community Meeting",
@@ -4211,6 +4505,20 @@
     "relevant_date": null,
     "classification": "agenda",
     "folder": "Development",
+    "source": "document_center"
+  },
+  {
+    "id": "doc-14684",
+    "calendar": "Appendices",
+    "title": "Appendix C Public Hearing Transcript_uneditable",
+    "start": null,
+    "end": null,
+    "location": "Downtown New Rochelle",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/14684/Appendix-C-Public-Hearing-Transcript_uneditable",
+    "description": "This document is a transcript of a public hearing regarding the City of New Rochelle\u2019s Supplemental Draft Generic Environmental Impact Statement (SDGEIS) for the Downtown Overlay Zone and Zoning Map Amendments. It records resident and stakeholder comments, questions, and discussions about proposed zoning changes in the downtown area. Residents can review it to understand community feedback on local development and land use regulations.",
+    "relevant_date": null,
+    "classification": "public_hearing",
+    "folder": "Appendices",
     "source": "document_center"
   },
   {
@@ -4298,6 +4606,34 @@
     "source": "document_center"
   },
   {
+    "id": "doc-5951",
+    "calendar": "EnvisioNR Docs",
+    "title": "Fifth Ave neighborhood meeting",
+    "start": null,
+    "end": null,
+    "location": "Fifth Avenue",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/5951/Fifth-Ave-neighborhood-meeting",
+    "description": "This document pertains to a community meeting regarding the Fifth Avenue neighborhood in New Rochelle. It likely contains agendas, discussion points, or minutes from a local planning or civic gathering. Residents in the area should review it to stay informed about neighborhood updates and city initiatives.",
+    "relevant_date": null,
+    "classification": "meeting_minutes",
+    "folder": "EnvisioNR Docs",
+    "source": "document_center"
+  },
+  {
+    "id": "doc-5952",
+    "calendar": "EnvisioNR Docs",
+    "title": "Lincoln Avenue Neighborhood Meeting",
+    "start": null,
+    "end": null,
+    "location": "Lincoln Avenue, New Rochelle",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/5952/Lincoln-Avenue-Neighborhood-Meeting",
+    "description": "This document pertains to a neighborhood meeting focused on the Lincoln Avenue area, likely discussing local community issues or city planning initiatives. It is useful for residents in that neighborhood to track civic discussions and decisions.",
+    "relevant_date": null,
+    "classification": "meeting_minutes",
+    "folder": "EnvisioNR Docs",
+    "source": "document_center"
+  },
+  {
     "id": "doc-2652",
     "calendar": "Public Works",
     "title": "NOTICE OF PUBLIC INFORMATION MEETING",
@@ -4368,6 +4704,20 @@
     "source": "document_center"
   },
   {
+    "id": "doc-5878",
+    "calendar": "EnvisioNR Docs",
+    "title": "Public Workshop 3 - Agenda",
+    "start": null,
+    "end": null,
+    "location": null,
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/5878/Public-Workshop-3---Agenda",
+    "description": "This document is the agenda for the third public workshop related to the EnvisioNR initiative. It outlines the meeting schedule and discussion topics, providing residents with information on how to participate and what will be covered.",
+    "relevant_date": null,
+    "classification": "agenda",
+    "folder": "EnvisioNR Docs",
+    "source": "document_center"
+  },
+  {
     "id": "doc-5312",
     "calendar": "EnvisioNR",
     "title": "Roundtable Questions",
@@ -4393,6 +4743,20 @@
     "relevant_date": null,
     "classification": "report",
     "folder": "CDBG and HOME",
+    "source": "document_center"
+  },
+  {
+    "id": "doc-5953",
+    "calendar": "EnvisioNR Docs",
+    "title": "Wilmot Road Neighborhood Meeting",
+    "start": null,
+    "end": null,
+    "location": "Wilmot Road",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/5953/Wilmot-Road-Neighborhood-Meeting",
+    "description": "This document pertains to a neighborhood meeting focused on Wilmot Road, likely covering local planning, infrastructure, or community updates. It is useful for residents in the area to track civic discussions and decisions affecting their neighborhood.",
+    "relevant_date": null,
+    "classification": "meeting_minutes",
+    "folder": "EnvisioNR Docs",
     "source": "document_center"
   },
   {

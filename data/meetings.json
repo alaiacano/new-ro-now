@@ -1,83 +1,33 @@
 [
   {
-    "id": "3847",
-    "calendar": "Finance",
-    "title": "WESTCHESTER COUNTY TAX DUE",
-    "start": "2026-06-01T08:30:00-04:00",
-    "end": "2026-06-01T23:59:00-04:00",
-    "location": "City Hall - 515 North Avenue  New Rochelle NY 10801",
-    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=54",
-    "description": "https://www.newrochelleny.gov/calendar.aspx?EID=3847"
+    "id": "7515",
+    "calendar": "Parks and Recreation",
+    "title": "NRCA: SHAKESPEARE'S MUCH ADO ABOUT NOTHING",
+    "start": "2026-06-20T18:00:00-04:00",
+    "end": "2026-06-20T23:59:00-04:00",
+    "location": "- Wildcliff Mansion 44 Wildcliff Road New Rochelle NY 10801",
+    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=34",
+    "description": "https://www.newrochelleny.gov/calendar.aspx?EID=7515"
   },
   {
-    "id": "7441",
+    "id": "7516",
+    "calendar": "Parks and Recreation",
+    "title": "NRCA: SHAKESPEARE'S MUCH ADO ABOUT NOTHING",
+    "start": "2026-06-21T18:00:00-04:00",
+    "end": "2026-06-21T23:59:00-04:00",
+    "location": "- Wildcliff Mansion 44 Wildcliff Road New Rochelle NY 10801",
+    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=34",
+    "description": "https://www.newrochelleny.gov/calendar.aspx?EID=7516"
+  },
+  {
+    "id": "7550",
     "calendar": "Housing",
-    "title": "Down Payment Assistance Program Information Session | English | RSVP | June 1 6PM",
-    "start": "2026-06-01T18:00:00-04:00",
-    "end": "2026-06-01T19:30:00-04:00",
+    "title": "Rose on Main Presentation - In Person - English and Spanish",
+    "start": "2026-06-22T18:00:00-04:00",
+    "end": "2026-06-22T19:30:00-04:00",
     "location": "City Hall - 515 North Avenue  New Rochelle NY 10801",
     "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=90",
-    "description": "If you are a first-time homebuyer seeking to purchase a home within the City of New Rochelle, you may be eligible for the City\u2019s First-Time Home Buyer\u2019s Down Payment Assistance Program (DPAP). The program provides eligible and approved applicants with up to 19 percent of the purchase price of a single-family home, depending on the qualifications of the homebuyer, to be applied toward the down payment on a new home.  https://www.newrochelleny.gov/calendar.aspx?EID=7441"
-  },
-  {
-    "id": "7205",
-    "calendar": "Zoning Board",
-    "title": "June BAZ Meeting",
-    "start": "2026-06-02T18:00:00-04:00",
-    "end": "2026-06-02T23:59:00-04:00",
-    "location": "-   New Rochelle NY 10801",
-    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=55",
-    "description": "https://www.newrochelleny.gov/calendar.aspx?EID=7205"
-  },
-  {
-    "id": "7341",
-    "calendar": "Municipal Arts Commission",
-    "title": "Municipal Arts Commission",
-    "start": "2026-06-03T18:00:00-04:00",
-    "end": "2026-06-03T23:59:00-04:00",
-    "location": "City Hall - 515 North Avenue  New Rochelle NY 10801",
-    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=35",
-    "description": "https://www.newrochelleny.gov/calendar.aspx?EID=7341"
-  },
-  {
-    "id": "7498",
-    "calendar": "Housing",
-    "title": "Down Payment Assistance Program Information Session | Spanish | RSVP | June 4 6PM",
-    "start": "2026-06-04T18:00:00-04:00",
-    "end": "2026-06-04T19:30:00-04:00",
-    "location": "City Hall - 515 North Avenue  New Rochelle NY 10801",
-    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=90",
-    "description": "If you are a first-time homebuyer seeking to purchase a home within the City of New Rochelle, you may be eligible for the City\u2019s First-Time Home Buyer\u2019s Down Payment Assistance Program (DPAP). The program provides eligible and approved applicants with up to 19 percent of the purchase price of a single-family home, depending on the qualifications of the homebuyer, to be applied toward the down payment on a new home.  https://www.newrochelleny.gov/calendar.aspx?EID=7498"
-  },
-  {
-    "id": "7271",
-    "calendar": "City Clerk",
-    "title": "City Council COW, Public Hearings and Citizens to be Heard",
-    "start": "2026-06-09T15:45:00-04:00",
-    "end": "2026-06-09T23:59:00-04:00",
-    "location": "City Hall - 515 North Avenue  New Rochelle NY 10801",
-    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=33",
-    "description": "https://www.newrochelleny.gov/calendar.aspx?EID=7271"
-  },
-  {
-    "id": "7131",
-    "calendar": "Historical & Landmark Review Board",
-    "title": "HLRB Meeting",
-    "start": "2026-06-10T18:00:00-04:00",
-    "end": "2026-06-10T23:59:00-04:00",
-    "location": "City Hall - 515 North Avenue  New Rochelle NY 10801",
-    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=58",
-    "description": "https://www.newrochelleny.gov/calendar.aspx?EID=7131"
-  },
-  {
-    "id": "7281",
-    "calendar": "City Clerk",
-    "title": "Regular Legislative Meeting",
-    "start": "2026-06-16T18:15:00-04:00",
-    "end": "2026-06-16T19:15:00-04:00",
-    "location": "City Hall - 515 North Avenue  New Rochelle NY 10801",
-    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=33",
-    "description": "https://www.newrochelleny.gov/calendar.aspx?EID=7281"
+    "description": "Make owning a home in New Rochelle a reality! \ud83d\udd11 \n \nLearn about Rose on Main, an affordable housing opportunity in the heart of the Downtown at this info session: \n\ud83d\uddd3\ufe0f Monday, June 22, 6-7:30 PM \n\ud83d\udccd New Rochelle City Hall \n \nRegister at affordablewestchester.formstack.com/forms/roseworkshop https://www.newrochelleny.gov/calendar.aspx?EID=7550"
   },
   {
     "id": "7143",
@@ -90,6 +40,26 @@
     "description": "https://www.newrochelleny.gov/calendar.aspx?EID=7143"
   },
   {
+    "id": "7540",
+    "calendar": "Parks and Recreation",
+    "title": "Free Yoga in the Park",
+    "start": "2026-06-24T18:00:00-04:00",
+    "end": "2026-06-24T23:59:00-04:00",
+    "location": "- Hudson Park - 44 Wildcliff Road   New Rochelle NY 10805",
+    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=34",
+    "description": "https://www.newrochelleny.gov/calendar.aspx?EID=7540"
+  },
+  {
+    "id": "7519",
+    "calendar": "Parks and Recreation",
+    "title": "NRCA: Free Summer Sound Concert",
+    "start": "2026-06-24T19:30:00-04:00",
+    "end": "2026-06-24T23:59:00-04:00",
+    "location": "Hudson Park & Beach > Hudson Park Bandshell - 1 Hudson Park Road  New Rochelle NY 10801",
+    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=34",
+    "description": "https://www.newrochelleny.gov/calendar.aspx?EID=7519"
+  },
+  {
     "id": "7235",
     "calendar": "IDA",
     "title": "New Rochelle IDA Meeting",
@@ -100,6 +70,26 @@
     "description": "https://www.newrochelleny.gov/calendar.aspx?EID=7235"
   },
   {
+    "id": "7520",
+    "calendar": "Parks and Recreation",
+    "title": "NRCA: Free Summer Sound Concert",
+    "start": "2026-06-26T19:30:00-04:00",
+    "end": "2026-06-26T23:59:00-04:00",
+    "location": "Hudson Park & Beach > Hudson Park Bandshell - 1 Hudson Park Road  New Rochelle NY 10801",
+    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=34",
+    "description": "https://www.newrochelleny.gov/calendar.aspx?EID=7520"
+  },
+  {
+    "id": "7541",
+    "calendar": "Parks and Recreation",
+    "title": "Free Yoga in the Park",
+    "start": "2026-07-01T18:00:00-04:00",
+    "end": "2026-07-01T23:59:00-04:00",
+    "location": "- Hudson Park - 44 Wildcliff Road   New Rochelle NY 10805",
+    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=34",
+    "description": "https://www.newrochelleny.gov/calendar.aspx?EID=7541"
+  },
+  {
     "id": "7342",
     "calendar": "Municipal Arts Commission",
     "title": "Municipal Arts Commission",
@@ -108,6 +98,26 @@
     "location": "City Hall - 515 North Avenue  New Rochelle NY 10801",
     "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=35",
     "description": "https://www.newrochelleny.gov/calendar.aspx?EID=7342"
+  },
+  {
+    "id": "7521",
+    "calendar": "Parks and Recreation",
+    "title": "NRCA: Free Summer Sound Concert",
+    "start": "2026-07-01T19:30:00-04:00",
+    "end": "2026-07-01T23:59:00-04:00",
+    "location": "Hudson Park & Beach > Hudson Park Bandshell - 1 Hudson Park Road  New Rochelle NY 10801",
+    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=34",
+    "description": "https://www.newrochelleny.gov/calendar.aspx?EID=7521"
+  },
+  {
+    "id": "7522",
+    "calendar": "Parks and Recreation",
+    "title": "NRCA: Free Summer Sound Concert",
+    "start": "2026-07-03T19:30:00-04:00",
+    "end": "2026-07-03T23:59:00-04:00",
+    "location": "Hudson Park & Beach > Hudson Park Bandshell - 1 Hudson Park Road  New Rochelle NY 10801",
+    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=34",
+    "description": "https://www.newrochelleny.gov/calendar.aspx?EID=7522"
   },
   {
     "id": "7353",
@@ -130,6 +140,16 @@
     "description": "https://www.newrochelleny.gov/calendar.aspx?EID=7206"
   },
   {
+    "id": "7542",
+    "calendar": "Parks and Recreation",
+    "title": "Free Yoga in the Park",
+    "start": "2026-07-08T18:00:00-04:00",
+    "end": "2026-07-08T23:59:00-04:00",
+    "location": "- Hudson Park - 44 Wildcliff Road   New Rochelle NY 10805",
+    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=34",
+    "description": "https://www.newrochelleny.gov/calendar.aspx?EID=7542"
+  },
+  {
     "id": "7132",
     "calendar": "Historical & Landmark Review Board",
     "title": "HLRB Meeting",
@@ -138,6 +158,46 @@
     "location": "City Hall - 515 North Avenue  New Rochelle NY 10801",
     "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=58",
     "description": "https://www.newrochelleny.gov/calendar.aspx?EID=7132"
+  },
+  {
+    "id": "7523",
+    "calendar": "Parks and Recreation",
+    "title": "NRCA: Free Summer Sound Concert",
+    "start": "2026-07-08T19:30:00-04:00",
+    "end": "2026-07-08T23:59:00-04:00",
+    "location": "Hudson Park & Beach > Hudson Park Bandshell - 1 Hudson Park Road  New Rochelle NY 10801",
+    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=34",
+    "description": "https://www.newrochelleny.gov/calendar.aspx?EID=7523"
+  },
+  {
+    "id": "7495",
+    "calendar": "Parks and Recreation",
+    "title": "Summer of Soccer Co-Ed Community Tournament",
+    "start": "2026-07-10T17:30:00-04:00",
+    "end": "2026-07-10T19:00:00-04:00",
+    "location": "Flowers (City)  Park - Fifth Avenue & Potter Avenue  New Rochelle NY 10801",
+    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=34",
+    "description": "A friendly but competitive showdown where residents (18+)  City Staff, & City School District can put on their cleats to demonstrate their skills on the field. Featuring a Beer Garden!  https://www.newrochelleny.gov/calendar.aspx?EID=7495"
+  },
+  {
+    "id": "7524",
+    "calendar": "Parks and Recreation",
+    "title": "NRCA: Free Summer Sound Concert",
+    "start": "2026-07-10T19:30:00-04:00",
+    "end": "2026-07-10T23:59:00-04:00",
+    "location": "Hudson Park & Beach > Hudson Park Bandshell - 1 Hudson Park Road  New Rochelle NY 10801",
+    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=34",
+    "description": "https://www.newrochelleny.gov/calendar.aspx?EID=7524"
+  },
+  {
+    "id": "7551",
+    "calendar": "Housing",
+    "title": "Rose on Main Presentation - Virtual - English",
+    "start": "2026-07-14T12:00:00-04:00",
+    "end": "2026-07-14T13:00:00-04:00",
+    "location": "<p><a data-fr-linked=\"true\" href=\"https://us02web.zoom.us/webinar/register/WN_xRVJneBBTRao_Mgzzj9WkA#/registration\" data-pasted=\"true\">https://us02web.zoom.us/webinar/register/WN_xRVJneBBTRao_Mgzzj9WkA#/registration</a></p> -",
+    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=90",
+    "description": "Make owning a home in New Rochelle a reality! \ud83d\udd11 \n \nLearn about Rose on Main, an affordable housing opportunity in the heart of the Downtown at this info session: \n\ud83d\uddd3\ufe0f Tuesday, July 14, 12-1 PM \n\ud83d\udccd Zoom \n \nRegister at https://us02web.zoom.us/webinar/register/WN_xRVJneBBTRao_Mgzzj9WkA#/registration  https://www.newrochelleny.gov/calendar.aspx?EID=7551"
   },
   {
     "id": "7272",
@@ -160,6 +220,66 @@
     "description": "https://www.newrochelleny.gov/calendar.aspx?EID=7456"
   },
   {
+    "id": "7543",
+    "calendar": "Parks and Recreation",
+    "title": "Free Yoga in the Park",
+    "start": "2026-07-15T18:00:00-04:00",
+    "end": "2026-07-15T23:59:00-04:00",
+    "location": "- Hudson Park - 44 Wildcliff Road   New Rochelle NY 10805",
+    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=34",
+    "description": "https://www.newrochelleny.gov/calendar.aspx?EID=7543"
+  },
+  {
+    "id": "7553",
+    "calendar": "Development",
+    "title": "Down Payment Assistance Program Info Session | Virtual | English/Spanish",
+    "start": "2026-07-15T18:00:00-04:00",
+    "end": "2026-07-15T19:30:00-04:00",
+    "location": "<p><a href=\"https://forms.cloud.microsoft/pages/responsepage.aspx?id=fzHJWAnpEEeTV2Zs12vi1lrOM70Rqz1DnnPxBKesUCdUQkxPSUEzQ1JaRjRXUUw5ME1QTzA0VVZYSy4u&origin=lprLink&route=shorturl\" target=\"_blank\" rel=\"noopener\">RSVP HERE</a></p> -",
+    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=62",
+    "description": "If you are a first-time homebuyer seeking to purchase a home within the City of New Rochelle, you may be eligible for the City\u2019s First-Time Home Buyer\u2019s Down Payment Assistance Program (DPAP). The program provides eligible and approved applicants with up to 19 percent of the purchase price of a single-family home, depending on the qualifications of the homebuyer, to be applied toward the down payment on a new home. \n \nThe program is funded through a combination of local and federal sources, including the United States Department of Housing and Urban Development\u2019s HOME Program and the City\u2019s Affordable Housing Fund. \n \nThe program has been expanded to include not only New Rochelle residents, but also: \n\u2022 Individuals who do not currently live in New Rochelle but have worked in the City for at least two years. \n\u2022 Owners of businesses operating within the City of New Rochelle. \n\u2022 Former New Rochelle residents who previously lived here for at least two years. https://www.newrochelleny.gov/calendar.aspx?EID=7553"
+  },
+  {
+    "id": "7558",
+    "calendar": "Housing",
+    "title": "Down Payment Assistance Program Info Session | Virtual | English/Spanish",
+    "start": "2026-07-15T18:00:00-04:00",
+    "end": "2026-07-15T19:30:00-04:00",
+    "location": "<p><a href=\"https://forms.cloud.microsoft/pages/responsepage.aspx?id=fzHJWAnpEEeTV2Zs12vi1lrOM70Rqz1DnnPxBKesUCdUQkxPSUEzQ1JaRjRXUUw5ME1QTzA0VVZYSy4u&origin=lprLink&route=shorturl\" target=\"_blank\" rel=\"noopener\">RSVP HERE</a></p> -",
+    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=90",
+    "description": "If you are a first-time homebuyer seeking to purchase a home within the City of New Rochelle, you may be eligible for the City\u2019s First-Time Home Buyer\u2019s Down Payment Assistance Program (DPAP). The program provides eligible and approved applicants with up to 19 percent of the purchase price of a single-family home, depending on the qualifications of the homebuyer, to be applied toward the down payment on a new home. \n \nThe program is funded through a combination of local and federal sources, including the United States Department of Housing and Urban Development\u2019s HOME Program and the City\u2019s Affordable Housing Fund. \n \nThe program has been expanded to include not only New Rochelle residents, but also: \n\u2022 Individuals who do not currently live in New Rochelle but have worked in the City for at least two years. \n\u2022 Owners of businesses operating within the City of New Rochelle. \n\u2022 Former New Rochelle residents who previously lived here for at least two years. https://www.newrochelleny.gov/calendar.aspx?EID=7558"
+  },
+  {
+    "id": "7525",
+    "calendar": "Parks and Recreation",
+    "title": "NRCA: Free Summer Sound Concert",
+    "start": "2026-07-15T19:30:00-04:00",
+    "end": "2026-07-15T23:59:00-04:00",
+    "location": "Hudson Park & Beach > Hudson Park Bandshell - 1 Hudson Park Road  New Rochelle NY 10801",
+    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=34",
+    "description": "https://www.newrochelleny.gov/calendar.aspx?EID=7525"
+  },
+  {
+    "id": "7526",
+    "calendar": "Parks and Recreation",
+    "title": "NRCA: Free Summer Sound Concert",
+    "start": "2026-07-17T19:30:00-04:00",
+    "end": "2026-07-17T23:59:00-04:00",
+    "location": "Hudson Park & Beach > Hudson Park Bandshell - 1 Hudson Park Road  New Rochelle NY 10801",
+    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=34",
+    "description": "https://www.newrochelleny.gov/calendar.aspx?EID=7526"
+  },
+  {
+    "id": "7554",
+    "calendar": "Development",
+    "title": "Down Payment Assistance Program Info Session for NR Small Businesses & Local Workforce | Virtual | English/Spanish",
+    "start": "2026-07-20T11:00:00-04:00",
+    "end": "2026-07-20T12:30:00-04:00",
+    "location": "<p><a href=\"https://forms.cloud.microsoft/pages/responsepage.aspx?id=fzHJWAnpEEeTV2Zs12vi1lrOM70Rqz1DnnPxBKesUCdUQkxPSUEzQ1JaRjRXUUw5ME1QTzA0VVZYSy4u&origin=lprLink&route=shorturl\" target=\"_blank\" rel=\"noopener\">RSVP HERE</a></p> -",
+    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=62",
+    "description": "If you are a first-time homebuyer seeking to purchase a home within the City of New Rochelle, you may be eligible for the City\u2019s First-Time Home Buyer\u2019s Down Payment Assistance Program (DPAP). The program provides eligible and approved applicants with up to 19 percent of the purchase price of a single-family home, depending on the qualifications of the homebuyer, to be applied toward the down payment on a new home. \n \nThe program is funded through a combination of local and federal sources, including the United States Department of Housing and Urban Development\u2019s HOME Program and the City\u2019s Affordable Housing Fund. \n \nThe program has been expanded to include not only New Rochelle residents, but also: \n\u2022 Individuals who do not currently live in New Rochelle but have worked in the City for at least two years. \n\u2022 Owners of businesses operating within the City of New Rochelle. \n\u2022 Former New Rochelle residents who previously lived here for at least two years. https://www.newrochelleny.gov/calendar.aspx?EID=7554"
+  },
+  {
     "id": "7282",
     "calendar": "City Clerk",
     "title": "Regular Legislative Meeting",
@@ -180,6 +300,36 @@
     "description": "https://www.newrochelleny.gov/calendar.aspx?EID=7486"
   },
   {
+    "id": "7544",
+    "calendar": "Parks and Recreation",
+    "title": "Free Yoga in the Park",
+    "start": "2026-07-22T18:00:00-04:00",
+    "end": "2026-07-22T23:59:00-04:00",
+    "location": "- Hudson Park - 44 Wildcliff Road   New Rochelle NY 10805",
+    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=34",
+    "description": "https://www.newrochelleny.gov/calendar.aspx?EID=7544"
+  },
+  {
+    "id": "7527",
+    "calendar": "Parks and Recreation",
+    "title": "NRCA: Free Summer Sound Concert",
+    "start": "2026-07-22T19:30:00-04:00",
+    "end": "2026-07-22T23:59:00-04:00",
+    "location": "Hudson Park & Beach > Hudson Park Bandshell - 1 Hudson Park Road  New Rochelle NY 10801",
+    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=34",
+    "description": "https://www.newrochelleny.gov/calendar.aspx?EID=7527"
+  },
+  {
+    "id": "7528",
+    "calendar": "Parks and Recreation",
+    "title": "NRCA: Free Summer Sound Concert",
+    "start": "2026-07-24T19:30:00-04:00",
+    "end": "2026-07-24T23:59:00-04:00",
+    "location": "Hudson Park & Beach > Hudson Park Bandshell - 1 Hudson Park Road  New Rochelle NY 10801",
+    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=34",
+    "description": "https://www.newrochelleny.gov/calendar.aspx?EID=7528"
+  },
+  {
     "id": "7144",
     "calendar": "Planning Board",
     "title": "Planning Board Meeting",
@@ -190,6 +340,26 @@
     "description": "https://www.newrochelleny.gov/calendar.aspx?EID=7144"
   },
   {
+    "id": "7545",
+    "calendar": "Parks and Recreation",
+    "title": "Free Yoga in the Park",
+    "start": "2026-07-29T18:00:00-04:00",
+    "end": "2026-07-29T23:59:00-04:00",
+    "location": "- Hudson Park - 44 Wildcliff Road   New Rochelle NY 10805",
+    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=34",
+    "description": "https://www.newrochelleny.gov/calendar.aspx?EID=7545"
+  },
+  {
+    "id": "7529",
+    "calendar": "Parks and Recreation",
+    "title": "NRCA: Free Summer Sound Concert",
+    "start": "2026-07-29T19:30:00-04:00",
+    "end": "2026-07-29T23:59:00-04:00",
+    "location": "Hudson Park & Beach > Hudson Park Bandshell - 1 Hudson Park Road  New Rochelle NY 10801",
+    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=34",
+    "description": "https://www.newrochelleny.gov/calendar.aspx?EID=7529"
+  },
+  {
     "id": "7236",
     "calendar": "IDA",
     "title": "New Rochelle IDA Meeting",
@@ -198,6 +368,166 @@
     "location": "City Hall - 515 North Avenue  New Rochelle NY 10801",
     "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=60",
     "description": "https://www.newrochelleny.gov/calendar.aspx?EID=7236"
+  },
+  {
+    "id": "7530",
+    "calendar": "Parks and Recreation",
+    "title": "NRCA: Free Summer Sound Concert",
+    "start": "2026-07-31T19:30:00-04:00",
+    "end": "2026-07-31T23:59:00-04:00",
+    "location": "Hudson Park & Beach > Hudson Park Bandshell - 1 Hudson Park Road  New Rochelle NY 10801",
+    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=34",
+    "description": "https://www.newrochelleny.gov/calendar.aspx?EID=7530"
+  },
+  {
+    "id": "7552",
+    "calendar": "Housing",
+    "title": "Rose on Main Presentation - Virtual - English",
+    "start": "2026-08-04T12:00:00-04:00",
+    "end": "2026-08-04T13:00:00-04:00",
+    "location": "<p><a data-fr-linked=\"true\" href=\"https://us02web.zoom.us/webinar/register/WN_xRVJneBBTRao_Mgzzj9WkA#/registration\" data-pasted=\"true\">https://us02web.zoom.us/webinar/register/WN_xRVJneBBTRao_Mgzzj9WkA#/registration</a></p> -",
+    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=90",
+    "description": "Make owning a home in New Rochelle a reality! \ud83d\udd11 \n \nLearn about Rose on Main, an affordable housing opportunity in the heart of the Downtown at this info session: \n\ud83d\uddd3\ufe0f Tuesday, August 4, 12-1 PM \n\ud83d\udccd Zoom \n \nRegister at https://us02web.zoom.us/webinar/register/WN_xRVJneBBTRao_Mgzzj9WkA#/registration  https://www.newrochelleny.gov/calendar.aspx?EID=7552"
+  },
+  {
+    "id": "7546",
+    "calendar": "Parks and Recreation",
+    "title": "Free Yoga in the Park",
+    "start": "2026-08-05T18:00:00-04:00",
+    "end": "2026-08-05T23:59:00-04:00",
+    "location": "- Hudson Park - 44 Wildcliff Road   New Rochelle NY 10805",
+    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=34",
+    "description": "https://www.newrochelleny.gov/calendar.aspx?EID=7546"
+  },
+  {
+    "id": "7531",
+    "calendar": "Parks and Recreation",
+    "title": "NRCA: Free Summer Sound Concert",
+    "start": "2026-08-05T19:30:00-04:00",
+    "end": "2026-08-05T23:59:00-04:00",
+    "location": "Hudson Park & Beach > Hudson Park Bandshell - 1 Hudson Park Road  New Rochelle NY 10801",
+    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=34",
+    "description": "https://www.newrochelleny.gov/calendar.aspx?EID=7531"
+  },
+  {
+    "id": "7532",
+    "calendar": "Parks and Recreation",
+    "title": "NRCA: Free Summer Sound Concert",
+    "start": "2026-08-07T19:30:00-04:00",
+    "end": "2026-08-07T23:59:00-04:00",
+    "location": "Hudson Park & Beach > Hudson Park Bandshell - 1 Hudson Park Road  New Rochelle NY 10801",
+    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=34",
+    "description": "https://www.newrochelleny.gov/calendar.aspx?EID=7532"
+  },
+  {
+    "id": "7547",
+    "calendar": "Parks and Recreation",
+    "title": "Free Yoga in the Park",
+    "start": "2026-08-12T18:00:00-04:00",
+    "end": "2026-08-12T23:59:00-04:00",
+    "location": "- Hudson Park - 44 Wildcliff Road   New Rochelle NY 10805",
+    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=34",
+    "description": "https://www.newrochelleny.gov/calendar.aspx?EID=7547"
+  },
+  {
+    "id": "7555",
+    "calendar": "Development",
+    "title": "Down Payment Assistance Program Info Session | In-Person | English/Spanish",
+    "start": "2026-08-12T18:00:00-04:00",
+    "end": "2026-08-12T20:00:00-04:00",
+    "location": "<p><a href=\"https://forms.cloud.microsoft/pages/responsepage.aspx?id=fzHJWAnpEEeTV2Zs12vi1lrOM70Rqz1DnnPxBKesUCdUQkxPSUEzQ1JaRjRXUUw5ME1QTzA0VVZYSy4u&origin=lprLink&route=shorturl\" target=\"_blank\" rel=\"noopener\">RSVP HERE</a></p> - Citizens Bank 260 North Avenue New Rochelle NY 10801",
+    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=62",
+    "description": "If you are a first-time homebuyer seeking to purchase a home within the City of New Rochelle, you may be eligible for the City\u2019s First-Time Home Buyer\u2019s Down Payment Assistance Program (DPAP). The program provides eligible and approved applicants with up to 19 percent of the purchase price of a single-family home, depending on the qualifications of the homebuyer, to be applied toward the down payment on a new home. \n \nThe program is funded through a combination of local and federal sources, including the United States Department of Housing and Urban Development\u2019s HOME Program and the City\u2019s Affordable Housing Fund. \n \nThe program has been expanded to include not only New Rochelle residents, but also: \n\u2022 Individuals who do not currently live in New Rochelle but have worked in the City for at least two years. \n\u2022 Owners of businesses operating within the City of New Rochelle. \n\u2022 Former New Rochelle residents who previously lived here for at least two years. https://www.newrochelleny.gov/calendar.aspx?EID=7555"
+  },
+  {
+    "id": "7556",
+    "calendar": "Housing",
+    "title": "Down Payment Assistance Program Info Session | In-Person | English/Spanish",
+    "start": "2026-08-12T18:00:00-04:00",
+    "end": "2026-08-12T20:00:00-04:00",
+    "location": "<p><a href=\"https://forms.cloud.microsoft/pages/responsepage.aspx?id=fzHJWAnpEEeTV2Zs12vi1lrOM70Rqz1DnnPxBKesUCdUQkxPSUEzQ1JaRjRXUUw5ME1QTzA0VVZYSy4u&origin=lprLink&route=shorturl\" target=\"_blank\" rel=\"noopener\">RSVP HERE</a></p> - Citizens Bank 260 North Avenue New Rochelle NY 10801",
+    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=90",
+    "description": "If you are a first-time homebuyer seeking to purchase a home within the City of New Rochelle, you may be eligible for the City\u2019s First-Time Home Buyer\u2019s Down Payment Assistance Program (DPAP). The program provides eligible and approved applicants with up to 19 percent of the purchase price of a single-family home, depending on the qualifications of the homebuyer, to be applied toward the down payment on a new home. \n \nThe program is funded through a combination of local and federal sources, including the United States Department of Housing and Urban Development\u2019s HOME Program and the City\u2019s Affordable Housing Fund. \n \nThe program has been expanded to include not only New Rochelle residents, but also: \n\u2022 Individuals who do not currently live in New Rochelle but have worked in the City for at least two years. \n\u2022 Owners of businesses operating within the City of New Rochelle. \n\u2022 Former New Rochelle residents who previously lived here for at least two years. https://www.newrochelleny.gov/calendar.aspx?EID=7556"
+  },
+  {
+    "id": "7533",
+    "calendar": "Parks and Recreation",
+    "title": "NRCA: Free Summer Sound Concert",
+    "start": "2026-08-12T19:30:00-04:00",
+    "end": "2026-08-12T23:59:00-04:00",
+    "location": "Hudson Park & Beach > Hudson Park Bandshell - 1 Hudson Park Road  New Rochelle NY 10801",
+    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=34",
+    "description": "https://www.newrochelleny.gov/calendar.aspx?EID=7533"
+  },
+  {
+    "id": "7534",
+    "calendar": "Parks and Recreation",
+    "title": "NRCA: Free Summer Sound Concert",
+    "start": "2026-08-14T19:30:00-04:00",
+    "end": "2026-08-14T23:59:00-04:00",
+    "location": "Hudson Park & Beach > Hudson Park Bandshell - 1 Hudson Park Road  New Rochelle NY 10801",
+    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=34",
+    "description": "https://www.newrochelleny.gov/calendar.aspx?EID=7534"
+  },
+  {
+    "id": "7548",
+    "calendar": "Parks and Recreation",
+    "title": "Free Yoga in the Park",
+    "start": "2026-08-19T18:00:00-04:00",
+    "end": "2026-08-19T23:59:00-04:00",
+    "location": "- Hudson Park - 44 Wildcliff Road   New Rochelle NY 10805",
+    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=34",
+    "description": "https://www.newrochelleny.gov/calendar.aspx?EID=7548"
+  },
+  {
+    "id": "7535",
+    "calendar": "Parks and Recreation",
+    "title": "NRCA: Free Summer Sound Concert",
+    "start": "2026-08-19T19:30:00-04:00",
+    "end": "2026-08-19T23:59:00-04:00",
+    "location": "Hudson Park & Beach > Hudson Park Bandshell - 1 Hudson Park Road  New Rochelle NY 10801",
+    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=34",
+    "description": "https://www.newrochelleny.gov/calendar.aspx?EID=7535"
+  },
+  {
+    "id": "7536",
+    "calendar": "Parks and Recreation",
+    "title": "NRCA: Free Summer Sound Concert",
+    "start": "2026-08-21T19:30:00-04:00",
+    "end": "2026-08-21T23:59:00-04:00",
+    "location": "Hudson Park & Beach > Hudson Park Bandshell - 1 Hudson Park Road  New Rochelle NY 10801",
+    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=34",
+    "description": "https://www.newrochelleny.gov/calendar.aspx?EID=7536"
+  },
+  {
+    "id": "7549",
+    "calendar": "Parks and Recreation",
+    "title": "Free Yoga in the Park",
+    "start": "2026-08-26T18:00:00-04:00",
+    "end": "2026-08-26T23:59:00-04:00",
+    "location": "- Hudson Park - 44 Wildcliff Road   New Rochelle NY 10805",
+    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=34",
+    "description": "https://www.newrochelleny.gov/calendar.aspx?EID=7549"
+  },
+  {
+    "id": "7537",
+    "calendar": "Parks and Recreation",
+    "title": "NRCA: Free Summer Sound Concert",
+    "start": "2026-08-26T19:30:00-04:00",
+    "end": "2026-08-26T23:59:00-04:00",
+    "location": "Hudson Park & Beach > Hudson Park Bandshell - 1 Hudson Park Road  New Rochelle NY 10801",
+    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=34",
+    "description": "https://www.newrochelleny.gov/calendar.aspx?EID=7537"
+  },
+  {
+    "id": "7538",
+    "calendar": "Parks and Recreation",
+    "title": "NRCA: Free Summer Sound Concert",
+    "start": "2026-08-28T19:30:00-04:00",
+    "end": "2026-08-28T23:59:00-04:00",
+    "location": "Hudson Park & Beach > Hudson Park Bandshell - 1 Hudson Park Road  New Rochelle NY 10801",
+    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=34",
+    "description": "https://www.newrochelleny.gov/calendar.aspx?EID=7538"
   },
   {
     "id": "6800",
@@ -258,6 +588,16 @@
     "location": "City Hall - 515 North Avenue  New Rochelle NY 10801",
     "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=33",
     "description": "https://www.newrochelleny.gov/calendar.aspx?EID=7284"
+  },
+  {
+    "id": "7505",
+    "calendar": "Parks and Recreation",
+    "title": "New Rochelle Street Fair",
+    "start": "2026-09-19T11:00:00-04:00",
+    "end": "2026-09-19T17:00:00-04:00",
+    "location": "-   New Rochelle NY 10801",
+    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=34",
+    "description": "https://www.newrochelleny.gov/calendar.aspx?EID=7505"
   },
   {
     "id": "7146",
@@ -418,5 +758,65 @@
     "location": "City Hall - 515 North Avenue  New Rochelle NY 10801",
     "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=57",
     "description": "https://www.newrochelleny.gov/calendar.aspx?EID=7148"
+  },
+  {
+    "id": "7277",
+    "calendar": "City Clerk",
+    "title": "City Council COW, Public Hearings and Citizens to be Heard",
+    "start": "2026-12-01T15:45:00-05:00",
+    "end": "2026-12-01T23:59:00-05:00",
+    "location": "City Hall - 515 North Avenue  New Rochelle NY 10801",
+    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=33",
+    "description": "https://www.newrochelleny.gov/calendar.aspx?EID=7277"
+  },
+  {
+    "id": "7210",
+    "calendar": "Zoning Board",
+    "title": "December BAZ Meeting",
+    "start": "2026-12-01T18:00:00-05:00",
+    "end": "2026-12-01T23:59:00-05:00",
+    "location": "-   New Rochelle NY 10801",
+    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=55",
+    "description": "https://www.newrochelleny.gov/calendar.aspx?EID=7210"
+  },
+  {
+    "id": "7346",
+    "calendar": "Municipal Arts Commission",
+    "title": "Municipal Arts Commission",
+    "start": "2026-12-02T18:00:00-05:00",
+    "end": "2026-12-02T23:59:00-05:00",
+    "location": "City Hall - 515 North Avenue  New Rochelle NY 10801",
+    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=35",
+    "description": "https://www.newrochelleny.gov/calendar.aspx?EID=7346"
+  },
+  {
+    "id": "7287",
+    "calendar": "City Clerk",
+    "title": "Regular Legislative Meeting",
+    "start": "2026-12-08T18:15:00-05:00",
+    "end": "2026-12-08T19:15:00-05:00",
+    "location": "City Hall - 515 North Avenue  New Rochelle NY 10801",
+    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=33",
+    "description": "https://www.newrochelleny.gov/calendar.aspx?EID=7287"
+  },
+  {
+    "id": "7137",
+    "calendar": "Historical & Landmark Review Board",
+    "title": "HLRB Meeting",
+    "start": "2026-12-09T18:00:00-05:00",
+    "end": "2026-12-09T23:59:00-05:00",
+    "location": "City Hall - 515 North Avenue  New Rochelle NY 10801",
+    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=58",
+    "description": "https://www.newrochelleny.gov/calendar.aspx?EID=7137"
+  },
+  {
+    "id": "7149",
+    "calendar": "Planning Board",
+    "title": "Planning Board Meeting",
+    "start": "2026-12-15T19:00:00-05:00",
+    "end": "2026-12-15T23:59:00-05:00",
+    "location": "City Hall - 515 North Avenue  New Rochelle NY 10801",
+    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=57",
+    "description": "https://www.newrochelleny.gov/calendar.aspx?EID=7149"
   }
 ]

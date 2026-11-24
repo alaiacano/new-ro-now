@@ -12,11 +12,14 @@
  * descendant) carries everything.
  */
 :root {
-  color-scheme: light dark;
+  color-scheme: light;
 
-  --sign: #0f6b45;          /* street-name sign green: brand, links, active */
-  --sign-ink: #ffffff;
-  --sign-soft: #e3efe8;
+  --blade: #0f6b45;         /* street-name sign green: the wordmark only */
+  --blade-ink: #ffffff;
+  --accent: #0f6b45;        /* links, active tab, tags */
+  --accent-soft: #e3efe8;
+  --stamp: #0f6b45;         /* date stamp header */
+  --stamp-ink: #ffffff;
   --work: #c95f06;          /* work-zone orange: roadwork, closing soon */
   --work-soft: #fbeadb;
   --water: #2f6fa3;         /* stormwater / flood */
@@ -37,23 +40,30 @@
   --font: 'Overpass Variable', 'Overpass', system-ui, sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --sign: #3db07a;
-    --sign-ink: #0b1a12;
-    --sign-soft: #17302a;
-    --work: #f08a3a;
-    --work-soft: #3a2616;
-    --water: #6aa7da;
-    --water-soft: #172a3a;
+/*
+ * Dark: neutral charcoal, soft slate-blue accent. Green stays only on the
+ * wordmark sign, so it never reads as green-on-black.
+ */
+:root[data-theme='dark'] {
+  color-scheme: dark;
 
-    --bg: #151a1c;
-    --surface: #1c2225;
-    --line: #2c3438;
-    --text: #e6e9e5;
-    --text-muted: #a3abae;
-    --text-faint: #737c80;
-  }
+  --blade: #1b6a4a;
+  --blade-ink: #f4f4f1;
+  --accent: #9dbfe0;
+  --accent-soft: #2b3440;
+  --stamp: #3b4149;
+  --stamp-ink: #eceef0;
+  --work: #e8954f;
+  --work-soft: #3b2e24;
+  --water: #8db6dc;
+  --water-soft: #263241;
+
+  --bg: #202326;
+  --surface: #282b2f;
+  --line: #393d42;
+  --text: #ecebe8;
+  --text-muted: #aeb2b6;
+  --text-faint: #80858a;
 }
 
 html, body, #root {
@@ -71,7 +81,7 @@ body {
 }
 
 a {
-  color: var(--sign);
+  color: var(--accent);
   text-decoration: none;
   text-underline-offset: 0.18em;
 }
@@ -87,7 +97,7 @@ button {
 }
 
 :focus-visible {
-  outline: 2px solid var(--sign);
+  outline: 2px solid var(--accent);
   outline-offset: 2px;
   border-radius: var(--radius-sm);
 }

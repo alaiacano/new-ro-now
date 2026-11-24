@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import {
-  CalendarRange, Map as MapIcon, Construction, Route, Landmark, ClipboardList, Megaphone,
+  CalendarRange, Map as MapIcon, Moon, Sun, Construction, Route, Landmark, ClipboardList, Megaphone,
   type LucideIcon,
 } from 'lucide-react'
 import './App.css'
@@ -40,6 +40,20 @@ function lastUpdated(meta: Meta): string | null {
   return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' })
 }
 
+type Theme = 'light' | 'dark'
+
+function useTheme(): [Theme, () => void] {
+  const [theme, setTheme] = useState<Theme>(
+    () => (document.documentElement.dataset.theme === 'dark' ? 'dark' : 'light'),
+  )
+  useEffect(() => {
+    if (theme === 'dark') document.documentElement.dataset.theme = 'dark'
+    else delete document.documentElement.dataset.theme
+    try { localStorage.setItem('theme', theme) } catch { /* private mode */ }
+  }, [theme])
+  return [theme, () => setTheme(t => (t === 'dark' ? 'light' : 'dark'))]
+}
+
 function Wordmark() {
   return (
     <a className="wordmark" href="#week" aria-label="New Rochelle Now, this week">
@@ -57,6 +71,7 @@ export default function App() {
     map: 2026, bids: 2026, news: 2026, meetings: 'upcoming',
   })
   const { data, loading, error } = useData()
+  const [theme, toggleTheme] = useTheme()
 
   useEffect(() => {
     const onHash = () => setTab(tabFromHash())
@@ -113,6 +128,15 @@ export default function App() {
           ))}
         </nav>
         {updated && <span className="updated">Updated {updated}</span>}
+        <button
+          type="button"
+          className="theme-toggle"
+          onClick={toggleTheme}
+          aria-label={theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode'}
+          title={theme === 'dark' ? 'Light mode' : 'Dark mode'}
+        >
+          {theme === 'dark' ? <Sun size={16} aria-hidden="true" /> : <Moon size={16} aria-hidden="true" />}
+        </button>
       </div>
       <main className={`content${tab === 'map' ? ' content-map' : ''}`}>{body}</main>
     </div>

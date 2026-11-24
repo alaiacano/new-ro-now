@@ -21,7 +21,7 @@ function BidRow({ bid }: { bid: Bid }) {
       <div className="row-body">
         <p className="row-meta">
           {!isDoc && (
-            <span className={`pill${soon ? ' work' : isOpen ? ' sign' : ''}`}>
+            <span className={`pill${soon ? ' work' : isOpen ? ' accent' : ''}`}>
               {soon ? (days === 0 ? 'Closes today' : `Closes in ${days} day${days === 1 ? '' : 's'}`) : bid.status || 'Status unknown'}
             </span>
           )}

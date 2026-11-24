@@ -14,6 +14,14 @@ Usage (from repo root):
     uv run --project scraper scrape analyze [--limit N] [--folder-id F] [--reanalyze] [--api-url URL] [--model NAME] [--concurrency N]
   → Default concurrency=2 for single GPU, do not increase beyond 3
     uv run --project scraper scrape export-docs
+
+  Permits (Municity 5 / CitySquared backend → data/permits.db, gitignored):
+    uv run --project scraper scrape permits full          # baseline load (run once)
+    uv run --project scraper scrape permits sync          # routine: new apps + status changes
+    uv run --project scraper scrape permits update-open   # re-check only open applications
+    uv run --project scraper scrape permits export        # write permits_public/full.json
+    uv run --project scraper scrape permits stats         # summarize the DB
+    uv run --project scraper scrape permits query "SQL"   # ad-hoc read-only SQL
 """
 import json
 from datetime import datetime, timezone
@@ -33,6 +41,7 @@ from .sources import paving as paving_mod
 from .sources import docenter as docenter_mod
 from .sources import analyze as analyze_mod
 from .sources import export_docs as export_docs_mod
+from .sources import permits as permits_mod
 
 app = typer.Typer(
     name="scrape",
@@ -166,7 +175,7 @@ def cmd_analyze(
     folder_id: Optional[int] = typer.Option(None, "--folder-id", "-f", help="Only analyze docs in this folder subtree"),
     reanalyze: bool = typer.Option(False, "--reanalyze", help="Re-analyze already-analyzed docs"),
     api_url: str = typer.Option("http://localhost:8000/v1", "--api-url", help="OpenAI-compatible API base URL"),
-    model: str = typer.Option("Qwen/Qwen2.5-32B-Instruct", "--model", help="Model name as registered in vLLM"),
+    model: str = typer.Option("qwen38-27b", "--model", help="Model name as registered in vLLM"),
     concurrency: int = typer.Option(2, "--concurrency", "-c", help="Parallel requests to LLM"),
     min_text_len: Optional[int] = typer.Option(None, "--min-text-len", help="Only analyze docs with extracted text >= N chars"),
     max_text_len: Optional[int] = typer.Option(None, "--max-text-len", help="Only analyze docs with extracted text <= N chars"),
@@ -195,6 +204,63 @@ def cmd_analyze(
         min_text_len=min_text_len,
         max_text_len=max_text_len,
     )
+
+
+# ---------------------------------------------------------------------------
+# Permits (Municity 5 / CitySquared backend) — see sources/permits.py
+# ---------------------------------------------------------------------------
+permits_app = typer.Typer(
+    name="permits",
+    help="Sync New Rochelle permit applications from Municity 5 into data/permits.db.",
+    add_completion=False,
+)
+app.add_typer(permits_app)
+
+
+@permits_app.command(name="full")
+def cmd_permits_full():
+    """Baseline load / full rebuild: upsert every application (run once)."""
+    console.rule("[bold blue]Permits — full sync")
+    permits_mod.sync_full()
+    _update_meta(["permits"])
+
+
+@permits_app.command(name="sync")
+def cmd_permits_sync():
+    """Routine pass: add new applications and record status transitions."""
+    console.rule("[bold blue]Permits — incremental sync")
+    permits_mod.sync_incremental()
+    _update_meta(["permits"])
+
+
+@permits_app.command(name="update-open")
+def cmd_permits_update_open():
+    """Re-check only currently-open applications for a decision (granted/denied/closed)."""
+    console.rule("[bold blue]Permits — update open applications")
+    permits_mod.sync_update_open()
+    _update_meta(["permits"])
+
+
+@permits_app.command(name="export")
+def cmd_permits_export():
+    """Write permits_public.json (no PII) and permits_full.json (with PII)."""
+    console.rule("[bold blue]Permits — export JSON")
+    permits_mod.export_json()
+
+
+@permits_app.command(name="stats")
+def cmd_permits_stats():
+    """Print a summary of the permits database."""
+    permits_mod.print_stats()
+
+
+@permits_app.command(name="query")
+def cmd_permits_query(
+    sql: str = typer.Argument(..., help="SQL to run against permits.db"),
+    limit: int = typer.Option(50, "--limit", "-n", help="Max rows to display"),
+):
+    """Run ad-hoc read-only SQL against data/permits.db and print a table."""
+    permits_mod.run_query(sql, limit=limit)
 
 
 @app.command(name="export-docs")

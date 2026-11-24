@@ -27,7 +27,7 @@ from ..geocoder import geocode_address
 console = Console()
 
 DEFAULT_API_URL = "http://localhost:8000/v1"
-DEFAULT_MODEL = "Qwen/Qwen2.5-32B-Instruct"
+DEFAULT_MODEL = "qwen38-27b"
 MAX_TEXT_CHARS = 12000       # chars from the start of the document
 MAX_TEXT_CHARS_TAIL = 3000  # additional chars from the end (for long PDFs)
 

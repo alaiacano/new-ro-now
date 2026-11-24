@@ -12,6 +12,33 @@ DB_FILE = DATA_DIR / "documents.db"
 DOC_CACHE_DIR = DATA_DIR / "doc_cache"
 DOC_CACHE_DIR.mkdir(exist_ok=True)
 
+# --- Permits (Municity 5 / CitySquared backend) ---
+# The CitySquared portal (citysquared.com) is a Cloudflare-gated SPA, but its
+# data service is a public, unauthenticated WCF/REST endpoint. The bulk
+# /Application list returns every permit application citywide (~43k rows, ~52MB).
+# Per-parcel endpoints (/Parcel/{id}/Application|Permit|Document) are also public,
+# but the bulk dump carries no internal Parcel_ID, so syncing pulls the full list.
+MUNICITY_CUSTOMER = "NewRochelleCityNY"
+MUNICITY_BASE = (
+    f"https://services3.municity5.com/M5Services/M5Service.svc/Customer/{MUNICITY_CUSTOMER}"
+)
+MUNICITY_APPLICATIONS_URL = f"{MUNICITY_BASE}/Application"
+# A real browser User-Agent + citysquared Referer keeps the vendor service happy.
+MUNICITY_HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
+        "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+    ),
+    "Accept": "application/json",
+    "Referer": "https://www.citysquared.com/",
+}
+
+# Local, gitignored SQLite store for permit data (source of truth for querying).
+PERMITS_DB_FILE = DATA_DIR / "permits.db"
+# JSON exports (both gitignored). _full includes PII (names/emails/phones).
+PERMITS_EXPORT_PUBLIC = DATA_DIR / "permits_public.json"
+PERMITS_EXPORT_FULL = DATA_DIR / "permits_full.json"
+
 BASE_URL = "https://www.newrochelleny.gov"
 DOCENTER_URL = f"{BASE_URL}/DocumentCenter/"
 

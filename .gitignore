@@ -21,3 +21,10 @@ data/documents.db-wal
 data/documents.db-shm
 data/doc_cache/
 data/.record_counts.json
+
+# Permits: local SQLite store + JSON exports (contain owner/applicant PII)
+data/permits.db
+data/permits.db-wal
+data/permits.db-shm
+data/permits_public.json
+data/permits_full.json

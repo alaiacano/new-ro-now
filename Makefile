@@ -13,7 +13,7 @@ SHELL := /bin/bash
 SCRAPE       := uv run --project scraper scrape
 CHECK        := python3 scripts/check_record_counts.py
 VLLM_URL     ?= http://spark-2c6d.local:8000/v1
-VLLM_MODEL   ?= qwen36-35b
+VLLM_MODEL   ?= qwen38-27b
 ANALYZE_ARGS ?=
 
 .DEFAULT_GOAL := help
@@ -21,6 +21,7 @@ ANALYZE_ARGS ?=
 .PHONY: help all quick docs \
         meetings construction paving library bids news \
         discover download analyze export-docs \
+        permits permits-full permits-sync permits-open permits-export permits-stats \
         snapshot check \
         backup build dev \
         guard-data
@@ -43,6 +44,14 @@ help:
 	@echo "    make analyze         - LLM classify (needs vLLM, see VLLM_URL/VLLM_MODEL)"
 	@echo "    make export-docs     - write doc_*.json from DB"
 	@echo "    make docs            - full B chain: discover -> download -> analyze -> export-docs"
+	@echo ""
+	@echo "  Pipeline C (permits -> data/permits.db, gitignored):"
+	@echo "    make permits-full    - baseline load / full rebuild (run once)"
+	@echo "    make permits-sync    - routine: add new apps + record status changes"
+	@echo "    make permits-open    - re-check only currently-open applications"
+	@echo "    make permits-export  - write permits_public.json + permits_full.json"
+	@echo "    make permits-stats   - summarize the permits DB"
+	@echo "    make permits         - permits-sync then permits-export"
 	@echo ""
 	@echo "  Combined (auto snapshot before, check after):"
 	@echo "    make all             - quick + docs"
@@ -128,6 +137,33 @@ docs: guard-data snapshot
 	$(SCRAPE) analyze --api-url $(VLLM_URL) --model $(VLLM_MODEL) $(ANALYZE_ARGS)
 	$(SCRAPE) export-docs
 	$(MAKE) check
+
+## ---- Pipeline C (permits) --------------------------------------------------
+
+# Permit data lives in its own gitignored SQLite DB (data/permits.db) and JSON
+# exports. These don't touch the data/*.json record-count guard, so no snapshot.
+# Each sync pulls the full ~52 MB Municity 5 dump (the API has no filtering) and
+# upserts into the DB; re-running is safe and idempotent.
+
+permits-full: guard-data
+	$(SCRAPE) permits full
+
+permits-sync: guard-data
+	$(SCRAPE) permits sync
+
+permits-open: guard-data
+	$(SCRAPE) permits update-open
+
+permits-export: guard-data
+	$(SCRAPE) permits export
+
+permits-stats: guard-data
+	$(SCRAPE) permits stats
+
+# Routine combined: refresh from the API, then regenerate the JSON exports.
+permits: guard-data
+	$(SCRAPE) permits sync
+	$(SCRAPE) permits export
 
 ## ---- Combined --------------------------------------------------------------
 

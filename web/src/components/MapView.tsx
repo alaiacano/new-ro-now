@@ -162,7 +162,7 @@ export default function MapView({ construction, paving, docMap = [], fromYear, o
     <div className="map-layout">
       <div className="map-pane">
         <MapContainer center={center} zoom={13} style={{ height: '100%', width: '100%' }}>
-          {/* Standard OSM tiles, muted with a CSS filter (see .basemap in App.css). */}
+          {/* Standard OSM tiles; dimmed in dark mode (see .basemap in App.css). */}
           <TileLayer
             className="basemap"
             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'

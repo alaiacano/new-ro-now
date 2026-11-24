@@ -578,11 +578,8 @@
 .tip-sub { display: inline-block; font-size: 0.85em; color: #555; }
 .tip-sub::first-letter { text-transform: uppercase; }
 
-/* Muted basemap: greyscale streets so the coloured markers carry the meaning. */
-.basemap { filter: grayscale(1) contrast(0.92) brightness(1.04); }
-[data-theme='dark'] .basemap {
-  filter: grayscale(1) invert(1) contrast(0.85) brightness(0.9);
-}
+/* Full-colour OSM basemap; dimmed slightly in dark mode so it isn't glaring. */
+[data-theme='dark'] .basemap { filter: brightness(0.82) contrast(1.05); }
 
 /* Marker clusters in the palette instead of the plugin's green/yellow. */
 .marker-cluster-small, .marker-cluster-medium, .marker-cluster-large {

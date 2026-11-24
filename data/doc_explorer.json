@@ -1,5 +1,940 @@
 [
   {
+    "id": 23580,
+    "title": "2027 Proposed Budget",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23580/2027-Proposed-Budget",
+    "folder": "Finance",
+    "ui_tab": "news",
+    "classification": "budget",
+    "summary": "The City of New Rochelle's 2027 Proposed Budget outlines planned spending across all city departments including Public Safety, Public Works, Finance, and Development. It includes financial summaries, tax levy rates, revenue forecasts, and department-by-department appropriations that show residents how their tax dollars are planned to be allocated.",
+    "relevant_date": "2027",
+    "project_name": null,
+    "dollar_amount": null,
+    "location": null,
+    "coords": null,
+    "tags": [
+      "budget",
+      "2027",
+      "proposed",
+      "finance",
+      "tax levy"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 23556,
+    "title": "Participatory Budget Steering Committee Agenda - 20261109",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23556/Participatory-Budget-Steering-Committee-Agenda---20261109",
+    "folder": "Participatory Budgeting",
+    "ui_tab": "meetings",
+    "classification": "agenda",
+    "summary": "Agenda for the Participatory Budgeting Steering Committee meeting on November 9, 2026, held at the City Council Conference Room. The committee will review and vote on which projects to include on the participatory budget ballot, set a voting schedule, and discuss outreach plans to encourage resident participation.",
+    "relevant_date": "2026-11-09",
+    "project_name": "Participatory Budgeting",
+    "dollar_amount": null,
+    "location": "515 North Avenue",
+    "coords": {
+      "lat": 40.9201463,
+      "lng": -73.7857973
+    },
+    "tags": [
+      "participatory budgeting",
+      "steering committee",
+      "agenda",
+      "ballot",
+      "project selection"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 23578,
+    "title": "Participatory Budget Steering Committee Agenda Canceled - 20261109",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23578/Participatory-Budget-Steering-Committee-Agenda-Canceled---20261109",
+    "folder": "Participatory Budgeting",
+    "ui_tab": "meetings",
+    "classification": "agenda",
+    "summary": "This is the agenda for the November 9, 2026 Participatory Budgeting Steering Committee meeting, which was canceled. The planned agenda covered reviewing and selecting projects for the participatory budgeting ballot, establishing a voting schedule, and discussing outreach and promotion plans to encourage resident participation.",
+    "relevant_date": "2026-11-09",
+    "project_name": "Participatory Budgeting",
+    "dollar_amount": null,
+    "location": "515 North Avenue",
+    "coords": {
+      "lat": 40.9201463,
+      "lng": -73.7857973
+    },
+    "tags": [
+      "participatory budgeting",
+      "agenda",
+      "steering committee",
+      "ballot",
+      "canceled"
+    ],
+    "confidence": 0.92
+  },
+  {
+    "id": 23573,
+    "title": "Participatory Budget Steering Committee Agenda Packet - 20261109",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23573/Participatory-Budget-Steering-Committee-Agenda-Packet---20261109",
+    "folder": "Participatory Budgeting",
+    "ui_tab": "meetings",
+    "classification": "agenda",
+    "summary": "Agenda packet for the November 9, 2026 Participatory Budgeting Steering Committee meeting, including minutes from the September 28 meeting and a detailed memorandum proposing 10 ballot projects for resident voting. The projects include walking path improvements at Twin Lakes, walkway repaving near NRHS, and a meditation garden, among others. Residents can use this to understand what projects will appear on the participatory budget ballot and when voting takes place.",
+    "relevant_date": "2026-11-09",
+    "project_name": "Participatory Budgeting 2026",
+    "dollar_amount": null,
+    "location": null,
+    "coords": null,
+    "tags": [
+      "participatory budgeting",
+      "steering committee",
+      "ballot projects",
+      "Twin Lakes",
+      "community engagement"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 23579,
+    "title": "Participatory Budget Steering Committee Agenda Packet Canceled - 20261109",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23579/Participatory-Budget-Steering-Committee-Agenda-Packet-Canceled---20261109",
+    "folder": "Participatory Budgeting",
+    "ui_tab": "meetings",
+    "classification": "agenda",
+    "summary": "Agenda packet for the November 9, 2026 Participatory Budgeting Steering Committee meeting, containing minutes from the September 28 meeting and detailed descriptions of 10 proposed ballot projects for resident voting. The packet covers project selection criteria, a voting schedule (Nov 9-20, 2026), and community outreach plans for the participatory budgeting program.",
+    "relevant_date": "2026-11-09",
+    "project_name": "Participatory Budgeting",
+    "dollar_amount": null,
+    "location": "Multiple locations including Twin Lakes, Eastchester Road, Huguenot Park, and NRHS area",
+    "coords": null,
+    "tags": [
+      "participatory budgeting",
+      "steering committee",
+      "ballot projects",
+      "community engagement",
+      "Twin Lakes"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 23555,
+    "title": "Participatory Budget Steering Committee Meeting Notice - 20261109",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23555/Participatory-Budget-Steering-Committee-Meeting-Notice---20261109",
+    "folder": "Participatory Budgeting",
+    "ui_tab": "meetings",
+    "classification": "agenda",
+    "summary": "Meeting notice for the New Rochelle Participatory Budgeting Steering Committee scheduled for November 9, 2026 at 7:00 p.m. in the City Council Conference Room at City Hall. Residents can attend in person or watch the recording online after the meeting.",
+    "relevant_date": "2026-11-09",
+    "project_name": "Participatory Budgeting",
+    "dollar_amount": null,
+    "location": "515 North Avenue, New Rochelle, NY 10801",
+    "coords": {
+      "lat": 40.9201463,
+      "lng": -73.7857973
+    },
+    "tags": [
+      "participatory budgeting",
+      "steering committee",
+      "meeting notice",
+      "city hall",
+      "public meeting"
+    ],
+    "confidence": 0.92
+  },
+  {
+    "id": 23577,
+    "title": "Participatory Budget Steering Committee Meeting Notice Canceled - 20261109",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23577/Participatory-Budget-Steering-Committee-Meeting-Notice-Canceled---20261109",
+    "folder": "Participatory Budgeting",
+    "ui_tab": "meetings",
+    "classification": "other",
+    "summary": "Notice that the Participatory Budgeting Steering Committee meeting scheduled for November 9, 2026 at 7:00 p.m. in the City Council Conference Room at City Hall has been canceled. Residents who were planning to attend or watch the recording should be aware the meeting will not take place.",
+    "relevant_date": "2026-11-09",
+    "project_name": "Participatory Budgeting",
+    "dollar_amount": null,
+    "location": "515 North Avenue, New Rochelle, NY 10801",
+    "coords": {
+      "lat": 40.9201463,
+      "lng": -73.7857973
+    },
+    "tags": [
+      "participatory budgeting",
+      "steering committee",
+      "meeting canceled",
+      "city council",
+      "public notice"
+    ],
+    "confidence": 0.92
+  },
+  {
+    "id": 23592,
+    "title": "By Laws Rules Rules of Procedure of CCRB FINAL",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23592/By-Laws-Rules-Rules-of-Procedure-of-CCRB-FINAL",
+    "folder": "CCRB Documents",
+    "ui_tab": "news",
+    "classification": "ordinance",
+    "summary": "This document establishes the Rules of Procedure for the Civilian Complaint Review Board (CCRB) of New Rochelle, which independently reviews complaints of misconduct against New Rochelle Police Department officers. It covers board membership, meeting procedures, complaint intake and investigation processes, and reporting requirements. Residents can use this to understand how to file a complaint against a police officer and what to expect from the review process.",
+    "relevant_date": "2026-11-05",
+    "project_name": null,
+    "dollar_amount": null,
+    "location": "515 North Avenue, New Rochelle, NY 10801",
+    "coords": {
+      "lat": 40.9201463,
+      "lng": -73.7857973
+    },
+    "tags": [
+      "CCRB",
+      "police accountability",
+      "rules of procedure",
+      "complaint review",
+      "civilian oversight"
+    ],
+    "confidence": 0.88
+  },
+  {
+    "id": 23532,
+    "title": "CCRB Agenda - 20261105",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23532/CCRB-Agenda---20261105",
+    "folder": "CCRB Documents",
+    "ui_tab": "meetings",
+    "classification": "agenda",
+    "summary": "Agenda for the Civilian Complaint Review Board (CCRB) regular meeting on November 5, 2026, held at the City Council Conference Room. The meeting includes adoption of CCRB By-Laws, approval of prior minutes, and public comment. Residents can attend to observe or provide input on the board that reviews complaints against city police officers.",
+    "relevant_date": "2026-11-05",
+    "project_name": null,
+    "dollar_amount": null,
+    "location": "515 North Avenue",
+    "coords": {
+      "lat": 40.9201463,
+      "lng": -73.7857973
+    },
+    "tags": [
+      "CCRB",
+      "agenda",
+      "by-laws",
+      "civilian complaint review board",
+      "public meeting"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 23557,
+    "title": "CCRB Agenda Packet - 20261105",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23557/CCRB-Agenda-Packet---20261105",
+    "folder": "CCRB Documents",
+    "ui_tab": "meetings",
+    "classification": "agenda",
+    "summary": "Agenda packet for the Civilian Complaint Review Board (CCRB) meeting on November 5, 2026, including minutes from the October 1, 2026 meeting and proposed By-Laws (Rules of Procedure) for the Board. The CCRB is responsible for reviewing complaints of misconduct against New Rochelle Police Department officers, and this packet covers the adoption of the Board's governing rules.",
+    "relevant_date": "2026-11-05",
+    "project_name": null,
+    "dollar_amount": null,
+    "location": "515 North Avenue, New Rochelle, NY 10801",
+    "coords": {
+      "lat": 40.9201463,
+      "lng": -73.7857973
+    },
+    "tags": [
+      "CCRB",
+      "police oversight",
+      "by-laws",
+      "agenda",
+      "meeting minutes"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 23533,
+    "title": "CCRB Meeting Notice - 20261105",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23533/CCRB-Meeting-Notice---20261105",
+    "folder": "CCRB Documents",
+    "ui_tab": "meetings",
+    "classification": "other",
+    "summary": "Meeting notice for the Civilian Complaint Review Board (CCRB) scheduled for November 5, 2026 at 6:00 p.m. in the City Council Conference Room at City Hall. The meeting will be recorded and available online, with the agenda posted on the city website.",
+    "relevant_date": "2026-11-05",
+    "project_name": null,
+    "dollar_amount": null,
+    "location": "515 North Avenue, New Rochelle, NY 10801",
+    "coords": {
+      "lat": 40.9201463,
+      "lng": -73.7857973
+    },
+    "tags": [
+      "CCRB",
+      "meeting notice",
+      "Civilian Complaint Review Board",
+      "police oversight",
+      "City Hall"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 23591,
+    "title": "Draft CCRB Meeting Minutes November 5 2026",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23591/Draft-CCRB-Meeting-Minutes-November-5-2026",
+    "folder": "CCRB Documents",
+    "ui_tab": "meetings",
+    "classification": "meeting_minutes",
+    "summary": "The Civilian Complaint Review Board (CCRB) approved its Rules of Procedure with amendments regarding official statements and annual meetings, created a Public Communications Working Group, and discussed a quarterly meeting schedule for 2027. The board also noted that a new email contact form was added to the CCRB webpage for public and media inquiries.",
+    "relevant_date": "2026-11-05",
+    "project_name": null,
+    "dollar_amount": null,
+    "location": null,
+    "coords": null,
+    "tags": [
+      "CCRB",
+      "meeting minutes",
+      "by-laws",
+      "police oversight",
+      "public communications"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 23503,
+    "title": "2026 Fire Award and Promotion Ceremony Honorees",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23503/2026-Fire-Award-and-Promotion-Ceremony-Honorees",
+    "folder": "Fire",
+    "ui_tab": "news",
+    "classification": "press_release",
+    "summary": "Program and honoree list for the New Rochelle Fire Department's 2026 Awards and Promotions Ceremony on October 22, 2026 at City Council Chambers. It lists promotions to Deputy Chief, Fire Captain, and Fire Lieutenant, along with Life Saving Awards, Unit Citations, and other commendations with specific incident dates and addresses.",
+    "relevant_date": "2026-10-22",
+    "project_name": null,
+    "dollar_amount": null,
+    "location": "City Council Chambers",
+    "coords": null,
+    "tags": [
+      "fire department",
+      "awards",
+      "promotions",
+      "ceremony",
+      "public safety"
+    ],
+    "confidence": 0.82
+  },
+  {
+    "id": 23570,
+    "title": "Approved CCRB Meeting Minutes October 1 2026",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23570/Approved-CCRB-Meeting-Minutes-October-1-2026",
+    "folder": "CCRB Documents",
+    "ui_tab": "meetings",
+    "classification": "meeting_minutes",
+    "summary": "The Civilian Complaint Review Board approved its August 12 minutes and discussed proposed By-Laws with Corporation Counsel. The board noted that after completing Collective Bargaining training, it will begin reviewing Internal Affairs investigations in closed monthly sessions, with public meetings held quarterly.",
+    "relevant_date": "2026-10-01",
+    "project_name": null,
+    "dollar_amount": null,
+    "location": "City Hall, City Council Conference Room",
+    "coords": null,
+    "tags": [
+      "CCRB",
+      "meeting minutes",
+      "by-laws",
+      "civilian oversight",
+      "internal affairs"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 23383,
+    "title": "CCRB Agenda - 20261001",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23383/CCRB-Agenda---20261001",
+    "folder": "CCRB Documents",
+    "ui_tab": "meetings",
+    "classification": "agenda",
+    "summary": "Agenda for the Civilian Complaint Review Board (CCRB) regular meeting on October 1, 2026 at the City Council Conference Room. Key items include approval of August 12 minutes and adoption of CCRB By-Laws. Residents can attend to observe or provide public comment on the board's operations.",
+    "relevant_date": "2026-10-01",
+    "project_name": null,
+    "dollar_amount": null,
+    "location": "515 North Avenue, New Rochelle, NY 10801",
+    "coords": {
+      "lat": 40.9201463,
+      "lng": -73.7857973
+    },
+    "tags": [
+      "CCRB",
+      "agenda",
+      "civilian complaint review board",
+      "by-laws",
+      "public meeting"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 23429,
+    "title": "CCRB Agenda Packet - 20261001",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23429/CCRB-Agenda-Packet---20261001",
+    "folder": "CCRB Documents",
+    "ui_tab": "meetings",
+    "classification": "agenda",
+    "summary": "Agenda packet for the Civilian Complaint Review Board (CCRB) meeting on October 1, 2026, including minutes from the August 12, 2026 regular meeting and proposed by-laws for adoption. The board discussed by-law revisions, standing committees, public comment procedures, and received public comment from a resident urging the board to engage with community members who have had negative interactions with law enforcement.",
+    "relevant_date": "2026-10-01",
+    "project_name": null,
+    "dollar_amount": null,
+    "location": "515 North Avenue, New Rochelle, NY 10801",
+    "coords": {
+      "lat": 40.9201463,
+      "lng": -73.7857973
+    },
+    "tags": [
+      "CCRB",
+      "civilian complaint review board",
+      "by-laws",
+      "police oversight",
+      "agenda"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 23384,
+    "title": "CCRB Meeting Notice - 20261001",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23384/CCRB-Meeting-Notice---20261001",
+    "folder": "CCRB Documents",
+    "ui_tab": "meetings",
+    "classification": "other",
+    "summary": "Meeting notice for the Civilian Complaint Review Board (CCRB) scheduled for October 1, 2026 at 7:00 p.m. in the City Council Conference Room at City Hall. Residents can view the agenda online and watch the recorded meeting on the city website.",
+    "relevant_date": "2026-10-01",
+    "project_name": null,
+    "dollar_amount": null,
+    "location": "515 North Avenue, New Rochelle, NY 10801",
+    "coords": {
+      "lat": 40.9201463,
+      "lng": -73.7857973
+    },
+    "tags": [
+      "CCRB",
+      "meeting notice",
+      "civilian complaint review board",
+      "City Hall",
+      "public meeting"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 23485,
+    "title": "Draft CCRB Meeting Minutes October 1 2026",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23485/Draft-CCRB-Meeting-Minutes-October-1-2026",
+    "folder": "CCRB Documents",
+    "ui_tab": "meetings",
+    "classification": "meeting_minutes",
+    "summary": "Minutes from the October 1, 2026 CCRB meeting where the board approved prior minutes, discussed proposed By-Laws with Corporation Counsel, and outlined plans to begin reviewing Internal Affairs investigations after completing Collective Bargaining training. The board will meet monthly with Internal Affairs in closed sessions and hold public meetings quarterly.",
+    "relevant_date": "2026-10-01",
+    "project_name": null,
+    "dollar_amount": null,
+    "location": "City Hall, City Council Conference Room",
+    "coords": null,
+    "tags": [
+      "CCRB",
+      "meeting minutes",
+      "by-laws",
+      "civilian oversight",
+      "internal affairs"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 23537,
+    "title": "October2026ACTUALCityManagersUpdate",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23537/October2026ACTUALCityManagersUpdate",
+    "folder": "City Manager",
+    "ui_tab": "news",
+    "classification": "report",
+    "summary": "October 2026 City Manager's Update covering major development projects in downtown New Rochelle (including a proposed 28-story tower at 260 North Avenue and a 9-story affordable senior housing building at 50 Lockwood Avenue), the 2026 Citywide Paving Program nearing completion, Sheldrake River flood mitigation progress, and departmental statistics for police, fire, and city clerk services.",
+    "relevant_date": "2026-10",
+    "project_name": "2026 Citywide Paving Program",
+    "dollar_amount": null,
+    "location": "Downtown New Rochelle / Citywide",
+    "coords": null,
+    "tags": [
+      "city manager update",
+      "development",
+      "paving",
+      "flood mitigation",
+      "monthly report"
+    ],
+    "confidence": 0.92
+  },
+  {
+    "id": 23463,
+    "title": "Draft PB Meeting Minutes Sep 28 2026",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23463/Draft-PB-Meeting-Minutes-Sep-28-2026",
+    "folder": "Participatory Budgeting",
+    "ui_tab": "meetings",
+    "classification": "meeting_minutes",
+    "summary": "Minutes from the September 28, 2026 Participatory Budgeting Steering Committee meeting where 48 community idea submissions were reviewed, the idea submission deadline was set for October 9, 2026, and the voting period was established for November 9\u201320, 2026. The committee also discussed community engagement strategies, promotional efforts, and youth participation opportunities.",
+    "relevant_date": "2026-09-28",
+    "project_name": "Participatory Budgeting",
+    "dollar_amount": null,
+    "location": "City Hall, City Council Conference Room",
+    "coords": null,
+    "tags": [
+      "participatory budgeting",
+      "PBSC",
+      "community engagement",
+      "idea submissions",
+      "voting"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 23368,
+    "title": "Participatory Budget Steering Committee Agenda - 20260928",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23368/Participatory-Budget-Steering-Committee-Agenda---20260928",
+    "folder": "Participatory Budgeting",
+    "ui_tab": "meetings",
+    "classification": "agenda",
+    "summary": "Agenda for the Participatory Budget Steering Committee meeting on September 28, 2026, covering review of community-submitted ideas, upcoming engagement opportunities, and updates on the voting/ballot process. Residents can use this to know when and where to participate in the participatory budgeting process.",
+    "relevant_date": "2026-09-28",
+    "project_name": "Participatory Budgeting",
+    "dollar_amount": null,
+    "location": "515 North Avenue",
+    "coords": {
+      "lat": 40.9201463,
+      "lng": -73.7857973
+    },
+    "tags": [
+      "participatory budgeting",
+      "steering committee",
+      "agenda",
+      "community engagement",
+      "idea submissions"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 23412,
+    "title": "Participatory Budget Steering Committee Agenda - 20260928",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23412/Participatory-Budget-Steering-Committee-Agenda---20260928",
+    "folder": "Participatory Budgeting",
+    "ui_tab": "meetings",
+    "classification": "agenda",
+    "summary": "Agenda for the September 28, 2026 Participatory Budgeting Steering Committee meeting, which includes minutes from the June 30, 2026 meeting where the committee adopted the Participatory Budgeting Rulebook. The upcoming meeting covers idea submission reviews, community engagement opportunities, and ballot/voting information for the city's participatory budgeting program.",
+    "relevant_date": "2026-09-28",
+    "project_name": "Participatory Budgeting",
+    "dollar_amount": null,
+    "location": "515 North Avenue, New Rochelle, NY 10801",
+    "coords": {
+      "lat": 40.9201463,
+      "lng": -73.7857973
+    },
+    "tags": [
+      "participatory budgeting",
+      "steering committee",
+      "agenda",
+      "rulebook",
+      "community engagement"
+    ],
+    "confidence": 0.92
+  },
+  {
+    "id": 23371,
+    "title": "Participatory Budget Steering Committee Meeting Notice - 20260928",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23371/Participatory-Budget-Steering-Committee-Meeting-Notice---20260928",
+    "folder": "Participatory Budgeting",
+    "ui_tab": "meetings",
+    "classification": "other",
+    "summary": "This is a meeting notice for the New Rochelle Participatory Budgeting Steering Committee, scheduled for Monday, September 28, 2026 at 7:00 p.m. in the City Council Conference Room at City Hall. Residents can attend in person or watch the recording online after the meeting.",
+    "relevant_date": "2026-09-28",
+    "project_name": "Participatory Budgeting",
+    "dollar_amount": null,
+    "location": "515 North Avenue, New Rochelle, NY 10801",
+    "coords": {
+      "lat": 40.9201463,
+      "lng": -73.7857973
+    },
+    "tags": [
+      "participatory budgeting",
+      "steering committee",
+      "meeting notice",
+      "city hall",
+      "public meeting"
+    ],
+    "confidence": 0.92
+  },
+  {
+    "id": 23364,
+    "title": "CCRB Agenda - 2026094",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23364/CCRB-Agenda---2026094",
+    "folder": "CCRB Documents",
+    "ui_tab": "meetings",
+    "classification": "agenda",
+    "summary": "Agenda for the Civilian Complaint Review Board (CCRB) regular meeting on September 24, 2026, held at the City Council Conference Room. Key items include approval of August 12 minutes and adoption of CCRB By-Laws. Residents can attend to observe or provide public comment on police oversight matters.",
+    "relevant_date": "2026-09-24",
+    "project_name": null,
+    "dollar_amount": null,
+    "location": "515 North Avenue",
+    "coords": {
+      "lat": 40.9201463,
+      "lng": -73.7857973
+    },
+    "tags": [
+      "CCRB",
+      "police oversight",
+      "by-laws",
+      "agenda",
+      "public comment"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 23381,
+    "title": "CCRB Agenda CANCELED - 2026094",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23381/CCRB-Agenda-CANCELED---2026094",
+    "folder": "CCRB Documents",
+    "ui_tab": "meetings",
+    "classification": "agenda",
+    "summary": "Agenda for a CCRB (Civilian Complaint Review Board) meeting scheduled for September 24, 2026, which was subsequently canceled. The agenda included adoption of CCRB By-Laws and approval of prior meeting minutes.",
+    "relevant_date": "2026-09-24",
+    "project_name": null,
+    "dollar_amount": null,
+    "location": "515 North Avenue",
+    "coords": {
+      "lat": 40.9201463,
+      "lng": -73.7857973
+    },
+    "tags": [
+      "CCRB",
+      "agenda",
+      "canceled",
+      "by-laws",
+      "police oversight"
+    ],
+    "confidence": 0.82
+  },
+  {
+    "id": 23365,
+    "title": "CCRB Meeting Notice - 20260924",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23365/CCRB-Meeting-Notice---20260924",
+    "folder": "CCRB Documents",
+    "ui_tab": "meetings",
+    "classification": "agenda",
+    "summary": "Meeting notice for the Civilian Complaint Review Board (CCRB) scheduled for September 24, 2026 at 7:30 p.m. in the City Council Conference Room at City Hall. The meeting will be recorded and available on the city's website, and the agenda is posted online.",
+    "relevant_date": "2026-09-24",
+    "project_name": null,
+    "dollar_amount": null,
+    "location": "515 North Avenue, New Rochelle, NY 10801",
+    "coords": {
+      "lat": 40.9201463,
+      "lng": -73.7857973
+    },
+    "tags": [
+      "CCRB",
+      "meeting notice",
+      "civilian complaint review",
+      "police oversight",
+      "city hall"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 23382,
+    "title": "CCRB Meeting Notice Cancelation - 20260924",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23382/CCRB-Meeting-Notice-Cancelation---20260924",
+    "folder": "CCRB Documents",
+    "ui_tab": "meetings",
+    "classification": "other",
+    "summary": "Notice that the Civilian Complaint Review Board (CCRB) meeting scheduled for September 24, 2026 at 7:30 p.m. at City Hall has been canceled. Residents who were planning to attend or submit complaints to the board should be aware the meeting will not take place.",
+    "relevant_date": "2026-09-24",
+    "project_name": null,
+    "dollar_amount": null,
+    "location": "515 North Avenue, New Rochelle, NY 10801",
+    "coords": {
+      "lat": 40.9201463,
+      "lng": -73.7857973
+    },
+    "tags": [
+      "CCRB",
+      "meeting cancellation",
+      "Civilian Complaint Review Board",
+      "City Hall",
+      "2026"
+    ],
+    "confidence": 0.92
+  },
+  {
+    "id": 23443,
+    "title": "September2026TheCityManagerUpdate_FINAL",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23443/September2026TheCityManagerUpdate_FINAL",
+    "folder": "City Manager",
+    "ui_tab": "news",
+    "classification": "report",
+    "summary": "The September 2026 City Manager's Update is a comprehensive monthly report covering the 2026 Paving Program (4.62 centerline miles, October\u2013December), the inaugural Participatory Budgeting program (49 ideas submitted, voting Nov 9\u201320), development projects including the Rose on Main 126-unit affordable condo at 455 Main Street and 38 First Street parking acquisition, Public Works infrastructure projects, and police department statistics.",
+    "relevant_date": "2026-09",
+    "project_name": "2026 Paving Program",
+    "dollar_amount": null,
+    "location": null,
+    "coords": null,
+    "tags": [
+      "city-manager-update",
+      "paving-program",
+      "participatory-budgeting",
+      "development",
+      "public-works"
+    ],
+    "confidence": 0.92
+  },
+  {
+    "id": 23484,
+    "title": "Approved CCRB Meeting Minutes August 12 2026",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23484/Approved-CCRB-Meeting-Minutes-August-12-2026",
+    "folder": "CCRB Documents",
+    "ui_tab": "meetings",
+    "classification": "meeting_minutes",
+    "summary": "Minutes from the Civilian Complaint Review Board's August 12, 2026 meeting where the board approved prior minutes, discussed proposed by-laws (voting to send a memorandum of concerns to Corporation Counsel within 10 days), discussed standing committees and public comment procedures, and received public comment urging the board to engage with residents who had negative interactions with law enforcement.",
+    "relevant_date": "2026-08-12",
+    "project_name": null,
+    "dollar_amount": null,
+    "location": null,
+    "coords": null,
+    "tags": [
+      "CCRB",
+      "meeting minutes",
+      "by-laws",
+      "police oversight",
+      "public comment"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 23138,
+    "title": "CCRB Agenda - 20260812",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23138/CCRB-Agenda---20260812",
+    "folder": "CCRB Documents",
+    "ui_tab": "meetings",
+    "classification": "agenda",
+    "summary": "Agenda for the Civilian Complaint Review Board's regular meeting on August 12, 2026, covering proposed by-laws, standing committee appointments, and procedures for public comment. Residents interested in police oversight can review what topics will be discussed and plan to attend.",
+    "relevant_date": "2026-08-12",
+    "project_name": null,
+    "dollar_amount": null,
+    "location": "515 North Avenue, New Rochelle, NY 10801",
+    "coords": {
+      "lat": 40.9201463,
+      "lng": -73.7857973
+    },
+    "tags": [
+      "CCRB",
+      "agenda",
+      "civilian complaint review board",
+      "by-laws",
+      "public comment"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 23161,
+    "title": "CCRB Agenda Packet - 20260812",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23161/CCRB-Agenda-Packet---20260812",
+    "folder": "CCRB Documents",
+    "ui_tab": "meetings",
+    "classification": "agenda",
+    "summary": "Agenda packet for the Civilian Complaint Review Board (CCRB) meeting on August 12, 2026, including proposed bylaws, standing committee structure, and public comment procedures. Also contains minutes from the July 8, 2026 inaugural meeting where board members introduced themselves and discussed the Board's structure and responsibilities.",
+    "relevant_date": "2026-08-12",
+    "project_name": "Civilian Complaint Review Board",
+    "dollar_amount": null,
+    "location": "515 North Avenue, New Rochelle, NY 10801",
+    "coords": {
+      "lat": 40.9201463,
+      "lng": -73.7857973
+    },
+    "tags": [
+      "CCRB",
+      "police oversight",
+      "bylaws",
+      "agenda",
+      "public comment"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 23139,
+    "title": "CCRB Meeting Notice - 20260812",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23139/CCRB-Meeting-Notice---20260812",
+    "folder": "CCRB Documents",
+    "ui_tab": "meetings",
+    "classification": "agenda",
+    "summary": "Meeting notice for the Civilian Complaint Review Board (CCRB) scheduled for Wednesday, August 12, 2026 at 5:30 p.m. in the B1 Conference Room at City Hall. The meeting will be recorded and available on the city website, and the agenda can be found online.",
+    "relevant_date": "2026-08-12",
+    "project_name": null,
+    "dollar_amount": null,
+    "location": "515 North Avenue, New Rochelle, NY 10801",
+    "coords": {
+      "lat": 40.9201463,
+      "lng": -73.7857973
+    },
+    "tags": [
+      "CCRB",
+      "meeting notice",
+      "civilian complaint review board",
+      "city hall",
+      "police oversight"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 23184,
+    "title": "Draft CCRB Meeting Minutes August 12 2026",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23184/Draft-CCRB-Meeting-Minutes-August-12-2026",
+    "folder": "CCRB Documents",
+    "ui_tab": "meetings",
+    "classification": "meeting_minutes",
+    "summary": "Minutes from the August 12, 2026 meeting of New Rochelle's Civilian Complaint Review Board (CCRB). The board discussed proposed by-laws, standing committees, and public comment procedures, and voted to send a memorandum to Corporation Counsel outlining concerns about the by-laws with a revised draft requested within three weeks.",
+    "relevant_date": "2026-08-12",
+    "project_name": null,
+    "dollar_amount": null,
+    "location": "City Hall, B-1 Conference Room",
+    "coords": null,
+    "tags": [
+      "CCRB",
+      "meeting minutes",
+      "by-laws",
+      "police oversight",
+      "public comment"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 23260,
+    "title": "August 2026 The City Managers Update",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23260/August-2026-The-City-Managers-Update",
+    "folder": "City Manager",
+    "ui_tab": "news",
+    "classification": "report",
+    "summary": "The August 2026 City Manager's Update is a comprehensive newsletter covering city-wide developments including the THRIVE Grant Program funding local organizations, the Police Department's stance on federal immigration enforcement, economic development initiatives (Wykagyl corridor, West End fa\u00e7ade improvements, vacant storefront program, down payment assistance expansion), a new School Speed Zone Camera Demonstration Program, and police statistics. It serves as the primary public communication from the City Manager's office for residents.",
+    "relevant_date": "2026-08",
+    "project_name": null,
+    "dollar_amount": null,
+    "location": "New Rochelle (city-wide)",
+    "coords": null,
+    "tags": [
+      "city update",
+      "THRIVE grants",
+      "economic development",
+      "school speed cameras",
+      "police statistics"
+    ],
+    "confidence": 0.92
+  },
+  {
+    "id": 23080,
+    "title": "Participatory Budget Steering Committee Agenda - 20260728",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23080/Participatory-Budget-Steering-Committee-Agenda---20260728",
+    "folder": "Participatory Budgeting",
+    "ui_tab": "meetings",
+    "classification": "agenda",
+    "summary": "Agenda for the July 28, 2026 Participatory Budgeting Steering Committee meeting, which includes approval of prior minutes, updates on promotions and marketing, community engagement opportunities, idea submission review, and ballot/voting information. The document also embeds the minutes from the June 30, 2026 meeting where the PB Rulebook was formally adopted.",
+    "relevant_date": "2026-07-28",
+    "project_name": "Participatory Budgeting",
+    "dollar_amount": null,
+    "location": "515 North Avenue, New Rochelle, NY 10801",
+    "coords": {
+      "lat": 40.9201463,
+      "lng": -73.7857973
+    },
+    "tags": [
+      "participatory budgeting",
+      "steering committee",
+      "agenda",
+      "community engagement",
+      "rulebook"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 23096,
+    "title": "Participatory Budget Steering Committee Agenda - 20260728 CANCELED",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23096/Participatory-Budget-Steering-Committee-Agenda---20260728-CANCELED",
+    "folder": "Participatory Budgeting",
+    "ui_tab": "meetings",
+    "classification": "agenda",
+    "summary": "Agenda for the Participatory Budgeting Steering Committee meeting scheduled for July 28, 2026 (marked CANCELED), which includes minutes from the June 30, 2026 meeting where the PB Rulebook was formally adopted. The document also lists upcoming community engagement events in August 2026 and provides information about the Stanford PB voting platform being used for the city's participatory budgeting election.",
+    "relevant_date": "2026-07-28",
+    "project_name": "Participatory Budgeting",
+    "dollar_amount": null,
+    "location": "515 North Avenue",
+    "coords": {
+      "lat": 40.9201463,
+      "lng": -73.7857973
+    },
+    "tags": [
+      "participatory budgeting",
+      "steering committee",
+      "agenda",
+      "community engagement",
+      "rulebook adoption"
+    ],
+    "confidence": 0.92
+  },
+  {
+    "id": 23082,
+    "title": "Participatory Budget Steering Committee Agenda Only - 20260728",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23082/Participatory-Budget-Steering-Committee-Agenda-Only---20260728",
+    "folder": "Participatory Budgeting",
+    "ui_tab": "meetings",
+    "classification": "agenda",
+    "summary": "Agenda for the July 28, 2026 Participatory Budgeting Steering Committee meeting covering marketing updates, community engagement opportunities, idea submission reviews, and ballot/voting information. Residents interested in the city's participatory budgeting process can use this to know what topics will be discussed.",
+    "relevant_date": "2026-07-28",
+    "project_name": "Participatory Budgeting",
+    "dollar_amount": null,
+    "location": "515 North Avenue",
+    "coords": {
+      "lat": 40.9201463,
+      "lng": -73.7857973
+    },
+    "tags": [
+      "participatory budgeting",
+      "steering committee",
+      "agenda",
+      "community engagement",
+      "idea submissions"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 23097,
+    "title": "Participatory Budget Steering Committee Agenda Only - 20260728 CANCELED",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23097/Participatory-Budget-Steering-Committee-Agenda-Only---20260728-CANCELED",
+    "folder": "Participatory Budgeting",
+    "ui_tab": "meetings",
+    "classification": "agenda",
+    "summary": "Agenda for the Participatory Budgeting Steering Committee meeting scheduled for July 28, 2026, which was subsequently canceled. The agenda covered idea submission review, ballot/voting updates, community engagement opportunities, and the end date for idea submissions. Residents interested in participatory budgeting would want to know this meeting was canceled and await a rescheduled date.",
+    "relevant_date": "2026-07-28",
+    "project_name": "Participatory Budgeting",
+    "dollar_amount": null,
+    "location": "515 North Avenue",
+    "coords": {
+      "lat": 40.9201463,
+      "lng": -73.7857973
+    },
+    "tags": [
+      "participatory budgeting",
+      "steering committee",
+      "agenda",
+      "canceled",
+      "community engagement"
+    ],
+    "confidence": 0.85
+  },
+  {
+    "id": 23081,
+    "title": "Participatory Budget Steering Committee Meeting Notice - 20260728",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23081/Participatory-Budget-Steering-Committee-Meeting-Notice---20260728",
+    "folder": "Participatory Budgeting",
+    "ui_tab": "meetings",
+    "classification": "agenda",
+    "summary": "Meeting notice for the New Rochelle Participatory Budgeting Steering Committee scheduled for July 28, 2026 at 7:00 p.m. in the B1 Conference Room at City Hall. Residents can attend in person or watch the recording online, and can contact Todd Castaldo for accessibility accommodations.",
+    "relevant_date": "2026-07-28",
+    "project_name": "Participatory Budgeting",
+    "dollar_amount": null,
+    "location": "515 North Avenue, New Rochelle, NY 10801",
+    "coords": {
+      "lat": 40.9201463,
+      "lng": -73.7857973
+    },
+    "tags": [
+      "participatory budgeting",
+      "steering committee",
+      "meeting notice",
+      "city hall"
+    ],
+    "confidence": 0.95
+  },
+  {
     "id": 22864,
     "title": "2026 CDBG HOME ACTION PLAN PUBLIC NOTICE - English",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/22864/2026-CDBG-HOME-ACTION-PLAN-PUBLIC-NOTICE---English",
@@ -50,6 +985,28 @@
     "confidence": 0.95
   },
   {
+    "id": 23092,
+    "title": "Quality of Life Presentation - July 2026 071420261416",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23092/Quality-of-Life-Presentation---July-2026-071420261416",
+    "folder": "City Manager",
+    "ui_tab": "meetings",
+    "classification": "report",
+    "summary": "A comprehensive July 2026 status report on New Rochelle's Quality of Life Initiative, presented to the Council of the Whole. It covers completed and in-progress initiatives including public safety improvements, LED street light upgrades, school zone speed cameras, pet waste policy legislation, pest management results, and community events. Residents can track progress on services affecting their daily lives.",
+    "relevant_date": "2026-07-14",
+    "project_name": "Quality of Life Initiative",
+    "dollar_amount": null,
+    "location": "City-wide, New Rochelle",
+    "coords": null,
+    "tags": [
+      "quality of life",
+      "public safety",
+      "infrastructure",
+      "community services",
+      "pest management"
+    ],
+    "confidence": 0.92
+  },
+  {
     "id": 22288,
     "title": "2026 Camp Trips",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/22288/2026-Camp-Trips",
@@ -69,6 +1026,100 @@
       "camp",
       "recreation",
       "summer"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 23181,
+    "title": "Approved CCRB Meeting Minutes July 08 2026",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23181/Approved-CCRB-Meeting-Minutes-July-08-2026",
+    "folder": "CCRB Documents",
+    "ui_tab": "meetings",
+    "classification": "meeting_minutes",
+    "summary": "Minutes from the first meeting of New Rochelle's Civilian Complaint Review Board (CCRB) on July 8, 2026. The board introduced its members, discussed establishing three standing committees (Bylaws, Initial Review of Complaints, and Outreach), set conduct guidelines, and received public comment from two residents who expressed support for the board.",
+    "relevant_date": "2026-07-08",
+    "project_name": null,
+    "dollar_amount": null,
+    "location": "City Hall, City Council Conference Room",
+    "coords": null,
+    "tags": [
+      "CCRB",
+      "civilian oversight",
+      "police complaints",
+      "board meeting",
+      "New Rochelle"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 22984,
+    "title": "CCRB Agenda - 20260708",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/22984/CCRB-Agenda---20260708",
+    "folder": "CCRB Documents",
+    "ui_tab": "meetings",
+    "classification": "agenda",
+    "summary": "Agenda for the Civilian Complaint Review Board (CCRB) meeting scheduled for July 8, 2026 at 5:30 p.m. in the City Council Conference Room. The meeting covers introductions of board members and city staff, an overview of the CCRB, and discussion of by-laws, committees, and conduct of meetings including community conduct guidelines.",
+    "relevant_date": "2026-07-08",
+    "project_name": null,
+    "dollar_amount": null,
+    "location": "515 North Avenue, New Rochelle, NY 10801",
+    "coords": {
+      "lat": 40.9201463,
+      "lng": -73.7857973
+    },
+    "tags": [
+      "CCRB",
+      "agenda",
+      "civilian complaint review board",
+      "public meeting",
+      "police oversight"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 22985,
+    "title": "CCRB Meeting Notice - 20260708",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/22985/CCRB-Meeting-Notice---20260708",
+    "folder": "CCRB Documents",
+    "ui_tab": "meetings",
+    "classification": "agenda",
+    "summary": "Meeting notice for the Civilian Complaint Review Board (CCRB) scheduled for Wednesday, July 8, 2026 at 5:30 p.m. in the City Council Conference Room at City Hall. The meeting will be recorded and available on the city's website.",
+    "relevant_date": "2026-07-08",
+    "project_name": null,
+    "dollar_amount": null,
+    "location": "515 North Avenue, New Rochelle, NY 10801",
+    "coords": {
+      "lat": 40.9201463,
+      "lng": -73.7857973
+    },
+    "tags": [
+      "CCRB",
+      "meeting notice",
+      "civilian complaint review board",
+      "city hall",
+      "police oversight"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 23085,
+    "title": "Draft CCRB Meeting Minutes July 08 2026",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23085/Draft-CCRB-Meeting-Minutes-July-08-2026",
+    "folder": "CCRB Documents",
+    "ui_tab": "meetings",
+    "classification": "meeting_minutes",
+    "summary": "Minutes from the first meeting of New Rochelle's Civilian Complaint Review Board (CCRB) on July 8, 2026. The board introduced its members, discussed establishing three standing committees (Bylaws, Initial Review of Complaints, and Outreach), set conduct guidelines, and received public comment from two residents who expressed support for the board.",
+    "relevant_date": "2026-07-08",
+    "project_name": null,
+    "dollar_amount": null,
+    "location": null,
+    "coords": null,
+    "tags": [
+      "CCRB",
+      "civilian oversight",
+      "police accountability",
+      "board meeting",
+      "public comment"
     ],
     "confidence": 0.95
   },
@@ -119,27 +1170,297 @@
     "confidence": 0.95
   },
   {
+    "id": 23115,
+    "title": "July 2026 The City Managers Update",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23115/July-2026-The-City-Managers-Update",
+    "folder": "City Manager",
+    "ui_tab": "news",
+    "classification": "report",
+    "summary": "The July 2026 City Manager's Update is a comprehensive monthly report covering multiple city initiatives including proposed code amendments for pet waste and rodent prevention, a 2027 property tax collection schedule change, development progress at One Clinton Park and the Train Station, infrastructure projects (paving, culvert replacement, Wilmot Road accessibility), and public safety statistics. It serves as the primary monthly communication from the City Manager's office to residents.",
+    "relevant_date": "2026-07",
+    "project_name": "2026 Citywide Paving Program",
+    "dollar_amount": null,
+    "location": "New Rochelle (citywide)",
+    "coords": null,
+    "tags": [
+      "city-manager-update",
+      "monthly-report",
+      "infrastructure",
+      "quality-of-life",
+      "property-tax"
+    ],
+    "confidence": 0.92
+  },
+  {
+    "id": 23428,
+    "title": "Approved PB Meeting Minutes June 30 2026",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23428/Approved-PB-Meeting-Minutes-June-30-2026",
+    "folder": "Participatory Budgeting",
+    "ui_tab": "meetings",
+    "classification": "meeting_minutes",
+    "summary": "The Participatory Budgeting Steering Committee met on June 30, 2026 to review and formally adopt the final Participatory Budgeting Rulebook, discuss community engagement strategies for promoting the program, and review idea submissions received as of June 22, 2026. The next meeting is scheduled for July 28, 2026.",
+    "relevant_date": "2026-06-30",
+    "project_name": "Participatory Budgeting",
+    "dollar_amount": null,
+    "location": null,
+    "coords": null,
+    "tags": [
+      "participatory budgeting",
+      "steering committee",
+      "rulebook",
+      "community engagement",
+      "idea submissions"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 23004,
+    "title": "City of New Rochelle Participatory Budgeting Rulebook - Final 20260701",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23004/City-of-New-Rochelle-Participatory-Budgeting-Rulebook---Final-20260701",
+    "folder": "Finance",
+    "ui_tab": "news",
+    "classification": "other",
+    "summary": "This is the official rulebook for New Rochelle's first Participatory Budgeting program, adopted by the Steering Committee on June 30, 2026. It outlines how residents can submit project ideas, develop proposals, and vote on how $200,000 in public funds will be spent, with the pilot year focused on the New Rochelle High School campus area including Huguenot Park and Twin Lakes.",
+    "relevant_date": "2026-06-30",
+    "project_name": "New Rochelle Participatory Budgeting Program",
+    "dollar_amount": "$200,000",
+    "location": "New Rochelle High School campus area, Huguenot Park, Twin Lakes",
+    "coords": null,
+    "tags": [
+      "participatory budgeting",
+      "civic engagement",
+      "community voting",
+      "public funds",
+      "steering committee"
+    ],
+    "confidence": 0.92
+  },
+  {
+    "id": 23003,
+    "title": "Draft PB Meeting Minutes June 30 2026",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23003/Draft-PB-Meeting-Minutes-June-30-2026",
+    "folder": "Participatory Budgeting",
+    "ui_tab": "meetings",
+    "classification": "meeting_minutes",
+    "summary": "The Participatory Budgeting Steering Committee met on June 30, 2026 to formally adopt the City of New Rochelle Participatory Budgeting Rulebook, which establishes procedures and eligibility requirements for the program. The committee also discussed community engagement strategies and reviewed idea submissions received as of June 22, 2026.",
+    "relevant_date": "2026-06-30",
+    "project_name": "Participatory Budgeting",
+    "dollar_amount": null,
+    "location": "City Hall, City Council Conference Room",
+    "coords": null,
+    "tags": [
+      "participatory budgeting",
+      "steering committee",
+      "rulebook adoption",
+      "community engagement",
+      "city council"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 22928,
+    "title": "Participatory Budget Steering Committee Agenda - 20260630",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/22928/Participatory-Budget-Steering-Committee-Agenda---20260630",
+    "folder": "Participatory Budgeting",
+    "ui_tab": "meetings",
+    "classification": "agenda",
+    "summary": "Agenda and minutes for the Participatory Budgeting Steering Committee meeting on June 30, 2026, including review of the PB Rulebook, community engagement plans, and idea submissions. The document also contains the full draft Pilot Cycle Rulebook for New Rochelle's first participatory budgeting program, which allocated $200,000 for projects around the High School campus area.",
+    "relevant_date": "2026-06-30",
+    "project_name": "New Rochelle Participatory Budgeting Program",
+    "dollar_amount": "$200,000",
+    "location": "New Rochelle High School campus area / Huguenot Park",
+    "coords": null,
+    "tags": [
+      "participatory budgeting",
+      "steering committee",
+      "rulebook",
+      "community engagement",
+      "pilot program"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 22929,
+    "title": "Participatory Budget Steering Committee Agenda Only - 20260630",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/22929/Participatory-Budget-Steering-Committee-Agenda-Only---20260630",
+    "folder": "Participatory Budgeting",
+    "ui_tab": "meetings",
+    "classification": "agenda",
+    "summary": "Agenda for the Participatory Budgeting Steering Committee meeting on June 30, 2026. The committee will review revisions to the Participatory Budgeting Rulebook, discuss community engagement opportunities, review submitted ideas, and vote to adopt the updated rulebook. This matters to residents because it governs how community members can propose and vote on local projects funded by the city.",
+    "relevant_date": "2026-06-30",
+    "project_name": null,
+    "dollar_amount": null,
+    "location": "515 North Avenue",
+    "coords": {
+      "lat": 40.9201463,
+      "lng": -73.7857973
+    },
+    "tags": [
+      "participatory budgeting",
+      "steering committee",
+      "agenda",
+      "rulebook",
+      "community engagement"
+    ],
+    "confidence": 0.97
+  },
+  {
+    "id": 22930,
+    "title": "Participatory Budget Steering Committee Meeting Notice - 20260630",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/22930/Participatory-Budget-Steering-Committee-Meeting-Notice---20260630",
+    "folder": "Participatory Budgeting",
+    "ui_tab": "meetings",
+    "classification": "agenda",
+    "summary": "This is a meeting notice for the New Rochelle Participatory Budgeting Steering Committee, scheduled for Tuesday, June 30, 2026 at 7:00 p.m. in the City Council Conference Room at City Hall. Residents can attend in person or watch the recording online on the city's website.",
+    "relevant_date": "2026-06-30",
+    "project_name": "Participatory Budgeting",
+    "dollar_amount": null,
+    "location": "515 North Avenue, New Rochelle, NY 10801",
+    "coords": {
+      "lat": 40.9201463,
+      "lng": -73.7857973
+    },
+    "tags": [
+      "participatory budgeting",
+      "steering committee",
+      "meeting notice",
+      "city hall",
+      "public meeting"
+    ],
+    "confidence": 0.92
+  },
+  {
+    "id": 23440,
+    "title": "Civilian Complaint Review Board Legislation Amended 6-16-2026",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23440/Civilian-Complaint-Review-Board-Legislation-Amended-6-16-2026",
+    "folder": "CCRB Documents",
+    "ui_tab": "news",
+    "classification": "ordinance",
+    "summary": "This ordinance establishes the New Rochelle Civilian Complaint Review Board (CCRB), an independent civilian oversight body that reviews complaints of police misconduct. It was originally adopted in October 2024 and amended in June 2026 to update membership, removal, and training provisions. Residents can use this board to file complaints about police conduct and receive public reports on case outcomes.",
+    "relevant_date": "2026-06-16",
+    "project_name": null,
+    "dollar_amount": null,
+    "location": null,
+    "coords": null,
+    "tags": [
+      "CCRB",
+      "police oversight",
+      "civilian complaint",
+      "ordinance",
+      "police reform"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 22981,
+    "title": "PROPOSED AMENDMENT TO CHAPTER 9, BOARDS, COMMISSIO_Item_Preview",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/22981/PROPOSED-AMENDMENT-TO-CHAPTER-9-BOARDS-COMMISSIO_Item_Preview",
+    "folder": "CCRB Documents",
+    "ui_tab": "news",
+    "classification": "ordinance",
+    "summary": "Proposed ordinance amending the Civilian Complaint Review Board (CCRB) structure in the New Rochelle City Code. Key changes include replacing the single Chairperson with a Co-Chairperson structure, adjusting initial appointment terms, and setting annual compensation at $2,000 for Co-Chairpersons and $1,500 for other members. This affects how the city's independent body reviews civilian complaints about police conduct.",
+    "relevant_date": "2026-06-16",
+    "project_name": "Civilian Complaint Review Board (CCRB)",
+    "dollar_amount": "$2,000",
+    "location": null,
+    "coords": null,
+    "tags": [
+      "CCRB",
+      "ordinance",
+      "police accountability",
+      "city code amendment",
+      "civilian complaint review"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 22982,
+    "title": "PROPOSED APPOINTMENT OF A NEW MEMBER TO THE CIVILI_Item_Preview",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/22982/PROPOSED-APPOINTMENT-OF-A-NEW-MEMBER-TO-THE-CIVILI_Item_Preview",
+    "folder": "CCRB Documents",
+    "ui_tab": "meetings",
+    "classification": "other",
+    "summary": "City Council resolution (2026-84) appointing Michael Cammer as the District Four representative to the Civilian Complaint Review Board (CCRB) following Natasha Fapohunda's resignation, and appointing Ren\u00e9e M Baron and Damon Maher as Co-Chairpersons. The resolution also revises initial term end dates for all CCRB members to account for a one-year extension of the inaugural Board's terms.",
+    "relevant_date": "2026-06-16",
+    "project_name": null,
+    "dollar_amount": null,
+    "location": null,
+    "coords": null,
+    "tags": [
+      "CCRB",
+      "appointment",
+      "police accountability",
+      "City Council",
+      "resolution"
+    ],
+    "confidence": 0.92
+  },
+  {
+    "id": 23002,
+    "title": "Approved PB Meeting Minutes June 2 2026",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23002/Approved-PB-Meeting-Minutes-June-2-2026",
+    "folder": "Participatory Budgeting",
+    "ui_tab": "meetings",
+    "classification": "meeting_minutes",
+    "summary": "Minutes from the first meeting of New Rochelle's Participatory Budgeting Steering Committee (PBSC) on June 2, 2026. The committee reviewed the ordinance establishing it, discussed the participatory budgeting process, and began reviewing a draft rule book. Residents can use this to understand how the city's participatory budgeting program is being organized.",
+    "relevant_date": "2026-06-02",
+    "project_name": "Participatory Budgeting",
+    "dollar_amount": null,
+    "location": "City Hall, B1 Conference Room",
+    "coords": null,
+    "tags": [
+      "participatory budgeting",
+      "steering committee",
+      "meeting minutes",
+      "ordinance",
+      "rule book"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 22861,
+    "title": "Draft PB Meeting Minutes June 2, 2026",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/22861/Draft-PB-Meeting-Minutes-June-2-2026",
+    "folder": "Participatory Budgeting",
+    "ui_tab": "meetings",
+    "classification": "meeting_minutes",
+    "summary": "Minutes from the first meeting of the New Rochelle Participatory Budgeting Steering Committee (PBSC) on June 2, 2026. Members were introduced, the committee's structure and authority under Ordinance 2026-7 were reviewed, the participatory budgeting process was presented, and a draft rule book was discussed with suggested revisions. The next meeting was scheduled for June 30, 2026.",
+    "relevant_date": "2026-06-02",
+    "project_name": null,
+    "dollar_amount": null,
+    "location": "City Hall, B1 Conference Room",
+    "coords": null,
+    "tags": [
+      "participatory budgeting",
+      "steering committee",
+      "meeting minutes",
+      "ordinance 2026-7",
+      "rule book"
+    ],
+    "confidence": 0.95
+  },
+  {
     "id": 22803,
     "title": "Participatory Budget Steering Committee Agenda - 20260602",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/22803/Participatory-Budget-Steering-Committee-Agenda---20260602",
     "folder": "Participatory Budgeting",
     "ui_tab": "meetings",
     "classification": "agenda",
-    "summary": "This document is the agenda and supporting materials for the Participatory Budgeting Steering Committee meeting on June 2, 2026. It outlines the committee's proposed structure, authority, and rulebook for guiding resident participation in local capital budget decisions. The package also includes a draft ordinance to formally establish the committee within city code.",
+    "summary": "Agenda for the first meeting of the New Rochelle Participatory Budgeting Steering Committee on June 2, 2026, including adoption of the committee via City Council Resolution 2026-7 and a comprehensive rulebook governing the PB process. This matters to residents because it establishes the framework for how they can submit project ideas and vote on how public funds are allocated.",
     "relevant_date": "2026-06-02",
-    "project_name": "Participatory Budgeting Steering Committee",
+    "project_name": "Participatory Budgeting Program",
     "dollar_amount": null,
-    "location": "City of New Rochelle",
+    "location": "515 North Avenue, New Rochelle",
     "coords": {
-      "lat": 40.9115386,
-      "lng": -73.7826363
+      "lat": 40.9201463,
+      "lng": -73.7857973
     },
     "tags": [
       "participatory budgeting",
       "steering committee",
       "agenda",
-      "ordinance",
-      "city governance"
+      "civic engagement",
+      "rulebook"
     ],
     "confidence": 0.95
   },
@@ -150,20 +1471,45 @@
     "folder": "Participatory Budgeting",
     "ui_tab": "meetings",
     "classification": "agenda",
-    "summary": "This document is an agenda packet for the June 2, 2026 meeting of the Participatory Budgeting Steering Committee. It outlines the committee's structure, authority, and the proposed rulebook that will guide residents in voting on local capital budget priorities.",
+    "summary": "Agenda packet for the first meeting of the New Rochelle Participatory Budgeting Steering Committee on June 2, 2026. It includes the meeting agenda, a memorandum from the Deputy City Manager, City Council Resolution 2026-7 establishing the committee, and the full PB Rulebook governing how residents can submit project ideas and vote on public funding priorities.",
     "relevant_date": "2026-06-02",
-    "project_name": "Participatory Budgeting Steering Committee",
+    "project_name": "Participatory Budgeting Program",
     "dollar_amount": null,
-    "location": null,
-    "coords": null,
+    "location": "515 North Avenue",
+    "coords": {
+      "lat": 40.9201463,
+      "lng": -73.7857973
+    },
     "tags": [
       "participatory budgeting",
       "steering committee",
       "agenda",
-      "city governance",
+      "ordinance",
       "civic engagement"
     ],
     "confidence": 0.95
+  },
+  {
+    "id": 23016,
+    "title": "June 2026 The City Managers Update",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23016/June-2026-The-City-Managers-Update",
+    "folder": "City Manager",
+    "ui_tab": "news",
+    "classification": "report",
+    "summary": "The June 2026 City Manager's Update is a monthly newsletter covering multiple civic topics including a $7.885M NYSDOT grant for Pinebrook Boulevard safety improvements, the appointment of new Fire Chief Joseph Sinatra, the Civilian Complaint Review Board's inaugural meeting, and the launch of New Rochelle's Participatory Budgeting program. It also includes a summer events calendar and police department statistics.",
+    "relevant_date": "2026-06",
+    "project_name": "Pinebrook Boulevard Complete Streets",
+    "dollar_amount": "$7.885M",
+    "location": "Pinebrook Boulevard (Beechmont Drive to Stratton Road)",
+    "coords": null,
+    "tags": [
+      "city manager update",
+      "pinebrook boulevard",
+      "participatory budgeting",
+      "fire department",
+      "public safety"
+    ],
+    "confidence": 0.92
   },
   {
     "id": 22909,
@@ -194,20 +1540,20 @@
     "folder": "City Manager",
     "ui_tab": "news",
     "classification": "report",
-    "summary": "This monthly City Manager's update provides residents with a recap of recent community meetings, announcements on departmental retirements, and progress reports on key city initiatives like traffic signal replacements and parking management. It also includes upcoming community event schedules and quarterly performance statistics from various city departments.",
+    "summary": "The May 2026 City Manager's Update is a monthly newsletter covering multiple city initiatives including the adoption of the Local Safety Action Plan, progress on the Downtown Parking Management Strategic Plan, the Main Street/Huguenot Street Traffic Signal Replacement construction, Fire Chief Sandor's retirement, and departmental statistics for Fire/EMS and Police.",
     "relevant_date": "2026-05",
-    "project_name": "Main St/Huguenot St Traffic Signal Replacement Project",
-    "dollar_amount": null,
-    "location": "Main Street / Huguenot Street, Downtown New Rochelle",
+    "project_name": "Main St/Huguenot St Traffic Signal Replacement",
+    "dollar_amount": "$50,125,406",
+    "location": "Main Street / Huguenot Street corridor, Downtown New Rochelle",
     "coords": null,
     "tags": [
-      "city update",
+      "city manager update",
+      "monthly report",
       "traffic signals",
-      "parking management",
-      "department statistics",
+      "parking plan",
       "community events"
     ],
-    "confidence": 0.95
+    "confidence": 0.92
   },
   {
     "id": 22582,
@@ -772,6 +2118,28 @@
     "confidence": 0.95
   },
   {
+    "id": 23441,
+    "title": "2026 New Rochelle Paving List - 26-008 - Final",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23441/2026-New-Rochelle-Paving-List---26-008---Final",
+    "folder": "Public Works",
+    "ui_tab": "paving",
+    "classification": "paving_schedule",
+    "summary": "The 2026 New Rochelle paving schedule lists 26 streets with specific from/to boundaries for each segment to be paved. Two segments of Main Street (North Ave to LeCount Pl and Webster Ave to Weyman Ave) are designated for night work. This helps residents plan around road closures and construction activity in their neighborhood.",
+    "relevant_date": "2026",
+    "project_name": null,
+    "dollar_amount": null,
+    "location": null,
+    "coords": null,
+    "tags": [
+      "paving",
+      "road work",
+      "2026",
+      "public works",
+      "night work"
+    ],
+    "confidence": 0.98
+  },
+  {
     "id": 8263,
     "title": "2026 PARKING PERMIT FEES",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/8263/2026-PARKING-PERMIT-FEES",
@@ -928,6 +2296,56 @@
     "confidence": 0.95
   },
   {
+    "id": 23178,
+    "title": "City of New Rochelle Immigration FAQ",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23178/City-of-New-Rochelle-Immigration-FAQ",
+    "folder": "Public Information",
+    "ui_tab": "news",
+    "classification": "other",
+    "summary": "City of New Rochelle FAQ document explaining the city's and police department's policies regarding ICE operations and immigration enforcement. It clarifies that the NRPD does not enforce federal civil immigration law, will not detain individuals based solely on civil immigration detainers, and provides residents with resources for understanding their rights during immigration encounters.",
+    "relevant_date": "2026",
+    "project_name": null,
+    "dollar_amount": null,
+    "location": "New Rochelle, NY",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "tags": [
+      "immigration",
+      "ICE",
+      "police policy",
+      "resident rights",
+      "public safety"
+    ],
+    "confidence": 0.92
+  },
+  {
+    "id": 23179,
+    "title": "City of New Rochelle Immigration FAQ - Preguntas Frecuentes Sobre Inmigraci\u00f3n",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23179/City-of-New-Rochelle-Immigration-FAQ---Preguntas-Frecuentes-Sobre-Inmigraci\u00f3n",
+    "folder": "Public Information",
+    "ui_tab": "news",
+    "classification": "press_release",
+    "summary": "Official City of New Rochelle FAQ (in Spanish) explaining the city's stance on ICE operations and the police department's immigration enforcement policies. It clarifies that NRPD does not enforce federal immigration laws, will not detain individuals based solely on civil immigration detainers, and will only comply with valid judicial warrants. The document also lists resources for residents seeking information about their rights during immigration enforcement encounters.",
+    "relevant_date": "2026",
+    "project_name": null,
+    "dollar_amount": null,
+    "location": "New Rochelle",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "tags": [
+      "immigration",
+      "ICE",
+      "police policy",
+      "resident rights",
+      "public safety"
+    ],
+    "confidence": 0.92
+  },
+  {
     "id": 21827,
     "title": "FINAL_2026_Development_Budget_Presentation_With_Notes AS",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/21827/FINAL_2026_Development_Budget_Presentation_With_Notes-AS",
@@ -1060,6 +2478,28 @@
       "zoning"
     ],
     "confidence": 0.95
+  },
+  {
+    "id": 23530,
+    "title": "State of the City Presentation 2026 ",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23530/State-of-the-City-Presentation-2026-",
+    "folder": "Mayor",
+    "ui_tab": "news",
+    "classification": "report",
+    "summary": "State of the City presentation for 2026 by Mayor Yadira Ramos-Herbert, summarizing key city initiatives including the Downtown Economic & Small Business Development Hub at 500 Main St., a Community Incubator at 11 Garden St., a parklet on LeCount, West End awnings, transit center activations, and the upcoming Vanguard Center for the Arts. It also highlights support programs for seniors and veterans and the Retail Tenant Fund.",
+    "relevant_date": "2026",
+    "project_name": null,
+    "dollar_amount": null,
+    "location": "Downtown New Rochelle",
+    "coords": null,
+    "tags": [
+      "state of the city",
+      "mayor",
+      "downtown development",
+      "community initiatives",
+      "2026"
+    ],
+    "confidence": 0.82
   },
   {
     "id": 21823,
@@ -2224,6 +3664,28 @@
       "infrastructure"
     ],
     "confidence": 0.95
+  },
+  {
+    "id": 22979,
+    "title": "2025 Year End Financial Report",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/22979/2025-Year-End-Financial-Report",
+    "folder": "Finance",
+    "ui_tab": "news",
+    "classification": "report",
+    "summary": "The City of New Rochelle's Annual Comprehensive Financial Report for the fiscal year ending December 31, 2025. It includes audited financial statements, management discussion, and a statistical section with 10-year trends on revenue, debt, demographics, and operating data such as miles of streets, parks, and infrastructure. This report is important for residents to understand how city funds are managed and the long-term financial health of the municipality.",
+    "relevant_date": "2025",
+    "project_name": null,
+    "dollar_amount": null,
+    "location": null,
+    "coords": null,
+    "tags": [
+      "financial report",
+      "ACFR",
+      "budget",
+      "fiscal year 2025",
+      "audited financials"
+    ],
+    "confidence": 0.92
   },
   {
     "id": 19625,
@@ -3801,6 +5263,235 @@
     "confidence": 0.9
   },
   {
+    "id": 20427,
+    "title": "Allegations Investigated By Category 2024",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/20427/Allegations-Investigated-By-Category-2024",
+    "folder": "Civilian Complaint Data",
+    "ui_tab": "news",
+    "classification": "report",
+    "summary": "A data visualization showing civilian complaints against police categorized by type of allegation for 2024. This is a transparency document that helps residents understand the nature and volume of police misconduct complaints investigated by the city.",
+    "relevant_date": "2024",
+    "project_name": null,
+    "dollar_amount": null,
+    "location": null,
+    "coords": null,
+    "tags": [
+      "police accountability",
+      "civilian complaints",
+      "transparency",
+      "2024 data",
+      "oversight"
+    ],
+    "confidence": 0.55
+  },
+  {
+    "id": 17650,
+    "title": "CNR_CouncilDistricts",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/17650/CNR_CouncilDistricts",
+    "folder": "Election Maps 2024",
+    "ui_tab": "map",
+    "classification": "other",
+    "summary": "A map showing City of New Rochelle council district boundaries for the 2024 election cycle. This helps residents identify which council district they live in and who their elected representatives are.",
+    "relevant_date": "2024",
+    "project_name": null,
+    "dollar_amount": null,
+    "location": "City of New Rochelle",
+    "coords": {
+      "lat": 40.9200269,
+      "lng": -73.7861994
+    },
+    "tags": [
+      "council districts",
+      "election map",
+      "2024",
+      "boundaries",
+      "representation"
+    ],
+    "confidence": 0.75
+  },
+  {
+    "id": 17651,
+    "title": "CNR_DISTRICT  1",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/17651/CNR_DISTRICT--1",
+    "folder": "Election Maps 2024",
+    "ui_tab": "map",
+    "classification": "other",
+    "summary": "This is a map showing the boundaries of District 1 in New Rochelle for the 2024 election cycle. It helps residents identify which district they live in and which elected officials represent them.",
+    "relevant_date": "2024",
+    "project_name": null,
+    "dollar_amount": null,
+    "location": "District 1, New Rochelle",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "tags": [
+      "election",
+      "district map",
+      "2024",
+      "boundaries",
+      "CNR"
+    ],
+    "confidence": 0.75
+  },
+  {
+    "id": 17652,
+    "title": "CNR_DISTRICT  2",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/17652/CNR_DISTRICT--2",
+    "folder": "Election Maps 2024",
+    "ui_tab": "map",
+    "classification": "other",
+    "summary": "This is the election district map for District 2 in New Rochelle for the 2024 election cycle. It shows the geographic boundaries of the district, which residents need to determine their voting district and local representatives.",
+    "relevant_date": "2024",
+    "project_name": null,
+    "dollar_amount": null,
+    "location": "District 2, New Rochelle",
+    "coords": null,
+    "tags": [
+      "election",
+      "district map",
+      "voting",
+      "2024",
+      "boundaries"
+    ],
+    "confidence": 0.82
+  },
+  {
+    "id": 17653,
+    "title": "CNR_DISTRICT  3",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/17653/CNR_DISTRICT--3",
+    "folder": "Election Maps 2024",
+    "ui_tab": "map",
+    "classification": "other",
+    "summary": "Election district map for District 3 in New Rochelle for the 2024 election cycle. This document shows the geographic boundaries of the district, helping residents identify their local representation and voting district.",
+    "relevant_date": "2024",
+    "project_name": null,
+    "dollar_amount": null,
+    "location": "District 3, New Rochelle",
+    "coords": null,
+    "tags": [
+      "election",
+      "district map",
+      "2024",
+      "voting",
+      "boundaries"
+    ],
+    "confidence": 0.75
+  },
+  {
+    "id": 17654,
+    "title": "CNR_DISTRICT  4",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/17654/CNR_DISTRICT--4",
+    "folder": "Election Maps 2024",
+    "ui_tab": "map",
+    "classification": "other",
+    "summary": "Election district map for District 4 in New Rochelle for the 2024 election cycle. This document shows the geographic boundaries of the district, helping residents identify their representation and voting district.",
+    "relevant_date": "2024",
+    "project_name": null,
+    "dollar_amount": null,
+    "location": "District 4, New Rochelle",
+    "coords": null,
+    "tags": [
+      "election",
+      "district map",
+      "2024",
+      "boundaries",
+      "representation"
+    ],
+    "confidence": 0.72
+  },
+  {
+    "id": 17655,
+    "title": "CNR_DISTRICT  5",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/17655/CNR_DISTRICT--5",
+    "folder": "Election Maps 2024",
+    "ui_tab": "map",
+    "classification": "other",
+    "summary": "Election district map for District 5 in New Rochelle for the 2024 election cycle. This document shows the geographic boundaries of the district, helping residents identify their local representation and voting district.",
+    "relevant_date": "2024",
+    "project_name": null,
+    "dollar_amount": null,
+    "location": "District 5, New Rochelle",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "tags": [
+      "election",
+      "district map",
+      "2024",
+      "voting",
+      "boundaries"
+    ],
+    "confidence": 0.75
+  },
+  {
+    "id": 17656,
+    "title": "CNR_DISTRICT  6",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/17656/CNR_DISTRICT--6",
+    "folder": "Election Maps 2024",
+    "ui_tab": "map",
+    "classification": "other",
+    "summary": "This is an election district map for District 6 in New Rochelle, NY for the 2024 election cycle. It shows the geographic boundaries of the district, which residents need to identify their local representatives and voting precinct.",
+    "relevant_date": "2024",
+    "project_name": null,
+    "dollar_amount": null,
+    "location": "District 6, New Rochelle",
+    "coords": null,
+    "tags": [
+      "election",
+      "district map",
+      "2024",
+      "boundaries",
+      "voting"
+    ],
+    "confidence": 0.85
+  },
+  {
+    "id": 20428,
+    "title": "Civilian Complaint Intake by Month 2024",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/20428/Civilian-Complaint-Intake-by-Month-2024",
+    "folder": "Civilian Complaint Data",
+    "ui_tab": "news",
+    "classification": "report",
+    "summary": "A monthly breakdown of civilian complaints received by the New Rochelle Police Department throughout 2024. This data is useful for residents tracking police accountability and transparency.",
+    "relevant_date": "2024",
+    "project_name": null,
+    "dollar_amount": null,
+    "location": null,
+    "coords": null,
+    "tags": [
+      "police",
+      "complaints",
+      "accountability",
+      "data",
+      "2024"
+    ],
+    "confidence": 0.6
+  },
+  {
+    "id": 20431,
+    "title": "Frequency of Misconduct Allegations 2024",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/20431/Frequency-of-Misconduct-Allegations-2024",
+    "folder": "Civilian Complaint Data",
+    "ui_tab": "news",
+    "classification": "report",
+    "summary": "A data visualization showing the frequency of misconduct allegations filed against city employees in 2024, part of the city's civilian complaint transparency data. This matters to residents as it provides insight into public safety and accountability.",
+    "relevant_date": "2024",
+    "project_name": null,
+    "dollar_amount": null,
+    "location": null,
+    "coords": null,
+    "tags": [
+      "misconduct",
+      "civilian complaints",
+      "transparency",
+      "police accountability",
+      "2024 data"
+    ],
+    "confidence": 0.6
+  },
+  {
     "id": 18014,
     "title": "HLRB 2024 Calendar",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/18014/HLRB-2024-Calendar",
@@ -3821,6 +5512,28 @@
       "development"
     ],
     "confidence": 0.95
+  },
+  {
+    "id": 20432,
+    "title": "IA Civilian Complaint Investigations 5yr Span 2024",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/20432/IA-Civilian-Complaint-Investigations-5yr-Span-2024",
+    "folder": "Civilian Complaint Data",
+    "ui_tab": "news",
+    "classification": "report",
+    "summary": "A data visualization or report covering Internal Affairs civilian complaint investigations over a 5-year span through 2024. This type of document provides transparency on police accountability and oversight in New Rochelle.",
+    "relevant_date": "2024",
+    "project_name": null,
+    "dollar_amount": null,
+    "location": null,
+    "coords": null,
+    "tags": [
+      "police",
+      "internal affairs",
+      "civilian complaints",
+      "accountability",
+      "data report"
+    ],
+    "confidence": 0.5
   },
   {
     "id": 6796,
@@ -4761,6 +6474,50 @@
     "confidence": 1.0
   },
   {
+    "id": 11699,
+    "title": "Use of Force Policy",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/11699/Use-of-Force-Policy",
+    "folder": "Use of Force",
+    "ui_tab": "none",
+    "classification": "other",
+    "summary": "This is the New Rochelle Police Department's Use of Force Policy (Article 5.29 of their Manual of Procedure), last revised February 25, 2023. It outlines the standards for when and how officers may use force, including deadly physical force, prohibited uses, reporting requirements, investigation procedures, and training mandates. It is a public policy document that informs residents of the rules governing police conduct.",
+    "relevant_date": "2023-02-25",
+    "project_name": null,
+    "dollar_amount": null,
+    "location": null,
+    "coords": null,
+    "tags": [
+      "police",
+      "use of force",
+      "policy",
+      "manual of procedure",
+      "public safety"
+    ],
+    "confidence": 0.85
+  },
+  {
+    "id": 17738,
+    "title": "Use-of-Force-Policy-Spanish",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/17738/Use-of-Force-Policy-Spanish",
+    "folder": "Use of Force",
+    "ui_tab": "news",
+    "classification": "other",
+    "summary": "Spanish-language version of the New Rochelle Police Department's Use of Force Policy (Article 5.29), last revised February 25, 2023. It outlines the standards for when and how officers may use force, including deadly force, the duty to intervene, prohibited uses of force, reporting requirements, and training obligations. Residents may want to review this to understand the rules governing police conduct in their community.",
+    "relevant_date": "2023-02-25",
+    "project_name": null,
+    "dollar_amount": null,
+    "location": null,
+    "coords": null,
+    "tags": [
+      "police",
+      "use of force",
+      "policy",
+      "spanish",
+      "public safety"
+    ],
+    "confidence": 0.72
+  },
+  {
     "id": 15099,
     "title": "Washington Ave  and Fifth St Poster",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/15099/Washington-Ave--and-Fifth-St-Poster",
@@ -5128,6 +6885,116 @@
     "confidence": 0.9
   },
   {
+    "id": 18029,
+    "title": "Allegations Investigated by Category 2023",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/18029/Allegations-Investigated-by-Category-2023",
+    "folder": "Civilian Complaint Data",
+    "ui_tab": "news",
+    "classification": "report",
+    "summary": "A data visualization or chart summarizing civilian complaints against police in New Rochelle for 2023, broken down by category of allegation. This is a police accountability and transparency document useful for residents tracking oversight of law enforcement.",
+    "relevant_date": "2023",
+    "project_name": null,
+    "dollar_amount": null,
+    "location": null,
+    "coords": null,
+    "tags": [
+      "police",
+      "civilian complaints",
+      "accountability",
+      "2023",
+      "data"
+    ],
+    "confidence": 0.6
+  },
+  {
+    "id": 16491,
+    "title": "Citizen Police Academy Objectives",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/16491/Citizen-Police-Academy-Objectives",
+    "folder": "Citizen Police Academy",
+    "ui_tab": "none",
+    "classification": "other",
+    "summary": "This document outlines the program objectives of the New Rochelle Citizen Police Academy, a program designed to strengthen the partnership between the police department and community members. It describes goals such as improving communication, dispelling misconceptions about police work, and fostering a citizen-police partnership to combat crime.",
+    "relevant_date": "2023",
+    "project_name": "Citizen Police Academy",
+    "dollar_amount": null,
+    "location": null,
+    "coords": null,
+    "tags": [
+      "police",
+      "community",
+      "citizen academy",
+      "public safety",
+      "program"
+    ],
+    "confidence": 0.72
+  },
+  {
+    "id": 18031,
+    "title": "Civilian Complaint Intake 2023",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/18031/Civilian-Complaint-Intake-2023",
+    "folder": "Civilian Complaint Data",
+    "ui_tab": "news",
+    "classification": "report",
+    "summary": "A 2023 document related to civilian complaint intake, likely a data visualization or report showing the volume or breakdown of complaints filed against city officials (possibly police). This is relevant to residents interested in transparency and accountability of city services.",
+    "relevant_date": "2023",
+    "project_name": null,
+    "dollar_amount": null,
+    "location": null,
+    "coords": null,
+    "tags": [
+      "civilian complaints",
+      "police accountability",
+      "data report",
+      "2023",
+      "transparency"
+    ],
+    "confidence": 0.35
+  },
+  {
+    "id": 18032,
+    "title": "Civilian Complaint Intake by Month 2023",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/18032/Civilian-Complaint-Intake-by-Month-2023",
+    "folder": "Civilian Complaint Data",
+    "ui_tab": "news",
+    "classification": "report",
+    "summary": "A data visualization showing the number of civilian complaints received by the New Rochelle Police Department, broken down by month for 2023. This is useful for residents interested in police accountability and transparency.",
+    "relevant_date": "2023",
+    "project_name": null,
+    "dollar_amount": null,
+    "location": null,
+    "coords": null,
+    "tags": [
+      "police",
+      "complaints",
+      "accountability",
+      "data",
+      "2023"
+    ],
+    "confidence": 0.65
+  },
+  {
+    "id": 18027,
+    "title": "Dispositions of Allegations 2023",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/18027/Dispositions-of-Allegations-2023",
+    "folder": "Civilian Complaint Data",
+    "ui_tab": "news",
+    "classification": "report",
+    "summary": "This is a 2023 report on the dispositions of allegations from civilian complaints, likely handled by a Civilian Complaint Review Board. It provides residents with transparency on how complaints against city employees (typically police) were investigated and resolved.",
+    "relevant_date": "2023",
+    "project_name": null,
+    "dollar_amount": null,
+    "location": null,
+    "coords": null,
+    "tags": [
+      "civilian complaints",
+      "police accountability",
+      "dispositions",
+      "transparency",
+      "2023"
+    ],
+    "confidence": 0.7
+  },
+  {
     "id": 17796,
     "title": "Homeowner_Stormwater_Guidance_2023",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/17796/Homeowner_Stormwater_Guidance_2023",
@@ -5233,6 +7100,31 @@
       "job_posting"
     ],
     "confidence": 0.9
+  },
+  {
+    "id": 16388,
+    "title": "NRPD PACT VOLUNTARY FIREARMS PROGRAM (004)",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/16388/NRPD-PACT-VOLUNTARY-FIREARMS-PROGRAM-004",
+    "folder": "2023 NRPD",
+    "ui_tab": "news",
+    "classification": "press_release",
+    "summary": "This document announces the New Rochelle Police Department's PACT Voluntary Firearms Surrender Initiative and Gun Safety Program, which allows residents to voluntarily surrender unwanted firearms and ammunition for destruction. It also provides free gun safety education, gun locks, and safety literature in partnership with Project ChildSafe, NYS Police, and Westchester County Police.",
+    "relevant_date": "2023",
+    "project_name": "PACT Voluntary Firearms Surrender Initiative",
+    "dollar_amount": null,
+    "location": "475 North Avenue, New Rochelle",
+    "coords": {
+      "lat": 40.918721,
+      "lng": -73.7863554
+    },
+    "tags": [
+      "firearms",
+      "gun safety",
+      "police",
+      "voluntary surrender",
+      "PACT"
+    ],
+    "confidence": 0.82
   },
   {
     "id": 16364,
@@ -7507,6 +9399,28 @@
     "confidence": 1.0
   },
   {
+    "id": 15569,
+    "title": "Presentation for May 17",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15569/Presentation-for-May-17",
+    "folder": "Redistricting 2022",
+    "ui_tab": "map",
+    "classification": "report",
+    "summary": "Presentation proposing new council district boundaries for New Rochelle's 2022/23 redistricting cycle. It identifies issues with current districts (11.38% population disparity exceeding the 5% legal limit, narrowing Black plurality in CD3, and a cohesive neighborhood split three ways) and proposes new lines that reduce disparity to 4.65% while preserving 94% of residents in their current district.",
+    "relevant_date": "2022-05-17",
+    "project_name": "New Rochelle Redistricting 2022/23",
+    "dollar_amount": null,
+    "location": "City of New Rochelle (all six council districts)",
+    "coords": null,
+    "tags": [
+      "redistricting",
+      "council districts",
+      "demographics",
+      "population disparity",
+      "minority representation"
+    ],
+    "confidence": 0.95
+  },
+  {
     "id": 15528,
     "title": "RFB-NR-5448 (DPW Project No. 21-024) Addendum No. 1",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/15528/RFB-NR-5448-DPW-Project-No-21-024-Addendum-No-1",
@@ -8632,6 +10546,31 @@
     "confidence": 0.95
   },
   {
+    "id": 15570,
+    "title": "Map Zoomable",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/15570/Map-Zoomable",
+    "folder": "Redistricting 2022",
+    "ui_tab": "map",
+    "classification": "other",
+    "summary": "A zoomable street map of New Rochelle used as a reference document for the 2022 redistricting process. It shows the geographic layout of residential streets in the city but does not appear to include drawn district boundaries in the extracted text.",
+    "relevant_date": "2022",
+    "project_name": "Redistricting 2022",
+    "dollar_amount": null,
+    "location": "New Rochelle, NY",
+    "coords": {
+      "lat": 40.9115386,
+      "lng": -73.7826363
+    },
+    "tags": [
+      "redistricting",
+      "map",
+      "street-map",
+      "2022",
+      "caliper"
+    ],
+    "confidence": 0.55
+  },
+  {
     "id": 17009,
     "title": "Paving 2023- residual",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/17009/Paving-2023--residual",
@@ -8650,6 +10589,28 @@
       "streets"
     ],
     "confidence": 0.95
+  },
+  {
+    "id": 16478,
+    "title": "website_complaint_data",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/16478/website_complaint_data",
+    "folder": "Civilian Complaint Data",
+    "ui_tab": "news",
+    "classification": "report",
+    "summary": "This is a New Rochelle Police Department statistical report summarizing civilian complaints from 2018 through 2022, including total complaint counts, calls for service, and disposition breakdowns (sustained, unsubstantiated, unfounded, exonerated). It provides residents with transparency into how the police department investigates and resolves complaints against officers.",
+    "relevant_date": "2022",
+    "project_name": null,
+    "dollar_amount": null,
+    "location": null,
+    "coords": null,
+    "tags": [
+      "police",
+      "civilian complaints",
+      "accountability",
+      "NRPD",
+      "statistics"
+    ],
+    "confidence": 0.82
   },
   {
     "id": 15956,
@@ -16492,6 +18453,28 @@
     "confidence": 0.95
   },
   {
+    "id": 11926,
+    "title": "cyc-factsheet",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/11926/cyc-factsheet",
+    "folder": "Census 2020",
+    "ui_tab": "news",
+    "classification": "press_release",
+    "summary": "A public information fact sheet encouraging New Rochelle residents to ensure young children are counted in the 2020 Census. It provides specific guidance on where to count children who split time between homes, are moving, or are temporarily staying with relatives, emphasizing that accurate counts affect funding for schools, healthcare, and childcare programs.",
+    "relevant_date": "2020-04-01",
+    "project_name": null,
+    "dollar_amount": null,
+    "location": null,
+    "coords": null,
+    "tags": [
+      "census",
+      "2020 census",
+      "children",
+      "public information",
+      "fact sheet"
+    ],
+    "confidence": 0.82
+  },
+  {
     "id": 12399,
     "title": "HUD Eviction Moratorium Flyer",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/12399/HUD-Eviction-Moratorium-Flyer",
@@ -17985,6 +19968,28 @@
     "confidence": 0.7
   },
   {
+    "id": 11877,
+    "title": "Film Guidelines ",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/11877/Film-Guidelines-",
+    "folder": "Permits",
+    "ui_tab": "map",
+    "classification": "permit",
+    "summary": "City of New Rochelle guidelines for obtaining a filming permit, covering fees ($500 non-refundable application fee, $100-$5,000 per day), insurance requirements, permitted hours, and neighbor notification rules. Relevant to residents who may be affected by filming in their neighborhood or who wish to film in the city.",
+    "relevant_date": "2020",
+    "project_name": null,
+    "dollar_amount": "$500",
+    "location": null,
+    "coords": null,
+    "tags": [
+      "filming",
+      "permit",
+      "guidelines",
+      "fees",
+      "city-clerk"
+    ],
+    "confidence": 0.82
+  },
+  {
     "id": 11791,
     "title": "HLRB 2020 Calendar",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/11791/HLRB-2020-Calendar",
@@ -18005,6 +20010,28 @@
       "New Rochelle"
     ],
     "confidence": 0.95
+  },
+  {
+    "id": 11929,
+    "title": "Handout_With_General_FAQs",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/11929/Handout_With_General_FAQs",
+    "folder": "Census 2020",
+    "ui_tab": "news",
+    "classification": "other",
+    "summary": "A general FAQ handout about the 2020 U.S. Census explaining what it is, why it matters (funding, redistricting, civic duty), privacy protections, and what questions will be asked. Distributed to New Rochelle residents to encourage participation.",
+    "relevant_date": "2020",
+    "project_name": null,
+    "dollar_amount": "$675 billion",
+    "location": null,
+    "coords": null,
+    "tags": [
+      "census",
+      "2020 census",
+      "public information",
+      "federal",
+      "FAQ"
+    ],
+    "confidence": 0.65
   },
   {
     "id": 12285,
@@ -37107,6 +39134,28 @@
     "confidence": 0.95
   },
   {
+    "id": 23005,
+    "title": "AnnualReport2012",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23005/AnnualReport2012",
+    "folder": "Annual Reports",
+    "ui_tab": "news",
+    "classification": "report",
+    "summary": "The 2012 New Rochelle Police Department Annual Report covering crime statistics, personnel demographics, calls for service, and community programs. It highlights that New Rochelle was the 10th safest city nationally in its size category and reports a 20% reduction in robberies.",
+    "relevant_date": "2012",
+    "project_name": null,
+    "dollar_amount": null,
+    "location": null,
+    "coords": null,
+    "tags": [
+      "police",
+      "crime statistics",
+      "annual report",
+      "public safety",
+      "2012"
+    ],
+    "confidence": 0.82
+  },
+  {
     "id": 1056,
     "title": "DRAFT 2012 ACTION PLAN.WEBFILE",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/1056/DRAFT-2012-ACTION-PLANWEBFILE",
@@ -37983,6 +40032,28 @@
       "housing_policy",
       "consolidated_plan",
       "comment_period"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 723,
+    "title": "2011 ADOPTED BUDGET",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/723/2011-ADOPTED-BUDGET",
+    "folder": "Finance",
+    "ui_tab": "news",
+    "classification": "budget",
+    "summary": "The City of New Rochelle's adopted 2011 budget and work program, detailing revenue sources and appropriations across all city departments including Police, Fire, Public Works, Parks and Recreation, and other funds. This document shows residents how the city planned to allocate its funds for the 2011 fiscal year under Mayor Noam Bramson and City Manager Charles B. Strome.",
+    "relevant_date": "2011",
+    "project_name": null,
+    "dollar_amount": null,
+    "location": null,
+    "coords": null,
+    "tags": [
+      "budget",
+      "2011",
+      "city finance",
+      "appropriations",
+      "work program"
     ],
     "confidence": 0.95
   },
@@ -39021,6 +41092,28 @@
     "confidence": 0.95
   },
   {
+    "id": 161,
+    "title": "2010 Adopted Budget",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/161/2010-Adopted-Budget",
+    "folder": "Finance",
+    "ui_tab": "news",
+    "classification": "budget",
+    "summary": "The 2010 Adopted Budget and Work Program for the City of New Rochelle, detailing revenues, appropriations, and expenditures across all city departments and funds including General Fund, Self Insurance, Debt Service, and Capital Improvement funds. It includes the budget message, council revisions, tax levy computations, and departmental staffing plans.",
+    "relevant_date": "2010",
+    "project_name": null,
+    "dollar_amount": null,
+    "location": null,
+    "coords": null,
+    "tags": [
+      "budget",
+      "2010",
+      "finance",
+      "appropriations",
+      "work program"
+    ],
+    "confidence": 0.95
+  },
+  {
     "id": 794,
     "title": "2010 CAPER re CDBG  HOME Programs Comment Period ",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/794/2010-CAPER-re-CDBG--HOME-Programs-Comment-Period-",
@@ -39289,6 +41382,28 @@
       "Action Plan",
       "Community Development",
       "Grant Funding"
+    ],
+    "confidence": 0.95
+  },
+  {
+    "id": 44,
+    "title": "2009 adopted budget",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/44/2009-adopted-budget",
+    "folder": "Finance",
+    "ui_tab": "none",
+    "classification": "budget",
+    "summary": "The City of New Rochelle's adopted budget and work program for fiscal year 2009, detailing revenue sources, appropriations across all departments (Police, Fire, Public Works, Parks, etc.), tax levies, debt service, and staffing. This document shows residents how city funds are allocated and what services are funded.",
+    "relevant_date": "2009",
+    "project_name": null,
+    "dollar_amount": null,
+    "location": null,
+    "coords": null,
+    "tags": [
+      "budget",
+      "2009",
+      "appropriations",
+      "tax levy",
+      "work program"
     ],
     "confidence": 0.95
   },
@@ -44819,6 +46934,28 @@
     "confidence": 0.95
   },
   {
+    "id": 1147,
+    "title": "Authorized Translators",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/1147/Authorized-Translators",
+    "folder": "Applications & Transcripts",
+    "ui_tab": "none",
+    "classification": "other",
+    "summary": "A reference list of translation and interpretation services authorized by the City of New Rochelle, including business names, addresses, phone numbers, and languages offered. Useful for residents who need to submit translated documents with city applications.",
+    "relevant_date": null,
+    "project_name": null,
+    "dollar_amount": null,
+    "location": null,
+    "coords": null,
+    "tags": [
+      "translators",
+      "interpretation",
+      "applications",
+      "services",
+      "multilingual"
+    ],
+    "confidence": 0.72
+  },
+  {
     "id": 190,
     "title": "Automotive Service and Repair Shops",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/190/Automotive-Service-and-Repair-Shops",
@@ -46085,6 +48222,28 @@
     "confidence": 0.95
   },
   {
+    "id": 18030,
+    "title": "Civilian Complain Investigations Dispositions 5-Yr",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/18030/Civilian-Complain-Investigations-Dispositions-5-Yr",
+    "folder": "Civilian Complaint Data",
+    "ui_tab": "none",
+    "classification": "report",
+    "summary": "A 5-year summary of civilian complaint investigations and their dispositions, likely a chart or table showing how complaints against city officers were resolved. This is a police accountability document useful for residents tracking oversight of law enforcement.",
+    "relevant_date": null,
+    "project_name": null,
+    "dollar_amount": null,
+    "location": null,
+    "coords": null,
+    "tags": [
+      "police accountability",
+      "civilian complaints",
+      "investigations",
+      "dispositions",
+      "5-year report"
+    ],
+    "confidence": 0.45
+  },
+  {
     "id": 20285,
     "title": "Civilian Complaint Review Board",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/20285/Civilian-Complaint-Review-Board",
@@ -46808,6 +48967,28 @@
       "downtown development"
     ],
     "confidence": 0.9
+  },
+  {
+    "id": 23230,
+    "title": "Deputy Commissioner of Finance (2)",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23230/Deputy-Commissioner-of-Finance-2",
+    "folder": "Human Resources",
+    "ui_tab": "news",
+    "classification": "other",
+    "summary": "Job posting for the Deputy Commissioner of Finance/Risk/Purchasing Manager position in New Rochelle, NY. The role involves managing purchasing operations, tax collection, and risk management under the Commissioner of Finance, with a salary range of $135,271\u2013$221,876.",
+    "relevant_date": null,
+    "project_name": null,
+    "dollar_amount": "$135,271 - $221,876",
+    "location": null,
+    "coords": null,
+    "tags": [
+      "job posting",
+      "finance department",
+      "deputy commissioner",
+      "purchasing",
+      "risk management"
+    ],
+    "confidence": 0.55
   },
   {
     "id": 3074,
@@ -49229,6 +51410,28 @@
       "master_plan"
     ],
     "confidence": 0.95
+  },
+  {
+    "id": 18028,
+    "title": "IA Civilian Complaint Investigations 5-Year span",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/18028/IA-Civilian-Complaint-Investigations-5-Year-span",
+    "folder": "Civilian Complaint Data",
+    "ui_tab": "news",
+    "classification": "report",
+    "summary": "A data visualization or chart summarizing civilian complaint investigations conducted by the Internal Affairs division over a 5-year period. This provides transparency on police accountability and complaint trends in New Rochelle.",
+    "relevant_date": null,
+    "project_name": null,
+    "dollar_amount": null,
+    "location": null,
+    "coords": null,
+    "tags": [
+      "police",
+      "internal affairs",
+      "civilian complaints",
+      "accountability",
+      "data"
+    ],
+    "confidence": 0.45
   },
   {
     "id": 2500,
@@ -59062,6 +61265,28 @@
     "confidence": 0.95
   },
   {
+    "id": 22580,
+    "title": "Police Sector Map",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/22580/Police-Sector-Map",
+    "folder": "Maps Made",
+    "ui_tab": "map",
+    "classification": "other",
+    "summary": "A reference map showing the New Rochelle Police Department's 9 sector divisions across the city, with street names and neighborhood labels. Useful for residents to identify which police sector they live in and understand patrol coverage areas.",
+    "relevant_date": null,
+    "project_name": null,
+    "dollar_amount": null,
+    "location": "City of New Rochelle (all 9 police sectors)",
+    "coords": null,
+    "tags": [
+      "police",
+      "sectors",
+      "map",
+      "public safety",
+      "patrol"
+    ],
+    "confidence": 0.82
+  },
+  {
     "id": 201,
     "title": "Pollution Prevention",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/201/Pollution-Prevention",
@@ -62265,6 +64490,31 @@
     "confidence": 0.9
   },
   {
+    "id": 23433,
+    "title": "Tennis Rules and Regulations",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23433/Tennis-Rules-and-Regulations",
+    "folder": "Parks & Recreation",
+    "ui_tab": "news",
+    "classification": "other",
+    "summary": "Rules and regulations for using New Rochelle's public tennis courts, covering registration procedures, one-hour time limits, guest pass fees ($10/$50/$100), and prohibited items. Residents who want to play tennis or bring guests to the courts need to know these rules.",
+    "relevant_date": null,
+    "project_name": null,
+    "dollar_amount": null,
+    "location": "515 North Ave",
+    "coords": {
+      "lat": 40.9201463,
+      "lng": -73.7857973
+    },
+    "tags": [
+      "tennis",
+      "parks",
+      "recreation",
+      "courts",
+      "regulations"
+    ],
+    "confidence": 0.55
+  },
+  {
     "id": 12470,
     "title": "Testing Locations",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/12470/Testing-Locations",
@@ -62625,23 +64875,23 @@
     "folder": "Parks & Recreation",
     "ui_tab": "map",
     "classification": "report",
-    "summary": "This document outlines a visioning process or planning initiative for the Ward Acres Barn facility. It likely details proposed improvements, community input, or future use plans managed by the Parks & Recreation department.",
+    "summary": "A visioning document for the barn at Ward Acres Park, likely outlining future plans, uses, or improvements for the structure. Relevant to residents interested in the future of this public park facility.",
     "relevant_date": null,
     "project_name": "Ward Acres Barn",
     "dollar_amount": null,
-    "location": "Ward Acres",
+    "location": "Ward Acres Park, New Rochelle, NY",
     "coords": {
       "lat": 40.9585769,
       "lng": -73.7816711
     },
     "tags": [
       "parks",
-      "planning",
-      "community visioning",
-      "Ward Acres",
-      "infrastructure"
+      "ward acres",
+      "barn",
+      "visioning",
+      "planning"
     ],
-    "confidence": 0.7
+    "confidence": 0.55
   },
   {
     "id": 2176,

@@ -1,5 +1,71 @@
 [
   {
+    "title": "2027 Proposed Budget",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23580/2027-Proposed-Budget",
+    "description": "The City of New Rochelle's 2027 Proposed Budget outlines planned spending across all city departments including Public Safety, Public Works, Finance, and Development. It includes financial summaries, tax levy rates, revenue forecasts, and department-by-department appropriations that show residents how their tax dollars are planned to be allocated.",
+    "published": "2027",
+    "category": "budget",
+    "relevant_date": "2027",
+    "classification": "budget",
+    "folder": "Finance",
+    "source": "document_center"
+  },
+  {
+    "title": "By Laws Rules Rules of Procedure of CCRB FINAL",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23592/By-Laws-Rules-Rules-of-Procedure-of-CCRB-FINAL",
+    "description": "This document establishes the Rules of Procedure for the Civilian Complaint Review Board (CCRB) of New Rochelle, which independently reviews complaints of misconduct against New Rochelle Police Department officers. It covers board membership, meeting procedures, complaint intake and investigation processes, and reporting requirements. Residents can use this to understand how to file a complaint against a police officer and what to expect from the review process.",
+    "published": "2026-11-05",
+    "category": "ordinance",
+    "relevant_date": "2026-11-05",
+    "classification": "ordinance",
+    "folder": "CCRB Documents",
+    "source": "document_center"
+  },
+  {
+    "title": "2026 Fire Award and Promotion Ceremony Honorees",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23503/2026-Fire-Award-and-Promotion-Ceremony-Honorees",
+    "description": "Program and honoree list for the New Rochelle Fire Department's 2026 Awards and Promotions Ceremony on October 22, 2026 at City Council Chambers. It lists promotions to Deputy Chief, Fire Captain, and Fire Lieutenant, along with Life Saving Awards, Unit Citations, and other commendations with specific incident dates and addresses.",
+    "published": "2026-10-22",
+    "category": "press_release",
+    "relevant_date": "2026-10-22",
+    "classification": "press_release",
+    "folder": "Fire",
+    "source": "document_center"
+  },
+  {
+    "title": "October2026ACTUALCityManagersUpdate",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23537/October2026ACTUALCityManagersUpdate",
+    "description": "October 2026 City Manager's Update covering major development projects in downtown New Rochelle (including a proposed 28-story tower at 260 North Avenue and a 9-story affordable senior housing building at 50 Lockwood Avenue), the 2026 Citywide Paving Program nearing completion, Sheldrake River flood mitigation progress, and departmental statistics for police, fire, and city clerk services.",
+    "published": "2026-10",
+    "category": "report",
+    "relevant_date": "2026-10",
+    "classification": "report",
+    "folder": "City Manager",
+    "source": "document_center"
+  },
+  {
+    "title": "September2026TheCityManagerUpdate_FINAL",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23443/September2026TheCityManagerUpdate_FINAL",
+    "description": "The September 2026 City Manager's Update is a comprehensive monthly report covering the 2026 Paving Program (4.62 centerline miles, October\u2013December), the inaugural Participatory Budgeting program (49 ideas submitted, voting Nov 9\u201320), development projects including the Rose on Main 126-unit affordable condo at 455 Main Street and 38 First Street parking acquisition, Public Works infrastructure projects, and police department statistics.",
+    "published": "2026-09",
+    "category": "report",
+    "relevant_date": "2026-09",
+    "classification": "report",
+    "folder": "City Manager",
+    "source": "document_center"
+  },
+  {
+    "title": "August 2026 The City Managers Update",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23260/August-2026-The-City-Managers-Update",
+    "description": "The August 2026 City Manager's Update is a comprehensive newsletter covering city-wide developments including the THRIVE Grant Program funding local organizations, the Police Department's stance on federal immigration enforcement, economic development initiatives (Wykagyl corridor, West End fa\u00e7ade improvements, vacant storefront program, down payment assistance expansion), a new School Speed Zone Camera Demonstration Program, and police statistics. It serves as the primary public communication from the City Manager's office for residents.",
+    "published": "2026-08",
+    "category": "report",
+    "relevant_date": "2026-08",
+    "classification": "report",
+    "folder": "City Manager",
+    "source": "document_center"
+  },
+  {
     "title": "2026 CDBG HOME ACTION PLAN PUBLIC NOTICE - English",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/22864/2026-CDBG-HOME-ACTION-PLAN-PUBLIC-NOTICE---English",
     "description": "This document is a public notice announcing a 30-day comment period and a public hearing regarding the City\u2019s Draft 2026 Annual Action Plan and budget amendments for CDBG and HOME federal funding. Residents can review the proposed plans, submit written comments, or attend the hearing at City Hall to provide input on how over $1.8 million in federal grants will be used for community development and housing programs.",
@@ -55,6 +121,61 @@
     "source": "document_center"
   },
   {
+    "title": "July 2026 The City Managers Update",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23115/July-2026-The-City-Managers-Update",
+    "description": "The July 2026 City Manager's Update is a comprehensive monthly report covering multiple city initiatives including proposed code amendments for pet waste and rodent prevention, a 2027 property tax collection schedule change, development progress at One Clinton Park and the Train Station, infrastructure projects (paving, culvert replacement, Wilmot Road accessibility), and public safety statistics. It serves as the primary monthly communication from the City Manager's office to residents.",
+    "published": "2026-07",
+    "category": "report",
+    "relevant_date": "2026-07",
+    "classification": "report",
+    "folder": "City Manager",
+    "source": "document_center"
+  },
+  {
+    "title": "City of New Rochelle Participatory Budgeting Rulebook - Final 20260701",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23004/City-of-New-Rochelle-Participatory-Budgeting-Rulebook---Final-20260701",
+    "description": "This is the official rulebook for New Rochelle's first Participatory Budgeting program, adopted by the Steering Committee on June 30, 2026. It outlines how residents can submit project ideas, develop proposals, and vote on how $200,000 in public funds will be spent, with the pilot year focused on the New Rochelle High School campus area including Huguenot Park and Twin Lakes.",
+    "published": "2026-06-30",
+    "category": "other",
+    "relevant_date": "2026-06-30",
+    "classification": "other",
+    "folder": "Finance",
+    "source": "document_center"
+  },
+  {
+    "title": "Civilian Complaint Review Board Legislation Amended 6-16-2026",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23440/Civilian-Complaint-Review-Board-Legislation-Amended-6-16-2026",
+    "description": "This ordinance establishes the New Rochelle Civilian Complaint Review Board (CCRB), an independent civilian oversight body that reviews complaints of police misconduct. It was originally adopted in October 2024 and amended in June 2026 to update membership, removal, and training provisions. Residents can use this board to file complaints about police conduct and receive public reports on case outcomes.",
+    "published": "2026-06-16",
+    "category": "ordinance",
+    "relevant_date": "2026-06-16",
+    "classification": "ordinance",
+    "folder": "CCRB Documents",
+    "source": "document_center"
+  },
+  {
+    "title": "PROPOSED AMENDMENT TO CHAPTER 9, BOARDS, COMMISSIO_Item_Preview",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/22981/PROPOSED-AMENDMENT-TO-CHAPTER-9-BOARDS-COMMISSIO_Item_Preview",
+    "description": "Proposed ordinance amending the Civilian Complaint Review Board (CCRB) structure in the New Rochelle City Code. Key changes include replacing the single Chairperson with a Co-Chairperson structure, adjusting initial appointment terms, and setting annual compensation at $2,000 for Co-Chairpersons and $1,500 for other members. This affects how the city's independent body reviews civilian complaints about police conduct.",
+    "published": "2026-06-16",
+    "category": "ordinance",
+    "relevant_date": "2026-06-16",
+    "classification": "ordinance",
+    "folder": "CCRB Documents",
+    "source": "document_center"
+  },
+  {
+    "title": "June 2026 The City Managers Update",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23016/June-2026-The-City-Managers-Update",
+    "description": "The June 2026 City Manager's Update is a monthly newsletter covering multiple civic topics including a $7.885M NYSDOT grant for Pinebrook Boulevard safety improvements, the appointment of new Fire Chief Joseph Sinatra, the Civilian Complaint Review Board's inaugural meeting, and the launch of New Rochelle's Participatory Budgeting program. It also includes a summer events calendar and police department statistics.",
+    "published": "2026-06",
+    "category": "report",
+    "relevant_date": "2026-06",
+    "classification": "report",
+    "folder": "City Manager",
+    "source": "document_center"
+  },
+  {
     "title": "SFGEIS with Appedices_Accepted_reduced",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/22909/SFGEIS-with-Appedices_Accepted_reduced",
     "description": "This document is the Supplemental Final Generic Environmental Impact Statement (SFGEIS) for the City of New Rochelle's 2026 Downtown Overlay Zone amendments. It details the environmental and community impacts of proposed zoning changes and includes transcripts from a public hearing where residents provided feedback on downtown development. It matters to residents as it directly influences future commercial, residential, and cultural projects in the downtown district.",
@@ -68,7 +189,7 @@
   {
     "title": "May 2026 The City Manager's Update",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/22839/May-2026-The-City-Managers-Update",
-    "description": "This monthly City Manager's update provides residents with a recap of recent community meetings, announcements on departmental retirements, and progress reports on key city initiatives like traffic signal replacements and parking management. It also includes upcoming community event schedules and quarterly performance statistics from various city departments.",
+    "description": "The May 2026 City Manager's Update is a monthly newsletter covering multiple city initiatives including the adoption of the Local Safety Action Plan, progress on the Downtown Parking Management Strategic Plan, the Main Street/Huguenot Street Traffic Signal Replacement construction, Fire Chief Sandor's retirement, and departmental statistics for Fire/EMS and Police.",
     "published": "2026-05",
     "category": "report",
     "relevant_date": "2026-05",
@@ -319,6 +440,28 @@
     "source": "document_center"
   },
   {
+    "title": "City of New Rochelle Immigration FAQ",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23178/City-of-New-Rochelle-Immigration-FAQ",
+    "description": "City of New Rochelle FAQ document explaining the city's and police department's policies regarding ICE operations and immigration enforcement. It clarifies that the NRPD does not enforce federal civil immigration law, will not detain individuals based solely on civil immigration detainers, and provides residents with resources for understanding their rights during immigration encounters.",
+    "published": "2026",
+    "category": "other",
+    "relevant_date": "2026",
+    "classification": "other",
+    "folder": "Public Information",
+    "source": "document_center"
+  },
+  {
+    "title": "City of New Rochelle Immigration FAQ - Preguntas Frecuentes Sobre Inmigraci\u00f3n",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23179/City-of-New-Rochelle-Immigration-FAQ---Preguntas-Frecuentes-Sobre-Inmigraci\u00f3n",
+    "description": "Official City of New Rochelle FAQ (in Spanish) explaining the city's stance on ICE operations and the police department's immigration enforcement policies. It clarifies that NRPD does not enforce federal immigration laws, will not detain individuals based solely on civil immigration detainers, and will only comply with valid judicial warrants. The document also lists resources for residents seeking information about their rights during immigration enforcement encounters.",
+    "published": "2026",
+    "category": "press_release",
+    "relevant_date": "2026",
+    "classification": "press_release",
+    "folder": "Public Information",
+    "source": "document_center"
+  },
+  {
     "title": "FINAL_2026_Development_Budget_Presentation_With_Notes AS",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/21827/FINAL_2026_Development_Budget_Presentation_With_Notes-AS",
     "description": "This document presents the proposed budget for the Department of Development for 2026, including details on expenses, revenues, organizational structure, and goals. It provides insights into the city's plans for improving the physical environment and quality of life.",
@@ -338,6 +481,17 @@
     "relevant_date": "2026",
     "classification": "report",
     "folder": "Tax",
+    "source": "document_center"
+  },
+  {
+    "title": "State of the City Presentation 2026 ",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23530/State-of-the-City-Presentation-2026-",
+    "description": "State of the City presentation for 2026 by Mayor Yadira Ramos-Herbert, summarizing key city initiatives including the Downtown Economic & Small Business Development Hub at 500 Main St., a Community Incubator at 11 Garden St., a parklet on LeCount, West End awnings, transit center activations, and the upcoming Vanguard Center for the Arts. It also highlights support programs for seniors and veterans and the Retail Tenant Fund.",
+    "published": "2026",
+    "category": "report",
+    "relevant_date": "2026",
+    "classification": "report",
+    "folder": "Mayor",
     "source": "document_center"
   },
   {
@@ -770,6 +924,17 @@
     "source": "document_center"
   },
   {
+    "title": "2025 Year End Financial Report",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/22979/2025-Year-End-Financial-Report",
+    "description": "The City of New Rochelle's Annual Comprehensive Financial Report for the fiscal year ending December 31, 2025. It includes audited financial statements, management discussion, and a statistical section with 10-year trends on revenue, debt, demographics, and operating data such as miles of streets, parks, and infrastructure. This report is important for residents to understand how city funds are managed and the long-term financial health of the municipality.",
+    "published": "2025",
+    "category": "report",
+    "relevant_date": "2025",
+    "classification": "report",
+    "folder": "Finance",
+    "source": "document_center"
+  },
+  {
     "title": "CDBG Regulations  Guidance for Eligible Activities",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/2903/CDBG-Regulations--Guidance-for-Eligible-Activities",
     "description": "This document outlines the eligibility requirements, income limits, and regulatory guidelines for organizations applying for CDBG and HOME program funding in New Rochelle. It details non-discrimination policies, reporting obligations, and how funded activities must specifically benefit low-to-moderate-income residents.",
@@ -1177,6 +1342,50 @@
     "source": "document_center"
   },
   {
+    "title": "Allegations Investigated By Category 2024",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/20427/Allegations-Investigated-By-Category-2024",
+    "description": "A data visualization showing civilian complaints against police categorized by type of allegation for 2024. This is a transparency document that helps residents understand the nature and volume of police misconduct complaints investigated by the city.",
+    "published": "2024",
+    "category": "report",
+    "relevant_date": "2024",
+    "classification": "report",
+    "folder": "Civilian Complaint Data",
+    "source": "document_center"
+  },
+  {
+    "title": "Civilian Complaint Intake by Month 2024",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/20428/Civilian-Complaint-Intake-by-Month-2024",
+    "description": "A monthly breakdown of civilian complaints received by the New Rochelle Police Department throughout 2024. This data is useful for residents tracking police accountability and transparency.",
+    "published": "2024",
+    "category": "report",
+    "relevant_date": "2024",
+    "classification": "report",
+    "folder": "Civilian Complaint Data",
+    "source": "document_center"
+  },
+  {
+    "title": "Frequency of Misconduct Allegations 2024",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/20431/Frequency-of-Misconduct-Allegations-2024",
+    "description": "A data visualization showing the frequency of misconduct allegations filed against city employees in 2024, part of the city's civilian complaint transparency data. This matters to residents as it provides insight into public safety and accountability.",
+    "published": "2024",
+    "category": "report",
+    "relevant_date": "2024",
+    "classification": "report",
+    "folder": "Civilian Complaint Data",
+    "source": "document_center"
+  },
+  {
+    "title": "IA Civilian Complaint Investigations 5yr Span 2024",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/20432/IA-Civilian-Complaint-Investigations-5yr-Span-2024",
+    "description": "A data visualization or report covering Internal Affairs civilian complaint investigations over a 5-year span through 2024. This type of document provides transparency on police accountability and oversight in New Rochelle.",
+    "published": "2024",
+    "category": "report",
+    "relevant_date": "2024",
+    "classification": "report",
+    "folder": "Civilian Complaint Data",
+    "source": "document_center"
+  },
+  {
     "title": "Road to Homeownership  - BAILEY INITIATIVE_2024",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/19754/Road-to-Homeownership----BAILEY-INITIATIVE_2024",
     "description": "This presentation outlines the Bailey Initiative, a New Rochelle city program designed to assist residents with pathways to homeownership. It details housing resources, eligibility, and support services available to the community.",
@@ -1452,6 +1661,17 @@
     "source": "document_center"
   },
   {
+    "title": "Use-of-Force-Policy-Spanish",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/17738/Use-of-Force-Policy-Spanish",
+    "description": "Spanish-language version of the New Rochelle Police Department's Use of Force Policy (Article 5.29), last revised February 25, 2023. It outlines the standards for when and how officers may use force, including deadly force, the duty to intervene, prohibited uses of force, reporting requirements, and training obligations. Residents may want to review this to understand the rules governing police conduct in their community.",
+    "published": "2023-02-25",
+    "category": "other",
+    "relevant_date": "2023-02-25",
+    "classification": "other",
+    "folder": "Use of Force",
+    "source": "document_center"
+  },
+  {
     "title": "NR- City-School District Joint Statement 1-18",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/8936/NR--City-School-District-Joint-Statement-1-18",
     "description": "This joint statement from the Mayor and the School District likely discusses important collaborative efforts or updates that affect both city and school district residents.",
@@ -1551,6 +1771,50 @@
     "source": "document_center"
   },
   {
+    "title": "Allegations Investigated by Category 2023",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/18029/Allegations-Investigated-by-Category-2023",
+    "description": "A data visualization or chart summarizing civilian complaints against police in New Rochelle for 2023, broken down by category of allegation. This is a police accountability and transparency document useful for residents tracking oversight of law enforcement.",
+    "published": "2023",
+    "category": "report",
+    "relevant_date": "2023",
+    "classification": "report",
+    "folder": "Civilian Complaint Data",
+    "source": "document_center"
+  },
+  {
+    "title": "Civilian Complaint Intake 2023",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/18031/Civilian-Complaint-Intake-2023",
+    "description": "A 2023 document related to civilian complaint intake, likely a data visualization or report showing the volume or breakdown of complaints filed against city officials (possibly police). This is relevant to residents interested in transparency and accountability of city services.",
+    "published": "2023",
+    "category": "report",
+    "relevant_date": "2023",
+    "classification": "report",
+    "folder": "Civilian Complaint Data",
+    "source": "document_center"
+  },
+  {
+    "title": "Civilian Complaint Intake by Month 2023",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/18032/Civilian-Complaint-Intake-by-Month-2023",
+    "description": "A data visualization showing the number of civilian complaints received by the New Rochelle Police Department, broken down by month for 2023. This is useful for residents interested in police accountability and transparency.",
+    "published": "2023",
+    "category": "report",
+    "relevant_date": "2023",
+    "classification": "report",
+    "folder": "Civilian Complaint Data",
+    "source": "document_center"
+  },
+  {
+    "title": "Dispositions of Allegations 2023",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/18027/Dispositions-of-Allegations-2023",
+    "description": "This is a 2023 report on the dispositions of allegations from civilian complaints, likely handled by a Civilian Complaint Review Board. It provides residents with transparency on how complaints against city employees (typically police) were investigated and resolved.",
+    "published": "2023",
+    "category": "report",
+    "relevant_date": "2023",
+    "classification": "report",
+    "folder": "Civilian Complaint Data",
+    "source": "document_center"
+  },
+  {
     "title": "Homeowner_Stormwater_Guidance_2023",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/17796/Homeowner_Stormwater_Guidance_2023",
     "description": "This document provides guidelines for homeowners and small businesses in New Rochelle on managing stormwater effectively. It includes practical advice and steps to reduce stormwater issues, which can help residents protect their properties and contribute to the city's sustainability goals.",
@@ -1581,6 +1845,17 @@
     "relevant_date": "2023",
     "classification": "other",
     "folder": "Human Resources",
+    "source": "document_center"
+  },
+  {
+    "title": "NRPD PACT VOLUNTARY FIREARMS PROGRAM (004)",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/16388/NRPD-PACT-VOLUNTARY-FIREARMS-PROGRAM-004",
+    "description": "This document announces the New Rochelle Police Department's PACT Voluntary Firearms Surrender Initiative and Gun Safety Program, which allows residents to voluntarily surrender unwanted firearms and ammunition for destruction. It also provides free gun safety education, gun locks, and safety literature in partnership with Project ChildSafe, NYS Police, and Westchester County Police.",
+    "published": "2023",
+    "category": "press_release",
+    "relevant_date": "2023",
+    "classification": "press_release",
+    "folder": "2023 NRPD",
     "source": "document_center"
   },
   {
@@ -1889,6 +2164,17 @@
     "relevant_date": "2022",
     "classification": "report",
     "folder": "Police",
+    "source": "document_center"
+  },
+  {
+    "title": "website_complaint_data",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/16478/website_complaint_data",
+    "description": "This is a New Rochelle Police Department statistical report summarizing civilian complaints from 2018 through 2022, including total complaint counts, calls for service, and disposition breakdowns (sustained, unsubstantiated, unfounded, exonerated). It provides residents with transparency into how the police department investigates and resolves complaints against officers.",
+    "published": "2022",
+    "category": "report",
+    "relevant_date": "2022",
+    "classification": "report",
+    "folder": "Civilian Complaint Data",
     "source": "document_center"
   },
   {
@@ -2992,6 +3278,17 @@
     "source": "document_center"
   },
   {
+    "title": "cyc-factsheet",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/11926/cyc-factsheet",
+    "description": "A public information fact sheet encouraging New Rochelle residents to ensure young children are counted in the 2020 Census. It provides specific guidance on where to count children who split time between homes, are moving, or are temporarily staying with relatives, emphasizing that accurate counts affect funding for schools, healthcare, and childcare programs.",
+    "published": "2020-04-01",
+    "category": "press_release",
+    "relevant_date": "2020-04-01",
+    "classification": "press_release",
+    "folder": "Census 2020",
+    "source": "document_center"
+  },
+  {
     "title": "HUD Eviction Moratorium Flyer",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/12399/HUD-Eviction-Moratorium-Flyer",
     "description": "This flyer provides information about the temporary suspension of evictions for nonpayment of rent due to the coronavirus pandemic, affecting HUD-assisted participants from March 27, 2020 to July 24, 2020. It outlines the rights and responsibilities of tenants and landlords during this period.",
@@ -3253,6 +3550,17 @@
     "relevant_date": "2020",
     "classification": "report",
     "folder": "Police",
+    "source": "document_center"
+  },
+  {
+    "title": "Handout_With_General_FAQs",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/11929/Handout_With_General_FAQs",
+    "description": "A general FAQ handout about the 2020 U.S. Census explaining what it is, why it matters (funding, redistricting, civic duty), privacy protections, and what questions will be asked. Distributed to New Rochelle residents to encourage participation.",
+    "published": "2020",
+    "category": "other",
+    "relevant_date": "2020",
+    "classification": "other",
+    "folder": "Census 2020",
     "source": "document_center"
   },
   {
@@ -7480,6 +7788,17 @@
     "source": "document_center"
   },
   {
+    "title": "AnnualReport2012",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23005/AnnualReport2012",
+    "description": "The 2012 New Rochelle Police Department Annual Report covering crime statistics, personnel demographics, calls for service, and community programs. It highlights that New Rochelle was the 10th safest city nationally in its size category and reports a 20% reduction in robberies.",
+    "published": "2012",
+    "category": "report",
+    "relevant_date": "2012",
+    "classification": "report",
+    "folder": "Annual Reports",
+    "source": "document_center"
+  },
+  {
     "title": "DRAFT 2012 ACTION PLAN.WEBFILE",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/1056/DRAFT-2012-ACTION-PLANWEBFILE",
     "description": "This draft document outlines the City of New Rochelle's 2012 funding priorities and planned projects using federal CDBG and HOME grants. It details specific infrastructure upgrades, affordable housing construction, and community services aimed at low- and moderate-income residents.",
@@ -7664,6 +7983,17 @@
     "relevant_date": "2011-01-18",
     "classification": "public_hearing",
     "folder": "CDBG and HOME",
+    "source": "document_center"
+  },
+  {
+    "title": "2011 ADOPTED BUDGET",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/723/2011-ADOPTED-BUDGET",
+    "description": "The City of New Rochelle's adopted 2011 budget and work program, detailing revenue sources and appropriations across all city departments including Police, Fire, Public Works, Parks and Recreation, and other funds. This document shows residents how the city planned to allocate its funds for the 2011 fiscal year under Mayor Noam Bramson and City Manager Charles B. Strome.",
+    "published": "2011",
+    "category": "budget",
+    "relevant_date": "2011",
+    "classification": "budget",
+    "folder": "Finance",
     "source": "document_center"
   },
   {
@@ -7972,6 +8302,17 @@
     "relevant_date": "2010",
     "classification": "budget",
     "folder": "CDBG and HOME",
+    "source": "document_center"
+  },
+  {
+    "title": "2010 Adopted Budget",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/161/2010-Adopted-Budget",
+    "description": "The 2010 Adopted Budget and Work Program for the City of New Rochelle, detailing revenues, appropriations, and expenditures across all city departments and funds including General Fund, Self Insurance, Debt Service, and Capital Improvement funds. It includes the budget message, council revisions, tax levy computations, and departmental staffing plans.",
+    "published": "2010",
+    "category": "budget",
+    "relevant_date": "2010",
+    "classification": "budget",
+    "folder": "Finance",
     "source": "document_center"
   },
   {
@@ -9009,6 +9350,17 @@
     "source": "document_center"
   },
   {
+    "title": "Deputy Commissioner of Finance (2)",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23230/Deputy-Commissioner-of-Finance-2",
+    "description": "Job posting for the Deputy Commissioner of Finance/Risk/Purchasing Manager position in New Rochelle, NY. The role involves managing purchasing operations, tax collection, and risk management under the Commissioner of Finance, with a salary range of $135,271\u2013$221,876.",
+    "published": null,
+    "category": "other",
+    "relevant_date": null,
+    "classification": "other",
+    "folder": "Human Resources",
+    "source": "document_center"
+  },
+  {
     "title": "Dont Be Left In The Dark 7064",
     "url": "https://www.newrochelleny.gov/DocumentCenter/View/12846/Dont-Be-Left-In-The-Dark-7064",
     "description": "This booklet provides guidance on preparing for and dealing with power outages and weather emergencies such as storms and flooding. It includes tips on staying safe and connected during and after an emergency.",
@@ -9523,6 +9875,17 @@
     "relevant_date": null,
     "classification": "report",
     "folder": "Parks & Recreation",
+    "source": "document_center"
+  },
+  {
+    "title": "IA Civilian Complaint Investigations 5-Year span",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/18028/IA-Civilian-Complaint-Investigations-5-Year-span",
+    "description": "A data visualization or chart summarizing civilian complaint investigations conducted by the Internal Affairs division over a 5-year period. This provides transparency on police accountability and complaint trends in New Rochelle.",
+    "published": null,
+    "category": "report",
+    "relevant_date": null,
+    "classification": "report",
+    "folder": "Civilian Complaint Data",
     "source": "document_center"
   },
   {
@@ -14297,6 +14660,17 @@
     "relevant_date": null,
     "classification": "other",
     "folder": "Youth Bureau",
+    "source": "document_center"
+  },
+  {
+    "title": "Tennis Rules and Regulations",
+    "url": "https://www.newrochelleny.gov/DocumentCenter/View/23433/Tennis-Rules-and-Regulations",
+    "description": "Rules and regulations for using New Rochelle's public tennis courts, covering registration procedures, one-hour time limits, guest pass fees ($10/$50/$100), and prohibited items. Residents who want to play tennis or bring guests to the courts need to know these rules.",
+    "published": null,
+    "category": "other",
+    "relevant_date": null,
+    "classification": "other",
+    "folder": "Parks & Recreation",
     "source": "document_center"
   },
   {

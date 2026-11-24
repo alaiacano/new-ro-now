@@ -25,6 +25,22 @@ def _parse_date(s: str) -> str | None:
     return s or None
 
 
+_CSS_BLOCK = re.compile(r"[^{}]*\{[^{}]*\}")
+_CSS_TAIL = re.compile(r"[^{}]*\{[^{}]*$")  # rule cut off by the site's "..." truncation
+
+
+def _clean_description(text: str) -> str:
+    """
+    Drop CSS that the city's CMS sometimes leaks into the listing preview
+    (a pasted <style> block shown as text), keeping any real prose around it.
+    """
+    if re.search(r"\{[^}]*:[^}]*;", text):
+        text = _CSS_BLOCK.sub(" ", text)
+        text = _CSS_TAIL.sub(" ", text)
+    text = re.sub(r"\s+", " ", text).strip()
+    return "" if re.fullmatch(r"[.\u2026\s]*", text) else text
+
+
 def scrape() -> list[dict]:
     console.print(f"  Fetching bids from {BIDS_URL}...")
     try:
@@ -54,6 +70,10 @@ def scrape() -> list[dict]:
         if not title_div:
             continue
 
+        # Remove the "[Read on: <title>]" link (its hidden span repeats the
+        # title) and any style/script tags before taking the text.
+        for el in title_div.select('a[aria-label^="Read on"], .visuallyHidden, style, script'):
+            el.decompose()
         title_text = title_div.get_text(separator=" ", strip=True)
 
         # Extract bid number from "Bid No.5856" pattern
@@ -68,8 +88,10 @@ def scrape() -> list[dict]:
         # Description is the remainder after bid number
         desc_parts = re.split(r"Bid\s*No\.?\s*[A-Z0-9\-]+", title_text, maxsplit=1)
         description = desc_parts[1].strip() if len(desc_parts) > 1 else ""
-        # Strip trailing "[ Read on ]" noise
-        description = re.sub(r"\[?\s*Read\s*[\xa0 ]*on\s*\]?", "", description).strip()
+        # Strip leftover "[ ]" / "[ Read on ]" noise, then any leaked CSS
+        description = re.sub(r"\[?\s*Read\s*[\xa0 ]*on\s*\]?", "", description)
+        description = re.sub(r"\[\s*\]\s*$", "", description)
+        description = _clean_description(description)
 
         status = ""
         closing_date = None

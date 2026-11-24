@@ -6,7 +6,7 @@
     "start": "2026-11-24T10:00:00-05:00",
     "end": "2026-11-24T23:59:00-05:00",
     "location": "City Hall - 515 North Avenue  New Rochelle NY 10801",
-    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=27",
+    "url": "https://www.newrochelleny.gov/Calendar.aspx?EID=7718",
     "description": "https://www.newrochelleny.gov/m/calendar/event/detail/7718"
   },
   {
@@ -16,7 +16,7 @@
     "start": "2026-11-24T17:30:00-05:00",
     "end": "2026-11-24T23:59:00-05:00",
     "location": "City Hall - 515 North Avenue  New Rochelle NY 10801",
-    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=33",
+    "url": "https://www.newrochelleny.gov/Calendar.aspx?EID=7748",
     "description": "https://www.newrochelleny.gov/m/calendar/event/detail/7748"
   },
   {
@@ -26,7 +26,7 @@
     "start": "2026-11-24T19:00:00-05:00",
     "end": "2026-11-24T23:59:00-05:00",
     "location": "City Hall - 515 North Avenue  New Rochelle NY 10801",
-    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=57",
+    "url": "https://www.newrochelleny.gov/Calendar.aspx?EID=7148",
     "description": "https://www.newrochelleny.gov/m/calendar/event/detail/7148"
   },
   {
@@ -36,7 +36,7 @@
     "start": "2026-11-24T19:00:00-05:00",
     "end": "2026-11-24T23:59:59-05:00",
     "location": "- 515 North Avenue  New Rochelle NY 10801",
-    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=33",
+    "url": "https://www.newrochelleny.gov/Calendar.aspx?EID=7747",
     "description": "https://www.newrochelleny.gov/m/calendar/event/detail/7747"
   },
   {
@@ -46,7 +46,7 @@
     "start": "2026-12-01T15:45:00-05:00",
     "end": "2026-12-01T23:59:00-05:00",
     "location": "City Hall - 515 North Avenue  New Rochelle NY 10801",
-    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=33",
+    "url": "https://www.newrochelleny.gov/Calendar.aspx?EID=7277",
     "description": "https://www.newrochelleny.gov/m/calendar/event/detail/7277"
   },
   {
@@ -56,7 +56,7 @@
     "start": "2026-12-01T18:00:00-05:00",
     "end": "2026-12-01T23:59:00-05:00",
     "location": "-   New Rochelle NY 10801",
-    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=55",
+    "url": "https://www.newrochelleny.gov/Calendar.aspx?EID=7210",
     "description": "https://www.newrochelleny.gov/m/calendar/event/detail/7210"
   },
   {
@@ -66,7 +66,7 @@
     "start": "2026-12-02T18:00:00-05:00",
     "end": "2026-12-02T23:59:00-05:00",
     "location": "City Hall - 515 North Avenue  New Rochelle NY 10801",
-    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=35",
+    "url": "https://www.newrochelleny.gov/Calendar.aspx?EID=7346",
     "description": "https://www.newrochelleny.gov/m/calendar/event/detail/7346"
   },
   {
@@ -76,7 +76,7 @@
     "start": "2026-12-02T19:30:00-05:00",
     "end": "2026-12-02T23:59:00-05:00",
     "location": "City Hall - 515 North Avenue  New Rochelle NY 10801",
-    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=60",
+    "url": "https://www.newrochelleny.gov/Calendar.aspx?EID=7240",
     "description": "https://www.newrochelleny.gov/m/calendar/event/detail/7240"
   },
   {
@@ -86,7 +86,7 @@
     "start": "2026-12-05T17:15:00-05:00",
     "end": "2026-12-05T23:59:00-05:00",
     "location": "Downtown REC - 29 LeCount Pl 2nd Floor New Rochelle NY 10801",
-    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=34",
+    "url": "https://www.newrochelleny.gov/Calendar.aspx?EID=7721",
     "description": "https://www.newrochelleny.gov/m/calendar/event/detail/7721"
   },
   {
@@ -96,7 +96,7 @@
     "start": "2026-12-08T18:15:00-05:00",
     "end": "2026-12-08T19:15:00-05:00",
     "location": "City Hall - 515 North Avenue  New Rochelle NY 10801",
-    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=33",
+    "url": "https://www.newrochelleny.gov/Calendar.aspx?EID=7287",
     "description": "https://www.newrochelleny.gov/m/calendar/event/detail/7287"
   },
   {
@@ -106,7 +106,7 @@
     "start": "2026-12-09T16:30:00-05:00",
     "end": "2026-12-09T23:59:00-05:00",
     "location": "City Hall - 515 North Avenue  New Rochelle NY 10801",
-    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=34",
+    "url": "https://www.newrochelleny.gov/Calendar.aspx?EID=7723",
     "description": "https://www.newrochelleny.gov/m/calendar/event/detail/7723"
   },
   {
@@ -116,7 +116,7 @@
     "start": "2026-12-09T18:00:00-05:00",
     "end": "2026-12-09T23:59:00-05:00",
     "location": "City Hall - 515 North Avenue  New Rochelle NY 10801",
-    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=58",
+    "url": "https://www.newrochelleny.gov/Calendar.aspx?EID=7137",
     "description": "https://www.newrochelleny.gov/m/calendar/event/detail/7137"
   },
   {
@@ -126,7 +126,7 @@
     "start": "2026-12-15T19:00:00-05:00",
     "end": "2026-12-15T23:59:00-05:00",
     "location": "City Hall - 515 North Avenue  New Rochelle NY 10801",
-    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=57",
+    "url": "https://www.newrochelleny.gov/Calendar.aspx?EID=7149",
     "description": "https://www.newrochelleny.gov/m/calendar/event/detail/7149"
   },
   {
@@ -136,7 +136,7 @@
     "start": "2026-12-16T15:30:00-05:00",
     "end": "2026-12-16T16:00:00-05:00",
     "location": "City Hall - 515 North Avenue  New Rochelle NY 10801",
-    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=63",
+    "url": "https://www.newrochelleny.gov/Calendar.aspx?EID=7455",
     "description": "https://www.newrochelleny.gov/m/calendar/event/detail/7455"
   },
   {
@@ -146,7 +146,7 @@
     "start": "2026-12-16T19:30:00-05:00",
     "end": "2026-12-16T23:59:00-05:00",
     "location": "City Hall - 515 North Avenue  New Rochelle NY 10801",
-    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=60",
+    "url": "https://www.newrochelleny.gov/Calendar.aspx?EID=7241",
     "description": "https://www.newrochelleny.gov/m/calendar/event/detail/7241"
   },
   {
@@ -156,7 +156,7 @@
     "start": "2026-12-19T10:00:00-05:00",
     "end": "2026-12-19T23:59:00-05:00",
     "location": "<ul><li>10am &ndash; PINEBROOK PARK<br><br></li><li>1030AM &ndash; HUGUENOT PARK (JACK&rsquo;S FRIENDSHIP GARDEN)<p>11AM &ndash; LINCOLN PARK</p></li><li><p>1130AM &ndash; FEENEY PARK</p></li><li><p>12PM &ndash; FLOWERS CITY PARK (LOT 2 &ndash; PAVILION LOT)</p></li><li><p>1230PM &ndash; STEPHENSON PARK</p></li><li><p>1PM &ndash; RUBY DEE PARK (LAWTON STREET SIDE BY LIBRARY)</p></li><li><p>130PM &ndash; HUDSON PARK&nbsp;</p><p><br></p></li></ul> -   New Rochelle NY 10801",
-    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=34",
+    "url": "https://www.newrochelleny.gov/Calendar.aspx?EID=7736",
     "description": "https://www.newrochelleny.gov/m/calendar/event/detail/7736"
   },
   {
@@ -166,7 +166,7 @@
     "start": "2026-12-31T11:00:00-05:00",
     "end": "2026-12-31T12:00:00-05:00",
     "location": "<p>Ryan Sinkfield Park</p> - 18 Brook St  New Rochelle NY 10801",
-    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=34",
+    "url": "https://www.newrochelleny.gov/Calendar.aspx?EID=7737",
     "description": "https://www.newrochelleny.gov/m/calendar/event/detail/7737"
   },
   {
@@ -176,7 +176,7 @@
     "start": "2027-01-01T10:00:00-05:00",
     "end": "2027-01-01T23:59:00-05:00",
     "location": "City Hall - 515 North Avenue  New Rochelle NY 10801",
-    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=54",
+    "url": "https://www.newrochelleny.gov/Calendar.aspx?EID=3828",
     "description": "https://www.newrochelleny.gov/m/calendar/event/detail/3828"
   },
   {
@@ -186,7 +186,7 @@
     "start": "2027-01-19T18:15:00-05:00",
     "end": "2027-01-19T23:59:59-05:00",
     "location": "- 1st Floor Council Conference Room, City Hall 515 North Avenue New Rochelle NY 10801",
-    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=33",
+    "url": "https://www.newrochelleny.gov/Calendar.aspx?EID=7606",
     "description": "https://www.newrochelleny.gov/m/calendar/event/detail/7606"
   },
   {
@@ -196,7 +196,7 @@
     "start": "2027-01-26T19:00:00-05:00",
     "end": "2027-01-26T23:59:00-05:00",
     "location": "City Hall - 515 North Avenue  New Rochelle NY 10801",
-    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=57",
+    "url": "https://www.newrochelleny.gov/Calendar.aspx?EID=7750",
     "description": "https://www.newrochelleny.gov/m/calendar/event/detail/7750"
   },
   {
@@ -206,7 +206,7 @@
     "start": "2027-02-09T15:45:00-05:00",
     "end": "2027-02-09T23:59:59-05:00",
     "location": "- 1st Floor Council Conference Room, City Hall 515 North Avenue New Rochelle",
-    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=33",
+    "url": "https://www.newrochelleny.gov/Calendar.aspx?EID=7564",
     "description": "https://www.newrochelleny.gov/m/calendar/event/detail/7564"
   },
   {
@@ -216,7 +216,7 @@
     "start": "2027-02-16T18:15:00-05:00",
     "end": "2027-02-16T23:59:59-05:00",
     "location": "- 1st Floor Council Conference Room, City Hall 515 North Avenue New Rochelle NY 10801",
-    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=33",
+    "url": "https://www.newrochelleny.gov/Calendar.aspx?EID=7611",
     "description": "https://www.newrochelleny.gov/m/calendar/event/detail/7611"
   },
   {
@@ -226,7 +226,7 @@
     "start": "2027-02-23T19:00:00-05:00",
     "end": "2027-02-23T23:59:00-05:00",
     "location": "City Hall - 515 North Avenue  New Rochelle NY 10801",
-    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=57",
+    "url": "https://www.newrochelleny.gov/Calendar.aspx?EID=7751",
     "description": "https://www.newrochelleny.gov/m/calendar/event/detail/7751"
   },
   {
@@ -236,7 +236,7 @@
     "start": "2027-03-01T08:30:00-05:00",
     "end": "2027-03-01T23:59:00-05:00",
     "location": "City Hall - 515 North Avenue  New Rochelle NY 10801",
-    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=54",
+    "url": "https://www.newrochelleny.gov/Calendar.aspx?EID=6780",
     "description": "https://www.newrochelleny.gov/m/calendar/event/detail/6780"
   },
   {
@@ -246,7 +246,7 @@
     "start": "2027-03-09T15:45:00-05:00",
     "end": "2027-03-09T23:59:59-05:00",
     "location": "- 1st Floor Council Conference Room, City Hall 515 North Avenue New Rochelle",
-    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=33",
+    "url": "https://www.newrochelleny.gov/Calendar.aspx?EID=7573",
     "description": "https://www.newrochelleny.gov/m/calendar/event/detail/7573"
   },
   {
@@ -256,7 +256,7 @@
     "start": "2027-03-16T18:15:00-04:00",
     "end": "2027-03-16T23:59:59-04:00",
     "location": "- 1st Floor Council Conference Room, City Hall 515 North Avenue New Rochelle NY 10801",
-    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=33",
+    "url": "https://www.newrochelleny.gov/Calendar.aspx?EID=7600",
     "description": "https://www.newrochelleny.gov/m/calendar/event/detail/7600"
   },
   {
@@ -266,7 +266,7 @@
     "start": "2027-03-23T19:00:00-04:00",
     "end": "2027-03-23T23:59:00-04:00",
     "location": "City Hall - 515 North Avenue  New Rochelle NY 10801",
-    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=57",
+    "url": "https://www.newrochelleny.gov/Calendar.aspx?EID=7752",
     "description": "https://www.newrochelleny.gov/m/calendar/event/detail/7752"
   },
   {
@@ -276,7 +276,7 @@
     "start": "2027-04-13T15:45:00-04:00",
     "end": "2027-04-13T23:59:59-04:00",
     "location": "- 1st Floor Council Conference Room, City Hall 515 North Avenue New Rochelle",
-    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=33",
+    "url": "https://www.newrochelleny.gov/Calendar.aspx?EID=7569",
     "description": "https://www.newrochelleny.gov/m/calendar/event/detail/7569"
   },
   {
@@ -286,7 +286,7 @@
     "start": "2027-04-20T18:15:00-04:00",
     "end": "2027-04-20T23:59:59-04:00",
     "location": "- 1st Floor Council Conference Room, City Hall 515 North Avenue New Rochelle NY 10801",
-    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=33",
+    "url": "https://www.newrochelleny.gov/Calendar.aspx?EID=7610",
     "description": "https://www.newrochelleny.gov/m/calendar/event/detail/7610"
   },
   {
@@ -296,7 +296,7 @@
     "start": "2027-04-27T19:00:00-04:00",
     "end": "2027-04-27T23:59:00-04:00",
     "location": "City Hall - 515 North Avenue  New Rochelle NY 10801",
-    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=57",
+    "url": "https://www.newrochelleny.gov/Calendar.aspx?EID=7753",
     "description": "https://www.newrochelleny.gov/m/calendar/event/detail/7753"
   },
   {
@@ -306,7 +306,7 @@
     "start": "2027-05-11T15:45:00-04:00",
     "end": "2027-05-11T23:59:59-04:00",
     "location": "- 1st Floor Council Conference Room, City Hall 515 North Avenue New Rochelle",
-    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=33",
+    "url": "https://www.newrochelleny.gov/Calendar.aspx?EID=7572",
     "description": "https://www.newrochelleny.gov/m/calendar/event/detail/7572"
   },
   {
@@ -316,7 +316,7 @@
     "start": "2027-05-18T18:15:00-04:00",
     "end": "2027-05-18T23:59:59-04:00",
     "location": "- 1st Floor Council Conference Room, City Hall 515 North Avenue New Rochelle NY 10801",
-    "url": "/common/modules/iCalendar/iCalendar.aspx?feed=calendar&catID=33",
+    "url": "https://www.newrochelleny.gov/Calendar.aspx?EID=7603",
     "description": "https://www.newrochelleny.gov/m/calendar/event/detail/7603"
   }
 ]

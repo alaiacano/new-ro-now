@@ -3,12 +3,13 @@ Scrape board/government meeting schedules via iCal feeds.
 Sources: Planning Board, Zoning Board, and other city calendars.
 """
 from datetime import datetime, timezone, timedelta
+from urllib.parse import urljoin
 
 import httpx
 from icalendar import Calendar
 from rich.console import Console
 
-from ..config import ICAL_URL_TEMPLATE, MEETING_CALENDARS
+from ..config import BASE_URL, ICAL_URL_TEMPLATE, MEETING_CALENDARS
 
 console = Console()
 
@@ -60,9 +61,17 @@ def _parse_ical(raw: bytes, calendar_name: str) -> list[dict]:
         location = str(component.get("LOCATION", "")).strip()
         url = str(component.get("URL", "")).strip()
         description = str(component.get("DESCRIPTION", "")).strip()
+        uid = str(component.get("UID", f"{calendar_name}-{start.isoformat()}"))
+
+        # The feed's URL property is the (relative) feed itself, not the event.
+        # CivicPlus UIDs are event IDs, so link to the event page instead.
+        if uid.isdigit():
+            url = f"{BASE_URL}/Calendar.aspx?EID={uid}"
+        elif url:
+            url = urljoin(BASE_URL + "/", url)
 
         events.append({
-            "id": str(component.get("UID", f"{calendar_name}-{start.isoformat()}")),
+            "id": uid,
             "calendar": calendar_name,
             "title": summary or calendar_name,
             "start": start.isoformat(),

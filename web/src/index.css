@@ -1,21 +1,59 @@
+@import '@fontsource-variable/overpass';
+
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+/*
+ * Palette borrows from the street: sign-blade green, work-zone orange,
+ * stormwater blue, on concrete. One typeface (Overpass, a Highway Gothic
+ * descendant) carries everything.
+ */
 :root {
-  --brand: #1a5f9e;
-  --brand-dark: #134a7d;
-  --brand-light: #e8f0f8;
-  --accent: #e05c2a;
-  --bg: #f0f2f5;
+  color-scheme: light dark;
+
+  --sign: #0f6b45;          /* street-name sign green: brand, links, active */
+  --sign-ink: #ffffff;
+  --sign-soft: #e3efe8;
+  --work: #c95f06;          /* work-zone orange: roadwork, closing soon */
+  --work-soft: #fbeadb;
+  --water: #2f6fa3;         /* stormwater / flood */
+  --water-soft: #e1ecf5;
+
+  --bg: #f1f2ee;            /* concrete */
   --surface: #ffffff;
-  --border: #dde2e8;
-  --text: #1a1e27;
-  --text-muted: #6b7280;
-  --radius: 10px;
-  --shadow: 0 1px 4px rgba(0,0,0,0.08);
+  --line: #dcdfd7;
+  --text: #1f2427;          /* asphalt */
+  --text-muted: #5d6569;
+  --text-faint: #8a9195;
+
+  --radius-sm: 4px;
+  --radius: 8px;
+  --bar-h: 60px;
+  --measure: 72ch;
+
+  --font: 'Overpass Variable', 'Overpass', system-ui, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --sign: #3db07a;
+    --sign-ink: #0b1a12;
+    --sign-soft: #17302a;
+    --work: #f08a3a;
+    --work-soft: #3a2616;
+    --water: #6aa7da;
+    --water-soft: #172a3a;
+
+    --bg: #151a1c;
+    --surface: #1c2225;
+    --line: #2c3438;
+    --text: #e6e9e5;
+    --text-muted: #a3abae;
+    --text-faint: #737c80;
+  }
 }
 
 html, body, #root {
@@ -23,16 +61,19 @@ html, body, #root {
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  font-family: var(--font);
   background: var(--bg);
   color: var(--text);
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-feature-settings: 'tnum' 1;
 }
 
 a {
-  color: var(--brand);
+  color: var(--sign);
   text-decoration: none;
+  text-underline-offset: 0.18em;
 }
 a:hover {
   text-decoration: underline;
@@ -42,4 +83,18 @@ button {
   cursor: pointer;
   font-family: inherit;
   font-size: inherit;
+  color: inherit;
+}
+
+:focus-visible {
+  outline: 2px solid var(--sign);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    transition: none !important;
+    animation: none !important;
+  }
 }

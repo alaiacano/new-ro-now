@@ -1,116 +1,93 @@
-import { useState, useMemo } from 'react'
+import { useMemo, useState } from 'react'
 import type { Meeting } from '../types'
+import {
+  Chips, DateStamp, DocSource, Empty, ExtLink, ViewHeader, YearPicker, type YearOption,
+} from './ui'
+import { fmtDate, fmtTime } from './format'
 
 interface Props {
   meetings: Meeting[]
-  fromYear: number | 'upcoming' | null
+  fromYear: YearOption
+  onYear: (y: YearOption) => void
 }
 
-function groupByMonth(events: Meeting[]): Record<string, Meeting[]> {
-  const groups: Record<string, Meeting[]> = {}
+function groupByMonth(events: Meeting[]): Array<[string, Meeting[]]> {
+  const groups = new Map<string, Meeting[]>()
   for (const ev of events) {
-    const d = new Date(ev.start as string)
-    const key = d.toLocaleDateString('en-US', { month: 'long', year: 'numeric' })
-    if (!groups[key]) groups[key] = []
-    groups[key].push(ev)
+    const key = new Date(ev.start as string).toLocaleDateString('en-US', { month: 'long', year: 'numeric' })
+    if (!groups.has(key)) groups.set(key, [])
+    groups.get(key)!.push(ev)
   }
-  return groups
+  return Array.from(groups.entries())
 }
 
-function formatDate(iso: string): string {
-  const d = new Date(iso)
-  return d.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' })
-}
+export default function MeetingsView({ meetings, fromYear, onYear }: Props) {
+  const [cal, setCal] = useState<string>('All')
 
-function formatTime(iso: string): string {
-  const d = new Date(iso)
-  return d.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' })
-}
-
-export default function MeetingsView({ meetings, fromYear }: Props) {
-  const [calFilter, setCalFilter] = useState<string>('All')
-
-  const today = useMemo(() => {
-    const now = new Date()
-    return new Date(now.getFullYear(), now.getMonth(), now.getDate())
-  }, [])
+  const today = useMemo(() => { const d = new Date(); d.setHours(0, 0, 0, 0); return d }, [])
 
   const dated = useMemo(() => {
-    if (fromYear === 'upcoming') return meetings.filter(m => m.start && new Date(m.start) >= today)
-    const cutoff = fromYear ? new Date(`${fromYear}-01-01`) : today
+    const cutoff = fromYear === 'upcoming' || !fromYear ? today : new Date(`${fromYear}-01-01`)
     return meetings.filter(m => m.start && new Date(m.start) >= cutoff)
   }, [meetings, fromYear, today])
 
-  const calendars = useMemo<string[]>(() => {
-    const seen = new Set(dated.map(m => m.calendar))
-    return ['All', ...Array.from(seen).sort()]
+  const calendars = useMemo(() => {
+    const counts = new Map<string, number>()
+    dated.forEach(m => counts.set(m.calendar, (counts.get(m.calendar) ?? 0) + 1))
+    return [
+      { key: 'All', label: 'All', count: dated.length },
+      ...Array.from(counts.entries()).sort(([a], [b]) => a.localeCompare(b))
+        .map(([key, count]) => ({ key, label: key, count })),
+    ]
   }, [dated])
 
-  const filtered = calFilter === 'All'
-    ? dated
-    : dated.filter(m => m.calendar === calFilter)
-
+  const filtered = cal === 'All' ? dated : dated.filter(m => m.calendar === cal)
   const groups = groupByMonth(filtered)
 
   return (
-    <div className="section">
-      <div className="section-header">
-        <h2>Upcoming Board Meetings</h2>
-        <p>Next 6 months · sourced from city iCal feeds</p>
-      </div>
+    <div className="page">
+      <ViewHeader
+        title="Meetings"
+        sub="City board, commission and council meetings from the city calendars and agenda documents."
+        aside={<YearPicker value={fromYear} onChange={onYear} />}
+      />
 
-      <div className="filter-bar">
-        {calendars.map(c => (
-          <button
-            key={c}
-            className={calFilter === c ? 'selected' : ''}
-            onClick={() => setCalFilter(c)}
-          >
-            {c}
-          </button>
-        ))}
-      </div>
+      <Chips label="Filter by calendar" items={calendars} value={cal} onChange={setCal} />
 
-      {Object.entries(groups).length === 0 && (
-        <div className="empty"><h3>No meetings found</h3></div>
+      {groups.length === 0 && (
+        <Empty title="No meetings match these filters." hint="Pick another calendar, or show an earlier year." />
       )}
 
-      {Object.entries(groups).map(([month, events]) => (
-        <div key={month} className="meeting-group">
-          <div className="meeting-group-label">{month}</div>
-          {events.map((ev, i) => (
-            <div key={i} className="card">
-              <div className="card-meta">
-                <span className="tag">{ev.calendar}</span>
-                {ev.source === 'document_center'
-                  ? <>
-                      {ev.classification && <span className="tag">{ev.classification}</span>}
-                      {ev.folder && <span style={{ opacity: 0.7 }}>📁 {ev.folder}</span>}
-                      <span style={{ opacity: 0.55 }}>📄 Document</span>
-                    </>
-                  : <span>{formatDate(ev.start as string)} · {formatTime(ev.start as string)}</span>
-                }
-                {ev.location && <span>📍 {ev.location}</span>}
-              </div>
-              <div className="card-title">{ev.title}</div>
-              {ev.source === 'document_center' && (
-                <div style={{ fontSize: '0.8rem', color: ev.relevant_date ? 'var(--text-muted)' : '#b91c1c', marginTop: '0.25rem' }}>
-                  Extracted date: {ev.relevant_date ? formatDate(ev.relevant_date) : '⚠ none'}
-                </div>
-              )}
-              {ev.description && (
-                <div className="card-body">
-                  <p>{ev.description.substring(0, 200)}</p>
-                </div>
-              )}
-              {ev.url && (
-                <a className="view-link" href={ev.url} target="_blank" rel="noreferrer">
-                  {ev.source === 'document_center' ? 'View document ↗' : 'Agenda & details ↗'}
-                </a>
-              )}
-            </div>
-          ))}
-        </div>
+      {groups.map(([month, events]) => (
+        <section key={month} className="group">
+          <h2 className="group-label">{month}</h2>
+          <ol className="rows panel">
+            {events.map((ev, i) => {
+              const isDoc = ev.source === 'document_center'
+              const past = new Date(ev.start as string) < today
+              return (
+                <li key={`${ev.id}-${i}`} className={`row${past ? ' past' : ''}`}>
+                  <DateStamp iso={ev.start} />
+                  <div className="row-body">
+                    <p className="row-meta">
+                      {!isDoc && <span>{fmtTime(ev.start as string)}</span>}
+                      <span className="tag">{ev.calendar}</span>
+                      {isDoc && ev.classification && <span className="tag quiet">{ev.classification.replace(/_/g, ' ')}</span>}
+                      {ev.location && <span>{ev.location}</span>}
+                    </p>
+                    <p className="row-title">{ev.title}</p>
+                    {ev.description && <p className="row-text">{ev.description.slice(0, 220)}</p>}
+                    <p className="row-foot">
+                      {ev.url && <ExtLink href={ev.url}>{isDoc ? 'Open document' : 'Agenda and details'}</ExtLink>}
+                      {isDoc && <DocSource folder={ev.folder} date={ev.relevant_date} />}
+                      {isDoc && ev.relevant_date && <span className="faint">Dated {fmtDate(ev.relevant_date)}</span>}
+                    </p>
+                  </div>
+                </li>
+              )
+            })}
+          </ol>
+        </section>
       ))}
     </div>
   )

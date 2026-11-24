@@ -1,4 +1,6 @@
 import { useState, useMemo } from 'react'
+import { X } from 'lucide-react'
+import { ExtLink, YearPicker, type YearOption } from './ui'
 import { MapContainer, TileLayer, Marker, Tooltip } from 'react-leaflet'
 import MarkerClusterGroup from 'react-leaflet-cluster'
 import L from 'leaflet'
@@ -16,12 +18,12 @@ L.Icon.Default.mergeOptions({
 })
 
 const COLORS: Record<'roadway_alerts' | 'flood_mitigation', string> = {
-  roadway_alerts:   '#d97706',
-  flood_mitigation: '#2563eb',
+  roadway_alerts:   '#c95f06',
+  flood_mitigation: '#2f6fa3',
 }
 
 // Distinct colors per paving year (cycles if more than palette length)
-const PAVING_COLORS = ['#16a34a', '#0d9488', '#7c3aed', '#db2777', '#ea580c']
+const PAVING_COLORS = ['#0f6b45', '#4d8b31', '#7c3aed', '#db2777', '#0d9488']
 
 // Colors for document classifications — cycles if more classes than entries
 const DOC_CLASS_COLORS = [
@@ -59,8 +61,8 @@ interface ConstructionLayer {
 }
 
 const CONSTRUCTION_LAYERS: ConstructionLayer[] = [
-  { id: 'roadway_alerts',   label: '🚧 Roadway' },
-  { id: 'flood_mitigation', label: '💧 Flood/Stormwater' },
+  { id: 'roadway_alerts',   label: 'Roadway alerts' },
+  { id: 'flood_mitigation', label: 'Flood and stormwater' },
 ]
 
 interface PavingGroup {
@@ -82,10 +84,15 @@ interface Props {
   construction: ConstructionItem[]
   paving: PavingEntry[]
   docMap?: DocMapEntry[]
-  fromYear: number | 'upcoming' | null
+  fromYear: YearOption
+  onYear: (y: YearOption) => void
 }
 
-export default function MapView({ construction, paving, docMap = [], fromYear }: Props) {
+const MAP_EXCLUDED_CLASSIFICATIONS = new Set([
+  'press_release', 'agenda', 'public_hearing', 'specification',
+])
+
+export default function MapView({ construction, paving, docMap = [], fromYear, onYear }: Props) {
   const [selected, setSelected] = useState<SelectedItem | null>(null)
   const [hiddenLayers, setHiddenLayers] = useState<Set<string>>(new Set())
 
@@ -118,10 +125,6 @@ export default function MapView({ construction, paving, docMap = [], fromYear }:
         layerId: `paving_${year}`,
       }))
   }, [paving])
-
-  const MAP_EXCLUDED_CLASSIFICATIONS = new Set([
-    'press_release', 'agenda', 'public_hearing', 'specification',
-  ])
 
   // Filter doc_map by year and excluded classifications, then group by classification
   const docByClassification = useMemo<DocGroup[]>(() => {
@@ -159,7 +162,9 @@ export default function MapView({ construction, paving, docMap = [], fromYear }:
     <div className="map-layout">
       <div className="map-pane">
         <MapContainer center={center} zoom={13} style={{ height: '100%', width: '100%' }}>
+          {/* Standard OSM tiles, muted with a CSS filter (see .basemap in App.css). */}
           <TileLayer
+            className="basemap"
             attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           />
@@ -173,7 +178,7 @@ export default function MapView({ construction, paving, docMap = [], fromYear }:
                 eventHandlers={{ click: () => setSelected({ ...proj, _type: 'construction' }) }}>
                 <Tooltip direction="top" offset={[0, -6]}>
                   <strong>{proj.title}</strong><br />
-                  <span style={{ fontSize: '0.8em', color: '#555' }}>Roadway Alert</span>
+                  <span className="tip-sub">Roadway alert</span>
                 </Tooltip>
               </Marker>
             ))}
@@ -186,7 +191,7 @@ export default function MapView({ construction, paving, docMap = [], fromYear }:
                 eventHandlers={{ click: () => setSelected({ ...proj, _type: 'construction' }) }}>
                 <Tooltip direction="top" offset={[0, -6]}>
                   <strong>{proj.title}</strong><br />
-                  <span style={{ fontSize: '0.8em', color: '#555' }}>Flood/Stormwater</span>
+                  <span className="tip-sub">Flood and stormwater</span>
                 </Tooltip>
               </Marker>
             ))}
@@ -198,8 +203,7 @@ export default function MapView({ construction, paving, docMap = [], fromYear }:
                 eventHandlers={{ click: () => setSelected({ ...doc, _type: 'document' }) }}>
                 <Tooltip direction="top" offset={[0, -6]}>
                   <strong>{doc.title}</strong><br />
-                  <span style={{ fontSize: '0.8em', color: '#555' }}>{doc.classification}</span>
-                  {doc.relevant_date && <><br /><span style={{ fontSize: '0.8em', color: '#888' }}>{doc.relevant_date}</span></>}
+                  <span className="tip-sub">{doc.classification?.replace(/_/g, ' ')}{doc.relevant_date && `, ${doc.relevant_date}`}</span>
                 </Tooltip>
               </Marker>
             ))
@@ -212,9 +216,9 @@ export default function MapView({ construction, paving, docMap = [], fromYear }:
                 eventHandlers={{ click: () => setSelected({ ...entry, _type: 'paving' }) }}>
                 <Tooltip direction="top" offset={[0, -6]}>
                   <strong>{entry.street}</strong><br />
-                  <span style={{ fontSize: '0.8em', color: '#555' }}>
-                    {year} Paving · {entry.list}
-                    {entry.to && entry.from && <> · {entry.to} → {entry.from}</>}
+                  <span className="tip-sub">
+                    {year} paving, {entry.list}
+                    {entry.to && entry.from && <>: {entry.from} to {entry.to}</>}
                   </span>
                 </Tooltip>
               </Marker>
@@ -224,121 +228,90 @@ export default function MapView({ construction, paving, docMap = [], fromYear }:
         </MapContainer>
       </div>
 
-      <div className="map-sidebar">
-        {/* Layer toggles */}
-        <div style={{ marginBottom: '1rem' }}>
-          <div style={{ display: 'flex', gap: '0.5rem', marginBottom: '0.6rem' }}>
-            <button onClick={() => setHiddenLayers(new Set())}
-              style={{ flex: 1, fontSize: '0.75rem', padding: '0.2rem 0', border: '1px solid var(--border)',
-                       borderRadius: 4, background: 'var(--surface)', cursor: 'pointer', color: 'var(--text-muted)' }}>
-              Show all
+      <aside className="map-sidebar" aria-label="Map layers and projects">
+        {selected && (
+          <div className="map-detail">
+            <button type="button" className="icon-btn" onClick={() => setSelected(null)} aria-label="Close details">
+              <X size={16} />
             </button>
-            <button onClick={() => setHiddenLayers(new Set([
+            <p className="map-detail-kind">
+              {selected._type === 'paving' ? `Paving, ${selected.list}`
+                : selected._type === 'document' ? (selected.classification ?? 'document').replace(/_/g, ' ')
+                : selected.source === 'roadway_alerts' ? 'Roadway alert' : 'Flood and stormwater'}
+            </p>
+            <p className="map-detail-title">{selected._type === 'paving' ? selected.street : selected.title}</p>
+            {selected._type === 'paving' && selected.to && (
+              <p className="map-detail-text">{selected.from} to {selected.to}</p>
+            )}
+            {selected._type === 'document' && selected.description && (
+              <p className="map-detail-text">{selected.description.slice(0, 220)}{selected.description.length > 220 ? '…' : ''}</p>
+            )}
+            {(selected._type === 'construction' || selected._type === 'document') && selected.url && (
+              <ExtLink href={selected.url}>{selected._type === 'document' ? 'Open document' : 'Project details'}</ExtLink>
+            )}
+          </div>
+        )}
+
+        <div className="map-section">
+          <div className="map-section-head">
+            <h2>Layers</h2>
+            <YearPicker value={fromYear} onChange={onYear} options={[2026, 2025, 2024, 2023, 2022, null]} />
+          </div>
+          <div className="layer-actions">
+            <button type="button" onClick={() => setHiddenLayers(new Set())}>Show all</button>
+            <button type="button" onClick={() => setHiddenLayers(new Set([
               ...CONSTRUCTION_LAYERS.map(l => l.id),
               ...docByClassification.map(d => d.layerId),
               ...pavingByYear.map(p => p.layerId),
-            ]))}
-              style={{ flex: 1, fontSize: '0.75rem', padding: '0.2rem 0', border: '1px solid var(--border)',
-                       borderRadius: 4, background: 'var(--surface)', cursor: 'pointer', color: 'var(--text-muted)' }}>
-              Hide all
-            </button>
+            ]))}>Hide all</button>
           </div>
 
           {CONSTRUCTION_LAYERS.map(layer => (
-            <LayerToggle key={layer.id}
-              layerId={layer.id}
-              label={layer.label}
-              color={COLORS[layer.id]}
+            <LayerToggle key={layer.id} layerId={layer.id} label={layer.label} color={COLORS[layer.id]}
               count={mappedConstruction.filter(p => p.source === layer.id).length}
-              hidden={hiddenLayers.has(layer.id)}
-              onToggle={toggleLayer}
-            />
+              hidden={hiddenLayers.has(layer.id)} onToggle={toggleLayer} />
           ))}
-
-          {docByClassification.length > 0 && (
-            <div style={{ marginTop: '0.5rem', marginBottom: '0.25rem', fontSize: '0.72rem',
-                          fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em',
-                          color: 'var(--text-muted)' }}>
-              Documents
-            </div>
-          )}
-          {docByClassification.map(({ docs, color, layerId, label }) => (
-            <LayerToggle key={layerId}
-              layerId={layerId}
-              label={`📄 ${label}`}
-              color={color}
-              count={docs.length}
-              hidden={hiddenLayers.has(layerId)}
-              onToggle={toggleLayer}
-            />
-          ))}
-
           {pavingByYear.map(({ year, entries, color, layerId }) => (
-            <LayerToggle key={layerId}
-              layerId={layerId}
-              label={`🛣 Paving ${year}`}
-              color={color}
-              count={entries.length}
-              hidden={hiddenLayers.has(layerId)}
-              onToggle={toggleLayer}
-            />
+            <LayerToggle key={layerId} layerId={layerId} label={`Paving ${year}`} color={color}
+              count={entries.length} hidden={hiddenLayers.has(layerId)} onToggle={toggleLayer} />
+          ))}
+
+          {docByClassification.length > 0 && <h3 className="layer-sub">From city documents</h3>}
+          {docByClassification.map(({ docs, color, layerId, label }) => (
+            <LayerToggle key={layerId} layerId={layerId} label={label} color={color}
+              count={docs.length} hidden={hiddenLayers.has(layerId)} onToggle={toggleLayer} />
           ))}
         </div>
 
-        {/* Active item detail panel */}
-        {selected && (
-          <div style={{ marginBottom: '1rem', padding: '0.75rem', background: 'var(--brand-light)', borderRadius: 8 }}>
-            <div style={{ fontSize: '0.88rem', fontWeight: 600, marginBottom: '0.25rem' }}>
-              {selected._type === 'paving' ? selected.street : selected.title}
-            </div>
-            {selected._type === 'paving' && selected.to && (
-              <div style={{ fontSize: '0.78rem', color: 'var(--text-muted)' }}>
-                {selected.to} → {selected.from}
-              </div>
-            )}
-            {selected._type === 'document' && selected.description && (
-              <div style={{ fontSize: '0.78rem', color: 'var(--text-muted)', marginBottom: '0.25rem' }}>
-                {selected.description.substring(0, 120)}…
-              </div>
-            )}
-            {(selected._type === 'construction' || selected._type === 'document') && selected.url && (
-              <a href={selected.url} target="_blank" rel="noreferrer" style={{ fontSize: '0.78rem' }}>
-                {selected._type === 'document' ? 'View document ↗' : 'Details ↗'}
-              </a>
-            )}
-            <button onClick={() => setSelected(null)} style={{
-              float: 'right', background: 'none', border: 'none',
-              fontSize: '0.78rem', color: 'var(--text-muted)', marginTop: '-1.25rem',
-            }}>✕</button>
-          </div>
-        )}
-
-        {/* Construction list */}
-        <h3>Active projects ({mappedConstruction.length})</h3>
-        {mappedConstruction.map((proj, i) => (
-          <div key={i} className="map-item"
-            onClick={() => setSelected({ ...proj, _type: 'construction' })}
-            style={(selected as unknown) === proj ? { background: 'var(--brand-light)' } : {}}>
-            <div className="map-item-title">{proj.title}</div>
-            <div className="map-item-sub">
-              {proj.source === 'roadway_alerts' ? '🚧 Roadway' : '💧 Flood/Storm'}
-              {proj.url && <> · <a href={proj.url} target="_blank" rel="noreferrer" onClick={e => e.stopPropagation()}>details ↗</a></>}
-            </div>
-          </div>
-        ))}
-
-        {unmappedConstruction.length > 0 && (
-          <>
-            <h3 style={{ marginTop: '1rem' }}>Not yet mapped ({unmappedConstruction.length})</h3>
-            {unmappedConstruction.map((proj, i) => (
-              <div key={i} className="map-item" style={{ opacity: 0.55 }}>
-                <div className="map-item-title">{proj.title}</div>
-                {proj.url && <div className="map-item-sub"><a href={proj.url} target="_blank" rel="noreferrer">details ↗</a></div>}
-              </div>
+        <div className="map-section">
+          <h2>Active projects <span className="count">{mappedConstruction.length}</span></h2>
+          <ul className="map-list">
+            {mappedConstruction.map((proj, i) => (
+              <li key={i}>
+                <button type="button" className="map-item"
+                  aria-current={selected?._type === 'construction' && selected.title === proj.title ? 'true' : undefined}
+                  onClick={() => setSelected({ ...proj, _type: 'construction' })}>
+                  <span className="swatch" style={{ background: COLORS[proj.source] }} aria-hidden="true" />
+                  <span>{proj.title}</span>
+                </button>
+              </li>
             ))}
-          </>
-        )}
-      </div>
+          </ul>
+
+          {unmappedConstruction.length > 0 && (
+            <>
+              <h3 className="layer-sub">Not on the map yet <span className="count">{unmappedConstruction.length}</span></h3>
+              <ul className="map-list unmapped">
+                {unmappedConstruction.map((proj, i) => (
+                  <li key={i}>
+                    {proj.url ? <a href={proj.url} target="_blank" rel="noreferrer">{proj.title}</a> : proj.title}
+                  </li>
+                ))}
+              </ul>
+            </>
+          )}
+        </div>
+      </aside>
     </div>
   )
 }
@@ -354,18 +327,11 @@ interface LayerToggleProps {
 
 function LayerToggle({ layerId, label, color, count, hidden, onToggle }: LayerToggleProps) {
   return (
-    <label style={{
-      display: 'flex', alignItems: 'center', gap: '0.5rem',
-      fontSize: '0.82rem', cursor: 'pointer', marginBottom: '0.35rem',
-      opacity: hidden ? 0.45 : 1,
-    }}>
-      <span style={{
-        width: 12, height: 12, borderRadius: '50%',
-        background: color, display: 'inline-block', flexShrink: 0,
-      }} />
-      <input type="checkbox" checked={!hidden} onChange={() => onToggle(layerId)} style={{ display: 'none' }} />
-      {label}
-      <span style={{ marginLeft: 'auto', color: 'var(--text-muted)' }}>{count}</span>
+    <label className={`layer${hidden ? ' off' : ''}`}>
+      <input type="checkbox" checked={!hidden} onChange={() => onToggle(layerId)} />
+      <span className="swatch" style={{ background: color }} aria-hidden="true" />
+      <span className="layer-label">{label}</span>
+      <span className="layer-count">{count}</span>
     </label>
   )
 }

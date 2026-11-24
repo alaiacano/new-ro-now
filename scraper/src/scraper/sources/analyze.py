@@ -235,7 +235,8 @@ def analyze(
         conn.close()
         return
 
-    client = OpenAI(base_url=api_url, api_key="local")
+    # A lost reply otherwise hangs for the SDK default of 10 min; normal docs take ~1 min.
+    client = OpenAI(base_url=api_url, api_key="local", timeout=300.0, max_retries=3)
 
     # Verify the server is reachable before starting
     try:

@@ -363,5 +363,41 @@
     "lat": 40.9140935,
     "lng": -73.7740347
   },
-  "lecount pl, new rochelle, ny": null
+  "lecount pl, new rochelle, ny": null,
+  "chauncey ave, new rochelle, ny": {
+    "lat": 40.9224569,
+    "lng": -73.7921472
+  },
+  "highland ave, new rochelle, ny": {
+    "lat": 40.9042486,
+    "lng": -73.7949051
+  },
+  "andrew lane, new rochelle, ny": {
+    "lat": 40.9668546,
+    "lng": -73.7839265
+  },
+  "euclid pl, new rochelle, ny": {
+    "lat": 40.9067462,
+    "lng": -73.7755021
+  },
+  "carol ln, new rochelle, ny": {
+    "lat": 40.9619864,
+    "lng": -73.7842812
+  },
+  "elm st, new rochelle, ny": {
+    "lat": 40.9015723,
+    "lng": -73.7826902
+  },
+  "highridge rd, new rochelle, ny": {
+    "lat": 40.9481208,
+    "lng": -73.7761409
+  },
+  "donnybrook rd, new rochelle, ny": {
+    "lat": 40.975882,
+    "lng": -73.782703
+  },
+  "fort slocum rd, new rochelle, ny": {
+    "lat": 40.8924931,
+    "lng": -73.7825369
+  }
 }

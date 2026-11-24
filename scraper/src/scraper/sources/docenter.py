@@ -16,6 +16,7 @@ Idempotent: discover uses INSERT OR IGNORE; download skips already-downloaded fi
 import asyncio
 import json
 import mimetypes
+import random
 import re
 from datetime import datetime, timezone
 from pathlib import Path
@@ -37,6 +38,13 @@ API_PATH = "/Admin/DocumentCenter/Home/Document_AjaxBinding?renderMode=0&loadSou
 ROWS_PER_PAGE = 100
 DOWNLOAD_CONCURRENCY = 3
 DOWNLOAD_DELAY_S = 0.5
+
+# Discovery pacing / retry. The city site rate-limits (HTTP 429) the folder API.
+DISCOVER_GAP_S = (0.5, 1.5)        # random pause between API calls (scaled up after a 429)
+DISCOVER_MAX_RETRIES = 6           # retries per page before giving up on the folder
+RETRY_BASE_S = 5.0                 # first backoff; doubles each attempt
+RETRY_MAX_S = 120.0
+RETRYABLE_STATUSES = {429, 500, 502, 503, 504}
 
 
 # ---------------------------------------------------------------------------
@@ -74,7 +82,9 @@ def _ext_from_url(url: str) -> str:
 def _extract_pdf_text(path: Path) -> str:
     reader = pypdf.PdfReader(str(path))
     return "\n".join(
-        page.extract_text(extraction_mode="layout") or ""
+        # pypdf's layout mode drops rotated text by default ("Output will be
+        # incomplete"); keep it, accepting slightly degraded layout instead.
+        page.extract_text(extraction_mode="layout", layout_mode_strip_rotated=False) or ""
         for page in reader.pages
     )
 
@@ -89,50 +99,99 @@ def _extract_docx_text(path: Path) -> str:
 # Discovery
 # ---------------------------------------------------------------------------
 
-async def _fetch_folder_docs(page, folder_id: int, conn, now: str) -> tuple[int, int]:
+class _Throttle:
+    """Random gap between API calls. Widens after rate limiting, relaxes on success."""
+
+    def __init__(self) -> None:
+        self.scale = 1.0
+
+    async def wait(self) -> None:
+        lo, hi = DISCOVER_GAP_S
+        await asyncio.sleep(random.uniform(lo, hi) * self.scale)
+
+    def slow_down(self) -> None:
+        self.scale = min(self.scale * 2, 16.0)
+
+    def relax(self) -> None:
+        self.scale = max(1.0, self.scale * 0.9)
+
+
+_FETCH_JS = """async (args) => {
+    const resp = await fetch(args.url, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+            'X-Requested-With': 'XMLHttpRequest',
+        },
+        body: JSON.stringify(args.body),
+    });
+    if (!resp.ok) throw new Error('HTTP ' + resp.status + ' retry-after=' + (resp.headers.get('Retry-After') || ''));
+    return resp.json();
+}"""
+
+
+async def _api_call(page, body: dict, throttle: _Throttle, label: str) -> dict:
+    """POST to the folder API with a random gap, retrying 429/5xx/network errors with backoff."""
+    for attempt in range(DISCOVER_MAX_RETRIES + 1):
+        await throttle.wait()
+        try:
+            result = await page.evaluate(_FETCH_JS, {"url": API_PATH, "body": body})
+            throttle.relax()
+            return result
+        except Exception as e:
+            m = re.search(r"HTTP (\d+) retry-after=(\d*)", str(e))
+            status = int(m.group(1)) if m else None
+            if status is not None and status not in RETRYABLE_STATUSES:
+                raise  # e.g. 403/404: retrying won't help
+            if attempt == DISCOVER_MAX_RETRIES:
+                raise
+            if status == 429:
+                throttle.slow_down()
+            retry_after = float(m.group(2)) if m and m.group(2) else 0.0
+            delay = min(max(retry_after, RETRY_BASE_S * 2**attempt), RETRY_MAX_S)
+            delay *= random.uniform(0.8, 1.3)
+            console.print(
+                f"    [yellow]{label}: {'HTTP ' + str(status) if status else 'network error'}"
+                f" - retry {attempt + 1}/{DISCOVER_MAX_RETRIES} in {delay:.0f}s "
+                f"(call gap x{throttle.scale:.1f})[/yellow]"
+            )
+            await asyncio.sleep(delay)
+    raise RuntimeError("unreachable")
+
+
+async def _fetch_folder_docs(
+    page, folder_id: int, conn, now: str, throttle: _Throttle
+) -> tuple[int, int, bool]:
     """
     Paginate through all documents in a folder via the browser's fetch() API.
-    Returns (new_docs_inserted, total_in_folder).
+    Returns (new_docs_inserted, total_in_folder, complete). complete is False if a
+    page still failed after all retries, so the folder may be missing documents.
     """
     page_num = 1
     new_docs = 0
     total = 0
 
     while True:
+        body = {
+            "folderId": folder_id,
+            "getDocuments": 1,
+            "imageRepo": False,
+            "renderMode": 0,
+            "loadSource": 7,
+            "requestingModuleID": 75,
+            "searchString": "",
+            "pageNumber": page_num,
+            "rowsPerPage": ROWS_PER_PAGE,
+            "sortColumn": "DisplayName",
+            "sortOrder": 0,
+        }
         try:
-            result = await page.evaluate(
-                """async (args) => {
-                    const resp = await fetch(args.url, {
-                        method: 'POST',
-                        headers: {
-                            'Content-Type': 'application/json',
-                            'X-Requested-With': 'XMLHttpRequest',
-                        },
-                        body: JSON.stringify(args.body),
-                    });
-                    if (!resp.ok) throw new Error('HTTP ' + resp.status);
-                    return resp.json();
-                }""",
-                {
-                    "url": API_PATH,
-                    "body": {
-                        "folderId": folder_id,
-                        "getDocuments": 1,
-                        "imageRepo": False,
-                        "renderMode": 0,
-                        "loadSource": 7,
-                        "requestingModuleID": 75,
-                        "searchString": "",
-                        "pageNumber": page_num,
-                        "rowsPerPage": ROWS_PER_PAGE,
-                        "sortColumn": "DisplayName",
-                        "sortOrder": 0,
-                    },
-                },
-            )
+            result = await _api_call(page, body, throttle, f"folder {folder_id} page {page_num}")
         except Exception as e:
-            console.print(f"    [red]API error for folder {folder_id} page {page_num}: {e}[/red]")
-            break
+            console.print(
+                f"    [red]GAVE UP on folder {folder_id} page {page_num}: {e}[/red]"
+            )
+            return new_docs, total, False
 
         docs = result.get("Documents") or []
         total = result.get("TotalCount", 0)
@@ -170,7 +229,7 @@ async def _fetch_folder_docs(page, folder_id: int, conn, now: str) -> tuple[int,
             break
         page_num += 1
 
-    return new_docs, total
+    return new_docs, total, True
 
 
 async def _discover_async() -> None:
@@ -255,15 +314,29 @@ async def _discover_async() -> None:
         # Phase 2: fetch all documents for each folder
         console.print("  Fetching documents...")
         total_new = 0
+        throttle = _Throttle()
+        failed_folders: list[tuple[int, str]] = []
 
         for folder_id, folder_name in folders_found.items():
-            new_docs, total_in_folder = await _fetch_folder_docs(page, folder_id, conn, now)
-            total_new += new_docs
-            console.print(
-                f"    [{folder_id:>4}] {folder_name:<40} {new_docs:>4} new  ({total_in_folder} total)"
+            new_docs, total_in_folder, complete = await _fetch_folder_docs(
+                page, folder_id, conn, now, throttle
             )
+            total_new += new_docs
+            flag = "" if complete else "  [red]INCOMPLETE[/red]"
+            console.print(
+                f"    [{folder_id:>4}] {folder_name:<40} {new_docs:>4} new  ({total_in_folder} total){flag}"
+            )
+            if not complete:
+                failed_folders.append((folder_id, folder_name))
 
         await browser.close()
+
+    if failed_folders:
+        names = ", ".join(f"{fid} ({n})" for fid, n in failed_folders)
+        console.print(
+            f"\n  [red]{len(failed_folders)} folder(s) incomplete after retries:[/red] {names}\n"
+            "  Re-run `make discover` (safe, idempotent) to fill the gaps."
+        )
 
     total_docs = conn.execute("SELECT COUNT(*) FROM documents").fetchone()[0]
     total_folders = conn.execute("SELECT COUNT(*) FROM folders").fetchone()[0]

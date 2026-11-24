@@ -28,3 +28,6 @@ data/permits.db-wal
 data/permits.db-shm
 data/permits_public.json
 data/permits_full.json
+
+# Local `make backup` tarballs
+.backups/

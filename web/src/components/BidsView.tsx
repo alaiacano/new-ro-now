@@ -1,106 +1,86 @@
 import type { Bid } from '../types'
+import {
+  DocSource, Empty, ExtLink, ViewHeader, YearPicker, type YearOption,
+} from './ui'
+import { daysUntil, fmtDate } from './format'
 
 interface Props {
   bids: Bid[]
-  fromYear: number | 'upcoming' | null
+  fromYear: YearOption
+  onYear: (y: YearOption) => void
 }
 
-function formatDate(iso: string | null | undefined): string | null {
-  if (!iso) return null
-  try {
-    return new Date(iso).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })
-  } catch { return iso }
-}
-
-interface BidCardProps {
-  bid: Bid
-}
-
-function BidCard({ bid }: BidCardProps) {
-  const isOpen = bid.status?.toLowerCase() === 'open'
+function BidRow({ bid }: { bid: Bid }) {
   const isDoc = bid.source === 'document_center'
+  const isOpen = bid.status?.toLowerCase() === 'open'
+  const days = daysUntil(bid.closing_date)
+  const soon = isOpen && days !== null && days >= 0 && days <= 7
+
   return (
-    <div className="card">
-      <div className="card-meta">
-        {bid.bid_number && <span style={{ fontFamily: 'monospace', fontSize: '0.8rem' }}>#{bid.bid_number}</span>}
-        {!isDoc && <span className={`tag ${isOpen ? 'open' : ''}`}>{bid.status || 'Unknown'}</span>}
-        {!isDoc && bid.closing_date && <span>Closes {formatDate(bid.closing_date)}</span>}
-        {isDoc && bid.classification && <span className="tag">{bid.classification}</span>}
-        {isDoc && bid.folder && <span style={{ opacity: 0.7 }}>📁 {bid.folder}</span>}
-        {isDoc && <span style={{ opacity: 0.55 }}>📄 Document</span>}
+    <li className="row">
+      <div className="row-body">
+        <p className="row-meta">
+          {!isDoc && (
+            <span className={`pill${soon ? ' work' : isOpen ? ' accent' : ''}`}>
+              {soon ? (days === 0 ? 'Closes today' : `Closes in ${days} day${days === 1 ? '' : 's'}`) : bid.status || 'Status unknown'}
+            </span>
+          )}
+          {!isDoc && bid.closing_date && <span>Closing {fmtDate(bid.closing_date)}</span>}
+          {bid.bid_number && <span className="faint">{bid.bid_number}</span>}
+          {isDoc && bid.classification && <span className="tag quiet">{bid.classification.replace(/_/g, ' ')}</span>}
+        </p>
+        <p className="row-title">{bid.title}</p>
+        {bid.description && <p className="row-text">{bid.description.slice(0, 300)}</p>}
+        <p className="row-foot">
+          {bid.url && <ExtLink href={bid.url}>{isDoc ? 'Open document' : 'Bid documents'}</ExtLink>}
+          {isDoc && <DocSource folder={bid.folder} date={bid.relevant_date} />}
+          {isDoc && bid.relevant_date && <span className="faint">Dated {fmtDate(bid.relevant_date)}</span>}
+        </p>
       </div>
-      <div className="card-title">{bid.title}</div>
-      {isDoc && (
-        <div style={{ fontSize: '0.8rem', color: bid.relevant_date ? 'var(--text-muted)' : '#b91c1c', marginTop: '0.25rem' }}>
-          Extracted date: {bid.relevant_date ? formatDate(bid.relevant_date) : '⚠ none'}
-        </div>
-      )}
-      {bid.description && (
-        <div className="card-body">
-          <p>{bid.description.substring(0, 300)}</p>
-        </div>
-      )}
-      {bid.url && (
-        <a className="view-link" href={bid.url} target="_blank" rel="noreferrer">
-          {isDoc ? 'View document ↗' : 'Bid documents ↗'}
-        </a>
-      )}
-    </div>
+    </li>
   )
 }
 
-export default function BidsView({ bids, fromYear }: Props) {
-  const year = typeof fromYear === 'number' ? fromYear : null
-  const cutoff = year ? new Date(`${year}-01-01`) : null
+export default function BidsView({ bids, fromYear, onYear }: Props) {
+  const cutoff = typeof fromYear === 'number' ? new Date(`${fromYear}-01-01`) : null
 
-  function inRange(dateStr: string | null | undefined): boolean {
-    if (!cutoff || !dateStr) return true
-    const d = new Date(dateStr)
+  const inRange = (s: string | null | undefined) => {
+    if (!cutoff || !s) return true
+    const d = new Date(s)
     return isNaN(d.getTime()) || d >= cutoff
   }
 
   const scraped = bids.filter(b => b.source !== 'document_center' && inRange(b.closing_date))
-  const open = scraped.filter(b => b.status?.toLowerCase() === 'open')
+  const open = scraped
+    .filter(b => b.status?.toLowerCase() === 'open')
+    .sort((a, b) => (a.closing_date ?? '9').localeCompare(b.closing_date ?? '9'))
   const closed = scraped.filter(b => b.status?.toLowerCase() !== 'open')
-  const docBids = bids.filter(b => b.source === 'document_center' && inRange(b.status))
+  const docBids = bids.filter(b => b.source === 'document_center' && inRange(b.relevant_date))
+
+  const sections: Array<[string, string, Bid[]]> = [
+    ['Open for bidding', 'open', open],
+    ['Closed or awarded', 'closed', closed],
+    ['Bid documents found in city records', 'docs', docBids],
+  ]
 
   return (
-    <div className="section">
-      <div className="section-header">
-        <h2>City Bids &amp; Contracts</h2>
-        <p>Active procurement opportunities from the city</p>
-      </div>
+    <div className="page">
+      <ViewHeader
+        title="Bids and contracts"
+        sub="Requests for bids and proposals the city has posted, soonest deadline first."
+        aside={<YearPicker value={fromYear} onChange={onYear} options={[2026, 2025, 2024, 2023, 2022]} />}
+      />
 
-      {open.length > 0 && (
-        <>
-          <div className="meeting-group-label" style={{ marginBottom: '0.75rem' }}>
-            Open ({open.length})
-          </div>
-          {open.map((bid, i) => <BidCard key={i} bid={bid} />)}
-        </>
-      )}
+      {bids.length === 0 && <Empty title="No bids yet." hint="Run make bids to fetch them." />}
 
-      {closed.length > 0 && (
-        <div style={{ marginTop: '1.5rem' }}>
-          <div className="meeting-group-label" style={{ marginBottom: '0.75rem' }}>
-            Closed / Awarded ({closed.length})
-          </div>
-          {closed.map((bid, i) => <BidCard key={i} bid={bid} />)}
-        </div>
-      )}
-
-      {docBids.length > 0 && (
-        <div style={{ marginTop: '1.5rem' }}>
-          <div className="meeting-group-label" style={{ marginBottom: '0.75rem' }}>
-            From DocumentCenter ({docBids.length})
-          </div>
-          {docBids.map((bid, i) => <BidCard key={`doc-${i}`} bid={bid} />)}
-        </div>
-      )}
-
-      {bids.length === 0 && (
-        <div className="empty"><h3>No bids found</h3></div>
-      )}
+      {sections.map(([title, key, list]) => list.length > 0 && (
+        <section key={key} className="group">
+          <h2 className="group-label">{title} <span className="count">{list.length}</span></h2>
+          <ul className="rows panel">
+            {list.map((b, i) => <BidRow key={`${key}-${i}`} bid={b} />)}
+          </ul>
+        </section>
+      ))}
     </div>
   )
 }

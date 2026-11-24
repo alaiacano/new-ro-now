@@ -1,7 +1,13 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
+import {
+  CalendarRange, Map as MapIcon, Moon, Sun, Construction, Route, Landmark, ClipboardList, Megaphone,
+  type LucideIcon,
+} from 'lucide-react'
 import './App.css'
 import { useData } from './useData'
 import type { Meta } from './types'
+import type { YearOption } from './components/ui'
+import HomeView from './components/HomeView'
 import MapView from './components/MapView'
 import MeetingsView from './components/MeetingsView'
 import ConstructionView from './components/ConstructionView'
@@ -9,109 +15,130 @@ import PavingView from './components/PavingView'
 import BidsView from './components/BidsView'
 import NewsView from './components/NewsView'
 
-type TabId = 'map' | 'construction' | 'paving' | 'meetings' | 'bids' | 'news'
-type YearOption = number | 'upcoming' | null
+export type TabId = 'week' | 'map' | 'construction' | 'paving' | 'meetings' | 'bids' | 'news'
 
-interface Tab {
-  id: TabId
-  label: string
-}
-
-const TABS: Tab[] = [
-  { id: 'map',          label: '🗺 Map' },
-  { id: 'construction', label: '🚧 Projects' },
-  { id: 'paving',       label: '🛣 Paving' },
-  { id: 'meetings',     label: '📅 Meetings' },
-  { id: 'bids',         label: '📋 Bids' },
-  { id: 'news',         label: '📰 News' },
+const TABS: Array<{ id: TabId; label: string; icon: LucideIcon }> = [
+  { id: 'week',         label: 'This week', icon: CalendarRange },
+  { id: 'map',          label: 'Map',       icon: MapIcon },
+  { id: 'construction', label: 'Projects',  icon: Construction },
+  { id: 'paving',       label: 'Paving',    icon: Route },
+  { id: 'meetings',     label: 'Meetings',  icon: Landmark },
+  { id: 'bids',         label: 'Bids',      icon: ClipboardList },
+  { id: 'news',         label: 'News',      icon: Megaphone },
 ]
 
-function formatLastUpdated(meta: Meta): string | null {
-  const dates = Object.values(meta).filter((v): v is string => Boolean(v))
-  if (!dates.length) return null
-  const latest = dates.sort().at(-1) as string
-  try {
-    return 'Updated ' + new Date(latest).toLocaleDateString('en-US', {
-      month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit',
-    })
-  } catch { return null }
+function tabFromHash(): TabId {
+  const h = window.location.hash.replace(/^#\/?/, '')
+  return (TABS.some(t => t.id === h) ? h : 'week') as TabId
 }
 
-const YEAR_OPTS: YearOption[] = [2026, 2025, 2024, 2023, 2022, 'upcoming']  // null = All (legacy, kept for type compatibility)
+function lastUpdated(meta: Meta): string | null {
+  const dates = Object.values(meta).filter((v): v is string => Boolean(v))
+  if (!dates.length) return null
+  const d = new Date(dates.sort().at(-1) as string)
+  if (isNaN(d.getTime())) return null
+  return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' })
+}
+
+type Theme = 'light' | 'dark'
+
+function useTheme(): [Theme, () => void] {
+  const [theme, setTheme] = useState<Theme>(
+    () => (document.documentElement.dataset.theme === 'dark' ? 'dark' : 'light'),
+  )
+  useEffect(() => {
+    if (theme === 'dark') document.documentElement.dataset.theme = 'dark'
+    else delete document.documentElement.dataset.theme
+    try { localStorage.setItem('theme', theme) } catch { /* private mode */ }
+  }, [theme])
+  return [theme, () => setTheme(t => (t === 'dark' ? 'light' : 'dark'))]
+}
+
+function Wordmark() {
+  return (
+    <a className="wordmark" href="#week" aria-label="New Rochelle Now, this week">
+      <span className="blade">
+        <span className="blade-name">New Rochelle</span>
+        <span className="blade-suffix">Now</span>
+      </span>
+    </a>
+  )
+}
 
 export default function App() {
-  const [tab, setTab] = useState<TabId>('map')
-  const [tabYearFilters, setTabYearFilters] = useState<Record<TabId, YearOption>>({
-    map: 2026, construction: 2026, paving: 2026,
-    meetings: 'upcoming', bids: 2026, news: 2026,
+  const [tab, setTab] = useState<TabId>(tabFromHash)
+  const [years, setYears] = useState<Record<string, YearOption>>({
+    map: 2026, bids: 2026, news: 2026, meetings: 'upcoming',
   })
-  const fromYear = tabYearFilters[tab] ?? 2026
   const { data, loading, error } = useData()
+  const [theme, toggleTheme] = useTheme()
 
+  useEffect(() => {
+    const onHash = () => setTab(tabFromHash())
+    window.addEventListener('hashchange', onHash)
+    return () => window.removeEventListener('hashchange', onHash)
+  }, [])
+
+  useEffect(() => {
+    document.querySelector('.content')?.scrollTo(0, 0)
+  }, [tab])
+
+  const yearFor = (id: TabId) => years[id] ?? 2026
+  const setYearFor = (id: TabId) => (y: YearOption) => setYears(prev => ({ ...prev, [id]: y }))
+  const updated = lastUpdated(data.meta)
+
+  let body
   if (loading) {
-    return (
-      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '100vh', color: 'var(--text-muted)' }}>
-        Loading…
+    body = <div className="status">Loading city data…</div>
+  } else if (error) {
+    body = (
+      <div className="status">
+        <p className="status-title">The data files didn&rsquo;t load.</p>
+        <p>{error}</p>
+        <p>Run <code>make quick</code> from the repo root to generate them, then reload.</p>
       </div>
     )
-  }
-
-  if (error) {
-    return (
-      <div style={{ padding: '2rem', maxWidth: 600, margin: '0 auto' }}>
-        <h2>Could not load data</h2>
-        <p style={{ color: 'var(--text-muted)', marginTop: '0.5rem' }}>{error}</p>
-        <p style={{ marginTop: '1rem', fontSize: '0.9rem' }}>
-          Run <code style={{ background: '#f0f2f5', padding: '2px 6px', borderRadius: 4 }}>uv run scrape all</code> from the repo root to generate the data files, then rebuild.
-        </p>
-      </div>
+  } else {
+    body = (
+      <>
+        {tab === 'week' && <HomeView data={data} />}
+        {tab === 'map' && <MapView construction={data.construction} paving={data.paving} docMap={data.doc_map}
+                                   fromYear={yearFor('map')} onYear={setYearFor('map')} />}
+        {tab === 'construction' && <ConstructionView construction={data.construction} />}
+        {tab === 'paving' && <PavingView paving={data.paving} />}
+        {tab === 'meetings' && <MeetingsView meetings={data.meetings}
+                                             fromYear={yearFor('meetings')} onYear={setYearFor('meetings')} />}
+        {tab === 'bids' && <BidsView bids={data.bids} fromYear={yearFor('bids')} onYear={setYearFor('bids')} />}
+        {tab === 'news' && <NewsView news={data.news} hearings={data.public_hearings}
+                                     fromYear={yearFor('news')} onYear={setYearFor('news')} />}
+      </>
     )
   }
-
-  const lastUpdated = formatLastUpdated(data.meta)
 
   return (
     <div className="app">
-      <header>
-        <h1>New Rochelle Now</h1>
-        {lastUpdated && <span className="last-updated">{lastUpdated}</span>}
-      </header>
-
-      <nav>
-        {TABS.map(t => (
-          <button
-            key={t.id}
-            className={tab === t.id ? 'active' : ''}
-            onClick={() => setTab(t.id)}
-          >
-            {t.label}
-          </button>
-        ))}
-      </nav>
-
-      {(['map', 'meetings', 'bids', 'news'] as TabId[]).includes(tab) && (
-        <div className="date-filter">
-          <span>Show from:</span>
-          {YEAR_OPTS.map(y => (
-            <button
-              key={y ?? 'all'}
-              className={fromYear === y ? 'selected' : ''}
-              onClick={() => setTabYearFilters(prev => ({ ...prev, [tab]: y }))}
-            >
-              {y === 'upcoming' ? 'Upcoming' : y ? `${y}+` : 'All'}
-            </button>
+      <div className="topbar">
+        <Wordmark />
+        <nav aria-label="Sections">
+          {TABS.map(({ id, label, icon: Icon }) => (
+            <a key={id} href={`#${id}`} className="tab" aria-current={tab === id ? 'page' : undefined}>
+              <Icon size={16} strokeWidth={2} aria-hidden="true" />
+              <span>{label}</span>
+            </a>
           ))}
-        </div>
-      )}
-
-      <div className="content">
-        {tab === 'map' && <MapView construction={data.construction} paving={data.paving} docMap={data.doc_map} fromYear={fromYear} />}
-        {tab === 'construction' && <ConstructionView construction={data.construction} />}
-        {tab === 'paving' && <PavingView paving={data.paving} />}
-        {tab === 'meetings' && <MeetingsView meetings={data.meetings} fromYear={fromYear} />}
-        {tab === 'bids' && <BidsView bids={data.bids} fromYear={fromYear} />}
-        {tab === 'news' && <NewsView news={data.news} hearings={data.public_hearings} fromYear={fromYear} />}
+        </nav>
+        {updated && <span className="updated">Updated {updated}</span>}
+        <button
+          type="button"
+          className="theme-toggle"
+          onClick={toggleTheme}
+          aria-label={theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode'}
+          title={theme === 'dark' ? 'Light mode' : 'Dark mode'}
+        >
+          {theme === 'dark' ? <Sun size={16} aria-hidden="true" /> : <Moon size={16} aria-hidden="true" />}
+        </button>
       </div>
+      <main className={`content${tab === 'map' ? ' content-map' : ''}`}>{body}</main>
     </div>
   )
 }

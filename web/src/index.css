@@ -1,21 +1,69 @@
+@import '@fontsource-variable/overpass';
+
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+/*
+ * Palette borrows from the street: sign-blade green, work-zone orange,
+ * stormwater blue, on concrete. One typeface (Overpass, a Highway Gothic
+ * descendant) carries everything.
+ */
 :root {
-  --brand: #1a5f9e;
-  --brand-dark: #134a7d;
-  --brand-light: #e8f0f8;
-  --accent: #e05c2a;
-  --bg: #f0f2f5;
+  color-scheme: light;
+
+  --blade: #0f6b45;         /* street-name sign green: the wordmark only */
+  --blade-ink: #ffffff;
+  --accent: #0f6b45;        /* links, active tab, tags */
+  --accent-soft: #e3efe8;
+  --stamp: #0f6b45;         /* date stamp header */
+  --stamp-ink: #ffffff;
+  --work: #c95f06;          /* work-zone orange: roadwork, closing soon */
+  --work-soft: #fbeadb;
+  --water: #2f6fa3;         /* stormwater / flood */
+  --water-soft: #e1ecf5;
+
+  --bg: #f1f2ee;            /* concrete */
   --surface: #ffffff;
-  --border: #dde2e8;
-  --text: #1a1e27;
-  --text-muted: #6b7280;
-  --radius: 10px;
-  --shadow: 0 1px 4px rgba(0,0,0,0.08);
+  --line: #dcdfd7;
+  --text: #1f2427;          /* asphalt */
+  --text-muted: #5d6569;
+  --text-faint: #8a9195;
+
+  --radius-sm: 4px;
+  --radius: 8px;
+  --bar-h: 60px;
+  --measure: 72ch;
+
+  --font: 'Overpass Variable', 'Overpass', system-ui, sans-serif;
+}
+
+/*
+ * Dark: neutral charcoal, soft slate-blue accent. Green stays only on the
+ * wordmark sign, so it never reads as green-on-black.
+ */
+:root[data-theme='dark'] {
+  color-scheme: dark;
+
+  --blade: #1b6a4a;
+  --blade-ink: #f4f4f1;
+  --accent: #9dbfe0;
+  --accent-soft: #2b3440;
+  --stamp: #3b4149;
+  --stamp-ink: #eceef0;
+  --work: #e8954f;
+  --work-soft: #3b2e24;
+  --water: #8db6dc;
+  --water-soft: #263241;
+
+  --bg: #202326;
+  --surface: #282b2f;
+  --line: #393d42;
+  --text: #ecebe8;
+  --text-muted: #aeb2b6;
+  --text-faint: #80858a;
 }
 
 html, body, #root {
@@ -23,16 +71,19 @@ html, body, #root {
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  font-family: var(--font);
   background: var(--bg);
   color: var(--text);
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  font-feature-settings: 'tnum' 1;
 }
 
 a {
-  color: var(--brand);
+  color: var(--accent);
   text-decoration: none;
+  text-underline-offset: 0.18em;
 }
 a:hover {
   text-decoration: underline;
@@ -42,4 +93,18 @@ button {
   cursor: pointer;
   font-family: inherit;
   font-size: inherit;
+  color: inherit;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    transition: none !important;
+    animation: none !important;
+  }
 }

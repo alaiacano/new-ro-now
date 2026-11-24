@@ -1,27 +1,32 @@
+import { useState } from 'react'
 import type { NewsItem, PublicHearing } from '../types'
+import {
+  Chips, DocSource, Empty, ExtLink, ViewHeader, YearPicker, type YearOption,
+} from './ui'
+import { fmtDate } from './format'
 
 interface Props {
   news: NewsItem[]
   hearings: PublicHearing[]
-  fromYear: number | 'upcoming' | null
+  fromYear: YearOption
+  onYear: (y: YearOption) => void
 }
 
-function formatDate(iso: string | null | undefined): string | null {
-  if (!iso) return null
-  try {
-    return new Date(iso).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })
-  } catch { return iso }
-}
+type Source = 'all' | 'city' | 'docs'
 
-export default function NewsView({ news, hearings, fromYear }: Props) {
-  const year = typeof fromYear === 'number' ? fromYear : null
-  const cutoff = year ? new Date(`${year}-01-01`) : null
+export default function NewsView({ news, hearings, fromYear, onYear }: Props) {
+  const [source, setSource] = useState<Source>('all')
+  const cutoff = typeof fromYear === 'number' ? new Date(`${fromYear}-01-01`) : null
 
-  const filteredNews = cutoff
-    ? news.filter(item => item.published && new Date(item.published) >= cutoff)
-    : news
+  const inYear = news.filter(n => {
+    if (!cutoff) return true
+    const d = n.published || n.relevant_date
+    return d ? new Date(d) >= cutoff : false
+  })
+  const isDoc = (n: NewsItem) => n.source === 'document_center'
+  const shown = inYear.filter(n => source === 'all' || (source === 'docs') === isDoc(n))
 
-  const filteredHearings = cutoff
+  const shownHearings = cutoff
     ? hearings.filter(h => {
         const d = h.date_text ? new Date(h.date_text) : null
         return !d || isNaN(d.getTime()) || d >= cutoff
@@ -29,67 +34,66 @@ export default function NewsView({ news, hearings, fromYear }: Props) {
     : hearings
 
   return (
-    <div className="section">
-      <div className="section-header">
-        <h2>City News &amp; Public Hearings</h2>
-        <p>Press releases and recent public hearing notices</p>
-      </div>
+    <div className="page">
+      <ViewHeader
+        title="News and public hearings"
+        sub="Press releases, hearing notices and announcements from city documents."
+        aside={<YearPicker value={fromYear} onChange={onYear} options={[2026, 2025, 2024, 2023, 2022]} />}
+      />
 
-      {filteredHearings.length > 0 && (
-        <div style={{ marginBottom: '2rem' }}>
-          <div className="meeting-group-label" style={{ marginBottom: '0.75rem' }}>
-            Public Hearings (last 12 months)
-          </div>
-          {filteredHearings.map((h, i) => (
-            <div key={i} className="card">
-              <div className="card-meta">
-                <span className="tag">Public Hearing</span>
-                {h.date_text && <span>{h.date_text}</span>}
-              </div>
-              <div className="card-title">{h.title}</div>
-              {h.url && (
-                <a className="view-link" href={h.url} target="_blank" rel="noreferrer">
-                  View notice ↗
-                </a>
-              )}
-            </div>
-          ))}
-        </div>
+      {shownHearings.length > 0 && (
+        <section className="group">
+          <h2 className="group-label">Public hearings <span className="count">{shownHearings.length}</span></h2>
+          <ul className="rows panel accent-work">
+            {shownHearings.map((h, i) => (
+              <li key={i} className="row">
+                <div className="row-body">
+                  {h.date_text && <p className="row-meta"><span>{h.date_text}</span></p>}
+                  <p className="row-title">{h.title}</p>
+                  {h.url && <p className="row-foot"><ExtLink href={h.url}>Read the notice</ExtLink></p>}
+                </div>
+              </li>
+            ))}
+          </ul>
+        </section>
       )}
 
-      <div className="meeting-group-label" style={{ marginBottom: '0.75rem' }}>
-        Latest News ({filteredNews.length})
-      </div>
-      {filteredNews.map((item, i) => {
-        const isDoc = item.source === 'document_center'
-        return (
-          <div key={i} className="card">
-            <div className="card-meta">
-              {item.category && <span className="tag">{item.category}</span>}
-              {item.folder && isDoc && <span style={{ opacity: 0.7 }}>📁 {item.folder}</span>}
-              {isDoc && <span style={{ opacity: 0.55 }}>📄 Document</span>}
-              {!isDoc && item.published && <span>{formatDate(item.published)}</span>}
-            </div>
-            <div className="card-title">{item.title}</div>
-            {isDoc && (
-              <div style={{ fontSize: '0.8rem', color: item.relevant_date ? 'var(--text-muted)' : '#b91c1c', marginTop: '0.25rem' }}>
-                Extracted date: {item.relevant_date ? formatDate(item.relevant_date) : '⚠ none'}
-              </div>
-            )}
-            {item.description && (
-              <div className="card-body"><p>{item.description}</p></div>
-            )}
-            {item.url && (
-              <a className="view-link" href={item.url} target="_blank" rel="noreferrer">
-                {isDoc ? 'View document ↗' : 'Read more ↗'}
-              </a>
-            )}
-          </div>
-        )
-      })}
+      <section className="group">
+        <div className="group-head">
+          <h2 className="group-label">News <span className="count">{shown.length}</span></h2>
+          <Chips label="Filter by source" value={source} onChange={setSource} items={[
+            { key: 'all', label: 'All' },
+            { key: 'city', label: 'Press releases', count: inYear.filter(n => !isDoc(n)).length },
+            { key: 'docs', label: 'City documents', count: inYear.filter(isDoc).length },
+          ]} />
+        </div>
 
-      {filteredNews.length === 0 && filteredHearings.length === 0 && (
-        <div className="empty"><h3>No news found</h3></div>
+        {shown.length === 0
+          ? <Empty title="No news for this period." hint="Try an earlier year." />
+          : <ul className="rows panel">
+              {shown.map((n, i) => (
+                <li key={i} className="row">
+                  <div className="row-body">
+                    <p className="row-meta">
+                      {!isDoc(n) && n.published && <span>{fmtDate(n.published)}</span>}
+                      {isDoc(n) && n.relevant_date && <span>{fmtDate(n.relevant_date)}</span>}
+                      {n.category && <span className="tag">{n.category}</span>}
+                      {isDoc(n) && n.classification && <span className="tag quiet">{n.classification.replace(/_/g, ' ')}</span>}
+                    </p>
+                    <p className="row-title">{n.title}</p>
+                    {n.description && <p className="row-text">{n.description.slice(0, 280)}</p>}
+                    <p className="row-foot">
+                      {n.url && <ExtLink href={n.url}>{isDoc(n) ? 'Open document' : 'Read more'}</ExtLink>}
+                      {isDoc(n) && <DocSource folder={n.folder} date={n.relevant_date} />}
+                    </p>
+                  </div>
+                </li>
+              ))}
+            </ul>}
+      </section>
+
+      {news.length === 0 && hearings.length === 0 && (
+        <Empty title="No news yet." hint="Run make news to fetch it." />
       )}
     </div>
   )
